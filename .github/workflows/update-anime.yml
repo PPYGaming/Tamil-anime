@@ -1,9 +1,8 @@
-
 name: Update Anime Catalog
 
-on:
+"on":
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,21 +14,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Run updater
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           CONTENT_REGION: IN
-          UPDATE_CRON: "0 */6 * * *"
-          YOUTUBE_MAX_RESULTS: "10"
+          UPDATE_CRON: '0 */6 * * *'
+          YOUTUBE_MAX_RESULTS: '10'
         run: node scripts/update-anime.js
-
       - name: Commit changes
         run: |
           if git diff --quiet -- data/anime.json; then
@@ -41,4 +37,3 @@ jobs:
           git add data/anime.json
           git commit -m "Auto update anime catalog"
           git push
-          
