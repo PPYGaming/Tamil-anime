@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Discover Tamil-dubbed anime, official streaming availability, episodes and official videos.">
+  <meta property="og:title" content="Tamil Dub Anime">
+  <meta property="og:description" content="Anime discovery catalog with official platform availability and videos.">
+  <title>Tamil Dub Anime</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">Tamil Dub Anime</a>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#all">All Anime</a>
+        <a href="#new">New</a>
+        <a href="#updated">Recently Updated</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="wrap">
+    <section class="hero">
+      <div>
+        <h1>Anime Discovery</h1>
+        <p>Find Tamil-dubbed anime, official platform availability, episodes and official videos.</p>
+      </div>
+      <button id="refreshButton" type="button">Refresh</button>
+    </section>
+
+    <section class="toolbar" aria-label="Catalog controls">
+      <label class="search">
+        <span class="sr-only">Search anime</span>
+        <input id="searchInput" type="search" placeholder="Search anime..." autocomplete="off">
+      </label>
+      <div class="filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="new">New</button>
+        <button data-filter="updated">Recently Updated</button>
+      </div>
+      <label class="sort">
+        <span>Sort</span>
+        <select id="sortSelect">
+          <option value="newest">Newest</option>
+          <option value="updated">Recently Updated</option>
+          <option value="rating">Rating</option>
+          <option value="alpha">Alphabetical</option>
+        </select>
+      </label>
+    </section>
+
+    <p id="status" class="status" role="status">Loading catalog...</p>
+    <section id="animeGrid" class="anime-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>Catalog data is updated automatically. Platform availability and Tamil-audio verification are separate fields.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

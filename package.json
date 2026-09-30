@@ -1,0 +1,9 @@
+{
+  "name": "tamil-dub-anime-github-pages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "update": "node scripts/update-anime.js"
+  }
+}
