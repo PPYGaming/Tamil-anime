@@ -1,5 +1,11 @@
 {
-  "lastUpdated": "2026-09-30T00:00:00Z",
+  "lastUpdated": "2026-09-30T17:23:44.540Z",
   "region": "IN",
-  "anime": []
+  "anime": [],
+  "updateInfo": {
+    "automatic": true,
+    "tmdbConfigured": true,
+    "youtubeConfigured": true,
+    "note": "Provider availability and Tamil-audio verification must remain separate."
+  }
 }
