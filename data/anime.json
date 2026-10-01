@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T03:22:17.849Z",
+  "lastUpdated": "2026-10-01T03:27:29.187Z",
   "region": "IN",
   "anime": [
     {
@@ -2103,6 +2103,3596 @@
       "tmdbUrl": "https://www.themoviedb.org/tv/68129",
       "mediaType": "tv",
       "region": "IN"
+    },
+    {
+      "id": "verified-jujutsu-kaisen-season-1",
+      "title": "JUJUTSU KAISEN Season 1",
+      "originalTitle": "呪術廻戦",
+      "description": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+      "image": "https://image.tmdb.org/t/p/w500/6qQzMJG27XOJsyAEEIisoJB45j2.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/j2GvamiUMRpPjmNQSSht0Q7Z7e9.jpg",
+      "rating": 8.6,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2020-10-03",
+      "createdAt": "2020-10-03T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2023/7/28/chainsaw-man-jujutsu-kaisen-season-1-hindi-dub-premiere-dates-announced",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/7/28/chainsaw-man-jujutsu-kaisen-season-1-hindi-dub-premiere-dates-announced"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "1-25",
+          "url": null
+        },
+        {
+          "number": "1-26",
+          "url": null
+        },
+        {
+          "number": "1-27",
+          "url": null
+        },
+        {
+          "number": "1-28",
+          "url": null
+        },
+        {
+          "number": "1-29",
+          "url": null
+        },
+        {
+          "number": "1-30",
+          "url": null
+        },
+        {
+          "number": "1-31",
+          "url": null
+        },
+        {
+          "number": "1-32",
+          "url": null
+        },
+        {
+          "number": "1-33",
+          "url": null
+        },
+        {
+          "number": "1-34",
+          "url": null
+        },
+        {
+          "number": "1-35",
+          "url": null
+        },
+        {
+          "number": "1-36",
+          "url": null
+        },
+        {
+          "number": "1-37",
+          "url": null
+        },
+        {
+          "number": "1-38",
+          "url": null
+        },
+        {
+          "number": "1-39",
+          "url": null
+        },
+        {
+          "number": "1-40",
+          "url": null
+        },
+        {
+          "number": "1-41",
+          "url": null
+        },
+        {
+          "number": "1-42",
+          "url": null
+        },
+        {
+          "number": "1-43",
+          "url": null
+        },
+        {
+          "number": "1-44",
+          "url": null
+        },
+        {
+          "number": "1-45",
+          "url": null
+        },
+        {
+          "number": "1-46",
+          "url": null
+        },
+        {
+          "number": "1-47",
+          "url": null
+        },
+        {
+          "number": "1-48",
+          "url": null
+        },
+        {
+          "number": "1-49",
+          "url": null
+        },
+        {
+          "number": "1-50",
+          "url": null
+        },
+        {
+          "number": "1-51",
+          "url": null
+        },
+        {
+          "number": "1-52",
+          "url": null
+        },
+        {
+          "number": "1-53",
+          "url": null
+        },
+        {
+          "number": "1-54",
+          "url": null
+        },
+        {
+          "number": "1-55",
+          "url": null
+        },
+        {
+          "number": "1-56",
+          "url": null
+        },
+        {
+          "number": "1-57",
+          "url": null
+        },
+        {
+          "number": "1-58",
+          "url": null
+        },
+        {
+          "number": "1-59",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/7/28/chainsaw-man-jujutsu-kaisen-season-1-hindi-dub-premiere-dates-announced",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2023/7/28/chainsaw-man-jujutsu-kaisen-season-1-hindi-dub-premiere-dates-announced",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article states Season 1 Hindi and Tamil dubs."
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2023/9/21/crunchyroll-jujutsu-kaisen-season-2-hindi-tamil-dubs",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article announces Hindi and Tamil dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 95479,
+      "tmdbUrl": "https://www.themoviedb.org/tv/95479",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
+      "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+      "originalTitle": "鬼滅の刃",
+      "description": "After a demon attack leaves his family slain and his sister cursed, Tanjiro embarks upon a perilous journey to find a cure and avenge those he's lost.",
+      "image": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/3GQKYh6Trm8pxd2AypovoYQf4Ay.jpg",
+      "rating": 8.6,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2019-04-06",
+      "createdAt": "2019-04-06T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2023/8/11/demon-slayer-kimetsu-no-yaiba-mugen-train-arc-tamil-dub-august-13",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/8/11/demon-slayer-kimetsu-no-yaiba-mugen-train-arc-tamil-dub-august-13"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "1-25",
+          "url": null
+        },
+        {
+          "number": "1-26",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "url": null
+        },
+        {
+          "number": "4-1",
+          "url": null
+        },
+        {
+          "number": "4-2",
+          "url": null
+        },
+        {
+          "number": "4-3",
+          "url": null
+        },
+        {
+          "number": "4-4",
+          "url": null
+        },
+        {
+          "number": "4-5",
+          "url": null
+        },
+        {
+          "number": "4-6",
+          "url": null
+        },
+        {
+          "number": "4-7",
+          "url": null
+        },
+        {
+          "number": "4-8",
+          "url": null
+        },
+        {
+          "number": "4-9",
+          "url": null
+        },
+        {
+          "number": "4-10",
+          "url": null
+        },
+        {
+          "number": "4-11",
+          "url": null
+        },
+        {
+          "number": "5-1",
+          "url": null
+        },
+        {
+          "number": "5-2",
+          "url": null
+        },
+        {
+          "number": "5-3",
+          "url": null
+        },
+        {
+          "number": "5-4",
+          "url": null
+        },
+        {
+          "number": "5-5",
+          "url": null
+        },
+        {
+          "number": "5-6",
+          "url": null
+        },
+        {
+          "number": "5-7",
+          "url": null
+        },
+        {
+          "number": "5-8",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/8/11/demon-slayer-kimetsu-no-yaiba-mugen-train-arc-tamil-dub-august-13",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2023/8/11/demon-slayer-kimetsu-no-yaiba-mugen-train-arc-tamil-dub-august-13",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article explicitly announces Tamil dub premiere and cast."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 85937,
+      "tmdbUrl": "https://www.themoviedb.org/tv/85937",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-black-butler--public-school-arc",
+      "title": "Black Butler -Public School Arc-",
+      "originalTitle": "黒執事",
+      "description": "In Victorian London, 12-year-old business magnate Ciel Phantomhive thwarts dangers to the queen as he's watched over by his demon butler, Sebastian.",
+      "image": "https://image.tmdb.org/t/p/w500/iXGs130TRoUplHf0o86zp9MqAYc.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/5U0dYTkHXPhoExNnEm5iKrpDqtr.jpg",
+      "rating": 7.8,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2008-10-02",
+      "createdAt": "2008-10-02T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "4-1",
+          "url": null
+        },
+        {
+          "number": "4-2",
+          "url": null
+        },
+        {
+          "number": "4-3",
+          "url": null
+        },
+        {
+          "number": "4-4",
+          "url": null
+        },
+        {
+          "number": "4-5",
+          "url": null
+        },
+        {
+          "number": "4-6",
+          "url": null
+        },
+        {
+          "number": "4-7",
+          "url": null
+        },
+        {
+          "number": "4-8",
+          "url": null
+        },
+        {
+          "number": "4-9",
+          "url": null
+        },
+        {
+          "number": "4-10",
+          "url": null
+        },
+        {
+          "number": "4-11",
+          "url": null
+        },
+        {
+          "number": "5-1",
+          "url": null
+        },
+        {
+          "number": "5-2",
+          "url": null
+        },
+        {
+          "number": "5-3",
+          "url": null
+        },
+        {
+          "number": "5-4",
+          "url": null
+        },
+        {
+          "number": "5-5",
+          "url": null
+        },
+        {
+          "number": "5-6",
+          "url": null
+        },
+        {
+          "number": "5-7",
+          "url": null
+        },
+        {
+          "number": "5-8",
+          "url": null
+        },
+        {
+          "number": "5-9",
+          "url": null
+        },
+        {
+          "number": "5-10",
+          "url": null
+        },
+        {
+          "number": "5-11",
+          "url": null
+        },
+        {
+          "number": "5-12",
+          "url": null
+        },
+        {
+          "number": "5-13",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 50712,
+      "tmdbUrl": "https://www.themoviedb.org/tv/50712",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-dr--stone-season-1",
+      "title": "Dr. STONE Season 1",
+      "originalTitle": "Dr.STONE",
+      "description": "One fateful day, all of humanity was petrified by a blinding flash of light. After several millennia, high schooler Taiju awakens and finds himself lost in a world of statues. However, he’s not alone! His science-loving friend Senku’s been up and running for a few months and he's got a grand plan in mind—to kickstart civilization with the power of science!",
+      "image": "https://image.tmdb.org/t/p/w500/xbZQ3fDl0y5mt0ARwfeyrgQ4JTw.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/lN13BPAEnc5iXmoxxBQHOZ1ScfZ.jpg",
+      "rating": 8.5,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2019-07-05",
+      "createdAt": "2019-07-05T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "url": null
+        },
+        {
+          "number": "3-12",
+          "url": null
+        },
+        {
+          "number": "3-13",
+          "url": null
+        },
+        {
+          "number": "3-14",
+          "url": null
+        },
+        {
+          "number": "3-15",
+          "url": null
+        },
+        {
+          "number": "3-16",
+          "url": null
+        },
+        {
+          "number": "3-17",
+          "url": null
+        },
+        {
+          "number": "3-18",
+          "url": null
+        },
+        {
+          "number": "3-19",
+          "url": null
+        },
+        {
+          "number": "3-20",
+          "url": null
+        },
+        {
+          "number": "3-21",
+          "url": null
+        },
+        {
+          "number": "3-22",
+          "url": null
+        },
+        {
+          "number": "4-1",
+          "url": null
+        },
+        {
+          "number": "4-2",
+          "url": null
+        },
+        {
+          "number": "4-3",
+          "url": null
+        },
+        {
+          "number": "4-4",
+          "url": null
+        },
+        {
+          "number": "4-5",
+          "url": null
+        },
+        {
+          "number": "4-6",
+          "url": null
+        },
+        {
+          "number": "4-7",
+          "url": null
+        },
+        {
+          "number": "4-8",
+          "url": null
+        },
+        {
+          "number": "4-9",
+          "url": null
+        },
+        {
+          "number": "4-10",
+          "url": null
+        },
+        {
+          "number": "4-11",
+          "url": null
+        },
+        {
+          "number": "4-12",
+          "url": null
+        },
+        {
+          "number": "4-13",
+          "url": null
+        },
+        {
+          "number": "4-14",
+          "url": null
+        },
+        {
+          "number": "4-15",
+          "url": null
+        },
+        {
+          "number": "4-16",
+          "url": null
+        },
+        {
+          "number": "4-17",
+          "url": null
+        },
+        {
+          "number": "4-18",
+          "url": null
+        },
+        {
+          "number": "4-19",
+          "url": null
+        },
+        {
+          "number": "4-20",
+          "url": null
+        },
+        {
+          "number": "4-21",
+          "url": null
+        },
+        {
+          "number": "4-22",
+          "url": null
+        },
+        {
+          "number": "4-23",
+          "url": null
+        },
+        {
+          "number": "4-24",
+          "url": null
+        },
+        {
+          "number": "4-25",
+          "url": null
+        },
+        {
+          "number": "4-26",
+          "url": null
+        },
+        {
+          "number": "4-27",
+          "url": null
+        },
+        {
+          "number": "4-28",
+          "url": null
+        },
+        {
+          "number": "4-29",
+          "url": null
+        },
+        {
+          "number": "4-30",
+          "url": null
+        },
+        {
+          "number": "4-31",
+          "url": null
+        },
+        {
+          "number": "4-32",
+          "url": null
+        },
+        {
+          "number": "4-33",
+          "url": null
+        },
+        {
+          "number": "4-34",
+          "url": null
+        },
+        {
+          "number": "4-35",
+          "url": null
+        },
+        {
+          "number": "4-36",
+          "url": null
+        },
+        {
+          "number": "4-37",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 86031,
+      "tmdbUrl": "https://www.themoviedb.org/tv/86031",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-haikyu---season-1",
+      "title": "Haikyu!! Season 1",
+      "originalTitle": "ハイキュー!!",
+      "description": "Inspired by a small-statured pro volleyball player, Hinata creates a volleyball team in his last year of middle school. Unfortunately the team is matched up against the \"King of the Court\" Tobio Kageyama’s team in their first tournament and inevitably lose. After the crushing defeat, Hinata vows to surpass Kageyama After entering high school, Hinata joins the volleyball team only to find that Tobio has also joined.",
+      "image": "https://image.tmdb.org/t/p/w500/8WEr48swcqe89Zsy5sdrGCASlIg.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/zr1MDQCPVB5uJEHxiO6Tukn4OjH.jpg",
+      "rating": 8.6,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2014-04-06",
+      "createdAt": "2014-04-06T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "1-25",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "2-14",
+          "url": null
+        },
+        {
+          "number": "2-15",
+          "url": null
+        },
+        {
+          "number": "2-16",
+          "url": null
+        },
+        {
+          "number": "2-17",
+          "url": null
+        },
+        {
+          "number": "2-18",
+          "url": null
+        },
+        {
+          "number": "2-19",
+          "url": null
+        },
+        {
+          "number": "2-20",
+          "url": null
+        },
+        {
+          "number": "2-21",
+          "url": null
+        },
+        {
+          "number": "2-22",
+          "url": null
+        },
+        {
+          "number": "2-23",
+          "url": null
+        },
+        {
+          "number": "2-24",
+          "url": null
+        },
+        {
+          "number": "2-25",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "4-1",
+          "url": null
+        },
+        {
+          "number": "4-2",
+          "url": null
+        },
+        {
+          "number": "4-3",
+          "url": null
+        },
+        {
+          "number": "4-4",
+          "url": null
+        },
+        {
+          "number": "4-5",
+          "url": null
+        },
+        {
+          "number": "4-6",
+          "url": null
+        },
+        {
+          "number": "4-7",
+          "url": null
+        },
+        {
+          "number": "4-8",
+          "url": null
+        },
+        {
+          "number": "4-9",
+          "url": null
+        },
+        {
+          "number": "4-10",
+          "url": null
+        },
+        {
+          "number": "4-11",
+          "url": null
+        },
+        {
+          "number": "4-12",
+          "url": null
+        },
+        {
+          "number": "4-13",
+          "url": null
+        },
+        {
+          "number": "4-14",
+          "url": null
+        },
+        {
+          "number": "4-15",
+          "url": null
+        },
+        {
+          "number": "4-16",
+          "url": null
+        },
+        {
+          "number": "4-17",
+          "url": null
+        },
+        {
+          "number": "4-18",
+          "url": null
+        },
+        {
+          "number": "4-19",
+          "url": null
+        },
+        {
+          "number": "4-20",
+          "url": null
+        },
+        {
+          "number": "4-21",
+          "url": null
+        },
+        {
+          "number": "4-22",
+          "url": null
+        },
+        {
+          "number": "4-23",
+          "url": null
+        },
+        {
+          "number": "4-24",
+          "url": null
+        },
+        {
+          "number": "4-25",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 60863,
+      "tmdbUrl": "https://www.themoviedb.org/tv/60863",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-radiant-season-2",
+      "title": "Radiant Season 2",
+      "originalTitle": "ラディアン",
+      "description": "Seth is a boy who seeks to become a great magician, and a group of witches who seek to travel to the Radiant. Radiant is a mythical land that spawns monsters called \"Néméses\" which fall to the world from the sky. While traveling, they are also hunted by The Inquisition.",
+      "image": "https://image.tmdb.org/t/p/w500/yPeqnwD63wf23ZHlzEFeQLnZD3K.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/dRLA68Kkh5c04NpSg2ZrKQxV01f.jpg",
+      "rating": 7.2,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2018-10-06",
+      "createdAt": "2018-10-06T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Action & Adventure",
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "2-14",
+          "url": null
+        },
+        {
+          "number": "2-15",
+          "url": null
+        },
+        {
+          "number": "2-16",
+          "url": null
+        },
+        {
+          "number": "2-17",
+          "url": null
+        },
+        {
+          "number": "2-18",
+          "url": null
+        },
+        {
+          "number": "2-19",
+          "url": null
+        },
+        {
+          "number": "2-20",
+          "url": null
+        },
+        {
+          "number": "2-21",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 82879,
+      "tmdbUrl": "https://www.themoviedb.org/tv/82879",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-tsukimichi--moonlit-fantasy--season-1",
+      "title": "TSUKIMICHI -Moonlit Fantasy- Season 1",
+      "originalTitle": "月が導く異世界道中",
+      "description": "Makoto Misumi is just an ordinary high school student living a regular life, but all of a sudden gets summoned to the other world to become a \"hero.\" The goddess of the other world, however, insults him for being different and strips his \"hero\" title, before casting him off to the wilderness at the edge of the world. As he wanders the wilderness, Makoto encounters dragons, spiders, orcs, dwarves, and all sorts of non-human tribes. Because Makoto comes from a different world, he is able to unleash unimaginable magical powers and combat skills. But just how will he handle his encounters with various species and survive in his new environment. In this fantasy, Makoto tries to transform the other world into a better place despite the humans and gods having turned their backs on him.",
+      "image": "https://image.tmdb.org/t/p/w500/7XQ2dMEARAdUZQscnIJFPI54q3r.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/ciPDoPMqd3icCBHsIlhIb3UyOd2.jpg",
+      "rating": 8.4,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2021-07-07",
+      "createdAt": "2021-07-07T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "2-14",
+          "url": null
+        },
+        {
+          "number": "2-15",
+          "url": null
+        },
+        {
+          "number": "2-16",
+          "url": null
+        },
+        {
+          "number": "2-17",
+          "url": null
+        },
+        {
+          "number": "2-18",
+          "url": null
+        },
+        {
+          "number": "2-19",
+          "url": null
+        },
+        {
+          "number": "2-20",
+          "url": null
+        },
+        {
+          "number": "2-21",
+          "url": null
+        },
+        {
+          "number": "2-22",
+          "url": null
+        },
+        {
+          "number": "2-23",
+          "url": null
+        },
+        {
+          "number": "2-24",
+          "url": null
+        },
+        {
+          "number": "2-25",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 111819,
+      "tmdbUrl": "https://www.themoviedb.org/tv/111819",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-fire-force-season-2",
+      "title": "Fire Force Season 2",
+      "originalTitle": "炎炎ノ消防隊",
+      "description": "Year 198 of the Solar Era in Tokyo, special fire brigades are fighting against a phenomenon called spontaneous human combustion where humans beings are turned into living infernos called \"Infernals\". While the Infernals are first generation cases of spontaneous human combustion, later generations possess the ability to manipulate flames while retaining human form. Shinra Kusakabe, a youth who gained the nickname Devil's Footprints for his ability to ignite his feet at will, joins the Special Fire Force Company 8 which composes of other flames users as they work to extinguish any Infernals they encounter. As a faction that is creating Infernals appears, Shira begins to uncover the truth behind a mysterious fire that caused the death of his family twelve years ago.",
+      "image": "https://image.tmdb.org/t/p/w500/96jrp8XIEPKC7xHhbkpWLD15oYW.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/xkNnQ3IGGRQcXnl1zTb5H6Vb3SP.jpg",
+      "rating": 8.3,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2019-07-05",
+      "createdAt": "2019-07-05T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "2-14",
+          "url": null
+        },
+        {
+          "number": "2-15",
+          "url": null
+        },
+        {
+          "number": "2-16",
+          "url": null
+        },
+        {
+          "number": "2-17",
+          "url": null
+        },
+        {
+          "number": "2-18",
+          "url": null
+        },
+        {
+          "number": "2-19",
+          "url": null
+        },
+        {
+          "number": "2-20",
+          "url": null
+        },
+        {
+          "number": "2-21",
+          "url": null
+        },
+        {
+          "number": "2-22",
+          "url": null
+        },
+        {
+          "number": "2-23",
+          "url": null
+        },
+        {
+          "number": "2-24",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "url": null
+        },
+        {
+          "number": "3-12",
+          "url": null
+        },
+        {
+          "number": "3-13",
+          "url": null
+        },
+        {
+          "number": "3-14",
+          "url": null
+        },
+        {
+          "number": "3-15",
+          "url": null
+        },
+        {
+          "number": "3-16",
+          "url": null
+        },
+        {
+          "number": "3-17",
+          "url": null
+        },
+        {
+          "number": "3-18",
+          "url": null
+        },
+        {
+          "number": "3-19",
+          "url": null
+        },
+        {
+          "number": "3-20",
+          "url": null
+        },
+        {
+          "number": "3-21",
+          "url": null
+        },
+        {
+          "number": "3-22",
+          "url": null
+        },
+        {
+          "number": "3-23",
+          "url": null
+        },
+        {
+          "number": "3-24",
+          "url": null
+        },
+        {
+          "number": "3-25",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 88046,
+      "tmdbUrl": "https://www.themoviedb.org/tv/88046",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-the-ancient-magus--bride-season-1",
+      "title": "The Ancient Magus' Bride Season 1",
+      "originalTitle": "魔法使いの嫁",
+      "description": "Hatori Chise has lived a life full of neglect and abuse, devoid of anything resembling love. Far from the warmth of family, she has had her share of troubles and pitfalls. Just when all hope seems lost, a fateful encounter awaits her. When a man with the head of a beast, wielding strange powers, obtains her through a slave auction, Chise's life will never be the same again. The man is a \"magus,\"a sorcerer of great power, who decides to free Chise from the bonds of captivity. The magus then makes a bold statement: Chise will become his apprentice--and his bride!",
+      "image": "https://image.tmdb.org/t/p/w500/xXGAFMGiG55oS8uzuVz7V5JxFb2.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/KI2sFvqJHzc95WM7dcX9kM8tY1.jpg",
+      "rating": 8.4,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2017-10-08",
+      "createdAt": "2017-10-08T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "2-14",
+          "url": null
+        },
+        {
+          "number": "2-15",
+          "url": null
+        },
+        {
+          "number": "2-16",
+          "url": null
+        },
+        {
+          "number": "2-17",
+          "url": null
+        },
+        {
+          "number": "2-18",
+          "url": null
+        },
+        {
+          "number": "2-19",
+          "url": null
+        },
+        {
+          "number": "2-20",
+          "url": null
+        },
+        {
+          "number": "2-21",
+          "url": null
+        },
+        {
+          "number": "2-22",
+          "url": null
+        },
+        {
+          "number": "2-23",
+          "url": null
+        },
+        {
+          "number": "2-24",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 73833,
+      "tmdbUrl": "https://www.themoviedb.org/tv/73833",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-spy-x-family-season-1",
+      "title": "SPY x FAMILY Season 1",
+      "originalTitle": "SPY×FAMILY",
+      "description": "A spy, an assassin and a telepath come together to pose as a family, each for their own reasons, while hiding their true identities from each other.",
+      "image": "https://image.tmdb.org/t/p/w500/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/lysUnU6V0VfcthDbviuVlIqgHOR.jpg",
+      "rating": 8.5,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2022-04-09",
+      "createdAt": "2022-04-09T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "1-25",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "url": null
+        },
+        {
+          "number": "3-12",
+          "url": null
+        },
+        {
+          "number": "3-13",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 120089,
+      "tmdbUrl": "https://www.themoviedb.org/tv/120089",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-that-time-i-got-reincarnated-as-a-slime-season-1",
+      "title": "That Time I Got Reincarnated as a Slime Season 1",
+      "originalTitle": "転生したらスライムだった件",
+      "description": "Corporate worker Mikami Satoru is stabbed by a random killer, and is reborn to an alternate world. But he turns out to be reborn a slime! Thrown into this new world with the name Rimuru, he begins his quest to create a world that’s welcoming to all races.",
+      "image": "https://image.tmdb.org/t/p/w500/pzujcdPAoH361NObVrtbA7zACE7.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/eJOy7YWAHgOS3V477sdTsq4v9jp.jpg",
+      "rating": 8.4,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2018-10-02",
+      "createdAt": "2018-10-02T00:00:00Z",
+      "updatedAt": "2026-10-01T03:27:29.187Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Action & Adventure",
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "2-14",
+          "url": null
+        },
+        {
+          "number": "2-15",
+          "url": null
+        },
+        {
+          "number": "2-16",
+          "url": null
+        },
+        {
+          "number": "2-17",
+          "url": null
+        },
+        {
+          "number": "2-18",
+          "url": null
+        },
+        {
+          "number": "2-19",
+          "url": null
+        },
+        {
+          "number": "2-20",
+          "url": null
+        },
+        {
+          "number": "2-21",
+          "url": null
+        },
+        {
+          "number": "2-22",
+          "url": null
+        },
+        {
+          "number": "2-23",
+          "url": null
+        },
+        {
+          "number": "2-24",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "url": null
+        },
+        {
+          "number": "3-12",
+          "url": null
+        },
+        {
+          "number": "3-13",
+          "url": null
+        },
+        {
+          "number": "3-14",
+          "url": null
+        },
+        {
+          "number": "3-15",
+          "url": null
+        },
+        {
+          "number": "3-16",
+          "url": null
+        },
+        {
+          "number": "3-17",
+          "url": null
+        },
+        {
+          "number": "3-18",
+          "url": null
+        },
+        {
+          "number": "3-19",
+          "url": null
+        },
+        {
+          "number": "3-20",
+          "url": null
+        },
+        {
+          "number": "3-21",
+          "url": null
+        },
+        {
+          "number": "3-22",
+          "url": null
+        },
+        {
+          "number": "3-23",
+          "url": null
+        },
+        {
+          "number": "3-24",
+          "url": null
+        },
+        {
+          "number": "4-1",
+          "url": null
+        },
+        {
+          "number": "4-2",
+          "url": null
+        },
+        {
+          "number": "4-3",
+          "url": null
+        },
+        {
+          "number": "4-4",
+          "url": null
+        },
+        {
+          "number": "4-5",
+          "url": null
+        },
+        {
+          "number": "4-6",
+          "url": null
+        },
+        {
+          "number": "4-7",
+          "url": null
+        },
+        {
+          "number": "4-8",
+          "url": null
+        },
+        {
+          "number": "4-9",
+          "url": null
+        },
+        {
+          "number": "4-10",
+          "url": null
+        },
+        {
+          "number": "4-11",
+          "url": null
+        },
+        {
+          "number": "4-12",
+          "url": null
+        },
+        {
+          "number": "4-13",
+          "url": null
+        },
+        {
+          "number": "4-14",
+          "url": null
+        },
+        {
+          "number": "4-15",
+          "url": null
+        },
+        {
+          "number": "4-16",
+          "url": null
+        },
+        {
+          "number": "4-17",
+          "url": null
+        },
+        {
+          "number": "4-18",
+          "url": null
+        },
+        {
+          "number": "4-19",
+          "url": null
+        },
+        {
+          "number": "4-20",
+          "url": null
+        },
+        {
+          "number": "4-21",
+          "url": null
+        },
+        {
+          "number": "4-22",
+          "url": null
+        },
+        {
+          "number": "4-23",
+          "url": null
+        },
+        {
+          "number": "4-24",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 82684,
+      "tmdbUrl": "https://www.themoviedb.org/tv/82684",
+      "mediaType": "tv",
+      "region": "IN"
     }
   ],
   "updateInfo": {
@@ -2114,11 +5704,11 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 14,
-    "manualAnime": 14,
+    "discoveredAnime": 11,
+    "manualAnime": 25,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-01T03:22:17.849Z",
+      "scannedAt": "2026-10-01T03:27:29.187Z",
       "status": "added",
       "zeroAddReason": null,
       "manifest": {
@@ -2128,87 +5718,31 @@
         "updatedAt": "2026-10-01",
         "entries": 27
       },
-      "catalogBefore": 0,
-      "catalogAfter": 14,
-      "added": 14,
+      "catalogBefore": 14,
+      "catalogAfter": 25,
+      "added": 11,
       "addedIds": [
-        "verified-frieren--beyond-journey-s-end",
-        "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
-        "verified-kaiju-no--8",
-        "verified-blue-lock",
-        "verified-mashle--magic-and-muscles",
-        "verified-alya-sometimes-hides-her-feelings-in-russian",
-        "verified-bye-bye--earth",
-        "verified-makeine--too-many-losing-heroines",
-        "verified-no-longer-allowed-in-another-world",
-        "verified-quality-assurance-in-another-world",
-        "verified-the-strongest-magician-in-the-demon-lord-s-army-was-a-human",
-        "verified-wistoria--wand-and-sword",
-        "verified-assassination-classroom",
-        "verified-yuri----on-ice"
+        "verified-jujutsu-kaisen-season-1",
+        "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
+        "verified-black-butler--public-school-arc",
+        "verified-dr--stone-season-1",
+        "verified-haikyu---season-1",
+        "verified-radiant-season-2",
+        "verified-tsukimichi--moonlit-fantasy--season-1",
+        "verified-fire-force-season-2",
+        "verified-the-ancient-magus--bride-season-1",
+        "verified-spy-x-family-season-1",
+        "verified-that-time-i-got-reincarnated-as-a-slime-season-1"
       ],
       "updatedExisting": 0,
       "updatedIds": [],
-      "alreadyInCatalog": 0,
+      "alreadyInCatalog": 15,
       "rejected": [],
-      "needsReview": [
-        {
-          "entry": "JUJUTSU KAISEN Season 1",
-          "reason": "tmdbId 95479 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "JUJUTSU KAISEN Season 2",
-          "reason": "tmdbId 95479 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
-          "reason": "tmdbId 85937 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "Black Butler -Public School Arc-",
-          "reason": "tmdbId 50712 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "Dr. STONE Season 1",
-          "reason": "tmdbId 86031 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "Haikyu!! Season 1",
-          "reason": "tmdbId 60863 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "Radiant Season 2",
-          "reason": "tmdbId 82879 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "TSUKIMICHI -Moonlit Fantasy- Season 1",
-          "reason": "tmdbId 111819 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "Fire Force Season 2",
-          "reason": "tmdbId 88046 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "The Ancient Magus' Bride Season 1",
-          "reason": "tmdbId 73833 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "SPY x FAMILY Season 1",
-          "reason": "tmdbId 120089 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "SPY x FAMILY Season 2",
-          "reason": "tmdbId 120089 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        },
-        {
-          "entry": "That Time I Got Reincarnated as a Slime Season 1",
-          "reason": "tmdbId 82684 resolves to a different title on TMDB; fix tmdbId or add an alias"
-        }
-      ],
+      "needsReview": [],
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 25,
+        "requests": 11,
         "failures": 0
       }
     }
