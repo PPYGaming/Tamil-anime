@@ -16,7 +16,10 @@
       "year": 2020,
       "tmdbId": 95479,
       "tmdbUrl": "https://www.themoviedb.org/tv/95479",
-      "tmdbSeason": 1
+      "tmdbSeason": 1,
+      "aliases": [
+        "JUJUTSU KAISEN"
+      ]
     },
     {
       "id": "verified-jujutsu-kaisen-season-2",
@@ -31,7 +34,10 @@
       "year": 2023,
       "tmdbId": 95479,
       "tmdbUrl": "https://www.themoviedb.org/tv/95479",
-      "tmdbSeason": 2
+      "tmdbSeason": 2,
+      "aliases": [
+        "JUJUTSU KAISEN"
+      ]
     },
     {
       "id": "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
@@ -46,7 +52,10 @@
       "year": 2021,
       "tmdbId": 85937,
       "tmdbUrl": "https://www.themoviedb.org/tv/85937",
-      "tmdbSeason": 2
+      "tmdbSeason": 2,
+      "aliases": [
+        "Demon Slayer: Kimetsu no Yaiba"
+      ]
     },
     {
       "id": "verified-frieren--beyond-journey-s-end",
@@ -75,7 +84,10 @@
       "year": 2024,
       "tmdbId": 50712,
       "tmdbUrl": "https://www.themoviedb.org/tv/50712",
-      "tmdbSeason": 4
+      "tmdbSeason": 4,
+      "aliases": [
+        "Black Butler"
+      ]
     },
     {
       "id": "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
@@ -132,7 +144,10 @@
       "year": 2019,
       "tmdbId": 86031,
       "tmdbUrl": "https://www.themoviedb.org/tv/86031",
-      "tmdbSeason": 1
+      "tmdbSeason": 1,
+      "aliases": [
+        "Dr. STONE"
+      ]
     },
     {
       "id": "verified-haikyu---season-1",
@@ -147,7 +162,10 @@
       "year": 2014,
       "tmdbId": 60863,
       "tmdbUrl": "https://www.themoviedb.org/tv/60863",
-      "tmdbSeason": 1
+      "tmdbSeason": 1,
+      "aliases": [
+        "Haikyu!!"
+      ]
     },
     {
       "id": "verified-mashle--magic-and-muscles",
@@ -176,7 +194,10 @@
       "year": 2019,
       "tmdbId": 82879,
       "tmdbUrl": "https://www.themoviedb.org/tv/82879",
-      "tmdbSeason": 2
+      "tmdbSeason": 2,
+      "aliases": [
+        "Radiant"
+      ]
     },
     {
       "id": "verified-tsukimichi--moonlit-fantasy--season-1",
@@ -191,7 +212,10 @@
       "year": 2021,
       "tmdbId": 111819,
       "tmdbUrl": "https://www.themoviedb.org/tv/111819",
-      "tmdbSeason": 1
+      "tmdbSeason": 1,
+      "aliases": [
+        "TSUKIMICHI -Moonlit Fantasy-"
+      ]
     },
     {
       "id": "verified-alya-sometimes-hides-her-feelings-in-russian",
@@ -304,7 +328,10 @@
       "year": 2020,
       "tmdbId": 88046,
       "tmdbUrl": "https://www.themoviedb.org/tv/88046",
-      "tmdbSeason": 2
+      "tmdbSeason": 2,
+      "aliases": [
+        "Fire Force"
+      ]
     },
     {
       "id": "verified-the-ancient-magus--bride-season-1",
@@ -319,7 +346,10 @@
       "year": 2017,
       "tmdbId": 73833,
       "tmdbUrl": "https://www.themoviedb.org/tv/73833",
-      "tmdbSeason": 1
+      "tmdbSeason": 1,
+      "aliases": [
+        "The Ancient Magus' Bride"
+      ]
     },
     {
       "id": "verified-assassination-classroom",
@@ -348,7 +378,10 @@
       "year": 2022,
       "tmdbId": 120089,
       "tmdbUrl": "https://www.themoviedb.org/tv/120089",
-      "tmdbSeason": 1
+      "tmdbSeason": 1,
+      "aliases": [
+        "SPY x FAMILY"
+      ]
     },
     {
       "id": "verified-spy-x-family-season-2",
@@ -363,7 +396,10 @@
       "year": 2023,
       "tmdbId": 120089,
       "tmdbUrl": "https://www.themoviedb.org/tv/120089",
-      "tmdbSeason": 2
+      "tmdbSeason": 2,
+      "aliases": [
+        "SPY x FAMILY"
+      ]
     },
     {
       "id": "verified-that-time-i-got-reincarnated-as-a-slime-season-1",
@@ -378,7 +414,10 @@
       "year": 2018,
       "tmdbId": 82684,
       "tmdbUrl": "https://www.themoviedb.org/tv/82684",
-      "tmdbSeason": 1
+      "tmdbSeason": 1,
+      "aliases": [
+        "That Time I Got Reincarnated as a Slime"
+      ]
     },
     {
       "id": "verified-yuri----on-ice",
