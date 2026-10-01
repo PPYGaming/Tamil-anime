@@ -5715,9 +5715,9 @@
     "manualAnime": 25,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-01T03:31:40.277Z",
+      "scannedAt": "2026-10-01T12:12:41.277Z",
       "status": "zero-add",
-      "zeroAddReason": "26 manifest entries were already in the catalog",
+      "zeroAddReason": "27 manifest entries were already in the catalog",
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
         "found": true,
@@ -5729,16 +5729,9 @@
       "catalogAfter": 25,
       "added": 0,
       "addedIds": [],
-      "updatedExisting": 1,
-      "updatedIds": [
-        {
-          "id": "verified-makeine--too-many-losing-heroines",
-          "fields": [
-            "tamilDubEvidence"
-          ]
-        }
-      ],
-      "alreadyInCatalog": 26,
+      "updatedExisting": 0,
+      "updatedIds": [],
+      "alreadyInCatalog": 27,
       "rejected": [],
       "needsReview": [],
       "deferred": [],
