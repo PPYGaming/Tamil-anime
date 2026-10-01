@@ -6,6 +6,40 @@
     "automatic": true,
     "tmdbConfigured": true,
     "youtubeConfigured": true,
-    "note": "Provider availability and Tamil-audio verification must remain separate."
+    "note": "Coverage is limited to titles listed in the official-source manifest; it is not an exhaustive scan of all Tamil-dubbed anime. Streaming-provider availability does not prove Tamil audio.",
+    "source": "Official-source manifest (Muse India YouTube, Crunchyroll, Netflix, Amazon Prime Video)",
+    "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
+    "youtubeEnabled": true,
+    "tmdbEnabled": true,
+    "discoveredAnime": 0,
+    "manualAnime": 0,
+    "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
+    "lastScan": {
+      "scannedAt": "2026-10-01T03:13:52.047Z",
+      "status": "zero-add",
+      "zeroAddReason": "No official-source manifest found at data/official-tamil-dub-manifest.json. Nothing can be added without it: TMDB and YouTube search are not allowed to establish Tamil audio.",
+      "manifest": {
+        "path": "data/official-tamil-dub-manifest.json",
+        "found": false,
+        "version": null,
+        "updatedAt": null,
+        "entries": 0
+      },
+      "catalogBefore": 0,
+      "catalogAfter": 0,
+      "added": 0,
+      "addedIds": [],
+      "updatedExisting": 0,
+      "updatedIds": [],
+      "alreadyInCatalog": 0,
+      "rejected": [],
+      "needsReview": [],
+      "deferred": [],
+      "tmdb": {
+        "enabled": true,
+        "requests": 0,
+        "failures": 0
+      }
+    }
   }
 }
