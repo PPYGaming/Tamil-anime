@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T03:27:29.187Z",
+  "lastUpdated": "2026-10-01T03:31:40.277Z",
   "region": "IN",
   "anime": [
     {
@@ -1228,6 +1228,13 @@
         {
           "platform": "Crunchyroll",
           "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines",
           "source": "Crunchyroll official listing/announcement",
           "checkedAt": "2026-10-01",
           "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
@@ -5704,13 +5711,13 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 11,
+    "discoveredAnime": 0,
     "manualAnime": 25,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-01T03:27:29.187Z",
-      "status": "added",
-      "zeroAddReason": null,
+      "scannedAt": "2026-10-01T03:31:40.277Z",
+      "status": "zero-add",
+      "zeroAddReason": "26 manifest entries were already in the catalog",
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
         "found": true,
@@ -5718,31 +5725,26 @@
         "updatedAt": "2026-10-01",
         "entries": 27
       },
-      "catalogBefore": 14,
+      "catalogBefore": 25,
       "catalogAfter": 25,
-      "added": 11,
-      "addedIds": [
-        "verified-jujutsu-kaisen-season-1",
-        "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
-        "verified-black-butler--public-school-arc",
-        "verified-dr--stone-season-1",
-        "verified-haikyu---season-1",
-        "verified-radiant-season-2",
-        "verified-tsukimichi--moonlit-fantasy--season-1",
-        "verified-fire-force-season-2",
-        "verified-the-ancient-magus--bride-season-1",
-        "verified-spy-x-family-season-1",
-        "verified-that-time-i-got-reincarnated-as-a-slime-season-1"
+      "added": 0,
+      "addedIds": [],
+      "updatedExisting": 1,
+      "updatedIds": [
+        {
+          "id": "verified-makeine--too-many-losing-heroines",
+          "fields": [
+            "tamilDubEvidence"
+          ]
+        }
       ],
-      "updatedExisting": 0,
-      "updatedIds": [],
-      "alreadyInCatalog": 15,
+      "alreadyInCatalog": 26,
       "rejected": [],
       "needsReview": [],
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 11,
+        "requests": 0,
         "failures": 0
       }
     }
