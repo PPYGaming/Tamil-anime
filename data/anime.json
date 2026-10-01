@@ -1,7 +1,2110 @@
 {
-  "lastUpdated": "2026-09-30T21:44:54.282Z",
+  "lastUpdated": "2026-10-01T03:22:17.849Z",
   "region": "IN",
-  "anime": [],
+  "anime": [
+    {
+      "id": "verified-frieren--beyond-journey-s-end",
+      "title": "Frieren: Beyond Journey's End",
+      "originalTitle": "葬送のフリーレン",
+      "description": "After the party of heroes defeated the Demon King, they restored peace to the land and returned to lives of solitude. Generations pass, and the elven mage Frieren comes face to face with humanity's mortality. She takes on a new apprentice and promises to fulfill old friends' dying wishes. Can an elven mind make peace with the nature of life and death? Frieren embarks on her quest to find out.",
+      "image": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
+      "rating": 8.8,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2023-09-29",
+      "createdAt": "2023-09-29T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2023/9/20/crunchyroll-fall-2023-dubs-girlfriend-girlfriend-season-2-goblin-slayer-ii",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/9/20/crunchyroll-fall-2023-dubs-girlfriend-girlfriend-season-2-goblin-slayer-ii"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "1-25",
+          "url": null
+        },
+        {
+          "number": "1-26",
+          "url": null
+        },
+        {
+          "number": "1-27",
+          "url": null
+        },
+        {
+          "number": "1-28",
+          "url": null
+        },
+        {
+          "number": "1-29",
+          "url": null
+        },
+        {
+          "number": "1-30",
+          "url": null
+        },
+        {
+          "number": "1-31",
+          "url": null
+        },
+        {
+          "number": "1-32",
+          "url": null
+        },
+        {
+          "number": "1-33",
+          "url": null
+        },
+        {
+          "number": "1-34",
+          "url": null
+        },
+        {
+          "number": "1-35",
+          "url": null
+        },
+        {
+          "number": "1-36",
+          "url": null
+        },
+        {
+          "number": "1-37",
+          "url": null
+        },
+        {
+          "number": "1-38",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/9/20/crunchyroll-fall-2023-dubs-girlfriend-girlfriend-season-2-goblin-slayer-ii",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2023/9/20/crunchyroll-fall-2023-dubs-girlfriend-girlfriend-season-2-goblin-slayer-ii",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Fall 2023 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 209867,
+      "tmdbUrl": "https://www.themoviedb.org/tv/209867",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
+      "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
+      "originalTitle": "Lv2からチートだった元勇者候補のまったり異世界ライフ",
+      "description": "The Magical Kingdom of Klyrode summons hundreds of heroes from other worlds every year to fight in their war against the Dark One and his army of powerful demons. Banaza is one of those heroes, summoned from the Royal Capital Paluma, but something’s not right—Banaza is only an average merchant. He has no magic, no fighting ability, and his stats are abysmal. Worse, a mishap leaves him unable to return home! Rejected as a hero and stranded in another world, abandoned to the far reaches of the kingdom by a cruel king who just wants him gone, Banaza’s fate looks pretty bleak. But what will happen once the failed hero candidate finds himself with super cheat powers once he hits level two?",
+      "image": "https://image.tmdb.org/t/p/w500/3eBu6hYDRe72ZPUfLbhaHfF7EM9.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/petHMm8TmcYiBy1JOTCncBcNk83.jpg",
+      "rating": 7.3,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2024-04-08",
+      "createdAt": "2024-04-08T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 237233,
+      "tmdbUrl": "https://www.themoviedb.org/tv/237233",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-kaiju-no--8",
+      "title": "Kaiju No. 8",
+      "originalTitle": "怪獣８号",
+      "description": "In a world plagued by creatures known as Kaiju, Kafka Hibino aspired to enlist in The Defense Force. He makes a promise to enlist with his childhood friend, Mina Ashiro. Soon, life takes them in separate ways. While employed cleaning up after Kaiju battles, Kafka meets Reno Ichikawa. Reno's determination to join The Defense Force reawakens Kafka's promise to join Mina and protect humanity.",
+      "image": "https://image.tmdb.org/t/p/w500/83yDUQVpdhv8ePy3nbTRzFaKYuQ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/htGeuCcNhlBe8GTx3izKOsd8frw.jpg",
+      "rating": 8.4,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2024-04-13",
+      "createdAt": "2024-04-13T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 207468,
+      "tmdbUrl": "https://www.themoviedb.org/tv/207468",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-blue-lock",
+      "title": "BLUE LOCK",
+      "originalTitle": "ブルーロック",
+      "description": "High school soccer players from across Japan gather for a controversial project designed to create the best — and most egoistic — striker in the world.",
+      "image": "https://image.tmdb.org/t/p/w500/fcKH1NQzoTXiYO1OrhaFFwTKhBp.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/seMRyWVwIVBWbC9xaMzDMZJ8fUH.jpg",
+      "rating": 8.3,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2022-10-09",
+      "createdAt": "2022-10-09T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "1-25",
+          "url": null
+        },
+        {
+          "number": "1-26",
+          "url": null
+        },
+        {
+          "number": "1-27",
+          "url": null
+        },
+        {
+          "number": "1-28",
+          "url": null
+        },
+        {
+          "number": "1-29",
+          "url": null
+        },
+        {
+          "number": "1-30",
+          "url": null
+        },
+        {
+          "number": "1-31",
+          "url": null
+        },
+        {
+          "number": "1-32",
+          "url": null
+        },
+        {
+          "number": "1-33",
+          "url": null
+        },
+        {
+          "number": "1-34",
+          "url": null
+        },
+        {
+          "number": "1-35",
+          "url": null
+        },
+        {
+          "number": "1-36",
+          "url": null
+        },
+        {
+          "number": "1-37",
+          "url": null
+        },
+        {
+          "number": "1-38",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 131041,
+      "tmdbUrl": "https://www.themoviedb.org/tv/131041",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-mashle--magic-and-muscles",
+      "title": "MASHLE: MAGIC AND MUSCLES",
+      "originalTitle": "マッシュル-MASHLE-",
+      "description": "This is a world of magic where magic is used for everything. But deep in the forest exists a young man who spends his time training and bulking up. He can't use magic, but he enjoys a peaceful life with his father. But one day, his life is put in danger! Will his muscular body protect him from the magic users who are out to get him? Powerfully trained muscles crush magic as this abnormal magical fantasy begins!",
+      "image": "https://image.tmdb.org/t/p/w500/hfSh6ISwUvtvihITPMK6TPOWarK.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/p1swd15DRtCnNj20U904dbXeVsi.jpg",
+      "rating": 8.3,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2023-04-08",
+      "createdAt": "2023-04-08T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 204832,
+      "tmdbUrl": "https://www.themoviedb.org/tv/204832",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-alya-sometimes-hides-her-feelings-in-russian",
+      "title": "Alya Sometimes Hides Her Feelings in Russian",
+      "originalTitle": "時々ボソッとロシア語でデレる隣のアーリャさん",
+      "description": "Alya is a transfer student enjoying popularity at her new high school, often sporting a cold shoulder while earning high marks in class. She ignores her nerdy classmate, Kuze Masachika, except for when she blurts out a flirtatious line to him in Russian. Little does she know, Kuze understands Russian, though he pretends not to. Let’s see where this wacky love story takes them!",
+      "image": "https://image.tmdb.org/t/p/w500/hfnzByZIRj6rx8xaxzS2zDilei1.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/3197ZU1CWDjdFsmqvWPZGXAYaoi.jpg",
+      "rating": 8,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2024-07-03",
+      "createdAt": "2024-07-03T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 235758,
+      "tmdbUrl": "https://www.themoviedb.org/tv/235758",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-bye-bye--earth",
+      "title": "Bye Bye, Earth",
+      "originalTitle": "ばいばい、アース",
+      "description": "Belle Lablac doesn’t really fit in as the only human being in a world full of anthropomorphic animals. No fangs, no fur, no scales, no claws. Lonely and eager to discover where she comes from, Belle journeys to find answers to the questions of her heart. Carrying nothing but her giant sword, the Runding, she faces a world of possibilities and pitfalls in hopes of discovering the truth.",
+      "image": "https://image.tmdb.org/t/p/w500/iuo2jor1Hya3bT1imNxEScgoh5o.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/7KI43sAChDcCrLGT2kBACXduDX8.jpg",
+      "rating": 6.8,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2024-07-12",
+      "createdAt": "2024-07-12T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 214587,
+      "tmdbUrl": "https://www.themoviedb.org/tv/214587",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-makeine--too-many-losing-heroines",
+      "title": "Makeine: Too Many Losing Heroines!",
+      "originalTitle": "負けヒロインが多すぎる！",
+      "description": "Meet the girls on the losing side of romance! First is Anna Yanami, the girl-next-door type who can’t say no to delicious food. Then there’s Lemon Yakishio, a beautiful and spirited athlete. Last but not least is Chika Komari, the cute yet shy heroine with gentle charm. Together, they navigate awkward setbacks hoping to finally find love!",
+      "image": "https://image.tmdb.org/t/p/w500/nLBBhmzN6tPhxMy9aFzDqMbAc4V.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/7mjnk0QfutRJgHKpz9yyyqI62wo.jpg",
+      "rating": 8.1,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2024-07-14",
+      "createdAt": "2024-07-14T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 241535,
+      "tmdbUrl": "https://www.themoviedb.org/tv/241535",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-no-longer-allowed-in-another-world",
+      "title": "No Longer Allowed in Another World",
+      "originalTitle": "異世界失格",
+      "description": "Pulled into an otherworldly adventure with cute sidekicks and superpowers, you’d think Osamu hit the jackpot. Nope! From a time before pixels, the early 20th-century gloomy author just wants to find a quiet place to meet his maker, not to rack up XP. Sadly, his poetic demise is constantly thwarted by inconvenient heroics. Dive into the hilariously tragic life of the most reluctant hero!",
+      "image": "https://image.tmdb.org/t/p/w500/mKOeQuH7BRrd6Fu4Exx2r0rJF5b.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/xOffg6d0o3XqdaZkhQApBhm1lEH.jpg",
+      "rating": 7.3,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2024-07-09",
+      "createdAt": "2024-07-09T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 205743,
+      "tmdbUrl": "https://www.themoviedb.org/tv/205743",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-quality-assurance-in-another-world",
+      "title": "Quality Assurance in Another World",
+      "originalTitle": "この世界は不完全すぎる",
+      "description": "When a dragon attacks a peaceful village, it’s not the beast that perplexes resident Nikola, but the man who comes to their aid. Haga, member of a secret royal team of investigators, intrigues her with his eccentric ways. It may be due to the fact he’s a real-life QA debugger and this world is a VR game! With Haga by her side, Nikola’s inspired to venture out and learn her world’s true nature.",
+      "image": "https://image.tmdb.org/t/p/w500/toNVPhr8BpCbJ4LUGdiOGJpcy80.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/hrX0xZNEN4E9klCSDYS5xpZRuFm.jpg",
+      "rating": 6.4,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2024-07-06",
+      "createdAt": "2024-07-06T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 222925,
+      "tmdbUrl": "https://www.themoviedb.org/tv/222925",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-the-strongest-magician-in-the-demon-lord-s-army-was-a-human",
+      "title": "The Strongest Magician in the Demon Lord's Army was a Human",
+      "originalTitle": "魔王軍最強の魔術師は人間だった",
+      "description": "Ike is a powerful magician and the leader of the Immortal Brigade, part of the Seventh Corps of the Demon Lord’s Army. He single-handedly conquers fortresses and pushes back the armies of humanity. Neither Dairokuten, the Demon Lord, nor Ike’s loyal soldiers know his darkest secret—he is a human in hiding! But can he keep his secret safe and bring peaceful coexistence to demons and humans?",
+      "image": "https://image.tmdb.org/t/p/w500/z0udnWYj8tXjzqYzT6MSBbZ1sMf.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/iIjfY0Zz6LTn2PTiLEe8baGc48k.jpg",
+      "rating": 6.9,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2024-07-03",
+      "createdAt": "2024-07-03T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 248951,
+      "tmdbUrl": "https://www.themoviedb.org/tv/248951",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-wistoria--wand-and-sword",
+      "title": "Wistoria: Wand and Sword",
+      "originalTitle": "杖と剣のウィストリア",
+      "description": "In a world where magic reigns, Will Serfort can’t cast a spell. Though hardworking, Will’s classmates think less of him for it. However, he has a secret strength: his sword. Can Will defy expectations with muscle over magic and blade over wand? Find out in this epic sword-and-sorcery adventure!",
+      "image": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/n4VljCX22hbw3RwfxaY8FX8eLzN.jpg",
+      "rating": 8,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2024-07-07",
+      "createdAt": "2024-07-07T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 245842,
+      "tmdbUrl": "https://www.themoviedb.org/tv/245842",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-assassination-classroom",
+      "title": "Assassination Classroom",
+      "originalTitle": "暗殺教室",
+      "description": "The students of Class 3-E have a mission: kill their teacher before graduation. He has already destroyed the moon, and has promised to destroy the Earth if he can not be killed within a year. But how can this class of misfits kill a tentacled monster, capable of reaching Mach 20 speed, who may be the best teacher any of them have ever had?",
+      "image": "https://image.tmdb.org/t/p/w500/qf0l0nQ2t06Es3cSXflqx6l6vsJ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/dOCpqck500K9JmdEIOye6Ivmoip.jpg",
+      "rating": 8.4,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2015-01-10",
+      "createdAt": "2015-01-10T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "2-14",
+          "url": null
+        },
+        {
+          "number": "2-15",
+          "url": null
+        },
+        {
+          "number": "2-16",
+          "url": null
+        },
+        {
+          "number": "2-17",
+          "url": null
+        },
+        {
+          "number": "2-18",
+          "url": null
+        },
+        {
+          "number": "2-19",
+          "url": null
+        },
+        {
+          "number": "2-20",
+          "url": null
+        },
+        {
+          "number": "2-21",
+          "url": null
+        },
+        {
+          "number": "2-22",
+          "url": null
+        },
+        {
+          "number": "2-23",
+          "url": null
+        },
+        {
+          "number": "2-24",
+          "url": null
+        },
+        {
+          "number": "2-25",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 62110,
+      "tmdbUrl": "https://www.themoviedb.org/tv/62110",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-yuri----on-ice",
+      "title": "Yuri!!! on ICE",
+      "originalTitle": "ユーリ!!! on ICE",
+      "description": "While on the verge of retirement, skater Yuri Katsuki meets Yuri Plisetsky and Victor Nikiforov, two skaters who rekindle his competitive fire.",
+      "image": "https://image.tmdb.org/t/p/w500/oxenakJNCj06JrWHENjvwaWGcSz.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/mWwWhDiQWONiSS4Go12TTjNw0E5.jpg",
+      "rating": 8.5,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2016-10-06",
+      "createdAt": "2016-10-06T00:00:00Z",
+      "updatedAt": "2026-10-01T03:22:17.849Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2026/2/6/yuri-on-ice-anime-hindi-tamil-telugu-dub-streaming",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2026/2/6/yuri-on-ice-anime-hindi-tamil-telugu-dub-streaming"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2026/2/6/yuri-on-ice-anime-hindi-tamil-telugu-dub-streaming",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2026/2/6/yuri-on-ice-anime-hindi-tamil-telugu-dub-streaming",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official article states Tamil dub available and names Tamil cast."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 68129,
+      "tmdbUrl": "https://www.themoviedb.org/tv/68129",
+      "mediaType": "tv",
+      "region": "IN"
+    }
+  ],
   "updateInfo": {
     "automatic": true,
     "tmdbConfigured": true,
@@ -11,33 +2114,101 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 0,
-    "manualAnime": 0,
+    "discoveredAnime": 14,
+    "manualAnime": 14,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-01T03:13:52.047Z",
-      "status": "zero-add",
-      "zeroAddReason": "No official-source manifest found at data/official-tamil-dub-manifest.json. Nothing can be added without it: TMDB and YouTube search are not allowed to establish Tamil audio.",
+      "scannedAt": "2026-10-01T03:22:17.849Z",
+      "status": "added",
+      "zeroAddReason": null,
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
-        "found": false,
-        "version": null,
-        "updatedAt": null,
-        "entries": 0
+        "found": true,
+        "version": 1,
+        "updatedAt": "2026-10-01",
+        "entries": 27
       },
       "catalogBefore": 0,
-      "catalogAfter": 0,
-      "added": 0,
-      "addedIds": [],
+      "catalogAfter": 14,
+      "added": 14,
+      "addedIds": [
+        "verified-frieren--beyond-journey-s-end",
+        "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
+        "verified-kaiju-no--8",
+        "verified-blue-lock",
+        "verified-mashle--magic-and-muscles",
+        "verified-alya-sometimes-hides-her-feelings-in-russian",
+        "verified-bye-bye--earth",
+        "verified-makeine--too-many-losing-heroines",
+        "verified-no-longer-allowed-in-another-world",
+        "verified-quality-assurance-in-another-world",
+        "verified-the-strongest-magician-in-the-demon-lord-s-army-was-a-human",
+        "verified-wistoria--wand-and-sword",
+        "verified-assassination-classroom",
+        "verified-yuri----on-ice"
+      ],
       "updatedExisting": 0,
       "updatedIds": [],
       "alreadyInCatalog": 0,
       "rejected": [],
-      "needsReview": [],
+      "needsReview": [
+        {
+          "entry": "JUJUTSU KAISEN Season 1",
+          "reason": "tmdbId 95479 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "JUJUTSU KAISEN Season 2",
+          "reason": "tmdbId 95479 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+          "reason": "tmdbId 85937 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "Black Butler -Public School Arc-",
+          "reason": "tmdbId 50712 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "Dr. STONE Season 1",
+          "reason": "tmdbId 86031 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "Haikyu!! Season 1",
+          "reason": "tmdbId 60863 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "Radiant Season 2",
+          "reason": "tmdbId 82879 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "TSUKIMICHI -Moonlit Fantasy- Season 1",
+          "reason": "tmdbId 111819 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "Fire Force Season 2",
+          "reason": "tmdbId 88046 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "The Ancient Magus' Bride Season 1",
+          "reason": "tmdbId 73833 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "SPY x FAMILY Season 1",
+          "reason": "tmdbId 120089 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "SPY x FAMILY Season 2",
+          "reason": "tmdbId 120089 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        },
+        {
+          "entry": "That Time I Got Reincarnated as a Slime Season 1",
+          "reason": "tmdbId 82684 resolves to a different title on TMDB; fix tmdbId or add an alias"
+        }
+      ],
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 0,
+        "requests": 25,
         "failures": 0
       }
     }
