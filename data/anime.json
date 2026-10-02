@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T03:31:40.277Z",
+  "lastUpdated": "2026-10-02T21:43:00.729Z",
   "region": "IN",
   "anime": [
     {
@@ -5700,6 +5700,144 @@
       "tmdbUrl": "https://www.themoviedb.org/tv/82684",
       "mediaType": "tv",
       "region": "IN"
+    },
+    {
+      "id": "verified-spy-x-family-season-2",
+      "title": "SPY x FAMILY Season 2",
+      "originalTitle": "SPY×FAMILY",
+      "description": "Yor and Loid may be keeping their true identities from each other, but telepathic Anya knows everything. Now, as they set sail on a luxury cruise, Yor must stop a group of assassins from reaching their target—while Loid struggles with a different mission altogether: figuring out what a good father is supposed to do on vacation.",
+      "image": "https://image.tmdb.org/t/p/w500/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/lysUnU6V0VfcthDbviuVlIqgHOR.jpg",
+      "rating": 8.5,
+      "likes": null,
+      "availability": "Available",
+      "status": null,
+      "firstAirDate": "2023-10-07",
+      "createdAt": "2023-10-07T00:00:00Z",
+      "updatedAt": "2026-10-02T21:43:00.729Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "2-1",
+          "title": "FOLLOW MAMA AND PAPA",
+          "airDate": "2023-10-07",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "title": "BOND'S STRATEGY TO STAY ALIVE / DAMIAN'S FIELD RESEARCH TRIP",
+          "airDate": "2023-10-14",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "title": "MISSION AND FAMILY / THE ELEGANT BONDMAN / THE HEART OF A CHILD / WAKING UP",
+          "airDate": "2023-10-21",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "title": "THE PASTRY OF KNOWLEDGE / THE INFORMANT'S GREAT ROMANCE PLAN II",
+          "airDate": "2023-10-28",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "title": "PLAN TO CROSS THE BORDER",
+          "airDate": "2023-11-04",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "title": "THE FEARSOME LUXURY CRUISE SHIP",
+          "airDate": "2023-11-11",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "title": "WHO IS THIS MISSION FOR?",
+          "airDate": "2023-11-18",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "title": "THE SYMPHONY UPON THE SHIP",
+          "airDate": "2023-11-25",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "title": "THE HAND THAT CONNECTS TO THE FUTURE",
+          "airDate": "2023-12-02",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "title": "ENJOY THE RESORT TO THE FULLEST / BRAGGING ABOUT VACATION",
+          "airDate": "2023-12-09",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "title": "BERLINT IN LOVE / NIGHTFALL'S DAILY LIFE",
+          "airDate": "2023-12-16",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "title": "PART OF THE FAMILY",
+          "airDate": "2023-12-23",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+      "tamilDubVerifiedAt": "2026-10-01",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-01",
+          "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 120089,
+      "tmdbUrl": "https://www.themoviedb.org/tv/120089",
+      "tmdbSeason": 2,
+      "tmdbSeasonUrl": "https://www.themoviedb.org/tv/120089/season/2",
+      "mediaType": "tv",
+      "region": "IN"
     }
   ],
   "updateInfo": {
@@ -5711,13 +5849,13 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 0,
-    "manualAnime": 25,
+    "discoveredAnime": 1,
+    "manualAnime": 26,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-02T17:13:04.934Z",
-      "status": "zero-add",
-      "zeroAddReason": "27 manifest entries were already in the catalog",
+      "scannedAt": "2026-10-02T21:43:00.729Z",
+      "status": "added",
+      "zeroAddReason": null,
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
         "found": true,
@@ -5726,19 +5864,28 @@
         "entries": 27
       },
       "catalogBefore": 25,
-      "catalogAfter": 25,
-      "added": 0,
-      "addedIds": [],
+      "catalogAfter": 26,
+      "added": 1,
+      "addedIds": [
+        "verified-spy-x-family-season-2"
+      ],
       "updatedExisting": 0,
       "updatedIds": [],
-      "alreadyInCatalog": 27,
+      "alreadyInCatalog": 25,
       "rejected": [],
-      "needsReview": [],
+      "needsReview": [
+        {
+          "entry": "JUJUTSU KAISEN Season 2",
+          "reason": "TMDB lists no season 2 for tv 95479; fix tmdbSeason or tmdbId"
+        }
+      ],
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 0,
-        "failures": 0
+        "requests": 3,
+        "failures": 0,
+        "note": null,
+        "unavailable": []
       }
     }
   }
