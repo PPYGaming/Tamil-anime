@@ -19,11 +19,34 @@
  *                       "checkedAt": "2026-09-30", "note": "Tamil in audio list",
  *                       "channelId": "UC..." },   // channelId: YouTube evidence only
  *     "tmdbId": 12345, "mediaType": "tv",          // optional (enables enrichment)
+ *     "tmdbSeason": 2,                             // optional, TV only: this entry is ONE season of tmdbId
  *     "year": 2005,                                // or "firstAirDate": "2005-04-01"
  *     "id": "optional-explicit-id", "originalTitle": "", "aliases": [],
  *     "description": "", "image": "", "tags": []
  *   }]
  * }
+ *
+ * Optional curated entry fields (they never add a title and never prove Tamil audio):
+ *   "platforms": [{ "name": "Netflix", "available": true,
+ *                   "officialUrl": "https://www.netflix.com/title/123456" }]
+ *       name: Crunchyroll | Netflix | Amazon Prime Video. officialUrl must be that platform's own title
+ *       page. The row means "available, no confirmed Tamil audio". Tamil proof only ever comes from
+ *       "verification": a tamilDubVerified flag on a platforms row is ignored.
+ *   "episodes": [{ "number": "1-1", "title": "Optional", "url": "https://www.crunchyroll.com/watch/ID/slug" }]
+ *       url must be an official watch page (Crunchyroll /watch/, Netflix /watch/<id>, Prime Video detail,
+ *       YouTube video) on a platform that already has Tamil proof in "verification" (YouTube: one of the
+ *       verified videos). Otherwise the episode is kept without a link. Numbers merge into existing rows by
+ *       exact match, so reuse the catalog's numbering (TMDB rows are "season-episode", e.g. "1-1");
+ *       an unknown number is appended as a new row.
+ *
+ * Seasons (tmdbSeason). Several manifest entries may share one tmdbId (one per season). An entry with
+ * tmdbSeason is matched ONLY by exact id or by media type + tmdbId + tmdbSeason, never by a shared TMDB
+ * id, alias, original title or year, and different seasons never merge. Entries without tmdbSeason keep
+ * the series-level matching. A season is never guessed: a missing tmdbSeason does not mean season 1.
+ * Older catalog records have no tmdbSeason; their exact manifest id says which manifest entry (and so
+ * which season) they belong to. That identity is used in memory only and is NOT written to those records.
+ * For a season entry TMDB supplies only that season's episode rows (title/airDate, url always null) and
+ * its air date; series-level poster/rating/tags are still used, the series first_air_date never is.
  *
  * Env: TMDB_API_KEY, YOUTUBE_API_KEY (both optional), CONTENT_REGION,
  * ANIME_DATA_FILE, OFFICIAL_MANIFEST_PATH, OFFICIAL_YOUTUBE_CHANNEL_IDS
@@ -40,6 +63,7 @@ const PLACEHOLDER_DESCRIPTION = "No description available.";
 const MAX_REPORT_ITEMS = 50;
 const MAX_TAGS = 8;
 const MAX_EPISODES = 200;
+const MAX_SEASON = 99;
 const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 
 const SOURCE_LABELS = {
@@ -53,7 +77,8 @@ const RECORD_KEY_ORDER = [
   "likes", "availability", "status", "firstAirDate", "createdAt", "updatedAt",
   "isNew", "tags", "platforms", "episodes", "youtube", "tamilDubVerified",
   "tamilDubVerificationSource", "tamilDubVerificationUrl", "tamilDubVerifiedAt",
-  "tamilDubEvidence", "inclusionSource", "tmdbId", "tmdbUrl", "mediaType", "region"
+  "tamilDubEvidence", "inclusionSource", "tmdbId", "tmdbUrl", "tmdbSeason", "tmdbSeasonUrl",
+  "mediaType", "region"
 ];
 
 // TMDB may fill these, but only when missing/placeholder on a verified title.
@@ -66,7 +91,7 @@ const ENRICHABLE_KEYS = [
 const SPECIAL_KEYS = new Set([
   "tamilDubVerified", "tamilDubVerificationSource", "tamilDubVerificationUrl",
   "tamilDubVerifiedAt", "tamilDubEvidence", "platforms",
-  "tmdbId", "tmdbUrl", "mediaType"
+  "tmdbId", "tmdbUrl", "mediaType", "tmdbSeason", "tmdbSeasonUrl"
 ]);
 
 /* ------------------------------------------------------------------ */
@@ -357,6 +382,173 @@ function validateEvidence(raw, channels) {
   return { ok: true, evidence };
 }
 
+/* ------------------------------------------------------------------ */
+/* Optional curated fields: platform availability and episode links    */
+/* ------------------------------------------------------------------ */
+
+const LOCALE_SEGMENT = "(?:[a-z]{2}(?:-[a-z]{2})?\\/)?";
+
+// Availability needs a title page and an episode link a watch page; classifyOfficialUrl is looser
+// (it also accepts announcements). Prime Video detail pages serve as both.
+const TITLE_PAGE = {
+  Crunchyroll: new RegExp(`^\\/${LOCALE_SEGMENT}(?:series|movie)\\/[^/]+`, "i"),
+  Netflix: new RegExp(`^\\/${LOCALE_SEGMENT}title\\/\\d+`, "i")
+};
+
+const EPISODE_PAGE = {
+  Crunchyroll: new RegExp(`^\\/${LOCALE_SEGMENT}watch\\/[^/]+`, "i"),
+  Netflix: new RegExp(`^\\/${LOCALE_SEGMENT}watch\\/\\d+`, "i")
+};
+
+// classifyOfficialUrl predates episode links and does not know Netflix /watch/<id> pages.
+function netflixWatchUrl(rawUrl) {
+  try {
+    const url = new URL(cleanText(rawUrl));
+    const ok =
+      url.protocol === "https:" &&
+      !url.username &&
+      !url.password &&
+      hostMatches(url.hostname.toLowerCase(), "netflix.com") &&
+      EPISODE_PAGE.Netflix.test(url.pathname) &&
+      !SEARCH_PARAMS.some((param) => url.searchParams.has(param));
+
+    url.hash = "";
+    return ok ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
+function classifyLink(rawUrl, kind) {
+  if (kind === "episode") {
+    const watch = netflixWatchUrl(rawUrl);
+    if (watch) return { ok: true, platform: "Netflix", url: watch };
+  }
+
+  const result = classifyOfficialUrl(rawUrl);
+  if (!result.ok) return result;
+
+  if (result.platform === "YouTube") {
+    return kind === "episode"
+      ? result
+      : { ok: false, reason: "YouTube availability comes from verification evidence, not from a platforms row" };
+  }
+
+  const rule = (kind === "title" ? TITLE_PAGE : EPISODE_PAGE)[result.platform];
+
+  if (rule && !rule.test(new URL(result.url).pathname)) {
+    return { ok: false, reason: `${result.platform} URL must be a ${kind === "title" ? "title" : "watch"} page` };
+  }
+
+  return result;
+}
+
+function parseCuratedPlatforms(raw, warnings) {
+  if (raw === undefined || raw === null) return [];
+
+  if (!Array.isArray(raw)) {
+    warnings.push("platforms must be an array; ignored");
+    return [];
+  }
+
+  const rows = [];
+
+  for (const item of raw) {
+    const given = cleanText(isPlainObject(item) ? item.name : item);
+    const name = REQUIRED_PLATFORMS.find((known) => known.toLowerCase() === given.toLowerCase());
+
+    if (!name) {
+      warnings.push(`platforms: unknown platform "${given}" ignored`);
+      continue;
+    }
+
+    if (item.available !== true) continue; // "not available" is already the default for every required platform
+
+    if (rows.some((row) => row.name === name)) {
+      warnings.push(`platforms: duplicate ${name} row ignored`);
+      continue;
+    }
+
+    const link = classifyLink(item.officialUrl, "title");
+
+    if (!link.ok || link.platform !== name) {
+      warnings.push(`platforms: ${name} row ignored (${link.ok ? `officialUrl is a ${link.platform} URL` : link.reason})`);
+      continue;
+    }
+
+    rows.push({ name, officialUrl: link.url, claimsTamil: item.tamilDubVerified === true });
+  }
+
+  return rows;
+}
+
+function parseCuratedEpisodes(raw, warnings) {
+  if (raw === undefined || raw === null) return [];
+
+  if (!Array.isArray(raw)) {
+    warnings.push("episodes must be an array; ignored");
+    return [];
+  }
+
+  const episodes = [];
+  const seen = new Set();
+  const counts = new Map(); // one note per kind of problem, not one per episode
+  const note = (message) => counts.set(message, (counts.get(message) || 0) + 1);
+
+  for (const item of raw) {
+    if (episodes.length >= MAX_EPISODES) {
+      warnings.push(`episodes: only the first ${MAX_EPISODES} are used`);
+      break;
+    }
+
+    const numeric = isPlainObject(item) && (typeof item.number === "string" || Number.isFinite(item.number));
+    const number = numeric ? cleanText(item.number).slice(0, 20) : "";
+
+    if (!number) {
+      note("episodes: item without a number ignored");
+      continue;
+    }
+
+    if (seen.has(number)) {
+      note("episodes: duplicate number ignored");
+      continue;
+    }
+
+    seen.add(number);
+
+    const episode = { number };
+    const title = cleanText(item.title).slice(0, 200);
+    if (title) episode.title = title;
+
+    if (cleanText(item.url)) {
+      const link = classifyLink(item.url, "episode");
+
+      if (link.ok) {
+        episode.url = link.url;
+        episode.platform = link.platform;
+        if (link.videoId) episode.videoId = link.videoId;
+      } else {
+        note(`episodes: link dropped (${link.reason})`);
+      }
+    }
+
+    episodes.push(episode);
+  }
+
+  for (const [message, count] of counts) warnings.push(count > 1 ? `${message} x${count}` : message);
+
+  return episodes;
+}
+
+// A link needs Tamil proof on its own platform; a YouTube link needs that exact video in the proof.
+function episodeLinkAllowed(episode, evidence) {
+  if (!episode.url) return false;
+
+  return episode.platform === "YouTube"
+    ? evidence.some((item) => item.platform === "YouTube" && item.videoId === episode.videoId)
+    : evidence.some((item) => item.platform === episode.platform);
+}
+
 // With a YouTube key, confirms the video really belongs to the claimed channel.
 async function confirmYouTubeEvidence(evidence, cfg) {
   if (evidence.platform !== "YouTube") return { ok: true };
@@ -444,6 +636,14 @@ async function loadManifest(file) {
   };
 }
 
+function describeValue(value) {
+  try {
+    return JSON.stringify(value) ?? String(value);
+  } catch {
+    return String(value);
+  }
+}
+
 function validateEntry(raw, channels) {
   const reject = (reason) => ({ ok: false, reason });
 
@@ -460,6 +660,20 @@ function validateEntry(raw, channels) {
   if (raw.tmdbId !== undefined && raw.tmdbId !== null && raw.tmdbId !== "") {
     tmdbId = Number(raw.tmdbId);
     if (!Number.isInteger(tmdbId) || tmdbId <= 0) return reject("tmdbId must be a positive integer");
+  }
+
+  // A season is only valid as a real JSON integer, only for TV, and only next to a tmdbId.
+  // It is never inferred: no tmdbSeason means "series-level entry", not "season 1".
+  let tmdbSeason = null;
+  if (raw.tmdbSeason !== undefined && raw.tmdbSeason !== null && raw.tmdbSeason !== "") {
+    if (mediaType !== "tv") return reject('tmdbSeason is only valid for TV entries (mediaType "tv")');
+
+    if (typeof raw.tmdbSeason !== "number" || !Number.isInteger(raw.tmdbSeason) || raw.tmdbSeason < 1 || raw.tmdbSeason > MAX_SEASON) {
+      return reject(`tmdbSeason must be an integer from 1 to ${MAX_SEASON} (got ${describeValue(raw.tmdbSeason)})`);
+    }
+
+    if (tmdbId === null) return reject("tmdbSeason needs a tmdbId (a season only means something for a TMDB series)");
+    tmdbSeason = raw.tmdbSeason;
   }
 
   const firstAirDate = cleanText(raw.firstAirDate);
@@ -488,9 +702,48 @@ function validateEntry(raw, channels) {
 
   if (!evidence.length) return reject(`no acceptable official-source evidence: ${problems.join("; ")}`);
 
+  // Optional curated fields. Problems only drop the offending row or link, never the entry.
+  const warnings = [];
+  const curatedPlatforms = parseCuratedPlatforms(raw.platforms, warnings);
+  let episodes = parseCuratedEpisodes(raw.episodes, warnings);
+
+  if (tmdbSeason !== null) {
+    // Rows explicitly numbered for another season ("1-3" on a season-2 entry) would put the wrong
+    // season's episodes (and links) on this record: drop them and say so.
+    const foreign = episodes.filter((episode) => {
+      const match = /^(\d+)-\d+$/.exec(episode.number);
+      return match && Number(match[1]) !== tmdbSeason;
+    });
+
+    if (foreign.length) {
+      episodes = episodes.filter((episode) => !foreign.includes(episode));
+      warnings.push(`episodes: ${foreign.length} row(s) numbered for another season dropped (this entry is season ${tmdbSeason})`);
+    }
+  }
+
+  for (const row of curatedPlatforms) {
+    if (row.claimsTamil && !evidence.some((item) => item.platform === row.name)) {
+      warnings.push(`platforms: tamilDubVerified on ${row.name} ignored (no official-source Tamil proof for it in verification)`);
+    }
+  }
+
+  const unanchored = new Map();
+
+  for (const episode of episodes) {
+    if (episode.url && !episodeLinkAllowed(episode, evidence)) {
+      unanchored.set(episode.platform, (unanchored.get(episode.platform) || 0) + 1);
+    }
+  }
+
+  for (const [platform, count] of unanchored) {
+    warnings.push(`episodes: ${count} ${platform} link(s) will be dropped (no matching Tamil proof in verification)`);
+  }
+
   let id = cleanText(raw.id);
   if (!id) {
-    if (tmdbId) id = mediaType === "movie" ? `tmdb-movie-${tmdbId}` : `tmdb-${tmdbId}`;
+    if (tmdbId) {
+      id = mediaType === "movie" ? `tmdb-movie-${tmdbId}` : tmdbSeason !== null ? `tmdb-${tmdbId}-s${tmdbSeason}` : `tmdb-${tmdbId}`;
+    }
     else if (year) id = `official-${slugify(title)}-${year}`;
     else return reject("needs an explicit id, a tmdbId, or a year to build a stable ID");
   }
@@ -498,6 +751,7 @@ function validateEntry(raw, channels) {
   return {
     ok: true,
     problems,
+    ...(warnings.length ? { warnings } : {}),
     entry: {
       id,
       title,
@@ -505,13 +759,16 @@ function validateEntry(raw, channels) {
       aliases: Array.isArray(raw.aliases) ? uniqueStrings(raw.aliases) : [],
       mediaType,
       tmdbId,
+      ...(tmdbSeason !== null ? { tmdbSeason } : {}),
       firstAirDate,
       year,
       description: cleanText(raw.description),
       image: isHttpsUrl(cleanText(raw.image)) ? cleanText(raw.image) : "",
       backdrop: isHttpsUrl(cleanText(raw.backdrop)) ? cleanText(raw.backdrop) : "",
       tags: Array.isArray(raw.tags) ? uniqueStrings(raw.tags) : [],
-      evidence
+      evidence,
+      ...(curatedPlatforms.length ? { curatedPlatforms } : {}),
+      ...(episodes.length ? { episodes } : {})
     }
   };
 }
@@ -576,6 +833,224 @@ function resolveTitleMatch(entryYear, candidates) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Season-aware identity                                               */
+/*                                                                     */
+/* recordTmdbKey above is series-level ("tv:95479") and stays that way */
+/* for existing callers. Seasons get their own helpers below.          */
+/* ------------------------------------------------------------------ */
+
+// State of the tmdbSeason field on a catalog record: absent, a usable season, or present-but-unusable.
+function recordSeasonState(record) {
+  const value = isPlainObject(record) ? record.tmdbSeason : undefined;
+
+  if (value === undefined || value === null || value === "") return { kind: "none", season: null };
+
+  return Number.isInteger(value) && value >= 1 && value <= MAX_SEASON
+    ? { kind: "explicit", season: value }
+    : { kind: "invalid", season: null };
+}
+
+// Season-aware identity: "tv:95479:s2". Only TV seasons have one.
+function tmdbSeasonKey(type, tmdbId, season) {
+  return type === "tv" && Number.isInteger(tmdbId) && tmdbId > 0 && Number.isInteger(season) && season >= 1
+    ? `tv:${tmdbId}:s${season}`
+    : null;
+}
+
+// Season identity of a record from its OWN fields only (a record without tmdbSeason has none).
+function recordSeasonKey(record) {
+  const key = recordTmdbKey(record);
+  const state = recordSeasonState(record);
+
+  return key && key.startsWith("tv:") && state.kind === "explicit" ? `${key}:s${state.season}` : null;
+}
+
+const entryTmdbKey = (entry) => (entry.tmdbId ? `${entry.mediaType}:${entry.tmdbId}` : null);
+
+/*
+ * What the whole manifest says about identity, worked out before any entry is processed:
+ *  - claims: manifest id -> { key, season }. A catalog record whose id equals a manifest id belongs to
+ *    that entry (and its season) even when the record itself has no tmdbSeason. In memory only.
+ *  - conflicts: entries that cannot be trusted to pick a record (one id with different identities, or
+ *    two different ids describing the same season). They are reported, not guessed.
+ */
+function analyzeManifestIdentities(items) {
+  const claims = new Map();
+  const conflicts = new Map();
+  const byId = new Map();
+  const bySeason = new Map();
+  const identityOf = (entry) => `${entry.mediaType}|${entry.tmdbId || ""}|${entry.tmdbSeason || ""}`;
+
+  for (const item of items) {
+    const { entry } = item;
+    if (!byId.has(entry.id)) byId.set(entry.id, []);
+    byId.get(entry.id).push(item);
+
+    const seasonKey = tmdbSeasonKey(entry.mediaType, entry.tmdbId, entry.tmdbSeason);
+    if (seasonKey) {
+      if (!bySeason.has(seasonKey)) bySeason.set(seasonKey, []);
+      bySeason.get(seasonKey).push(item);
+    }
+  }
+
+  for (const [id, group] of byId) {
+    const disagree = new Set(group.map((item) => identityOf(item.entry))).size > 1;
+    const first = group[0].entry;
+
+    claims.set(id, { key: entryTmdbKey(first), season: first.tmdbSeason || null, conflict: disagree });
+
+    if (disagree) {
+      for (const item of group) {
+        conflicts.set(item.entry, `manifest id "${id}" is used by entries with different tmdbId/tmdbSeason/mediaType; fix the manifest`);
+      }
+    }
+  }
+
+  for (const [seasonKey, group] of bySeason) {
+    const ids = [...new Set(group.map((item) => item.entry.id))];
+
+    if (ids.length > 1) {
+      for (const item of group) {
+        if (!conflicts.has(item.entry)) {
+          conflicts.set(item.entry, `manifest entries ${ids.join(", ")} all describe ${seasonKey}; keep one entry per season`);
+        }
+      }
+    }
+  }
+
+  return { claims, conflicts };
+}
+
+const claimOf = (claims, record) => (claims && claims.get(String(record.id))) || null;
+
+// How a record that shares the entry's series-level TMDB key relates to a SEASON entry.
+function seasonRelation(record, entry, claims) {
+  const state = recordSeasonState(record);
+
+  if (state.kind === "explicit") return state.season === entry.tmdbSeason ? "same" : "different";
+  if (state.kind === "invalid") return "ambiguous";
+
+  // No season on the record: it either belongs to another manifest entry or nobody can say which season it is.
+  return claimOf(claims, record) && String(record.id) !== entry.id ? "other" : "ambiguous";
+}
+
+// A record is season-specific when it says so itself, or when the manifest entry that owns its id does.
+function isSeasonSpecific(record, claims) {
+  const claim = claimOf(claims, record);
+  return recordSeasonState(record).kind !== "none" || Boolean(claim && (claim.season || claim.conflict));
+}
+
+// An exact-id hit is the curator's explicit identity, but it must not contradict an explicit season or TMDB id.
+function seasonConflict(record, entry, entryKey) {
+  const state = recordSeasonState(record);
+
+  if (state.kind === "invalid") {
+    return `existing record ${record.id} has an unusable tmdbSeason (${describeValue(record.tmdbSeason)}); fix it before merging`;
+  }
+
+  if (state.kind === "explicit" && state.season !== entry.tmdbSeason) {
+    return `existing record ${record.id} is season ${state.season} but this manifest entry is season ${entry.tmdbSeason}; seasons are never merged`;
+  }
+
+  const key = recordTmdbKey(record);
+
+  if (key && entryKey && key !== entryKey) {
+    return `existing record ${record.id} is ${key} but this manifest entry is ${entryKey}; the ids conflict`;
+  }
+
+  return null;
+}
+
+/*
+ * Stable identity only (no title guessing). Returns:
+ *   { action: "merge", record }  one record is certainly this entry
+ *   { action: "review", reason } identity is ambiguous or conflicting: report it, change nothing
+ *   { action: "none" }           no record has this identity (the caller may still try the title fallback)
+ */
+function matchIdentity(anime, entry, claims) {
+  const review = (reason) => ({ action: "review", reason });
+  const entryKey = entryTmdbKey(entry);
+  const records = anime.filter(isPlainObject);
+  const exact = records.filter((record) => !isEmptyValue(record.id) && String(record.id) === entry.id);
+  const several = "identity matches several existing records; resolve the duplicates manually";
+  const names = (list) => list.map((record) => record.id).join(", ");
+
+  if (entry.tmdbSeason) {
+    if (exact.length > 1) return review(several);
+
+    if (exact.length === 1) {
+      const conflict = seasonConflict(exact[0], entry, entryKey);
+      return conflict ? review(conflict) : { action: "merge", record: exact[0] };
+    }
+
+    const same = [];
+    const ambiguous = [];
+
+    for (const record of records) {
+      if (recordTmdbKey(record) !== entryKey) continue;
+
+      const relation = seasonRelation(record, entry, claims);
+      if (relation === "same") same.push(record);
+      else if (relation === "ambiguous") ambiguous.push(record);
+    }
+
+    if (same.length > 1) return review(`several existing records are ${entryKey} season ${entry.tmdbSeason}; resolve the duplicates manually`);
+    if (same.length === 1) return { action: "merge", record: same[0] };
+
+    if (ambiguous.length) {
+      return review(
+        `existing record(s) ${names(ambiguous)} share ${entryKey} but have no usable tmdbSeason and no manifest entry claims them, ` +
+          `so season ${entry.tmdbSeason} cannot be told apart from them; set this entry's id to that record's id to merge, or add tmdbSeason to the record`
+      );
+    }
+
+    return { action: "none" };
+  }
+
+  // Series-level entry (no tmdbSeason): behaves as before, except it never silently joins a season-specific record.
+  const sharing = entryKey ? records.filter((record) => !exact.includes(record) && recordTmdbKey(record) === entryKey) : [];
+  const seasoned = sharing.filter((record) => isSeasonSpecific(record, claims));
+  const hits = [...exact, ...sharing.filter((record) => !seasoned.includes(record))];
+
+  if (hits.length > 1) return review(several);
+  if (hits.length === 1) return { action: "merge", record: hits[0] };
+
+  if (seasoned.length) {
+    return review(
+      `this entry has no tmdbSeason but existing record(s) ${names(seasoned)} are season-specific; ` +
+        "add tmdbSeason to the entry, or set its id to that record's id"
+    );
+  }
+
+  return { action: "none" };
+}
+
+// Title/alias fallback candidates. Season-specific records never take part in a series-level fallback,
+// and a season entry never considers another season's record or a record another manifest entry owns.
+function titleCandidates(anime, entry, claims) {
+  const entryKey = entryTmdbKey(entry);
+
+  return anime.filter((record) => {
+    if (!isPlainObject(record) || !titlesOverlap(entry, record)) return false;
+
+    const key = recordTmdbKey(record);
+    if (entryKey && key && key !== entryKey) return false;
+
+    const state = recordSeasonState(record);
+    const claim = claimOf(claims, record);
+    const ownedByOther = Boolean(claim) && String(record.id) !== entry.id;
+
+    if (entry.tmdbSeason) {
+      if (state.kind === "explicit" && state.season !== entry.tmdbSeason) return false;
+      return !ownedByOther;
+    }
+
+    if (state.kind !== "none") return false;
+    return !(ownedByOther && claim.season);
+  });
+}
+
+/* ------------------------------------------------------------------ */
 /* Merging: fill what is missing, never overwrite what exists          */
 /* ------------------------------------------------------------------ */
 
@@ -607,6 +1082,11 @@ function mergeTmdbIdentity(target, patch) {
   target.tmdbId = patch.tmdbId;
   fillIfEmpty(target, "tmdbUrl", patch.tmdbUrl);
   fillIfEmpty(target, "mediaType", patch.mediaType);
+
+  // The season is written only together with a brand-new TMDB identity (a new record). A record that
+  // already has a tmdbId keeps matching through its manifest id and is never rewritten to add a season.
+  fillIfEmpty(target, "tmdbSeason", patch.tmdbSeason);
+  fillIfEmpty(target, "tmdbSeasonUrl", patch.tmdbSeasonUrl);
   return true;
 }
 
@@ -685,6 +1165,64 @@ function mergePlatforms(target, incoming) {
     changed = fillIfEmpty(existing, "tamilDubVerificationUrl", platform.tamilDubVerificationUrl) || changed;
   }
 
+  // Curated availability (official title page, no Tamil proof): add a missing row or fill an
+  // empty placeholder. Never touches Tamil flags and never downgrades an existing row.
+  for (const platform of incoming.filter((item) => item.available === true && item.tamilDubVerified !== true)) {
+    const existing = target.platforms.find(
+      (item) => isPlainObject(item) && cleanText(item.name).toLowerCase() === platform.name.toLowerCase()
+    );
+
+    if (!existing) {
+      target.platforms.push(structuredClone(platform));
+      changed = true;
+    } else if (existing.available !== true) {
+      if (!isEmptyValue(existing.tamilDubVerificationUrl) || !isEmptyValue(existing.officialUrl)) continue; // curated, leave it
+
+      existing.available = true;
+      existing.officialUrl = platform.officialUrl;
+      changed = true;
+    } else {
+      changed = fillIfEmpty(existing, "officialUrl", platform.officialUrl) || changed;
+    }
+  }
+
+  return changed;
+}
+
+// Episodes merge by number: fill a missing title or link, append unknown numbers, never overwrite.
+function mergeEpisodes(target, incoming) {
+  if (!Array.isArray(incoming) || !incoming.length) return false;
+
+  if (!Array.isArray(target.episodes) || !target.episodes.length) {
+    target.episodes = structuredClone(incoming);
+    return true;
+  }
+
+  let changed = false;
+
+  for (const episode of incoming) {
+    const existing = target.episodes.find(
+      (item) => isPlainObject(item) && cleanText(item.number) === cleanText(episode.number)
+    );
+
+    if (!existing) {
+      if (target.episodes.length < MAX_EPISODES) {
+        target.episodes.push(structuredClone(episode));
+        changed = true;
+      }
+      continue;
+    }
+
+    changed = fillIfEmpty(existing, "title", episode.title) || changed;
+    changed = fillIfEmpty(existing, "airDate", episode.airDate) || changed;
+
+    if (isEmptyValue(existing.url) && episode.url) {
+      existing.url = episode.url;
+      if (episode.platform) existing.platform = episode.platform;
+      changed = true;
+    }
+  }
+
   return changed;
 }
 
@@ -697,6 +1235,7 @@ function mergeRecord(target, patch) {
   changed.push(...verification.changed);
 
   if (!verification.conflict && mergePlatforms(target, patch.platforms)) changed.push("platforms");
+  if (!verification.conflict && mergeEpisodes(target, patch.episodes)) changed.push("episodes");
 
   return { changed, conflict: verification.conflict };
 }
@@ -705,16 +1244,26 @@ function mergeRecord(target, patch) {
 /* Record construction                                                 */
 /* ------------------------------------------------------------------ */
 
+// Final episode list: a link survives only if the confirmed evidence backs its platform (or video).
+function anchoredEpisodes(entry) {
+  return (entry.episodes || []).map((episode) => {
+    const { videoId, url, platform, ...plain } = episode;
+
+    return episodeLinkAllowed(episode, entry.evidence) ? { ...plain, url, platform } : { ...plain, url: null };
+  });
+}
+
 function buildManifestPatch(entry, region) {
   const primary = entry.evidence[0];
   const verifiedPlatforms = new Map();
+  const curated = new Map((entry.curatedPlatforms || []).map((row) => [row.name, row]));
 
   for (const item of entry.evidence) {
     if (!verifiedPlatforms.has(item.platform)) {
       verifiedPlatforms.set(item.platform, {
         name: item.platform,
         available: true,
-        officialUrl: item.url,
+        officialUrl: curated.has(item.platform) ? curated.get(item.platform).officialUrl : item.url, // title page beats a news/announcement proof URL
         tamilDubVerified: true,
         tamilDubVerificationUrl: item.url
       });
@@ -724,9 +1273,14 @@ function buildManifestPatch(entry, region) {
   const platforms = [...verifiedPlatforms.values()];
 
   for (const name of REQUIRED_PLATFORMS) {
-    if (!verifiedPlatforms.has(name)) {
-      platforms.push({ name, available: false, officialUrl: null, tamilDubVerified: false });
-    }
+    if (verifiedPlatforms.has(name)) continue;
+
+    const row = curated.get(name); // availability from an official title page, still no Tamil proof
+    platforms.push(
+      row
+        ? { name, available: true, officialUrl: row.officialUrl, tamilDubVerified: false }
+        : { name, available: false, officialUrl: null, tamilDubVerified: false }
+    );
   }
 
   const patch = {
@@ -756,7 +1310,15 @@ function buildManifestPatch(entry, region) {
     patch.tmdbId = entry.tmdbId;
     patch.tmdbUrl = `https://www.themoviedb.org/${entry.mediaType}/${entry.tmdbId}`;
     patch.mediaType = entry.mediaType;
+
+    if (entry.tmdbSeason) {
+      patch.tmdbSeason = entry.tmdbSeason;
+      patch.tmdbSeasonUrl = `${patch.tmdbUrl}/season/${entry.tmdbSeason}`;
+    }
   }
+
+  const episodes = anchoredEpisodes(entry);
+  if (episodes.length) patch.episodes = episodes;
 
   return patch;
 }
@@ -821,16 +1383,52 @@ function createEpisodes(details) {
   return episodes.slice(0, MAX_EPISODES);
 }
 
+const isIsoDate = (value) => /^\d{4}-\d{2}-\d{2}$/.test(String(value === undefined || value === null ? "" : value));
+
+// Rows for ONE season from TMDB's season endpoint. Never another season, never specials, never a link:
+// a number, optional title/airDate, and url:null (links only ever come from explicit official evidence).
+function createSeasonEpisodes(seasonDetails, number) {
+  const seen = new Set();
+  const found = [];
+
+  for (const item of Array.isArray(seasonDetails && seasonDetails.episodes) ? seasonDetails.episodes : []) {
+    if (!isPlainObject(item)) continue;
+    if (item.season_number !== undefined && item.season_number !== number) continue;
+
+    const episodeNumber = item.episode_number;
+    if (!Number.isInteger(episodeNumber) || episodeNumber < 1 || seen.has(episodeNumber)) continue;
+    seen.add(episodeNumber);
+
+    const row = { number: `${number}-${episodeNumber}` };
+    const title = cleanText(item.name).slice(0, 200);
+
+    if (title && !/^episode\s*\d+$/i.test(title)) row.title = title; // TMDB's "Episode 5" is not a title
+    if (isIsoDate(item.air_date)) row.airDate = item.air_date;
+    row.url = null;
+
+    found.push({ episodeNumber, row });
+  }
+
+  return found
+    .sort((a, b) => a.episodeNumber - b.episodeNumber)
+    .slice(0, MAX_EPISODES)
+    .map((item) => item.row);
+}
+
 function tmdbDate(details, type) {
   return (type === "movie" ? details.release_date : details.first_air_date) || null;
 }
 
-function tmdbMetadata(details, type) {
+// season (optional): { number, details } where details is TMDB's season payload or null when unavailable.
+// In season mode the series first_air_date and series status are NOT used (they describe the series, not
+// this season); the date is the season's own air_date, and episodes come only from that season.
+function tmdbMetadata(details, type, season = null) {
   const isTv = type === "tv";
+  const seasonDetails = season ? season.details : null;
   const title = cleanText(isTv ? details.name : details.title);
   const original = cleanText(isTv ? details.original_name : details.original_title);
-  const date = tmdbDate(details, type);
-  const status = details.status || null;
+  const date = season ? (seasonDetails && isIsoDate(seasonDetails.air_date) ? seasonDetails.air_date : null) : tmdbDate(details, type);
+  const status = season ? null : details.status || null;
 
   let availability = "Available";
   if (isTv && status === "Ended") availability = "Completed";
@@ -839,7 +1437,7 @@ function tmdbMetadata(details, type) {
   return {
     title,
     originalTitle: original || title,
-    description: cleanText(details.overview),
+    description: (season && cleanText(seasonDetails && seasonDetails.overview)) || cleanText(details.overview),
     image: details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : null,
     backdrop: details.backdrop_path ? `https://image.tmdb.org/t/p/w1280${details.backdrop_path}` : null,
     rating: typeof details.vote_average === "number" ? Number(details.vote_average.toFixed(1)) : null,
@@ -848,7 +1446,7 @@ function tmdbMetadata(details, type) {
     firstAirDate: date,
     createdAt: date ? `${date}T00:00:00Z` : null,
     tags: createTags(details),
-    episodes: isTv ? createEpisodes(details) : []
+    episodes: !isTv ? [] : season ? (seasonDetails ? createSeasonEpisodes(seasonDetails, season.number) : []) : createEpisodes(details)
   };
 }
 
@@ -863,12 +1461,27 @@ function titlesCompatible(names, details, type) {
   return [...names].some((name) => tmdbNames.has(normalizeTitle(name)));
 }
 
-function needsEnrichment(record, type) {
-  const missing = ENRICHABLE_KEYS.some(
-    (key) => isEmptyValue(record[key]) || isPlaceholderValue(key, record[key])
+// Season rows are only numbered "<season>-<n>" on records that carry an explicit tmdbSeason, so only those
+// can be checked row by row. A row needs data when it has neither a title nor an air date.
+function seasonRowsNeedData(record, number) {
+  const prefix = `${number}-`;
+  const rows = (Array.isArray(record.episodes) ? record.episodes : []).filter(
+    (item) => isPlainObject(item) && cleanText(item.number).startsWith(prefix)
   );
 
-  return missing || (type === "tv" && isEmptyValue(record.episodes));
+  return rows.length === 0 || rows.some((item) => isEmptyValue(item.title) && isEmptyValue(item.airDate));
+}
+
+// season: null, or { number, explicit } (explicit = the record itself carries tmdbSeason)
+function needsEnrichment(record, type, season = null) {
+  const keys = season ? ENRICHABLE_KEYS.filter((key) => key !== "status") : ENRICHABLE_KEYS; // a season has no status of its own
+  const missing = keys.some((key) => isEmptyValue(record[key]) || isPlaceholderValue(key, record[key]));
+
+  if (missing) return true;
+  if (type !== "tv") return false;
+  if (isEmptyValue(record.episodes)) return true;
+
+  return Boolean(season && season.explicit && seasonRowsNeedData(record, season.number));
 }
 
 function isOfficiallyVerified(record, channelIds) {
@@ -916,6 +1529,82 @@ async function lookupTmdb(state, type, id) {
   return result;
 }
 
+async function lookupTmdbSeason(state, id, number) {
+  const cacheKey = `tv:${id}:s${number}`;
+  if (state.tmdbCache.has(cacheKey)) return state.tmdbCache.get(cacheKey);
+
+  await sleep(state.cfg.tmdbDelayMs);
+  state.report.tmdb.requests++;
+
+  let result;
+
+  try {
+    const details = await getJson(tmdbUrl(state.cfg.tmdbApiKey, `/tv/${id}/season/${number}`, { language: "en-US" }));
+    const usable =
+      isPlainObject(details) &&
+      Array.isArray(details.episodes) &&
+      (details.season_number === undefined || details.season_number === number); // never accept another season's payload
+
+    result = usable ? { status: "ok", details } : { status: "error", details: null };
+  } catch (error) {
+    state.report.tmdb.failures++;
+    console.warn(`TMDB tv/${id}/season/${number} lookup failed: ${errorMessage(error)}`);
+    result = { status: error.status === 404 ? "not_found" : "error", details: null };
+  }
+
+  state.tmdbCache.set(cacheKey, result);
+  return result;
+}
+
+// TMDB lists the season (or does not say which seasons exist).
+function seasonListed(series, number) {
+  const seasons = Array.isArray(series && series.seasons) ? series.seasons : [];
+  return seasons.length === 0 || seasons.some((item) => item && item.season_number === number);
+}
+
+/*
+ * Which season (if any) a record is known to be, for metadata purposes:
+ *  - explicit: the record has tmdbSeason itself.
+ *  - claimed:  the record has none, but a manifest entry owns its id and names a season (same TMDB key).
+ *    Such older records keep their own episode rows (their numbering is not season-based), so they only
+ *    receive season rows when they have none at all.
+ */
+function enrichmentSeason(state, record) {
+  const own = recordSeasonState(record);
+  if (own.kind === "explicit") return { number: own.season, explicit: true };
+
+  const claim = claimOf(state.claims, record);
+  const key = recordTmdbKey(record);
+
+  return claim && claim.season && !claim.conflict && key && key === claim.key ? { number: claim.season, explicit: false } : null;
+}
+
+async function enrichSeason(state, record, series, tmdbId, season) {
+  let seasonDetails = null;
+
+  if (!seasonListed(series, season.number)) {
+    state.unavailable(record, `TMDB lists no season ${season.number} for tv ${tmdbId}; season date and episode rows skipped`);
+  } else {
+    const lookup = await lookupTmdbSeason(state, tmdbId, season.number);
+
+    if (lookup.status === "ok") seasonDetails = lookup.details;
+    else {
+      state.unavailable(
+        record,
+        `TMDB season ${season.number} of tv ${tmdbId} ${lookup.status === "not_found" ? "was not found" : "could not be fetched"}; season date and episode rows skipped`
+      );
+    }
+  }
+
+  const { episodes, ...fields } = tmdbMetadata(series, "tv", { number: season.number, details: seasonDetails });
+  const changed = mergeMissing(record, fields); // series poster/rating/tags still apply; the series date and status do not
+
+  // Explicit-season records merge rows by number. Older records keep their own rows (fill only when empty).
+  if ((season.explicit || isEmptyValue(record.episodes)) && mergeEpisodes(record, episodes)) changed.push("episodes");
+
+  return changed;
+}
+
 async function enrichRecord(state, record, extraNames = []) {
   state.enrichAttempted.add(record);
 
@@ -925,10 +1614,21 @@ async function enrichRecord(state, record, extraNames = []) {
   if (!key) return [];
 
   const [type, rawId] = key.split(":");
-  if (!needsEnrichment(record, type)) return [];
+
+  if (recordSeasonState(record).kind === "invalid") {
+    state.unavailable(record, `record has an unusable tmdbSeason (${describeValue(record.tmdbSeason)}); TMDB enrichment skipped`);
+    return [];
+  }
+
+  const season = type === "tv" ? enrichmentSeason(state, record) : null;
+  if (!needsEnrichment(record, type, season)) return [];
 
   const lookup = await lookupTmdb(state, type, Number(rawId));
-  if (lookup.status !== "ok") return [];
+
+  if (lookup.status !== "ok") {
+    state.unavailable(record, `TMDB ${type}/${rawId} ${lookup.status === "not_found" ? "was not found" : "could not be fetched"}; existing data kept`);
+    return [];
+  }
 
   if (!titlesCompatible(recordNames(record, extraNames), lookup.details, type)) {
     state.review(
@@ -938,7 +1638,7 @@ async function enrichRecord(state, record, extraNames = []) {
     return [];
   }
 
-  return mergeMissing(record, tmdbMetadata(lookup.details, type));
+  return season ? enrichSeason(state, record, lookup.details, Number(rawId), season) : mergeMissing(record, tmdbMetadata(lookup.details, type));
 }
 
 /* ------------------------------------------------------------------ */
@@ -947,43 +1647,49 @@ async function enrichRecord(state, record, extraNames = []) {
 
 async function processEntry(state, entry, label) {
   const { anime, cfg } = state;
-  const entryKey = entry.tmdbId ? `${entry.mediaType}:${entry.tmdbId}` : null;
+  const entryKey = entryTmdbKey(entry);
   const entryNames = [entry.title, entry.originalTitle, ...entry.aliases];
 
-  // 1. Stable identity: exact ID, or a known TMDB key including media type.
-  const hits = anime.filter(
-    (record) =>
-      isPlainObject(record) &&
-      ((!isEmptyValue(record.id) && String(record.id) === entry.id) ||
-        (entryKey && recordTmdbKey(record) === entryKey))
-  );
+  // 1. Stable identity: exact ID, or (season entries) media type + tmdbId + tmdbSeason, or (series entries)
+  //    a known TMDB key including media type. Ambiguity is reported, never guessed.
+  const identity = matchIdentity(anime, entry, state.claims);
 
-  if (hits.length > 1) {
-    state.review(label, "identity matches several existing records; resolve the duplicates manually");
+  if (identity.action === "review") {
+    state.review(label, identity.reason);
     return;
   }
 
-  let target = hits[0] || null;
+  let target = identity.action === "merge" ? identity.record : null;
   let entryLookup = null;
 
-  // 2. Title match, only when release years prove it is the same production.
+  // 2. Title match, only when release years prove it is the same production. A season entry never merges
+  //    by title: aliases include the series title, which every season shares.
   if (!target) {
-    const candidates = anime.filter((record) => {
-      if (!isPlainObject(record) || !titlesOverlap(entry, record)) return false;
-
-      const key = recordTmdbKey(record);
-      return !(entryKey && key && key !== entryKey);
-    });
+    const candidates = titleCandidates(anime, entry, state.claims);
 
     if (candidates.length) {
       let year = entry.year;
 
       if (year === null && entryKey && state.tmdbEnabled) {
-        entryLookup = await lookupTmdb(state, entry.mediaType, entry.tmdbId);
-        if (entryLookup.status === "ok") year = yearOf(tmdbDate(entryLookup.details, entry.mediaType));
+        if (entry.tmdbSeason) {
+          const seasonLookup = await lookupTmdbSeason(state, entry.tmdbId, entry.tmdbSeason);
+          if (seasonLookup.status === "ok") year = yearOf(seasonLookup.details.air_date); // never the series date
+        } else {
+          entryLookup = await lookupTmdb(state, entry.mediaType, entry.tmdbId);
+          if (entryLookup.status === "ok") year = yearOf(tmdbDate(entryLookup.details, entry.mediaType));
+        }
       }
 
-      const decision = resolveTitleMatch(year, candidates);
+      let decision = resolveTitleMatch(year, candidates);
+
+      if (decision.action === "merge" && entry.tmdbSeason) {
+        decision = {
+          action: "review",
+          reason:
+            `title matches existing record ${decision.record.id}, which has no season identity of its own; ` +
+            "a season entry merges only by exact id or tmdbId + tmdbSeason (set the manifest id to that record's id to merge)"
+        };
+      }
 
       if (decision.action === "review") {
         state.review(label, decision.reason);
@@ -1025,6 +1731,11 @@ async function processEntry(state, entry, label) {
 
     if (lookup.status === "ok" && !titlesCompatible(entryNames, lookup.details, entry.mediaType)) {
       state.review(label, `tmdbId ${entry.tmdbId} resolves to a different title on TMDB; fix tmdbId or add an alias`);
+      return;
+    }
+
+    if (lookup.status === "ok" && entry.tmdbSeason && !seasonListed(lookup.details, entry.tmdbSeason)) {
+      state.review(label, `TMDB lists no season ${entry.tmdbSeason} for tv ${entry.tmdbId}; fix tmdbSeason or tmdbId`);
       return;
     }
   }
@@ -1133,6 +1844,12 @@ function logScanSummary(report) {
 
   if (report.zeroAddReason) console.log(`Reason: ${report.zeroAddReason}`);
 
+  console.log(
+    `TMDB: ${report.tmdb.enabled ? `${report.tmdb.requests} request(s), ${report.tmdb.failures} failure(s)` : "disabled"}` +
+      (report.tmdb.unavailable.length ? ` | enrichment unavailable for ${report.tmdb.unavailable.length} item(s)` : "")
+  );
+  for (const item of report.tmdb.unavailable.slice(0, 10)) console.log(`  tmdb - ${item.entry}: ${item.reason}`);
+
   for (const [name, items] of [["rejected", report.rejected], ["review", report.needsReview], ["deferred", report.deferred]]) {
     for (const item of items.slice(0, 10)) console.log(`  ${name} - ${item.entry}: ${item.reason}`);
   }
@@ -1150,7 +1867,13 @@ async function run(options = {}) {
   const rel = (file) => path.relative(process.cwd(), file).split(path.sep).join("/") || file;
 
   console.log("Starting Tamil-dub anime catalog updater (add-only, official-source manifest)...");
-  console.log(`TMDB metadata enrichment: ${cfg.tmdbApiKey ? "enabled" : "disabled (no TMDB_API_KEY)"}`);
+  console.log(
+    `TMDB metadata enrichment: ${
+      cfg.tmdbApiKey
+        ? "enabled"
+        : "disabled (no TMDB_API_KEY): artwork, ratings, season dates and season episode rows are not fetched; existing and manifest data are kept"
+    }`
+  );
   console.log(`YouTube channel confirmation: ${cfg.youtubeApiKey ? "enabled" : "disabled (manifest-asserted)"}`);
 
   const originalText = await fs.readFile(cfg.catalogFile, "utf8");
@@ -1177,6 +1900,24 @@ async function run(options = {}) {
     if (!channels.has(channelId)) channels.set(channelId, { name: "Official YouTube channel" });
   }
 
+  // Validate the whole manifest first so identity (which season each manifest id owns, which entries
+  // contradict each other) never depends on the order entries are processed in.
+  const prepared = manifest.entries.map((raw, index) => {
+    const label = cleanText(raw && raw.title) || `entry #${index + 1}`;
+
+    try {
+      return { label, validation: validateEntry(raw, channels) };
+    } catch (error) {
+      return { label, error };
+    }
+  });
+
+  const analysis = analyzeManifestIdentities(
+    prepared
+      .filter((item) => item.validation && item.validation.ok)
+      .map((item) => ({ label: item.label, entry: item.validation.entry }))
+  );
+
   const report = {
     scannedAt: nowIso,
     status: "zero-add",
@@ -1198,12 +1939,22 @@ async function run(options = {}) {
     rejected: [],
     needsReview: [],
     deferred: [],
-    tmdb: { enabled: Boolean(cfg.tmdbApiKey), requests: 0, failures: 0 }
+    tmdb: {
+      enabled: Boolean(cfg.tmdbApiKey),
+      requests: 0,
+      failures: 0,
+      note: cfg.tmdbApiKey
+        ? null
+        : "TMDB_API_KEY not set: no TMDB metadata, season dates or season episode rows were fetched; existing and manifest data were kept.",
+      unavailable: []
+    }
   };
 
   const reviewSeen = new Set();
+  const unavailableSeen = new Set();
   const state = {
     cfg,
+    claims: analysis.claims,
     nowIso,
     report,
     anime: working.anime,
@@ -1221,17 +1972,27 @@ async function run(options = {}) {
         reviewSeen.add(`${entry}|${reason}`);
         report.needsReview.push({ entry, reason });
       }
+    },
+    // Enrichment that could not run (failed fetch, missing season): reported, never an error, data untouched.
+    unavailable(record, reason) {
+      const entry = cleanText(record && record.title) || String((record && record.id) || "record");
+
+      if (!unavailableSeen.has(`${entry}|${reason}`)) {
+        unavailableSeen.add(`${entry}|${reason}`);
+        report.tmdb.unavailable.push({ entry, reason });
+      }
     }
   };
 
   if (!manifest.found) console.warn(`WARNING: manifest not found at ${rel(cfg.manifestFile)}; no titles can be added.`);
 
-  for (let index = 0; index < manifest.entries.length; index++) {
-    const raw = manifest.entries[index];
-    const label = cleanText(raw && raw.title) || `entry #${index + 1}`;
+  for (const item of prepared) {
+    const { label } = item;
 
     try {
-      const validation = validateEntry(raw, channels);
+      if (item.error) throw item.error;
+
+      const validation = item.validation;
 
       if (!validation.ok) {
         report.rejected.push({ entry: label, reason: validation.reason });
@@ -1239,8 +2000,16 @@ async function run(options = {}) {
       }
 
       for (const problem of validation.problems) console.warn(`${label}: ignored one evidence item (${problem})`);
+      for (const warning of validation.warnings || []) state.review(label, `manifest note: ${warning}`);
 
       const entry = validation.entry;
+      const conflict = analysis.conflicts.get(entry);
+
+      if (conflict) {
+        state.review(label, conflict);
+        continue;
+      }
+
       const confirmed = [];
       const failures = [];
       let deferred = false;
@@ -1296,6 +2065,7 @@ async function run(options = {}) {
   report.zeroAddReason = report.added > 0 ? null : explainZeroAdd(report);
 
   for (const key of ["rejected", "needsReview", "deferred"]) report[key] = report[key].slice(0, MAX_REPORT_ITEMS);
+  report.tmdb.unavailable = report.tmdb.unavailable.slice(0, MAX_REPORT_ITEMS);
 
   // Only updater-owned metadata changes; every other top-level property is kept as-is.
   if (report.added > 0 || updatedExisting.length > 0 || isEmptyValue(working.lastUpdated)) {
@@ -1348,8 +2118,14 @@ module.exports = {
   validateEntry,
   normalizeTitle,
   recordTmdbKey,
+  recordSeasonKey,
+  tmdbSeasonKey,
+  matchIdentity,
+  analyzeManifestIdentities,
+  createSeasonEpisodes,
   resolveTitleMatch,
   mergeRecord,
+  mergeEpisodes,
   isEmptyValue,
   writeJsonAtomic
 };
@@ -1360,4 +2136,4 @@ if (require.main === module) {
     console.error(redact(error && error.stack ? error.stack : error));
     process.exit(1);
   });
-      }
+}
