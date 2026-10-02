@@ -5715,7 +5715,7 @@
     "manualAnime": 25,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-02T11:42:18.974Z",
+      "scannedAt": "2026-10-02T17:13:04.934Z",
       "status": "zero-add",
       "zeroAddReason": "27 manifest entries were already in the catalog",
       "manifest": {
