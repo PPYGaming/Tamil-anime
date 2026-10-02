@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-01",
+  "officialYouTubeChannels": [],
+  "entries": [
+    {
+      "id": "verified-jujutsu-kaisen-season-1",
+      "title": "JUJUTSU KAISEN Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/7/28/chainsaw-man-jujutsu-kaisen-season-1-hindi-dub-premiere-dates-announced",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article states Season 1 Hindi and Tamil dubs."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 95479,
+      "tmdbUrl": "https://www.themoviedb.org/tv/95479",
+      "tmdbSeason": 1,
+      "aliases": [
+        "JUJUTSU KAISEN"
+      ]
+    },
+    {
+      "id": "verified-jujutsu-kaisen-season-2",
+      "title": "JUJUTSU KAISEN Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/9/21/crunchyroll-jujutsu-kaisen-season-2-hindi-tamil-dubs",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article announces Hindi and Tamil dubs."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 95479,
+      "tmdbUrl": "https://www.themoviedb.org/tv/95479",
+      "tmdbSeason": 2,
+      "aliases": [
+        "JUJUTSU KAISEN"
+      ]
+    },
+    {
+      "id": "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
+      "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/8/11/demon-slayer-kimetsu-no-yaiba-mugen-train-arc-tamil-dub-august-13",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article explicitly announces Tamil dub premiere and cast."
+      },
+      "mediaType": "tv",
+      "year": 2021,
+      "tmdbId": 85937,
+      "tmdbUrl": "https://www.themoviedb.org/tv/85937",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Demon Slayer: Kimetsu no Yaiba"
+      ]
+    },
+    {
+      "id": "verified-frieren--beyond-journey-s-end",
+      "title": "Frieren: Beyond Journey's End",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/9/20/crunchyroll-fall-2023-dubs-girlfriend-girlfriend-season-2-goblin-slayer-ii",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Fall 2023 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 209867,
+      "tmdbUrl": "https://www.themoviedb.org/tv/209867"
+    },
+    {
+      "id": "verified-black-butler--public-school-arc",
+      "title": "Black Butler -Public School Arc-",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 50712,
+      "tmdbUrl": "https://www.themoviedb.org/tv/50712",
+      "tmdbSeason": 4,
+      "aliases": [
+        "Black Butler"
+      ]
+    },
+    {
+      "id": "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
+      "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 237233,
+      "tmdbUrl": "https://www.themoviedb.org/tv/237233"
+    },
+    {
+      "id": "verified-kaiju-no--8",
+      "title": "Kaiju No. 8",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 207468,
+      "tmdbUrl": "https://www.themoviedb.org/tv/207468"
+    },
+    {
+      "id": "verified-blue-lock",
+      "title": "BLUE LOCK",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 131041,
+      "tmdbUrl": "https://www.themoviedb.org/tv/131041"
+    },
+    {
+      "id": "verified-dr--stone-season-1",
+      "title": "Dr. STONE Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 86031,
+      "tmdbUrl": "https://www.themoviedb.org/tv/86031",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Dr. STONE"
+      ]
+    },
+    {
+      "id": "verified-haikyu---season-1",
+      "title": "Haikyu!! Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2014,
+      "tmdbId": 60863,
+      "tmdbUrl": "https://www.themoviedb.org/tv/60863",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Haikyu!!"
+      ]
+    },
+    {
+      "id": "verified-mashle--magic-and-muscles",
+      "title": "MASHLE: MAGIC AND MUSCLES",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 204832,
+      "tmdbUrl": "https://www.themoviedb.org/tv/204832"
+    },
+    {
+      "id": "verified-radiant-season-2",
+      "title": "Radiant Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 82879,
+      "tmdbUrl": "https://www.themoviedb.org/tv/82879",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Radiant"
+      ]
+    },
+    {
+      "id": "verified-tsukimichi--moonlit-fantasy--season-1",
+      "title": "TSUKIMICHI -Moonlit Fantasy- Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2021,
+      "tmdbId": 111819,
+      "tmdbUrl": "https://www.themoviedb.org/tv/111819",
+      "tmdbSeason": 1,
+      "aliases": [
+        "TSUKIMICHI -Moonlit Fantasy-"
+      ]
+    },
+    {
+      "id": "verified-alya-sometimes-hides-her-feelings-in-russian",
+      "title": "Alya Sometimes Hides Her Feelings in Russian",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 235758,
+      "tmdbUrl": "https://www.themoviedb.org/tv/235758"
+    },
+    {
+      "id": "verified-bye-bye--earth",
+      "title": "Bye Bye, Earth",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 214587,
+      "tmdbUrl": "https://www.themoviedb.org/tv/214587"
+    },
+    {
+      "id": "verified-makeine--too-many-losing-heroines",
+      "title": "Makeine: Too Many Losing Heroines!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 241535,
+      "tmdbUrl": "https://www.themoviedb.org/tv/241535"
+    },
+    {
+      "id": "verified-no-longer-allowed-in-another-world",
+      "title": "No Longer Allowed in Another World",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 205743,
+      "tmdbUrl": "https://www.themoviedb.org/tv/205743"
+    },
+    {
+      "id": "verified-quality-assurance-in-another-world",
+      "title": "Quality Assurance in Another World",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 222925,
+      "tmdbUrl": "https://www.themoviedb.org/tv/222925"
+    },
+    {
+      "id": "verified-the-strongest-magician-in-the-demon-lord-s-army-was-a-human",
+      "title": "The Strongest Magician in the Demon Lord's Army was a Human",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 248951,
+      "tmdbUrl": "https://www.themoviedb.org/tv/248951"
+    },
+    {
+      "id": "verified-wistoria--wand-and-sword",
+      "title": "Wistoria: Wand and Sword",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 245842,
+      "tmdbUrl": "https://www.themoviedb.org/tv/245842"
+    },
+    {
+      "id": "verified-fire-force-season-2",
+      "title": "Fire Force Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 88046,
+      "tmdbUrl": "https://www.themoviedb.org/tv/88046",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Fire Force"
+      ]
+    },
+    {
+      "id": "verified-the-ancient-magus--bride-season-1",
+      "title": "The Ancient Magus' Bride Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2017,
+      "tmdbId": 73833,
+      "tmdbUrl": "https://www.themoviedb.org/tv/73833",
+      "tmdbSeason": 1,
+      "aliases": [
+        "The Ancient Magus' Bride"
+      ]
+    },
+    {
+      "id": "verified-assassination-classroom",
+      "title": "Assassination Classroom",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2015,
+      "tmdbId": 62110,
+      "tmdbUrl": "https://www.themoviedb.org/tv/62110"
+    },
+    {
+      "id": "verified-spy-x-family-season-1",
+      "title": "SPY x FAMILY Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 120089,
+      "tmdbUrl": "https://www.themoviedb.org/tv/120089",
+      "tmdbSeason": 1,
+      "aliases": [
+        "SPY x FAMILY"
+      ]
+    },
+    {
+      "id": "verified-spy-x-family-season-2",
+      "title": "SPY x FAMILY Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 120089,
+      "tmdbUrl": "https://www.themoviedb.org/tv/120089",
+      "tmdbSeason": 2,
+      "aliases": [
+        "SPY x FAMILY"
+      ]
+    },
+    {
+      "id": "verified-that-time-i-got-reincarnated-as-a-slime-season-1",
+      "title": "That Time I Got Reincarnated as a Slime Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2018,
+      "tmdbId": 82684,
+      "tmdbUrl": "https://www.themoviedb.org/tv/82684",
+      "tmdbSeason": 1,
+      "aliases": [
+        "That Time I Got Reincarnated as a Slime"
+      ]
+    },
+    {
+      "id": "verified-yuri----on-ice",
+      "title": "Yuri!!! on ICE",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2026/2/6/yuri-on-ice-anime-hindi-tamil-telugu-dub-streaming",
+        "checkedAt": "2026-10-01",
+        "note": "Official article states Tamil dub available and names Tamil cast."
+      },
+      "mediaType": "tv",
+      "year": 2016,
+      "tmdbId": 68129,
+      "tmdbUrl": "https://www.themoviedb.org/tv/68129"
+    }
+  ]
+}
