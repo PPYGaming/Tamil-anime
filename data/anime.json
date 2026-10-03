@@ -5853,7 +5853,7 @@
     "manualAnime": 26,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-03T15:32:19.153Z",
+      "scannedAt": "2026-10-03T20:26:53.837Z",
       "status": "zero-add",
       "zeroAddReason": "26 manifest entries were already in the catalog; 1 need manual review (see needsReview)",
       "manifest": {
