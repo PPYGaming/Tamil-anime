@@ -5849,13 +5849,13 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 1,
+    "discoveredAnime": 0,
     "manualAnime": 26,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-02T21:43:00.729Z",
-      "status": "added",
-      "zeroAddReason": null,
+      "scannedAt": "2026-10-03T03:16:00.898Z",
+      "status": "zero-add",
+      "zeroAddReason": "26 manifest entries were already in the catalog; 1 need manual review (see needsReview)",
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
         "found": true,
@@ -5863,15 +5863,13 @@
         "updatedAt": "2026-10-01",
         "entries": 27
       },
-      "catalogBefore": 25,
+      "catalogBefore": 26,
       "catalogAfter": 26,
-      "added": 1,
-      "addedIds": [
-        "verified-spy-x-family-season-2"
-      ],
+      "added": 0,
+      "addedIds": [],
       "updatedExisting": 0,
       "updatedIds": [],
-      "alreadyInCatalog": 25,
+      "alreadyInCatalog": 26,
       "rejected": [],
       "needsReview": [
         {
@@ -5882,7 +5880,7 @@
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 3,
+        "requests": 1,
         "failures": 0,
         "note": null,
         "unavailable": []
