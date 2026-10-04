@@ -2106,6 +2106,27 @@
           "officialUrl": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess"
         }
       ]
+    },
+    {
+      "id": "verified-the-drops-of-god",
+      "title": "The Drops of God",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 306121,
+      "tmdbUrl": "https://www.themoviedb.org/tv/306121",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+        }
+      ]
     }
   ]
 }
