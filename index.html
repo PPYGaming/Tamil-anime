@@ -16,29 +16,25 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="./">Tamil Dub Anime</a>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#all">All Anime</a>
-        <a href="#new">New</a>
-        <a href="#updated">Recently Updated</a>
-      </nav>
     </div>
   </header>
 
   <main id="home" class="wrap">
     <section class="hero">
       <div>
-        <h1>Anime Discovery</h1>
+        <h1>Tamil Dub Animes</h1>
         <p>Find Tamil-dubbed anime, official platform availability, episodes and official videos.</p>
       </div>
-      <button id="refreshButton" type="button">Refresh</button>
     </section>
 
     <section class="toolbar" aria-label="Catalog controls">
-      <label class="search">
-        <span class="sr-only">Search anime</span>
-        <input id="searchInput" type="search" placeholder="Search anime..." autocomplete="off">
-      </label>
+      <div class="search-row">
+        <label class="search">
+          <span class="sr-only">Search anime</span>
+          <input id="searchInput" type="search" placeholder="Search anime..." autocomplete="off">
+        </label>
+        <button id="refreshButton" class="refresh-btn" type="button">Refresh</button>
+      </div>
       <div class="filters">
         <button data-filter="all" class="active">All</button>
         <button data-filter="new">New</button>
