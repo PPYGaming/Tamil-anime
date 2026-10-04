@@ -1,7 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01",
-  "officialYouTubeChannels": [],
+  "updatedAt": "2026-10-03",
+  "officialYouTubeChannels": [
+    {
+      "name": "Muse India",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q"
+    }
+  ],
   "entries": [
     {
       "id": "verified-jujutsu-kaisen-season-1",
