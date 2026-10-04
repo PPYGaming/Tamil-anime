@@ -11,10 +11,10 @@
   const PLATFORM_ORDER = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
   const YOUTUBE_LABEL = "YouTube (Muse India)";
   const YOUTUBE_NAMES = ["youtube", "youtube (muse india)", "muse india"];
-  const EPISODE_SITES = [...PLATFORM_ORDER, "YouTube"];
   const STATE_TEXT = {
     verified: "Tamil dub verified",
     unverified: "Available, no confirmed Tamil audio",
+    reported: "Tamil dub reported by a third party (not confirmed)",
     unavailable: "Not available"
   };
   const NOTICE = {
@@ -91,12 +91,32 @@
     return s && s.toLowerCase() !== "available" ? s : "";
   }
 
+  // Only the totals are shown: no per-episode rows (there are no direct episode links to give).
+  function countsOf(a) {
+    const rows = (Array.isArray(a.episodes) ? a.episodes : []).filter(isObj);
+    const whole = (v) => (Number.isInteger(v) && v > 0 ? v : null);
+    if (Number.isInteger(a.tmdbSeason) && a.tmdbSeason > 0) {
+      return { seasons: 1, episodes: rows.length || null, seasonNumber: a.tmdbSeason };
+    }
+    const seen = new Set();
+    for (const r of rows) { const m = /^(\d+)-\d+$/.exec(text(r.number)); if (m) seen.add(m[1]); }
+    return {
+      seasons: whole(a.numberOfSeasons) || seen.size || null,
+      episodes: whole(a.numberOfEpisodes) || rows.length || null,
+      seasonNumber: null
+    };
+  }
+
   function metaSpans(a) {
     const items = [];
     const year = /^(\d{4})/.exec(text(a.firstAirDate));
     if (year) items.push(year[1]);
     if (present(a.rating)) items.push(`Rating ${a.rating}`);
     if (present(a.likes)) items.push(`Likes ${a.likes}`);
+    const counts = countsOf(a);
+    if (counts.seasonNumber) items.push(`Season ${counts.seasonNumber}`);
+    else if (counts.seasons) items.push(`${counts.seasons} ${counts.seasons === 1 ? "season" : "seasons"}`);
+    if (counts.episodes) items.push(`${counts.episodes} ${counts.episodes === 1 ? "episode" : "episodes"}`);
     const status = releaseStatus(a);
     if (status) items.push(status);
     return items.map((i) => `<span>${esc(i)}</span>`).join("");
@@ -143,7 +163,7 @@
       .reduce((best, p) => (!best || rank(p) > rank(best) ? p : best), null);
   }
 
-  const stateOf = (row) => (!row || row.available !== true ? "unavailable" : row.tamilDubVerified === true ? "verified" : "unverified");
+  const stateOf = (row) => (!row || row.available !== true ? "unavailable" : row.tamilDubVerified === true ? "verified" : row.tamilDubReported === true ? "reported" : "unverified");
 
   function extLink(href, label, cls = "") {
     return `<a class="action${cls ? ` ${cls}` : ""}" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}<span class="sr-only"> (opens in a new tab)</span></a>`;
@@ -186,6 +206,11 @@
         ? extLink(titlePage, `Open on ${name}`)
         : `<span class="muted">${announcement ? "Announcement only: no official title or watch page linked" : "Official link not configured"}</span>`;
       if (proof && proof !== titlePage) actions += extLink(proof, "View Tamil dub verification", "subtle");
+      if (state === "reported") {
+        const report = externalUrl(row.tamilDubReportUrl);
+        if (report) actions += extLink(report, `See report${row.tamilDubReportSource ? ` (${text(row.tamilDubReportSource)})` : ""}`, "subtle");
+        if (text(row.regionNote)) actions += `<span class="muted">${esc(text(row.regionNote))}</span>`;
+      }
       if (announcement && announcement !== proof) actions += extLink(announcement, "Read official announcement", "subtle");
     }
     return platformItem(name, state, actions);
@@ -239,28 +264,6 @@
     return [...PLATFORM_ORDER.map((name) => streamingItem(name, findRow(a.platforms, [name]))), youtubeItem(a)].join("");
   }
 
-  function episodeRow(e) {
-    const number = present(e.number) && text(e.number) ? `Episode ${text(e.number)}` : "Episode";
-    const title = text(e.title);
-    const parts = `<span class="ep-num">${esc(number)}</span>${title ? `<span class="ep-title">${esc(title)}</span>` : ""}`;
-    const href = externalUrl(e.url);
-    if (!href) return `<li class="episode-row is-static">${parts}<span class="sr-only"> Official link not available</span></li>`;
-    const site = EPISODE_SITES.includes(text(e.platform)) ? text(e.platform) : "";
-    return `<li class="episode-row has-link"><a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${parts}<span class="ep-go">${esc(site ? `Watch on ${site}` : "Watch")}</span><span class="sr-only"> (opens in a new tab)</span></a></li>`;
-  }
-
-  function episodesSection(list) {
-    const eps = (Array.isArray(list) ? list : []).filter(isObj);
-    if (!eps.length) return `<p class="section-note lead">No episodes are listed for this title yet.</p>`;
-    const linked = eps.filter((e) => externalUrl(e.url)).length;
-    const note = !linked
-      ? "Official episode links are not available for this title yet."
-      : linked === eps.length
-        ? "Every episode links to its official page."
-        : `${linked} of ${eps.length} episodes have an official link. The rest have no confirmed official link yet.`;
-    return `<p class="section-note lead">${note}</p><ul class="episode-list">${eps.map(episodeRow).join("")}</ul>`;
-  }
-
   function detailHtml(a) {
     const title = text(a.title) || "Untitled";
     const original = text(a.originalTitle);
@@ -285,10 +288,6 @@
       <h2 id="platformsHeading">Where to watch</h2>
       <ul class="platform-list">${platformRows(a)}</ul>
       <p class="section-note">Only platforms with an official listing in the catalog show as available, and a listing alone does not prove Tamil audio.</p>
-    </section>
-    <section class="detail-section" aria-labelledby="episodesHeading">
-      <h2 id="episodesHeading">Episodes</h2>
-      ${episodesSection(a.episodes)}
     </section>
   </article>`;
   }
@@ -453,7 +452,7 @@
 
   const api = {
     esc, safeUrl, externalUrl, imageSrc, youtubeId, recordId, routeFor, parseRoute,
-    cardHtml, detailHtml, stateHtml, platformRows, episodesSection, createApp, isAnnouncementUrl
+    cardHtml, detailHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = api;
