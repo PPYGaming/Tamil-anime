@@ -45,6 +45,8 @@ jobs:
           node scripts/update-anime.js
           # Playlist links are an extra: if this step fails, the catalog written above is still valid and is committed.
           node scripts/attach-playlists.js || true
+          # Third-party reported Netflix/Prime dubs (never verified): an extra, so a failure keeps the catalog above.
+          node scripts/add-reported.js || true
       - name: Commit changes
         run: |
           set -euo pipefail
