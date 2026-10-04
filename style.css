@@ -87,3 +87,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .owner-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:14px 0 0}
 .owner-tools button{border:1px solid rgba(207,188,255,.26);background:rgba(30,23,54,.78);color:#fff;border-radius:11px;padding:8px 14px}
 .owner-tools button:disabled{opacity:.6;cursor:progress}
+
+.header-inner{justify-content:center}.brand{text-align:center}
+.hero{justify-content:center;text-align:center}.hero p{margin-left:auto;margin-right:auto}
+.search-row{display:flex;gap:10px;align-items:center}.search-row .search{flex:1;min-width:0}
+.refresh-btn{border:1px solid rgba(207,188,255,.26);background:rgba(30,23,54,.78);color:#fff;border-radius:11px;padding:11px 17px;cursor:pointer;white-space:nowrap}.refresh-btn:hover{background:linear-gradient(135deg,#7752c7,#4c9cae);border-color:#c4afff}.refresh-btn:disabled{opacity:.6;cursor:default}
+@media(max-width:620px){.hero{align-items:center}.header-inner{align-items:center;flex-direction:row}}
