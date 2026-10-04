@@ -1,0 +1,2399 @@
+{
+  "version": 1,
+  "channels": {
+    "UCYYhAzgWuxPauRXdPpLAX3Q": {
+      "uploadsPlaylistId": "UUYYhAzgWuxPauRXdPpLAX3Q",
+      "bootstrap": {
+        "complete": false,
+        "started": true,
+        "nextPageToken": "EAAaH1BUOkNMb25JaEF3TkRBd1JEYzFOVVZGTTBFME16STI",
+        "pagesProcessed": 101,
+        "startedAt": "2026-10-04T16:16:17.086Z",
+        "completedAt": null
+      },
+      "incremental": {
+        "highWaterMark": "2026-10-04T16:00:07.000Z"
+      },
+      "lastScanAt": "2026-10-04T16:16:17.086Z",
+      "lastCompleteScanAt": null
+    }
+  },
+  "queue": [
+    {
+      "videoId": "_aS4YBsKcwQ",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 05 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-25T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "_qN6cwgeRls",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 12 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-01T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "-CbZD6bWjtA",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 07 (S1E07) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-20T16:00:10Z",
+        "durationSeconds": 1348,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "-DqqIhxe7kQ",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 03 (S1E03) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-18T10:30:27Z",
+        "durationSeconds": 1348,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "-tU0enM3OuE",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 07 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 07：Flower of God Episode Summary： Takeru healed the eyes of Lord Verminant's wife. But after finding out that she has Iver poisoning, Takeru heads out to look for a certain flower by the lake which is the ingredient for the antidote. However, as they arrived, they found the lake had turned into a muddy black. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for a",
+        "publishedAt": "2026-03-03T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "0_IlK0eJzf0",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 03 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-07-28T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "0LIh5WrGoZk",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 12 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-06T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "1omAWAn3Ca4",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 07 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-01T16:00:06Z",
+        "durationSeconds": 1470,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "323bp8Pu81E",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 10 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 10：Brolite's Darkness Episode Summary： After arriving at the elven land, Takeru and the others found out that Brolite is a high elf. Brolite had broken the rule of never leaving her homeland to find the divine steed her sister wanted. Afterward, they found a further secret that Brolite had hidden. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for a slightly diff",
+        "publishedAt": "2026-03-24T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "4d1jgV0Y4hw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 01 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-07-26T16:00:06Z",
+        "durationSeconds": 1470,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "569yrBg8CcA",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 06 (S1E06) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-19T16:00:03Z",
+        "durationSeconds": 1347,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "5j9AkT3yr2Q",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 13 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-19T16:00:06Z",
+        "durationSeconds": 1450,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "6BhKnNxiMdY",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 07 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-24T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "6VMwJ--ckdk",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 09 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-15T16:00:07Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "7B5Fx40ZGA4",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 11 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-31T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "85EXNFTGi2c",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 05 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-22T16:00:06Z",
+        "durationSeconds": 1440,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "85GpwS99_IU",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 13 (S2E01) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-26T16:00:11Z",
+        "durationSeconds": 1436,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "8DzgIEyzFPI",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 04 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-07-29T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "8OJH9WIns6g",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 01 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-21T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "A-kQah9ZE34",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 06 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-07-31T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "aSj50myumhQ",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title looks like a movie, OVA or special (not auto-added); title has no explicit episode number",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - OVA | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-20T16:00:07Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "B6y_8e-ksro",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 37 (S2E12) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-20T15:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "BnFoa0UjYpE",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 08 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-25T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "c0ND-fPgKPQ",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 09 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-29T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "cEmOGkPj1X8",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 09 (S1E09) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-22T16:00:10Z",
+        "durationSeconds": 1348,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "CspG1rTCQxE",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 19 (S2E07) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-10-02T16:00:07Z",
+        "durationSeconds": 1435,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "CTenU-JXeNw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 01 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-07T16:00:18Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "CUG55DoBqUU",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 05 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 05：The Two Bodyguards Episode Summary： Takeru headed to the craftman district in search of a good pair of scissors for material gathering. After meeting the apprentice blacksmith, Rible, he is tasked with gathering Ildra ores in exchange of having a personally-made scissors for himself. On the way, Takeru is reunited with Brolite. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However,",
+        "publishedAt": "2026-02-17T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "czIi2raEaSU",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 04 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-24T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "DHkaJD4n_RU",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 01 (S1E01) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-14T16:00:06Z",
+        "durationSeconds": 1435,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "DO2wtdNg3R0",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 09 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-03T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "E_rdllaMh1I",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 09 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 09：Unexpected Visitor Episode Summary： Varpy, the ancient horse goddess, has joined the party. Despite her beauty, her wild personality confuses Takeru. Meanwhile, after participating in a material gathering contest for adventurers, Takeru encountered a giant worm, which turned out to be ridden by Brolite, who asked Takeru a favor. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However,",
+        "publishedAt": "2026-03-17T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "eA-IId9NpL0",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 12 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-29T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "EcMplp9xDaw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 05 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-11T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "eKPZndPD9N8",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 07 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-27T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "Eq28o64QJ-4",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 11 (S1E11) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-24T16:00:08Z",
+        "durationSeconds": 1347,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "f_HfqHKvbPI",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 14 (S2E02) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-27T16:00:08Z",
+        "durationSeconds": 1436,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "fnMl1eB3WiU",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 06 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 06：The Territory Lord's Entreaty Episode Summary： The demon living in the mine of the dwarven country turns out to be Takeru and Bee's favorite, a giant crab. After successfully defeating it and discovering ore veins, they received rewards from the King. Back at Belkaim, Takeru and Clayston received a summon letter from the territory lord. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker.",
+        "publishedAt": "2026-02-24T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "gd5agjpDY9E",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 10 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-30T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "gLjfrvGoT0o",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 04 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 04：The Demon Lord Descends Episode Summary： It has been half a month since Takeru arrived at Belkaim. Takeru, who is fulfilled with his adventurer life, met Clayston, the lizardman warrior, at a public bath, who is wondering why Takeru is so unselfish. At that moment, news of goblins attacking the city arrived. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for",
+        "publishedAt": "2026-02-10T15:30:34Z",
+        "durationSeconds": 1420,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "h0KoLJwjFxA",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 06 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-26T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "HA-tsv_F9Pw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 03 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-23T16:00:07Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "hr5Qsl4RBOs",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 03 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-09T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "Ht-xxujEE10",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 12 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-18T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "iiu1GUiYujg",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 08 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-02T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "iwUAv2mb5r8",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 26 (S2E01) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-09T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "JjsKeIf26O4",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 12 (S1E12) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-25T16:00:06Z",
+        "durationSeconds": 1348,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "jWopDE_Jjjw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 16 (S2E04) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-29T16:00:06Z",
+        "durationSeconds": 1436,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "jZ2XHEBoybE",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 02 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-22T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "kBZuyQddV_s",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 01 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 01 Episode Summary： After being given various powers by a mysterious man, Takeru was reincarnated on another planet named Madeus. After using his search skills to gather materials and selling them, he is asked to look for mythril ore on a nearby mountain. But apparently, a scary monster lives there... ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for a slightly",
+        "publishedAt": "2026-01-20T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "kD2QlG9HaX8",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 36 (S2E11) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-19T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "kKSzDZGfQbc",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 11 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-17T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "KqgkXsCoWsU",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 06 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-23T16:00:27Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "lH6p0L9u_Ag",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 30 (S2E05) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-13T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "LrLrcXKQq8U",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 32 (S2E07) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-15T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "m14AVuH2mXo",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 04 (S1E04) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-17T16:00:08Z",
+        "durationSeconds": 1347,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "MCO4w8KQ0is",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 02 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-08T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "ogHTx1iUO2E",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 11 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 11：Cave of Danger Episode Summary： Takeru and the group are looking for River Arina to save the high elves. To look for a clue on their whereabouts, they headed to the Kieto Hollow. As they enter the cave, they encounter many poisonous monsters. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for a slightly different day, he was reincarnated into a world of sword",
+        "publishedAt": "2026-03-31T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "OIyXZOn7SjU",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 18 (S2E06) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-10-01T16:00:06Z",
+        "durationSeconds": 1436,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "OPPhx9eLU3E",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 08 (S1E08) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-21T16:00:06Z",
+        "durationSeconds": 1348,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "OsUK0ig-fsE",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 28 (S2E03) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-11T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "oxX8sBu8Wik",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 35 (S2E10) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-18T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "oY-SrsH9M0E",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 10 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-16T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "P0D6AYcZnCw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 11 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-05T16:00:06Z",
+        "durationSeconds": 1470,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "pfSoj_2kHXM",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 01 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-18T16:00:06Z",
+        "durationSeconds": 1442,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "pi7b--4Ybsc",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 02 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-19T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "Pnl8Cxfeaeg",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 02 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-07-28T11:00:14Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "PpGyfW7CTqM",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 27 (S2E02) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-10T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "PTAR05tMjoo",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 03 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-20T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "QNfmHilFRLs",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 29 (S2E04) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-12T15:00:07Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "qQUIhvVBMR4",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 11 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-28T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "qSGf8qxSDUY",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 20 (S2E08) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-10-03T16:00:07Z",
+        "durationSeconds": 1436,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "QUDla4vgDd8",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 10 (S1E10) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-23T16:00:10Z",
+        "durationSeconds": 1348,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "qwyNGHD52G8",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 02 (S1E02) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-15T16:00:06Z",
+        "durationSeconds": 1347,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "r0I61fiOKMo",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 15 (S2E03) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-28T16:00:07Z",
+        "durationSeconds": 1435,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "Sjl8j8GPhas",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 08 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-14T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "sPjynPVUoC0",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 09 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-26T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "TGGib555dA8",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 17 (S2E05) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-30T16:00:10Z",
+        "durationSeconds": 1435,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "U-fwCdTogPg",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 33 (S2E08) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-16T15:00:06Z",
+        "durationSeconds": 1450,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "UqWzZtYLK5U",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 04 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-21T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "UYWCnklSlqw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "deferred",
+      "reason": "video is \"live\" (live or upcoming premiere), not a finished upload",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 21 (S2E09) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-10-04T16:00:07Z",
+        "durationSeconds": null,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "live",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "vLwlHu77qgc",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 06 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-12T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "WaVKJ17QAls",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 34 (S2E09) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-17T15:00:17Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "WpxlNSRsK2I",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 III\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 III - Episode 08 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-28T16:00:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "WtqVGFINuiw",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 02 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 02：No Longer Eating Dinner Alone Episode Summary： Takeru begins his adventure alongside Bee, the dragon cub. They have fun cooking and defeating monsters. When Takeru realized he was surrounded by monsters, Bee took him to the skies to escape the forest. When they landed, they found a collapsed elf. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for a slightly di",
+        "publishedAt": "2026-01-27T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "XlSa3Js0pMI",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 04 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-10T16:00:34Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "xo8E0GCaf4Q",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 12 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 12：Yet Unseen World Episode Summary： In their search for River Arina, Takeru and the group reached Pnebra Valley. There, they found Luticara, Brolite's long-lost sister. Instead of a tearful reunion, the two started fighting instead. Afterwards, Takeru and the group finally found River Arina in the forest. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for a sli",
+        "publishedAt": "2026-04-07T15:30:06Z",
+        "durationSeconds": 1420,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "XRaof2H8Bww",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 10 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-04T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "XWucYJeN1pM",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 03 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 03：Hometown and Journey Episode Summary： Takeru and Bee finally returned to Tormi Village. After not only gathering the requested ore, but also the rare magic ore, Takeru is advised to head toward the city of commerce, Belkaim. While he would miss the friendly villagers, Takeru and Bee heads out to Belkaim. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However, when he wished for a sl",
+        "publishedAt": "2026-02-03T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "YeEZ4Hy_J80",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 5 regular seasons for \"Classroom of the Elite\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Classroom of the Elite - Episode 10 | Muse IN",
+        "description": "Anime Title: [Classroom of the Elite] https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-06-27T16:00:06Z",
+        "durationSeconds": 1441,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "yGmoq9CYxVQ",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 08 | Muse IN",
+        "description": "Anime Title: [A Gatherer's Adventure in Isekai]  [Tamil Dub] Playlist: https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl ———————————————————— Episode 08：A Means to the Future Episode Summary： Takeru and Clay found the flower they needed to make the antidote. They planned to immediately return to Lusewbach domain, but the village was burning. After the fire has been extinguished, they cannot find Gonza among the villagers. And so, they chased after Engache, who had kidnapped him. ———————————————————— 📖Synopsis： Takeru Kamishiro is just a regular office worker. However,",
+        "publishedAt": "2026-03-10T15:30:06Z",
+        "durationSeconds": 1421,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "YueJ5cd0C2E",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Mob Psycho 100 II\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 II - Episode 07 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-08-13T16:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "zF44IB-H9Xo",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "title has no season and TMDB lists 3 regular seasons for \"Mob Psycho 100\"; the season is not guessed",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Mob Psycho 100 - Episode 05 | Muse IN",
+        "description": "Anime Title: [Mob Psycho 100] 🎙️\"Tamil Dub\" Playlist:  https://www.youtube.com/playlist?list=PLF4OL6MRpW_U 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u- ———————————————————— म्यूज़ इंडिया जापान के सबसे लोकप्रिय एनीमे कंटेन्ट और उनके बारे में अपडेट करता है! हमारे वैद्य OTT प्लेटफार्मों पर लाइसेंस प्राप्त एनीमे देखें और अब अपने पसंदीदा एनीमे का समर्थन करें!   अधिक जानकारी के लिए, नीचे लिखे लिंक पर जाएँ :  Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-07-30T16:00:06Z",
+        "durationSeconds": 1471,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "ZjByZsg_wXM",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 05 (S1E05) | Muse IN",
+        "description": "Anime Title: [Campfire Cooking in Another World with My Absurd Skill] https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #TamilDub #CampfireCooking #Isekai #Foodie #Mappa #Fantasy #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-09-18T16:00:09Z",
+        "durationSeconds": 1347,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ta",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    },
+    {
+      "videoId": "ZQ71bWHtpV4",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+      "status": "review",
+      "reason": "video metadata lists its audio language as \"ja\"",
+      "firstSeenAt": "2026-10-04T16:16:17.086Z",
+      "lastTriedAt": "2026-10-04T16:16:17.086Z",
+      "attempts": 1,
+      "snapshot": {
+        "title": "[Tamil Dub] Attack on Titan - Episode 31 (S2E06) | Muse IN",
+        "description": "Anime Title: [Attack on Titan] https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa ———————————————————— Muse India provides the most popular anime content and updates from Japan! Watch licensed animations on legal OTT platforms and support your favorite anime now! For more information, please visit: Facebook: https://www.facebook.com/MuseIndiaChannel/ Instagram: https://www.instagram.com/museacg_in/ #AttackonTitan #ShingekinoKyojin #Eren #Mikasa #Armin #Levi #Titans #action #dark #anime #MuseIndia #MuseIN",
+        "publishedAt": "2026-04-14T15:00:06Z",
+        "durationSeconds": 1451,
+        "privacyStatus": "public",
+        "uploadStatus": "processed",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "ja",
+        "regionRestriction": {
+          "allowed": [
+            "IN"
+          ]
+        }
+      }
+    }
+  ],
+  "recheckCursor": ""
+}
