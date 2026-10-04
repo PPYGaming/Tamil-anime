@@ -4,6 +4,8 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "update": "node scripts/update-anime.js"
+    "update": "node scripts/update-anime.js",
+    "test": "node --test",
+    "scan-backend": "node backend/refresh-scan/adapters/node-server.js"
   }
 }
