@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "officialYouTubeChannels": [
     {
       "name": "Muse India",
@@ -618,6 +618,158 @@
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/GY2PEJ0MY/yuri-on-ice"
         }
+      ]
+    },
+    {
+      "id": "verified-attack-on-titan-season-1",
+      "title": "Attack on Titan Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=u2DagDGS1uQ",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Attack on Titan."
+      },
+      "mediaType": "tv",
+      "year": 2013,
+      "tmdbId": 1429,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1429",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Attack on Titan"
+      ]
+    },
+    {
+      "id": "verified-mob-psycho-100-season-1",
+      "title": "Mob Psycho 100 Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=4d1jgV0Y4hw",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Mob Psycho 100."
+      },
+      "mediaType": "tv",
+      "year": 2016,
+      "tmdbId": 67075,
+      "tmdbUrl": "https://www.themoviedb.org/tv/67075",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Mob Psycho 100"
+      ]
+    },
+    {
+      "id": "verified-mob-psycho-100-season-2",
+      "title": "Mob Psycho 100 Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=CTenU-JXeNw",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Mob Psycho 100 II."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 67075,
+      "tmdbUrl": "https://www.themoviedb.org/tv/67075",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Mob Psycho 100"
+      ]
+    },
+    {
+      "id": "verified-classroom-of-the-elite-season-1",
+      "title": "Classroom of the Elite Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=pfSoj_2kHXM",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Classroom of the Elite."
+      },
+      "mediaType": "tv",
+      "year": 2017,
+      "tmdbId": 72517,
+      "tmdbUrl": "https://www.themoviedb.org/tv/72517",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Classroom of the Elite"
+      ]
+    },
+    {
+      "id": "verified-classroom-of-the-elite-season-2",
+      "title": "Classroom of the Elite Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=RSzxgUoKNG0",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Classroom of the Elite Season 2."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 72517,
+      "tmdbUrl": "https://www.themoviedb.org/tv/72517",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Classroom of the Elite"
+      ]
+    },
+    {
+      "id": "verified-skeleton-knight-in-another-world-season-1",
+      "title": "Skeleton Knight in Another World Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=nfl5fvgfUqk",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Skeleton Knight in Another World."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 123528,
+      "tmdbUrl": "https://www.themoviedb.org/tv/123528",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Skeleton Knight in Another World"
+      ]
+    },
+    {
+      "id": "verified-a-gatherer-s-adventure-in-isekai-season-1",
+      "title": "A Gatherer's Adventure in Isekai Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=kBZuyQddV_s",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for A Gatherer's Adventure in Isekai."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 284442,
+      "tmdbUrl": "https://www.themoviedb.org/tv/284442",
+      "tmdbSeason": 1,
+      "aliases": [
+        "A Gatherer's Adventure in Isekai"
+      ]
+    },
+    {
+      "id": "verified-campfire-cooking-in-another-world-with-my-absurd-skill-season-1",
+      "title": "Campfire Cooking in Another World with My Absurd Skill Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=DHkaJD4n_RU",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Campfire Cooking in Another World."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 213402,
+      "tmdbUrl": "https://www.themoviedb.org/tv/213402",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Campfire Cooking in Another World with My Absurd Skill"
       ]
     }
   ]
