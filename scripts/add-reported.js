@@ -52,6 +52,7 @@ function validate(entry) {
   if (!PLATFORMS.includes(entry.platform)) return "platform must be Crunchyroll, Netflix or Amazon Prime Video";
   if (!platformUrlOk(entry.platform, entry.officialUrl)) return "officialUrl must be that platform's own title page";
   if (!reportOk(entry.report)) return "report needs an https url and a source name";
+  if (entry.tmdbSeason !== undefined && (entry.mediaType !== "tv" || !Number.isInteger(entry.tmdbSeason) || entry.tmdbSeason < 1 || entry.tmdbSeason > 60)) return "tmdbSeason must be an integer 1-60 on a tv entry";
   return null;
 }
 
@@ -84,7 +85,7 @@ function emptyRows() {
 function newRecord(entry, now) {
   const date = entry.year ? `${entry.year}-01-01` : "";
   return {
-    id: `reported-${slugify(entry.title)}-${entry.tmdbId}`,
+    id: `reported-${slugify(entry.title)}-${entry.tmdbId}${entry.tmdbSeason ? `-s${entry.tmdbSeason}` : ""}`,
     title: String(entry.title).trim(),
     originalTitle: "",
     description: "",
@@ -105,14 +106,16 @@ function newRecord(entry, now) {
     tmdbId: entry.tmdbId,
     tmdbUrl: `https://www.themoviedb.org/${entry.mediaType}/${entry.tmdbId}`,
     mediaType: entry.mediaType,
-    inclusionSource: "third-party-report"
+    inclusionSource: "third-party-report",
+    ...(entry.tmdbSeason ? { tmdbSeason: entry.tmdbSeason, tmdbSeasonUrl: `https://www.themoviedb.org/tv/${entry.tmdbId}/season/${entry.tmdbSeason}` } : {})
   };
 }
 
 async function enrich(record, apiKey) {
   if (!apiKey || record.inclusionSource !== "third-party-report") return false;
   if (record.description && record.image) return false;
-  const url = `https://api.themoviedb.org/3/${record.mediaType}/${record.tmdbId}?api_key=${encodeURIComponent(apiKey)}&language=en-US`;
+  const seasonal = Number.isInteger(record.tmdbSeason) && record.tmdbSeason > 0;
+  const url = `https://api.themoviedb.org/3/${record.mediaType}/${record.tmdbId}${seasonal ? `/season/${record.tmdbSeason}` : ""}?api_key=${encodeURIComponent(apiKey)}&language=en-US`;
   let data;
   try {
     const response = await fetch(url, { headers: { "User-Agent": "Tamil-Dub-Anime-Catalog/3.0" } });
@@ -128,6 +131,13 @@ async function enrich(record, apiKey) {
   };
   fill("description", String(data.overview || "").trim());
   fill("image", data.poster_path ? `https://image.tmdb.org/t/p/w500${data.poster_path}` : "");
+  if (seasonal && !record.image) {
+    try {
+      const series = await (await fetch(`https://api.themoviedb.org/3/tv/${record.tmdbId}?api_key=${encodeURIComponent(apiKey)}&language=en-US`, { headers: { "User-Agent": "Tamil-Dub-Anime-Catalog/3.0" } })).json();
+      fill("image", series.poster_path ? `https://image.tmdb.org/t/p/w500${series.poster_path}` : "");
+      fill("backdrop", series.backdrop_path ? `https://image.tmdb.org/t/p/w1280${series.backdrop_path}` : "");
+    } catch {}
+  }
   fill("backdrop", data.backdrop_path ? `https://image.tmdb.org/t/p/w1280${data.backdrop_path}` : "");
   fill("rating", typeof data.vote_average === "number" && data.vote_average > 0 ? Math.round(data.vote_average * 10) / 10 : null);
   fill("status", String(data.status || ""));
@@ -158,7 +168,7 @@ async function main() {
     if (problem) { console.warn(`Reported dub "${entry && entry.title}" skipped: ${problem}`); stats.skipped++; continue; }
 
     const key = `${entry.mediaType}:${entry.tmdbId}`;
-    let targets = anime.filter((record) => tmdbKey(record) === key);
+    let targets = anime.filter((record) => tmdbKey(record) === key && (entry.tmdbSeason ? record.tmdbSeason === entry.tmdbSeason : true));
 
     if (!targets.length) {
       const record = newRecord(entry, now);
