@@ -101,3 +101,15 @@ test("the checked-in reports file validates and never claims official proof", ()
     assert.equal(entry.verification, undefined, `${entry.title}: no verification block`);
   }
 });
+
+test("a season entry creates a season-scoped reported record and never merges into a series record", () => {
+  const { validate, newRecord } = require("../scripts/add-reported.js");
+  const entry = { title: "Show: Arc", mediaType: "tv", tmdbId: 5, tmdbSeason: 6, platform: "Netflix", officialUrl: "https://www.netflix.com/title/123", report: { source: "Blog", url: "https://example.com/x" } };
+  assert.equal(validate(entry), null);
+  assert.notEqual(validate({ ...entry, tmdbSeason: 0 }), null);
+  assert.notEqual(validate({ ...entry, mediaType: "movie" }), null);
+  const record = newRecord(entry, "2026-10-05T00:00:00Z");
+  assert.equal(record.tmdbSeason, 6);
+  assert.equal(record.tamilDubVerified, false);
+  assert.match(record.id, /-s6$/);
+});
