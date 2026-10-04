@@ -73,7 +73,7 @@ test("the manifest allow-list holds exactly the owner-confirmed Muse India chann
   const manifest = JSON.parse(read("data/official-tamil-dub-manifest.json"));
 
   assert.deepEqual(manifest.officialYouTubeChannels, [{ name: "Muse India", channelId: "UCYYhAzgWuxPauRXdPpLAX3Q" }]);
-  assert.equal(manifest.entries.length, 95, "earlier entries plus 9 Muse India series and Crunchyroll Tamil-audio titles added on 2026-10-04");
+  assert.equal(manifest.entries.length, 96, "earlier entries plus 9 Muse India series and Crunchyroll Tamil-audio titles added on 2026-10-04");
 });
 
 /* ------------------------------ workflows (text checks only) ------------------------------ */
