@@ -2152,6 +2152,27 @@
       "aliases": [
         "KONOSUBA -God's Blessing on This Wonderful World!"
       ]
+    },
+    {
+      "id": "verified-ranking-of-kings",
+      "title": "Ranking of Kings",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/9/8/ranking-of-kings-tamil-dub-code-geass-hindi-dub",
+        "checkedAt": "2026-10-05",
+        "note": "Official Crunchyroll announcement of the Tamil dub; Crunchyroll episode pages are titled Ranking of Kings (Tamil Dub)."
+      },
+      "mediaType": "tv",
+      "year": 2021,
+      "tmdbId": 112613,
+      "tmdbUrl": "https://www.themoviedb.org/tv/112613",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23W70/ranking-of-kings"
+        }
+      ]
     }
   ]
 }
