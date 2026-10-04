@@ -28,7 +28,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .meta:empty{display:none}
 .badge,.pill{display:inline-block;border:1px solid;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:650;line-height:1.4}
 .badge-verified,.pill-verified{color:#8ff1f5;background:rgba(114,229,235,.12);border-color:rgba(114,229,235,.42)}
-.pill-unverified{color:#f6d28b;background:rgba(246,210,139,.1);border-color:rgba(246,210,139,.42)}
+.pill-reported,.pill-unverified{color:#f6d28b;background:rgba(246,210,139,.1);border-color:rgba(246,210,139,.42)}
 .badge-unverified,.pill-unavailable{color:#a9a6bd;background:rgba(255,255,255,.04);border:1px dashed rgba(201,185,255,.28)}
 
 /* ===== Title page ===== */
