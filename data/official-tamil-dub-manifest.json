@@ -2062,6 +2062,11 @@
           "name": "Amazon Prime Video",
           "available": true,
           "officialUrl": "https://www.primevideo.com/detail/0LA5USYMUJWOHIADWEXZSMJU6R"
+        },
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier"
         }
       ]
     },
@@ -2171,6 +2176,216 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G79H23W70/ranking-of-kings"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-gorilla-god-s-go-to-girl",
+      "title": "The Gorilla God's Go-To Girl",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 278816,
+      "tmdbUrl": "https://www.themoviedb.org/tv/278816",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl"
+        }
+      ]
+    },
+    {
+      "id": "verified-dead-mount-death-play",
+      "title": "Dead Mount Death Play",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 214540,
+      "tmdbUrl": "https://www.themoviedb.org/tv/214540",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play"
+        }
+      ]
+    },
+    {
+      "id": "verified-possibly-the-greatest-alchemist-of-all-time",
+      "title": "Possibly the Greatest Alchemist of All Time",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 261298,
+      "tmdbUrl": "https://www.themoviedb.org/tv/261298",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time"
+        }
+      ]
+    },
+    {
+      "id": "verified-my-tiny-senpai",
+      "title": "My Tiny Senpai",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 217390,
+      "tmdbUrl": "https://www.themoviedb.org/tv/217390",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai"
+        }
+      ]
+    },
+    {
+      "id": "verified-gachiakuta",
+      "title": "Gachiakuta",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 256721,
+      "tmdbUrl": "https://www.themoviedb.org/tv/256721",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta"
+        }
+      ]
+    },
+    {
+      "id": "verified-i-shall-survive-using-potions",
+      "title": "I Shall Survive Using Potions!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 221148,
+      "tmdbUrl": "https://www.themoviedb.org/tv/221148",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-rising-of-the-shield-hero",
+      "title": "The Rising of the Shield Hero",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 83095,
+      "tmdbUrl": "https://www.themoviedb.org/tv/83095",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero"
+        }
+      ]
+    },
+    {
+      "id": "verified-karna-the-guardian",
+      "title": "Karna the Guardian",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 217167,
+      "tmdbUrl": "https://www.themoviedb.org/tv/217167",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian"
+        }
+      ]
+    },
+    {
+      "id": "verified-trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+      "title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 139512,
+      "tmdbUrl": "https://www.themoviedb.org/tv/139512",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs"
+        }
+      ]
+    },
+    {
+      "id": "verified-i-ll-become-a-villainess-who-goes-down-in-history",
+      "title": "I'll Become a Villainess Who Goes Down in History",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 248817,
+      "tmdbUrl": "https://www.themoviedb.org/tv/248817",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history"
         }
       ]
     }
