@@ -862,6 +862,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G1XHJV02M/you-are-ms-servant"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0M2SI7MCVULFXJVQWD8LJYX27I"
         }
       ]
     },
@@ -2036,6 +2041,27 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/GVDHX8JZ2/shoot-goal-to-the-future"
+        }
+      ]
+    },
+    {
+      "id": "verified-shangri-la-frontier",
+      "title": "Shangri-La Frontier",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.primevideo.com/detail/0LA5USYMUJWOHIADWEXZSMJU6R",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on the Prime Video title page."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 205050,
+      "tmdbUrl": "https://www.themoviedb.org/tv/205050",
+      "platforms": [
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0LA5USYMUJWOHIADWEXZSMJU6R"
         }
       ]
     }
