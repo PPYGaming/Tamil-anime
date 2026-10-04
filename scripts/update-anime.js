@@ -48,14 +48,26 @@
  * For a season entry TMDB supplies only that season's episode rows (title/airDate, url always null) and
  * its air date; series-level poster/rating/tags are still used, the series first_air_date never is.
  *
+ * Automatic discovery (opt-in: DISCOVERY_ENABLED=true; scripts/discovery/). With a YOUTUBE_API_KEY and an
+ * allow-listed official channel ID (manifest officialYouTubeChannels, or OFFICIAL_YOUTUBE_CHANNEL_IDS) the
+ * updater walks that channel's uploads, keeps ONLY videos whose title starts with "Tamil Dub" and whose API-reported
+ * snippet.channelId is on the allow-list, resolves the series/season conservatively, and pushes the result through
+ * the same validateEntry -> processEntry -> mergeRecord path as manifest entries. The manifest is never written.
+ * Checkpoints live in DISCOVERY_STATE_FILE (default data/discovery-state.json), written after the catalog. TMDB
+ * only names the series; it never proves Tamil audio. Unsettled videos stay in the state queue and are retried.
+ *
  * Env: TMDB_API_KEY, YOUTUBE_API_KEY (both optional), CONTENT_REGION,
  * ANIME_DATA_FILE, OFFICIAL_MANIFEST_PATH, OFFICIAL_YOUTUBE_CHANNEL_IDS
- * (comma list), FAIL_ON_ZERO_ADD. API keys are read from the environment only.
+ * (comma list), FAIL_ON_ZERO_ADD, DISCOVERY_ENABLED, DISCOVERY_STATE_FILE and the DISCOVERY_* limits documented in
+ * scripts/discovery/index.js. API keys are read from the environment only.
  */
 
 const fs = require("fs/promises");
 const path = require("path");
 const crypto = require("crypto");
+const { startDiscovery, readDiscoveryConfig } = require("./discovery");
+const { parseState, serializeState } = require("./discovery/state");
+const { sanitizeProvenance, mergeProvenance, applyAvailability, provenanceRows } = require("./discovery/provenance");
 
 const USER_AGENT = "Tamil-Dub-Anime-Catalog/3.0";
 const REQUIRED_PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
@@ -77,7 +89,7 @@ const RECORD_KEY_ORDER = [
   "likes", "availability", "status", "firstAirDate", "createdAt", "updatedAt",
   "isNew", "tags", "platforms", "episodes", "youtube", "tamilDubVerified",
   "tamilDubVerificationSource", "tamilDubVerificationUrl", "tamilDubVerifiedAt",
-  "tamilDubEvidence", "inclusionSource", "tmdbId", "tmdbUrl", "tmdbSeason", "tmdbSeasonUrl",
+  "tamilDubEvidence", "discoveryProvenance", "inclusionSource", "tmdbId", "tmdbUrl", "tmdbSeason", "tmdbSeasonUrl",
   "mediaType", "region"
 ];
 
@@ -90,7 +102,7 @@ const ENRICHABLE_KEYS = [
 // Merged by dedicated logic instead of the generic fill-if-empty rule.
 const SPECIAL_KEYS = new Set([
   "tamilDubVerified", "tamilDubVerificationSource", "tamilDubVerificationUrl",
-  "tamilDubVerifiedAt", "tamilDubEvidence", "platforms",
+  "tamilDubVerifiedAt", "tamilDubEvidence", "platforms", "discoveryProvenance",
   "tmdbId", "tmdbUrl", "mediaType", "tmdbSeason", "tmdbSeasonUrl"
 ]);
 
@@ -117,7 +129,9 @@ function readConfig(env = process.env) {
       .map((value) => value.trim())
       .filter(Boolean),
     failOnZeroAdd: /^(1|true|yes)$/i.test(env.FAIL_ON_ZERO_ADD || ""),
-    tmdbDelayMs: 120
+    tmdbDelayMs: 120,
+    discoveryStateFile: resolve(env.DISCOVERY_STATE_FILE, path.join("data", "discovery-state.json")),
+    discovery: readDiscoveryConfig(env) // opt-in: enabled only by DISCOVERY_ENABLED=true
   };
 }
 
@@ -247,6 +261,11 @@ function yearOf(value) {
 
 function recordYear(record) {
   return yearOf(record.firstAirDate) ?? yearOf(record.releaseDate) ?? yearOf(record.year);
+}
+
+// Bounded, single-line copy of external text for reports and logs.
+function short(value, max) {
+  return String(value === undefined || value === null ? "" : value).replace(/[\u0000-\u001f\u007f]+/g, " ").trim().slice(0, max);
 }
 
 function isHttpsUrl(value) {
@@ -644,7 +663,9 @@ function describeValue(value) {
   }
 }
 
-function validateEntry(raw, channels) {
+// options.discovery = true is passed by code only (never by manifest content): it lets the entry carry its origin,
+// inclusion source and per-video provenance. A hand-written manifest entry cannot claim any of these.
+function validateEntry(raw, channels, options = {}) {
   const reject = (reason) => ({ ok: false, reason });
 
   if (!isPlainObject(raw)) return reject("entry must be an object");
@@ -768,7 +789,14 @@ function validateEntry(raw, channels) {
       tags: Array.isArray(raw.tags) ? uniqueStrings(raw.tags) : [],
       evidence,
       ...(curatedPlatforms.length ? { curatedPlatforms } : {}),
-      ...(episodes.length ? { episodes } : {})
+      ...(episodes.length ? { episodes } : {}),
+      ...(options.discovery === true
+        ? {
+            origin: "discovery",
+            inclusionSource: cleanText(raw.inclusionSource) || "youtube-official-channel-discovery",
+            provenance: sanitizeProvenance(raw.provenance)
+          }
+        : {})
     }
   };
 }
@@ -1236,6 +1264,7 @@ function mergeRecord(target, patch) {
 
   if (!verification.conflict && mergePlatforms(target, patch.platforms)) changed.push("platforms");
   if (!verification.conflict && mergeEpisodes(target, patch.episodes)) changed.push("episodes");
+  if (!verification.conflict && mergeProvenance(target, patch.discoveryProvenance)) changed.push("discoveryProvenance");
 
   return { changed, conflict: verification.conflict };
 }
@@ -1294,17 +1323,21 @@ function buildManifestPatch(entry, region) {
     createdAt: entry.firstAirDate ? `${entry.firstAirDate}T00:00:00Z` : "",
     tags: entry.tags.length ? uniqueStrings(["Anime", ...entry.tags]).slice(0, MAX_TAGS) : [],
     platforms,
+    // The detail view lists at most 10 videos; episode rows carry the per-episode links.
     youtube: entry.evidence
       .filter((item) => item.platform === "YouTube")
-      .map((item) => ({ title: entry.title, url: item.url })),
+      .map((item) => ({ title: entry.title, url: item.url }))
+      .slice(0, entry.origin === "discovery" ? 10 : undefined),
     tamilDubVerified: true,
     tamilDubVerificationSource: primary.source,
     tamilDubVerificationUrl: primary.url,
     tamilDubVerifiedAt: primary.checkedAt || "",
     tamilDubEvidence: entry.evidence,
-    inclusionSource: "official-source-manifest",
+    inclusionSource: entry.inclusionSource || "official-source-manifest",
     region
   };
+
+  if (entry.provenance && entry.provenance.length) patch.discoveryProvenance = entry.provenance;
 
   if (entry.tmdbId) {
     patch.tmdbId = entry.tmdbId;
@@ -1556,6 +1589,58 @@ async function lookupTmdbSeason(state, id, number) {
   return result;
 }
 
+/*
+ * TMDB adapter for discovery. It only NAMES series: search results are suggestions, and nothing here ever proves Tamil
+ * audio. Series details go through lookupTmdb, so discovery and enrichment share one cache and one request counter.
+ */
+function createDiscoveryTmdb(state) {
+  const searches = new Map();
+
+  return {
+    enabled: state.tmdbEnabled,
+
+    async search(query) {
+      const text = cleanText(query);
+      const cacheKey = text.toLowerCase();
+      if (searches.has(cacheKey)) return searches.get(cacheKey);
+
+      await sleep(state.cfg.tmdbDelayMs);
+      state.report.tmdb.requests++;
+
+      let result;
+
+      try {
+        const data = await getJson(tmdbUrl(state.cfg.tmdbApiKey, "/search/tv", { query: text, language: "en-US", include_adult: "false" }));
+        const list = Array.isArray(data && data.results) ? data.results.filter(isPlainObject).slice(0, 20) : [];
+
+        result = {
+          status: "ok",
+          results: list
+            .map((item) => ({
+              id: item.id,
+              name: cleanText(item.name),
+              originalName: cleanText(item.original_name),
+              firstAirYear: yearOf(item.first_air_date),
+              genreIds: Array.isArray(item.genre_ids) ? item.genre_ids.filter(Number.isInteger) : [],
+              originCountry: Array.isArray(item.origin_country) ? item.origin_country.filter((code) => typeof code === "string") : [],
+              originalLanguage: cleanText(item.original_language)
+            }))
+            .filter((item) => Number.isInteger(item.id) && item.id > 0)
+        };
+      } catch (error) {
+        state.report.tmdb.failures++;
+        console.warn(`TMDB search failed: ${errorMessage(error)}`);
+        result = { status: "error", results: [] };
+      }
+
+      searches.set(cacheKey, result);
+      return result;
+    },
+
+    details: (type, id) => lookupTmdb(state, type, id)
+  };
+}
+
 // TMDB lists the season (or does not say which seasons exist).
 function seasonListed(series, number) {
   const seasons = Array.isArray(series && series.seasons) ? series.seasons : [];
@@ -1639,6 +1724,27 @@ async function enrichRecord(state, record, extraNames = []) {
   }
 
   return season ? enrichSeason(state, record, lookup.details, Number(rawId), season) : mergeMissing(record, tmdbMetadata(lookup.details, type));
+}
+
+// Stable numeric order for "<season>-<episode>" rows of a record created by discovery. Rows that do not
+// follow that numbering keep their relative position after the numbered ones.
+function sortEpisodeRows(record) {
+  if (!Array.isArray(record.episodes)) return;
+
+  const parse = (row) => {
+    const match = isPlainObject(row) ? /^(\d+)-(\d+)$/.exec(cleanText(row.number)) : null;
+    return match ? [Number(match[1]), Number(match[2])] : null;
+  };
+
+  record.episodes = record.episodes
+    .map((row, index) => ({ row, index, key: parse(row) }))
+    .sort((a, b) => {
+      if (a.key && b.key) return a.key[0] - b.key[0] || a.key[1] - b.key[1] || a.index - b.index;
+      if (a.key) return -1;
+      if (b.key) return 1;
+      return a.index - b.index;
+    })
+    .map((item) => item.row);
 }
 
 /* ------------------------------------------------------------------ */
@@ -1743,6 +1849,7 @@ async function processEntry(state, entry, label) {
   const record = {};
   mergeRecord(record, patch);
   await enrichRecord(state, record, entryNames);
+  if (entry.origin === "discovery") sortEpisodeRows(record); // discovered rows arrive first; TMDB rows are appended
 
   const finished = finalizeNewRecord(record, state.nowIso);
   anime.push(finished); // appended: existing order is never disturbed
@@ -1784,7 +1891,7 @@ function assertNoLoss(original, updated) {
   });
 }
 
-async function writeJsonAtomic(file, data, expectedCurrentText) {
+async function writeJsonAtomic(file, data, expectedCurrentText, label = "Catalog") {
   const tmp = path.join(path.dirname(file), `.${path.basename(file)}.${process.pid}.${Date.now()}.tmp`);
   let handle = null;
 
@@ -1798,7 +1905,7 @@ async function writeJsonAtomic(file, data, expectedCurrentText) {
     JSON.parse(await fs.readFile(tmp, "utf8")); // the temp file must round-trip
 
     if (expectedCurrentText !== undefined && (await fs.readFile(file, "utf8")) !== expectedCurrentText) {
-      throw new Error("Catalog changed on disk during the scan; aborting without writing.");
+      throw new Error(`${label} changed on disk during the scan; aborting without writing.`);
     }
 
     const mode = await fs.stat(file).then((stat) => stat.mode, () => null);
@@ -1816,7 +1923,15 @@ async function writeJsonAtomic(file, data, expectedCurrentText) {
 /* Reporting                                                           */
 /* ------------------------------------------------------------------ */
 
+// The catalog-level zero-add reason: what the manifest did, plus (when discovery ran) what discovery did.
 function explainZeroAdd(report) {
+  const base = explainManifestZeroAdd(report);
+  const discovery = report.discovery;
+
+  return discovery && discovery.zeroAddReason ? `${base} Discovery: ${discovery.zeroAddReason}` : base;
+}
+
+function explainManifestZeroAdd(report) {
   if (!report.manifest.found) {
     return (
       `No official-source manifest found at ${report.manifest.path}. Nothing can be added without it: ` +
@@ -1843,6 +1958,22 @@ function logScanSummary(report) {
   console.log(`Rejected: ${report.rejected.length} | Needs review: ${report.needsReview.length} | Deferred: ${report.deferred.length}`);
 
   if (report.zeroAddReason) console.log(`Reason: ${report.zeroAddReason}`);
+
+  if (report.discovery) {
+    const d = report.discovery;
+    console.log(`Discovery: ${d.status}${d.skipReason ? ` (${d.skipReason})` : ""}${d.completeness ? ` | complete: ${d.completeness.complete} | pages: ${d.completeness.pagesProcessed}` : ""}`);
+
+    if (d.counts) {
+      console.log(
+        `  videos seen: ${d.counts.videosSeen} | "Tamil Dub" titles: ${d.counts.tamilDubPrefixed} | excluded (other titles): ${d.counts.excludedNotTamilDub} | ` +
+          `accepted: ${d.counts.accepted} | review: ${d.counts.review} | deferred: ${d.counts.deferred} | rejected: ${d.counts.rejected}`
+      );
+    }
+
+    if (d.api) console.log(`  YouTube units used: ${d.api.unitsUsed}/${d.api.unitBudget} | failures: ${d.api.failures.length}`);
+    if (d.zeroAddReason) console.log(`  discovery reason: ${d.zeroAddReason}`);
+    for (const item of (d.review || []).slice(0, 10)) console.log(`  discovery review - ${item.videoId} "${item.title}": ${item.reason}`);
+  }
 
   console.log(
     `TMDB: ${report.tmdb.enabled ? `${report.tmdb.requests} request(s), ${report.tmdb.failures} failure(s)` : "disabled"}` +
@@ -1912,11 +2043,12 @@ async function run(options = {}) {
     }
   });
 
-  const analysis = analyzeManifestIdentities(
+  const manifestAnalysis = analyzeManifestIdentities(
     prepared
       .filter((item) => item.validation && item.validation.ok)
       .map((item) => ({ label: item.label, entry: item.validation.entry }))
   );
+  let analysis = manifestAnalysis; // widened below if discovery contributes entries
 
   const report = {
     scannedAt: nowIso,
@@ -1951,10 +2083,11 @@ async function run(options = {}) {
   };
 
   const reviewSeen = new Set();
+  const reviewByLabel = new Map(); // label -> reasons, so discovery can tell which groups the catalog refused
   const unavailableSeen = new Set();
   const state = {
     cfg,
-    claims: analysis.claims,
+    claims: manifestAnalysis.claims,
     nowIso,
     report,
     anime: working.anime,
@@ -1968,6 +2101,9 @@ async function run(options = {}) {
     changeLog: [],
     alreadyInCatalog: 0,
     review(entry, reason) {
+      if (!reviewByLabel.has(entry)) reviewByLabel.set(entry, []);
+      if (!reviewByLabel.get(entry).includes(reason)) reviewByLabel.get(entry).push(reason);
+
       if (!reviewSeen.has(`${entry}|${reason}`)) {
         reviewSeen.add(`${entry}|${reason}`);
         report.needsReview.push({ entry, reason });
@@ -1985,6 +2121,67 @@ async function run(options = {}) {
   };
 
   if (!manifest.found) console.warn(`WARNING: manifest not found at ${rel(cfg.manifestFile)}; no titles can be added.`);
+
+  /* ---- Automatic discovery (opt-in). Runs BEFORE the manifest loop only to learn what the channel has; every ---- */
+  /* ---- discovered entry still goes through validateEntry/processEntry below, after the manifest entries.     ---- */
+  const discoveryEnabled = Boolean(cfg.discovery && cfg.discovery.enabled);
+  const discoveredPrepared = [];
+  const discoveryResults = new Map();
+  let discoverySession = null;
+  let discoveryFailure = null;
+  let stateFileText = null;
+  let addedByDiscovery = 0;
+
+  if (discoveryEnabled) {
+    try {
+      stateFileText = await fs.readFile(cfg.discoveryStateFile, "utf8").catch((error) => {
+        if (error.code === "ENOENT") return null;
+        throw error;
+      });
+
+      const parsedState = parseState(stateFileText);
+      if (parsedState.problem) console.warn(`Discovery state: ${parsedState.problem}`);
+
+      discoverySession = await startDiscovery({
+        cfg: cfg.discovery,
+        youtubeApiKey: cfg.youtubeApiKey,
+        channels,
+        state: parsedState.state,
+        anime: working.anime,
+        claims: manifestAnalysis.claims,
+        tmdb: createDiscoveryTmdb(state),
+        helpers: { normalizeTitle, recordTmdbKey },
+        nowIso,
+        region: cfg.region,
+        redact,
+        sleep: cfg.sleep,
+        random: cfg.random,
+        catalogProvenance: provenanceRows(working.anime)
+      });
+
+      if (parsedState.problem) discoverySession.report.notes.push(parsedState.problem);
+
+      for (const group of discoverySession.groups) {
+        try {
+          discoveredPrepared.push({ label: group.label, group, validation: validateEntry(group.raw, channels, { discovery: true }) });
+        } catch (error) {
+          discoveredPrepared.push({ label: group.label, group, error });
+        }
+      }
+
+      analysis = analyzeManifestIdentities(
+        [...prepared, ...discoveredPrepared]
+          .filter((item) => item.validation && item.validation.ok)
+          .map((item) => ({ label: item.label, entry: item.validation.entry }))
+      );
+      state.claims = analysis.claims;
+    } catch (error) {
+      // Discovery must never take the manifest path down, and a failed discovery never moves a checkpoint.
+      discoverySession = null;
+      discoveryFailure = errorMessage(error);
+      console.warn(`Discovery failed unexpectedly (checkpoints unchanged): ${discoveryFailure}`);
+    }
+  }
 
   for (const item of prepared) {
     const { label } = item;
@@ -2037,6 +2234,69 @@ async function run(options = {}) {
     }
   }
 
+  /* ---- Discovered entries: the same validated merge path as manifest entries ------------------------------- */
+  for (const item of discoveredPrepared) {
+    const { label } = item;
+    const addedBefore = state.addedIds.length;
+
+    try {
+      if (item.error) throw item.error;
+
+      const validation = item.validation;
+
+      if (!validation.ok) {
+        discoveryResults.set(label, { ok: false, reason: `entry rejected by validation: ${validation.reason}` });
+        continue;
+      }
+
+      const entry = validation.entry;
+      const conflict = analysis.conflicts.get(entry);
+
+      if (conflict) {
+        state.review(label, conflict);
+        discoveryResults.set(label, { ok: false, reason: conflict });
+        continue;
+      }
+
+      // Ownership of every video was confirmed through videos.list during the scan; no second call is needed.
+      for (const evidence of entry.evidence) evidence.channelCheck = "api-confirmed";
+
+      await processEntry(state, entry, label);
+
+      const reasons = reviewByLabel.get(label) || [];
+      discoveryResults.set(label, reasons.length ? { ok: false, reason: reasons.join("; ") } : { ok: true });
+      addedByDiscovery += state.addedIds.length - addedBefore;
+    } catch (error) {
+      discoveryResults.set(label, { ok: false, deferred: true, reason: `unexpected error: ${errorMessage(error)}` });
+    }
+  }
+
+  // Videos that went private, regional-blocked, retitled or missing are recorded on their provenance row only.
+  if (discoverySession && !discoverySession.skipped && discoverySession.availabilityUpdates.size) {
+    for (const record of state.anime) {
+      if (applyAvailability(record, discoverySession.availabilityUpdates)) {
+        state.touched.add(record);
+        state.changeLog.push({ id: record.id, fields: ["discoveryProvenance"] });
+      }
+    }
+  }
+
+  let settledDiscovery = null;
+
+  if (discoverySession) {
+    settledDiscovery = discoverySession.finalize(discoveryResults, { addedByDiscovery });
+    report.discovery = settledDiscovery.report;
+  } else if (discoveryEnabled) {
+    report.discovery = {
+      status: "error",
+      skipReason: null,
+      scannedAt: nowIso,
+      error: short(discoveryFailure, 300),
+      zeroAddReasonCode: "api-error",
+      zeroAddReason: `Discovery failed unexpectedly and changed nothing (checkpoints unchanged): ${short(discoveryFailure, 200)}`
+    };
+  }
+
   // Enrich other officially verified records that still miss metadata.
   for (const record of state.anime) {
     if (!isPlainObject(record) || state.enrichAttempted.has(record)) continue;
@@ -2074,10 +2334,15 @@ async function run(options = {}) {
 
   if (isEmptyValue(working.region)) working.region = cfg.region;
 
+  // When discovery really scanned, the coverage text says so; otherwise the original wording is kept verbatim.
+  const discoveryScanned = Boolean(discoverySession && !discoverySession.skipped);
+
   working.updateInfo = {
     ...(isPlainObject(working.updateInfo) ? working.updateInfo : {}),
     automatic: true,
-    source: "Official-source manifest (Muse India YouTube, Crunchyroll, Netflix, Amazon Prime Video)",
+    source: discoveryScanned
+      ? "Official-source manifest plus automatic discovery from allow-listed official YouTube channels (Muse India), Crunchyroll, Netflix, Amazon Prime Video"
+      : "Official-source manifest (Muse India YouTube, Crunchyroll, Netflix, Amazon Prime Video)",
     metadataSource: "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     youtubeEnabled: Boolean(cfg.youtubeApiKey),
     tmdbEnabled: Boolean(cfg.tmdbApiKey),
@@ -2086,14 +2351,27 @@ async function run(options = {}) {
       (record) => isPlainObject(record) && !String(record.id || "").startsWith("tmdb-")
     ).length,
     tamilDubVerification: "Required: every added title needs tamilDubVerified:true and an official-source URL",
-    note:
-      "Coverage is limited to titles listed in the official-source manifest; it is not an exhaustive " +
-      "scan of all Tamil-dubbed anime. Streaming-provider availability does not prove Tamil audio.",
+    note: discoveryScanned
+      ? 'Discovery covers only allow-listed official YouTube channels and only videos whose title starts with "Tamil Dub"; ' +
+        "it is not an exhaustive scan of Netflix, Prime Video or Crunchyroll Tamil dubs. " +
+        "Streaming-provider availability does not prove Tamil audio."
+      : "Coverage is limited to titles listed in the official-source manifest; it is not an exhaustive " +
+        "scan of all Tamil-dubbed anime. Streaming-provider availability does not prove Tamil audio.",
     lastScan: report
   };
 
   assertNoLoss(original, working);
   await writeJsonAtomic(cfg.catalogFile, working, originalText);
+
+  // The checkpoint is written only after the catalog it describes. A crash in between just repeats some pages.
+  if (settledDiscovery && !discoverySession.skipped) {
+    await writeJsonAtomic(
+      cfg.discoveryStateFile,
+      serializeState(settledDiscovery.state),
+      stateFileText === null ? undefined : stateFileText,
+      "Discovery state"
+    );
+  }
 
   logScanSummary(report);
   console.log(`Catalog written successfully: ${working.anime.length} titles`);
@@ -2127,7 +2405,9 @@ module.exports = {
   mergeRecord,
   mergeEpisodes,
   isEmptyValue,
-  writeJsonAtomic
+  writeJsonAtomic,
+  sortEpisodeRows,
+  explainZeroAdd
 };
 
 if (require.main === module) {
