@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T16:16:17.086Z",
+  "lastUpdated": "2026-10-04T20:45:00.525Z",
   "region": "IN",
   "anime": [
     {
@@ -17734,8 +17734,8 @@
         },
         {
           "name": "Crunchyroll",
-          "available": false,
-          "officialUrl": null,
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
           "tamilDubVerified": false
         },
         {
@@ -20793,13 +20793,13 @@
     {
       "id": "reported-the-gorilla-god-s-go-to-girl-278816",
       "title": "The Gorilla God's Go-To Girl",
-      "originalTitle": "",
+      "originalTitle": "ゴリラの神から加護された令嬢は王立騎士団で可愛がられる",
       "description": "Sophia Reeler, a timid noble, received the Gorilla God’s blessing—the ultimate combat power. Now her dream of a peaceful student life is shattered as the royal knights recruit her unrivaled strength. Juggling school, the knight life, and her overwhelming power, Sophia learns the hard way that gorilla strength isn’t so simple.",
       "image": "https://image.tmdb.org/t/p/w500/wsVUjE78BP7v2KayDnlAKbiY3Av.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/62IALd0Uwumy3swku2Pv4Uqg0E.jpg",
       "rating": 7.6,
       "likes": null,
-      "availability": "",
+      "availability": "Completed",
       "status": "Ended",
       "firstAirDate": "2025-04-06",
       "createdAt": "2025-04-06T00:00:00Z",
@@ -20816,10 +20816,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl"
         },
         {
           "name": "Netflix",
@@ -20834,23 +20835,87 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 278816,
       "tmdbUrl": "https://www.themoviedb.org/tv/278816",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 12
     },
     {
       "id": "reported-dead-mount-death-play-214540",
       "title": "Dead Mount Death Play",
-      "originalTitle": "",
+      "originalTitle": "デッドマウント・デスプレイ",
       "description": "As a legendary hero nears victory against a necromancer known as The Corpse God, things take an unexpected turn with the dark sorcerer’s final gambit—reincarnation magic. This last-ditch effort catches the brave fighter off guard, and now he’s a boy named Polka Shinoyama in a whole new world! The showdown between good and evil just got epic.",
       "image": "https://image.tmdb.org/t/p/w500/oOlg3bPWOKBgy5kgOTVe8pJz4HI.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/tNiN29L1IaLK5uQIGMgtQvUKQVt.jpg",
       "rating": 6.9,
       "likes": null,
-      "availability": "",
+      "availability": "Completed",
       "status": "Ended",
       "firstAirDate": "2023-04-11",
       "createdAt": "2023-04-11T00:00:00Z",
@@ -20867,10 +20932,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play"
         },
         {
           "name": "Netflix",
@@ -20885,23 +20951,135 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 214540,
       "tmdbUrl": "https://www.themoviedb.org/tv/214540",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 24
     },
     {
       "id": "reported-possibly-the-greatest-alchemist-of-all-time-261298",
       "title": "Possibly the Greatest Alchemist of All Time",
-      "originalTitle": "",
+      "originalTitle": "いずれ最強の錬金術師？",
       "description": "Iruma Takumi finds himself caught up in a hero summoning, even though he’s not a hero. Summoned by mistake to Mildgard, a fantasy world of swords and magic, Takumi is given a chance to start over. Though he dreams of a peaceful life, the goddess Nolyn grants him “alchemy,” an ultra-powerful skill that allows him to create anything from holy swords to flying ships. His reluctant adventure begins!",
       "image": "https://image.tmdb.org/t/p/w500/pnn9mu4QI4Wb1o6Nke0D1CXIeCD.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/n5I5doy05kVHT97ReOPFEHzvhmB.jpg",
       "rating": 7.6,
       "likes": null,
-      "availability": "",
+      "availability": "Completed",
       "status": "Ended",
       "firstAirDate": "2025-01-08",
       "createdAt": "2025-01-08T00:00:00Z",
@@ -20918,10 +21096,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time"
         },
         {
           "name": "Netflix",
@@ -20936,23 +21115,91 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 261298,
       "tmdbUrl": "https://www.themoviedb.org/tv/261298",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 2,
+      "numberOfEpisodes": 13
     },
     {
       "id": "reported-my-tiny-senpai-217390",
       "title": "My Tiny Senpai",
-      "originalTitle": "",
+      "originalTitle": "うちの会社の小さい先輩の話",
       "description": "When Shinozaki started his new job, he didn’t expect his superior to be so…cute!? He struggled to learn the ropes until Katase, his tiny and kind senpai, took him under her wing. But as they grow closer, he hopes her attention might mean something more.",
       "image": "https://image.tmdb.org/t/p/w500/7zSPXGCvXjkVCR7797UbRDPfV2B.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/b6EoiUpO8tx0Bzhkd8dxXEupDvj.jpg",
       "rating": 7.3,
       "likes": null,
-      "availability": "",
+      "availability": "Completed",
       "status": "Ended",
       "firstAirDate": "2023-07-02",
       "createdAt": "2023-07-02T00:00:00Z",
@@ -20968,10 +21215,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai"
         },
         {
           "name": "Netflix",
@@ -20986,12 +21234,76 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 217390,
       "tmdbUrl": "https://www.themoviedb.org/tv/217390",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 12
     },
     {
       "id": "reported-naruto-46260",
@@ -21102,13 +21414,13 @@
     {
       "id": "reported-gachiakuta-256721",
       "title": "Gachiakuta",
-      "originalTitle": "",
+      "originalTitle": "ガチアクタ",
       "description": "Accused of murder and thrown into the Pit, a young orphan joins a group of monster fighters with special powers to uncover the truth and seek vengeance.",
       "image": "https://image.tmdb.org/t/p/w500/jH78nLFrTU6aP7hY7KO6DZHFLoX.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/vlFoUig0nHKH0cH0OY1tk2uxGRL.jpg",
       "rating": 8.5,
       "likes": null,
-      "availability": "",
+      "availability": "Ongoing",
       "status": "Returning Series",
       "firstAirDate": "2025-07-06",
       "createdAt": "2025-07-06T00:00:00Z",
@@ -21126,10 +21438,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta"
         },
         {
           "name": "Netflix",
@@ -21144,23 +21457,135 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 256721,
       "tmdbUrl": "https://www.themoviedb.org/tv/256721",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 24
     },
     {
       "id": "reported-i-shall-survive-using-potions-221148",
       "title": "I Shall Survive Using Potions!",
-      "originalTitle": "",
+      "originalTitle": "ポーション頼みで生き延びます！",
       "description": "A fatal mistake leads to the ultimate deal for this clever office lady. After her accidental demise by the gods, Kaoru is offered to be reborn into a new world. She agrees, but with a few demands to help her survive, including a younger body and the ability to create insanely overpowered potions! Now, she’s ready to make the most out of her next life.",
       "image": "https://image.tmdb.org/t/p/w500/rXejTl7hZEqHEUvPFI9WBZ9B0uQ.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/oldfeEOQpLM3sXq0p8kva1gZRHK.jpg",
       "rating": 7.2,
       "likes": null,
-      "availability": "",
+      "availability": "Completed",
       "status": "Ended",
       "firstAirDate": "2023-10-08",
       "createdAt": "2023-10-08T00:00:00Z",
@@ -21178,10 +21603,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions"
         },
         {
           "name": "Netflix",
@@ -21196,12 +21622,76 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 221148,
       "tmdbUrl": "https://www.themoviedb.org/tv/221148",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 12
     },
     {
       "id": "reported-my-unique-skill-makes-me-op-even-at-level-1-201363",
@@ -21565,13 +22055,13 @@
     {
       "id": "reported-the-rising-of-the-shield-hero-83095",
       "title": "The Rising of the Shield Hero",
-      "originalTitle": "",
+      "originalTitle": "盾の勇者の成り上がり",
       "description": "Iwatani Naofumi, a run-of-the-mill otaku, finds a book in the library that summons him to another world. He is tasked with joining the sword, spear, and bow as one of the Four Cardinal Heroes and fighting the Waves of Catastrophe as the Shield Hero. Excited by the prospect of a grand adventure, Naofumi sets off with his party. However, merely a few days later, he is betrayed and loses all his money, dignity, and respect. Unable to trust anyone anymore, he employs a slave named Raphtalia and takes on the Waves and the world. But will he really find a way to overturn this desperate situation?",
       "image": "https://image.tmdb.org/t/p/w500/yjq2n0agGJfmZQ9NpbYIhuBofcq.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/ygJ9BOiLwExwFdxQeZiiUA6TqME.jpg",
       "rating": 8.5,
       "likes": null,
-      "availability": "",
+      "availability": "Ongoing",
       "status": "Returning Series",
       "firstAirDate": "2019-01-09",
       "createdAt": "2019-01-09T00:00:00Z",
@@ -21589,10 +22079,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero"
         },
         {
           "name": "Netflix",
@@ -21607,12 +22098,276 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        },
+        {
+          "number": "1-25",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "2-13",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "url": null
+        },
+        {
+          "number": "3-12",
+          "url": null
+        },
+        {
+          "number": "4-1",
+          "url": null
+        },
+        {
+          "number": "4-2",
+          "url": null
+        },
+        {
+          "number": "4-3",
+          "url": null
+        },
+        {
+          "number": "4-4",
+          "url": null
+        },
+        {
+          "number": "4-5",
+          "url": null
+        },
+        {
+          "number": "4-6",
+          "url": null
+        },
+        {
+          "number": "4-7",
+          "url": null
+        },
+        {
+          "number": "4-8",
+          "url": null
+        },
+        {
+          "number": "4-9",
+          "url": null
+        },
+        {
+          "number": "4-10",
+          "url": null
+        },
+        {
+          "number": "4-11",
+          "url": null
+        },
+        {
+          "number": "4-12",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 83095,
       "tmdbUrl": "https://www.themoviedb.org/tv/83095",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 5,
+      "numberOfEpisodes": 62
     },
     {
       "id": "reported-tokyo-ghoul-61374",
@@ -21821,13 +22576,13 @@
     {
       "id": "reported-karna-the-guardian-217167",
       "title": "Karna the Guardian",
-      "originalTitle": "",
+      "originalTitle": "Karna the Guardian",
       "description": "Karna lives as an ordinary boy—until the ancient demon Kalimba breaks free and spreads corruption across the world. When the darkness infects his mother, Karna’s powers awaken, revealing his true identity: the Balancer, a Guardian born to restore harmony to the world. To save his mother and stop Kalimba’s chaos, Karna must train to master the power within him—or risk losing everything.",
       "image": "https://image.tmdb.org/t/p/w500/3M7PkwXvT2scTNUoXOaCqlIpfVM.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/52YGUyqCsIW6tIhAYrfsZigkaBn.jpg",
-      "rating": null,
+      "rating": 0,
       "likes": null,
-      "availability": "",
+      "availability": "Ongoing",
       "status": "Returning Series",
       "firstAirDate": "2026-05-07",
       "createdAt": "2026-05-07T00:00:00Z",
@@ -21843,10 +22598,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian"
         },
         {
           "name": "Netflix",
@@ -21861,23 +22617,83 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 217167,
       "tmdbUrl": "https://www.themoviedb.org/tv/217167",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 11
     },
     {
       "id": "reported-trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs-139512",
       "title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
-      "originalTitle": "",
+      "originalTitle": "乙女ゲー世界はモブに厳しい世界です",
       "description": "An ordinary office worker is reincarnated as Leon into a particularly punishing dating sim video game, where women reign supreme and only beautiful men have a seat at the table. But Leon has a secret weapon: he remembers everything from his past life, which includes a complete playthrough of the very game in which he is now trapped. Watch Leon spark a revolution to change this new world in order to fulfill his ultimate desire...of living a quiet, easy life in the countryside!",
       "image": "https://image.tmdb.org/t/p/w500/r8BjELAxhiddM0xc3tdj3ID8VMO.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/c0oFoz7PttzMLsQOQn54Lcu8V9d.jpg",
       "rating": 7.5,
       "likes": null,
-      "availability": "",
+      "availability": "Completed",
       "status": "Ended",
       "firstAirDate": "2022-04-03",
       "createdAt": "2022-04-03T00:00:00Z",
@@ -21894,10 +22710,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs"
         },
         {
           "name": "Netflix",
@@ -21912,23 +22729,135 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 139512,
       "tmdbUrl": "https://www.themoviedb.org/tv/139512",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 2,
+      "numberOfEpisodes": 24
     },
     {
       "id": "reported-i-ll-become-a-villainess-who-goes-down-in-history-248817",
       "title": "I'll Become a Villainess Who Goes Down in History",
-      "originalTitle": "",
+      "originalTitle": "歴史に残る悪女になるぞ",
       "description": "This young girl hates all those goodie-two-shoes heroines. So when she’s reincarnated as Alicia, the villain in her favorite fantasy dating sim, it’s like a dream come true! There’s just one problem: the more she tries to be evil, the more the prince seems to fall for her. Alicia will have to work much harder if she ever wants to become the world’s greatest villainess.",
       "image": "https://image.tmdb.org/t/p/w500/lTDWs3IjKwiBz00c8bzVmrgLa3A.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/veZ7U7Zk1oY23vrbtPZGGCzr5MU.jpg",
       "rating": 7.6,
       "likes": null,
-      "availability": "",
+      "availability": "Completed",
       "status": "Ended",
       "firstAirDate": "2024-10-02",
       "createdAt": "2024-10-02T00:00:00Z",
@@ -21944,10 +22873,11 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history",
-          "tamilDubVerified": false,
+          "tamilDubVerified": true,
           "tamilDubReported": true,
           "tamilDubReportSource": "Anime Mirchi",
-          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/"
+          "tamilDubReportUrl": "https://animemirchi.com/complete-crunchyroll-tamil-dubbed-anime-list/",
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history"
         },
         {
           "name": "Netflix",
@@ -21962,12 +22892,80 @@
           "tamilDubVerified": false
         }
       ],
-      "episodes": [],
-      "tamilDubVerified": false,
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        }
+      ],
+      "tamilDubVerified": true,
       "tmdbId": 248817,
       "tmdbUrl": "https://www.themoviedb.org/tv/248817",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "region": "IN",
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 13
     },
     {
       "id": "reported-pok-mon-concierge-221301",
@@ -22747,6 +23745,510 @@
       "tmdbUrl": "https://www.themoviedb.org/tv/1095",
       "mediaType": "tv",
       "inclusionSource": "third-party-report"
+    },
+    {
+      "id": "verified-the-drops-of-god",
+      "title": "The Drops of God",
+      "originalTitle": "神の雫",
+      "description": "When world-renowned wine critic Toyotaka Kanzaki passes away, he leaves behind an enviable collection. The will promises his estate to whoever correctly guesses the brand and year of the 12 greatest wines he selected, and the legendary wine that stands atop them all, \"Drops of God.\" The challengers are Toyotaka's son, Shizuku Kanzaki, and a young critic, Issei Tomine, who was adopted by Toyotaka.",
+      "image": "https://image.tmdb.org/t/p/w500/e0HIphKTbM0YjWCASdCsjYtESHG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/dWhXUMlQuSoASikDLbUfKyPtGeB.jpg",
+      "rating": 6.7,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2026-04-10",
+      "createdAt": "2026-04-10T00:00:00Z",
+      "updatedAt": "2026-10-04T20:45:00.525Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Drama",
+        "Mystery"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 24,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        },
+        {
+          "number": "1-24",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 306121,
+      "tmdbUrl": "https://www.themoviedb.org/tv/306121",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-konosuba-season-3",
+      "title": "KONOSUBA -God's Blessing on This Wonderful World! Season 3",
+      "originalTitle": "この素晴らしい世界に祝福を！",
+      "description": "Kazuma Satou, former NEET and current reincarnated adventurer, finally returns home after the incident at the Crimson Demon village. Following their recent exploits, the party is one step closer to vanquishing the Demon King and his armies—a terrifying task that Kazuma is eager to ignore for as long as possible. Things, however, are not going as smoothly as the group would like; they are constantly racking up debt, getting sidetracked during missions, and falling into traps due to their recklessness and eccentricities. As the party struggles with their perennial issues, they receive an invitation from a princess interested in hearing tales of the group's \"heroic\" deeds. Darkness' pleas to refuse the invitation only fire the others up to accept it, marking the start of yet another uncanny adventure with unforeseen consequences.",
+      "image": "https://image.tmdb.org/t/p/w500/oRaOeQlwktbGSd2T31FYAcgHZlh.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/rvZJxD36tKoglL8fXoMMWKGQfM.jpg",
+      "rating": 8.5,
+      "likes": null,
+      "availability": "Available",
+      "status": null,
+      "firstAirDate": "2024-04-10",
+      "createdAt": "2024-04-10T00:00:00Z",
+      "updatedAt": "2026-10-04T20:45:00.525Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Action & Adventure",
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYE5K3GQR/konosuba---gods-blessing-on-this-wonderful-world",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/watch/GE00335674TAIN/gods-blessings-on-this-bright-future"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "3-1",
+          "title": "God's Blessings on This Bright Future!",
+          "airDate": "2024-04-10",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "title": "A Smile for This Dour Girl!",
+          "airDate": "2024-04-17",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "title": "A Re-education for This Bright Little Girl!",
+          "airDate": "2024-04-24",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "title": "Divine Punishment for This Handsome Gentleman Thief!",
+          "airDate": "2024-05-01",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "title": "Nefarious Friends for This Sheltered Princess!",
+          "airDate": "2024-05-08",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "title": "A Farewell to This Lavish Lifestyle!",
+          "airDate": "2024-05-15",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "title": "Rest for This Up-and-Coming Adventurer!",
+          "airDate": "2024-05-22",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "title": "An Eternal Rest for the Master of This Lake!",
+          "airDate": "2024-05-29",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "title": "A Talking-To for This Runaway!",
+          "airDate": "2024-06-05",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "title": "Blessings for This Selfish Bride!",
+          "airDate": "2024-06-12",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "title": "God's Blessing for These Unchanging Days!",
+          "airDate": "2024-06-19",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/watch/GE00335674TAIN/gods-blessings-on-this-bright-future",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/watch/GE00335674TAIN/gods-blessings-on-this-bright-future",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages of Season 3 episode 1 on Crunchyroll (signed-in view); IGN India also reports the Tamil dub."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 65844,
+      "tmdbUrl": "https://www.themoviedb.org/tv/65844",
+      "tmdbSeason": 3,
+      "tmdbSeasonUrl": "https://www.themoviedb.org/tv/65844/season/3",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-ranking-of-kings",
+      "title": "Ranking of Kings",
+      "originalTitle": "王様ランキング",
+      "description": "In a world where kings are ranked, a kindly little hearing-impaired prince sets off on a journey to become a powerful king, despite all odds.",
+      "image": "https://image.tmdb.org/t/p/w500/ujMjMUi6z02uOfQEerEDC4rH6aG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/1d23ENJQrn4TIKhnWF85Eb56Zk8.jpg",
+      "rating": 8,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2021-10-15",
+      "createdAt": "2021-10-15T00:00:00Z",
+      "updatedAt": "2026-10-04T20:45:00.525Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 23,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23W70/ranking-of-kings",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/9/8/ranking-of-kings-tamil-dub-code-geass-hindi-dub"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        },
+        {
+          "number": "1-14",
+          "url": null
+        },
+        {
+          "number": "1-15",
+          "url": null
+        },
+        {
+          "number": "1-16",
+          "url": null
+        },
+        {
+          "number": "1-17",
+          "url": null
+        },
+        {
+          "number": "1-18",
+          "url": null
+        },
+        {
+          "number": "1-19",
+          "url": null
+        },
+        {
+          "number": "1-20",
+          "url": null
+        },
+        {
+          "number": "1-21",
+          "url": null
+        },
+        {
+          "number": "1-22",
+          "url": null
+        },
+        {
+          "number": "1-23",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2023/9/8/ranking-of-kings-tamil-dub-code-geass-hindi-dub",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2023/9/8/ranking-of-kings-tamil-dub-code-geass-hindi-dub",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Official Crunchyroll announcement of the Tamil dub; Crunchyroll episode pages are titled Ranking of Kings (Tamil Dub)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 112613,
+      "tmdbUrl": "https://www.themoviedb.org/tv/112613",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "reported-jojo-s-bizarre-adventure-steel-ball-run-45790-s6",
+      "title": "JoJo's Bizarre Adventure: Steel Ball Run",
+      "originalTitle": "",
+      "description": "America, 1890. Johnny Joestar, a genius jockey now paralyzed from the waist down, chases after outlaw Gyro Zeppeli in a tough cross-continent horse race.",
+      "image": "https://image.tmdb.org/t/p/w500/yB2cUOuT3OMGtU3CTLQjuFUL8Ox.jpg",
+      "backdrop": "",
+      "rating": 8.2,
+      "likes": null,
+      "availability": "",
+      "status": "",
+      "firstAirDate": "2026-01-01",
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-10-04T20:45:26.409Z",
+      "isNew": false,
+      "tags": [
+        "Anime"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/82116553",
+          "tamilDubVerified": false,
+          "tamilDubReported": true,
+          "tamilDubReportSource": "Anime Mirchi",
+          "tamilDubReportUrl": "https://animemirchi.com/netflix-tamil-dubbed-anime-list/",
+          "regionNote": "Netflix page not confirmed as the India listing"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [],
+      "tamilDubVerified": false,
+      "tmdbId": 45790,
+      "tmdbUrl": "https://www.themoviedb.org/tv/45790",
+      "mediaType": "tv",
+      "inclusionSource": "third-party-report",
+      "tmdbSeason": 6,
+      "tmdbSeasonUrl": "https://www.themoviedb.org/tv/45790/season/6"
     }
   ],
   "updateInfo": {
@@ -22758,11 +24260,11 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 74,
-    "manualAnime": 96,
+    "discoveredAnime": 3,
+    "manualAnime": 139,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-04T16:16:17.086Z",
+      "scannedAt": "2026-10-04T20:45:00.525Z",
       "status": "added",
       "zeroAddReason": null,
       "manifest": {
@@ -22770,66 +24272,197 @@
         "found": true,
         "version": 1,
         "updatedAt": "2026-10-04",
-        "entries": 98
+        "entries": 111
       },
-      "catalogBefore": 26,
-      "catalogAfter": 100,
-      "added": 74,
+      "catalogBefore": 140,
+      "catalogAfter": 143,
+      "added": 3,
       "addedIds": [
-        "verified-attack-on-titan-season-1",
-        "verified-mob-psycho-100-season-1",
-        "verified-mob-psycho-100-season-2",
-        "verified-classroom-of-the-elite-season-1",
-        "verified-classroom-of-the-elite-season-2",
-        "verified-skeleton-knight-in-another-world-season-1",
-        "verified-a-gatherer-s-adventure-in-isekai-season-1",
-        "verified-campfire-cooking-in-another-world-with-my-absurd-skill-season-1",
-        "verified-campfire-cooking-in-another-world-with-my-absurd-skill-season-2",
-        "verified-watari-kun-s-is-about-to-collapse",
-        "verified-gods-games-we-play",
-        "verified-you-are-ms-servant",
-        "verified-an-archdemon-s-dilemma-how-to-love-your-elf-bride",
-        "verified-zenshu",
-        "verified-tying-the-knot-with-an-amagami-sister",
-        "verified-metallic-rouge",
-        "verified-wind-breaker",
-        "verified-bucchigiri",
-        "verified-tower-of-god",
-        "verified-robotics-notes",
-        "verified-mechanical-marie",
-        "verified-clevatess",
-        "verified-banished-from-the-hero-s-party-i-decided-to-live-a-quiet-life-in-the-countryside",
-        "verified-trillion-game",
-        "verified-solo-leveling",
-        "verified-akebi-s-sailor-uniform",
-        "verified-i-m-getting-married-to-a-girl-i-hate-in-my-class",
-        "verified-let-s-play",
-        "verified-dan-da-dan",
-        "verified-the-great-cleric",
-        "verified-hokkaido-gals-are-super-adorable",
-        "verified-nina-the-starry-bride",
-        "verified-true-beauty",
-        "verified-magic-maker-how-to-make-magic-in-another-world",
-        "verified-to-be-hero-x",
-        "verified-the-weakest-tamer-began-a-journey-to-pick-up-trash",
-        "verified-my-dress-up-darling",
-        "verified-fullmetal-alchemist-brotherhood",
-        "verified-there-was-a-cute-girl-in-the-hero-s-party-so-i-tried-confessing-to-her",
-        "verified-sentenced-to-be-a-hero",
-        "verified-a-wild-last-boss-appeared",
-        "verified-the-warrior-princess-and-the-barbaric-king",
-        "verified-with-you-our-love-will-make-it-through",
-        "verified-tojima-wants-to-be-a-kamen-rider",
-        "verified-dark-moon-the-blood-altar",
-        "verified-hana-kimi",
-        "verified-kunon-the-sorcerer-can-see",
-        "verified-release-that-witch",
-        "verified-an-adventurer-s-daily-grind-at-age-29",
-        "verified-you-and-i-are-polar-opposites"
+        "verified-the-drops-of-god",
+        "verified-konosuba-season-3",
+        "verified-ranking-of-kings"
       ],
-      "updatedExisting": 0,
-      "updatedIds": [],
-      "alreadyInCatalog": 26,
+      "updatedExisting": 11,
+      "updatedIds": [
+        {
+          "id": "verified-shangri-la-frontier",
+          "fields": [
+            "platforms"
+          ]
+        },
+        {
+          "id": "reported-the-gorilla-god-s-go-to-girl-278816",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-dead-mount-death-play-214540",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-possibly-the-greatest-alchemist-of-all-time-261298",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-my-tiny-senpai-217390",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-gachiakuta-256721",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-i-shall-survive-using-potions-221148",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-the-rising-of-the-shield-hero-83095",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-karna-the-guardian-217167",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "rating",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs-139512",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        },
+        {
+          "id": "reported-i-ll-become-a-villainess-who-goes-down-in-history-248817",
+          "fields": [
+            "region",
+            "tamilDubVerified",
+            "tamilDubVerificationSource",
+            "tamilDubVerificationUrl",
+            "tamilDubVerifiedAt",
+            "tamilDubEvidence",
+            "platforms",
+            "originalTitle",
+            "availability",
+            "numberOfSeasons",
+            "numberOfEpisodes",
+            "episodes"
+          ]
+        }
+      ],
+      "alreadyInCatalog": 95,
       "rejected": [],
       "needsReview": [
         {
@@ -22844,15 +24477,15 @@
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 90,
+        "requests": 21,
         "failures": 0,
         "note": null,
         "unavailable": []
       },
       "discovery": {
-        "status": "partial",
+        "status": "complete",
         "skipReason": null,
-        "scannedAt": "2026-10-04T16:16:17.086Z",
+        "scannedAt": "2026-10-04T20:45:00.525Z",
         "sources": {
           "youtube": {
             "configured": true,
@@ -22860,8 +24493,8 @@
               {
                 "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
                 "name": "Muse India",
-                "status": "partial",
-                "stopReason": "page-budget-reached",
+                "status": "complete",
+                "stopReason": null,
                 "uploadsPlaylistFound": true
               }
             ]
@@ -22871,36 +24504,35 @@
           }
         },
         "completeness": {
-          "complete": false,
-          "bootstrapComplete": false,
+          "complete": true,
+          "bootstrapComplete": true,
           "incrementalComplete": true,
-          "pagesProcessed": 101,
-          "hasMoreHistory": true,
-          "stopReason": "page-budget-reached"
+          "pagesProcessed": 42,
+          "hasMoreHistory": false,
+          "stopReason": null
         },
         "counts": {
-          "videosSeen": 5050,
-          "excludedNotTamilDub": 4856,
+          "videosSeen": 2093,
+          "excludedNotTamilDub": 2086,
           "foreignChannel": 0,
           "notReturnedByApi": 0,
-          "tamilDubPrefixed": 194,
-          "evidenceCandidates": 168,
-          "accepted": 99,
+          "tamilDubPrefixed": 95,
+          "evidenceCandidates": 70,
+          "accepted": 0,
           "rejected": 0,
-          "review": 94,
-          "deferred": 1,
+          "review": 95,
+          "deferred": 0,
           "announcements": 0,
           "promos": 0,
           "regionBlocked": 0,
           "notPublic": 0,
           "duplicateEpisodes": 0,
-          "queueRetried": 0,
+          "queueRetried": 95,
           "queueDropped": 0
         },
         "reasons": {
-          "series-needs-review": 69,
-          "needs-review": 25,
-          "not-finished": 1
+          "series-needs-review": 70,
+          "needs-review": 25
         },
         "review": [
           {
@@ -23206,15 +24838,15 @@
         ],
         "announcements": [],
         "api": {
-          "unitsUsed": 203,
-          "requests": 203,
+          "unitsUsed": 89,
+          "requests": 89,
           "unitBudget": 2000,
           "failures": []
         },
         "queueSize": 95,
         "notes": [],
-        "zeroAddReason": null,
-        "zeroAddReasonCode": null
+        "zeroAddReason": "Tamil Dub videos were found but none could be placed safely; see the review list.",
+        "zeroAddReasonCode": "needs-review"
       }
     }
   }
