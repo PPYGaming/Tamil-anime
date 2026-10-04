@@ -2064,6 +2064,48 @@
           "officialUrl": "https://www.primevideo.com/detail/0LA5USYMUJWOHIADWEXZSMJU6R"
         }
       ]
+    },
+    {
+      "id": "verified-demon-lord-retry",
+      "title": "Demon Lord, Retry!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GXJHM37KD/demon-lord-retry",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 88044,
+      "tmdbUrl": "https://www.themoviedb.org/tv/88044",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM37KD/demon-lord-retry"
+        }
+      ]
+    },
+    {
+      "id": "verified-an-observation-log-of-my-fiance-who-calls-herself-a-villainess",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 288590,
+      "tmdbUrl": "https://www.themoviedb.org/tv/288590",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess"
+        }
+      ]
     }
   ]
 }
