@@ -215,11 +215,15 @@
       else if (v !== rowVideo) unconfirmed.push(v);
     }
 
-    const state = (confirmed.length && a.tamilDubVerified === true) || (listed && row.tamilDubVerified === true)
+    // Official Muse India "[Tamil Dub] <series>" playlists, attached by scripts/attach-playlists.js.
+    const playlists = (Array.isArray(a.youtubePlaylists) ? a.youtubePlaylists : [])
+      .filter((p) => isObj(p) && externalUrl(p.url) && /^https:\/\/www\.youtube\.com\/playlist\?list=PL[\w-]+$/.test(text(p.url)));
+    const playlistLinks = playlists.map((p, i) => extLink(externalUrl(p.url), playlists.length > 1 ? `Watch playlist on YouTube (${i + 1})` : "Watch playlist on YouTube")).join("");
+    const state = (confirmed.length && a.tamilDubVerified === true) || (listed && row.tamilDubVerified === true) || (playlists.length && a.tamilDubVerified === true)
       ? "verified"
-      : listed || confirmed.length ? "unverified" : "unavailable";
+      : listed || confirmed.length || playlists.length ? "unverified" : "unavailable";
 
-    const links = confirmed.map((v, i) => {
+    const links = playlistLinks + confirmed.map((v, i) => {
       const title = text(v.title);
       const label = title && title !== text(a.title) ? title : confirmed.length > 1 ? `Watch on YouTube (${i + 1})` : "Watch on YouTube";
       return extLink(externalUrl(v.url), label);
