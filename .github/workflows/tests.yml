@@ -1,0 +1,21 @@
+name: Tests
+
+# Runs the unit and mocked-API tests. It never reads a secret, never calls YouTube/TMDB/GitHub, and never writes to the repository.
+"on":
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm test
