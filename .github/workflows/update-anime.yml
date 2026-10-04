@@ -4,13 +4,25 @@ name: Update Anime Catalog
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
+    inputs:
+      full_rescan:
+        description: 'Restart the YouTube channel history scan from the beginning (owner recovery only; normally leave off)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
+# One catalog update at a time. A run that is requested while another is running waits behind it (the running one is
+# never cancelled mid-write), and GitHub keeps at most one waiting run, so several clicks collapse into one follow-up.
+concurrency:
+  group: update-anime-catalog
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,15 +37,21 @@ jobs:
           CONTENT_REGION: IN
           UPDATE_CRON: '0 */6 * * *'
           YOUTUBE_MAX_RESULTS: '10'
+          # Automatic discovery from the allow-listed official channel (see README). Needs YOUTUBE_API_KEY; without it
+          # the scan report says "missing-youtube-key" and only the manifest is processed.
+          DISCOVERY_ENABLED: 'true'
+          DISCOVERY_FULL_RESCAN: ${{ inputs.full_rescan == true && 'true' || 'false' }}
         run: node scripts/update-anime.js
       - name: Commit changes
         run: |
-          if git diff --quiet -- data/anime.json; then
+          set -euo pipefail
+          # The checkpoint file is new on the first run, so stage first and test the staged diff (git diff alone ignores untracked files).
+          git add -A -- data/anime.json data/discovery-state.json
+          if git diff --cached --quiet; then
             echo "No catalog changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/anime.json
           git commit -m "Auto update anime catalog"
           git push
