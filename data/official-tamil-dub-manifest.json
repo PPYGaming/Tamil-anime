@@ -24,6 +24,23 @@
       "tmdbSeason": 1,
       "aliases": [
         "JUJUTSU KAISEN"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81278456"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0O4GQNQGMXNKMYTJICGYOAH4RN"
+        }
       ]
     },
     {
@@ -60,6 +77,23 @@
       "tmdbSeason": 2,
       "aliases": [
         "Demon Slayer: Kimetsu no Yaiba"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81410810"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0S9GIHDHQ9ZSOW7YG7A8VQ4CIK"
+        }
       ]
     },
     {
@@ -74,7 +108,24 @@
       "mediaType": "tv",
       "year": 2023,
       "tmdbId": 209867,
-      "tmdbUrl": "https://www.themoviedb.org/tv/209867"
+      "tmdbUrl": "https://www.themoviedb.org/tv/209867",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81726714"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0FCJEHY4FXTDVCLZ5NR9A0N42N"
+        }
+      ]
     },
     {
       "id": "verified-black-butler--public-school-arc",
@@ -92,6 +143,23 @@
       "tmdbSeason": 4,
       "aliases": [
         "Black Butler"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYQ43P3E6/black-butler"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/70204955"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0MOOT4U7958647R4F7YXKCFGTR"
+        }
       ]
     },
     {
@@ -106,7 +174,24 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 237233,
-      "tmdbUrl": "https://www.themoviedb.org/tv/237233"
+      "tmdbUrl": "https://www.themoviedb.org/tv/237233",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GEXH3W2PK/chillin-in-another-world-with-level-2-super-cheat-powers"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81768199"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0H2OYHO0GEY6G992PNZJHCLJNX"
+        }
+      ]
     },
     {
       "id": "verified-kaiju-no--8",
@@ -120,7 +205,24 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 207468,
-      "tmdbUrl": "https://www.themoviedb.org/tv/207468"
+      "tmdbUrl": "https://www.themoviedb.org/tv/207468",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQ7D/kaiju-no-8"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81759290"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0RMIOELF86PNGYKB66Q1SD7901"
+        }
+      ]
     },
     {
       "id": "verified-blue-lock",
@@ -134,7 +236,24 @@
       "mediaType": "tv",
       "year": 2022,
       "tmdbId": 131041,
-      "tmdbUrl": "https://www.themoviedb.org/tv/131041"
+      "tmdbUrl": "https://www.themoviedb.org/tv/131041",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WEKE/blue-lock"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81640753"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0KU6QOMZ0W5ZJQO7CFFKK2XBM7"
+        }
+      ]
     },
     {
       "id": "verified-dr--stone-season-1",
@@ -152,6 +271,23 @@
       "tmdbSeason": 1,
       "aliases": [
         "Dr. STONE"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81046193"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0IXS3SUZ8IVNUDKAL5KHMZ96JD"
+        }
       ]
     },
     {
@@ -170,6 +306,23 @@
       "tmdbSeason": 1,
       "aliases": [
         "Haikyu!!"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GY8VM8MWY/haikyu"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/80090673"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0RNY8ZJJWYIS5CF105QBHW01KW"
+        }
       ]
     },
     {
@@ -184,7 +337,24 @@
       "mediaType": "tv",
       "year": 2023,
       "tmdbId": 204832,
-      "tmdbUrl": "https://www.themoviedb.org/tv/204832"
+      "tmdbUrl": "https://www.themoviedb.org/tv/204832",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GDKHZEP8W/mashle-magic-and-muscles"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81685164"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0MESJ4J9D9SLNNJ49ZOO7BNAE4"
+        }
+      ]
     },
     {
       "id": "verified-radiant-season-2",
@@ -202,6 +372,23 @@
       "tmdbSeason": 2,
       "aliases": [
         "Radiant"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G6W4MEZ0R/radiant"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81026767"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0G0QV36NSCAFJ2FK2EINEOAWXX"
+        }
       ]
     },
     {
@@ -220,6 +407,13 @@
       "tmdbSeason": 1,
       "aliases": [
         "TSUKIMICHI -Moonlit Fantasy-"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GZJH3D719/tsukimichi--moonlit-fantasy-"
+        }
       ]
     },
     {
@@ -234,7 +428,24 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 235758,
-      "tmdbUrl": "https://www.themoviedb.org/tv/235758"
+      "tmdbUrl": "https://www.themoviedb.org/tv/235758",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G1XHJV0XM/alya-sometimes-hides-her-feelings-in-russian"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81661821"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0FC1DV39B4OFTHOKXX91B1A6SB"
+        }
+      ]
     },
     {
       "id": "verified-bye-bye--earth",
@@ -248,7 +459,19 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 214587,
-      "tmdbUrl": "https://www.themoviedb.org/tv/214587"
+      "tmdbUrl": "https://www.themoviedb.org/tv/214587",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WJXN/bye-bye-earth"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0SPQRPRVT2RXDM5ZQJFOOJM9WB"
+        }
+      ]
     },
     {
       "id": "verified-makeine--too-many-losing-heroines",
@@ -262,7 +485,24 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 241535,
-      "tmdbUrl": "https://www.themoviedb.org/tv/241535"
+      "tmdbUrl": "https://www.themoviedb.org/tv/241535",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81566401"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0K6XAPMRH6COL6LSVHKNV8FA68"
+        }
+      ]
     },
     {
       "id": "verified-no-longer-allowed-in-another-world",
@@ -276,7 +516,19 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 205743,
-      "tmdbUrl": "https://www.themoviedb.org/tv/205743"
+      "tmdbUrl": "https://www.themoviedb.org/tv/205743",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM3G7X/no-longer-allowed-in-another-world"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0L3HLG2U1C3O52QQ28XRB9QNH2"
+        }
+      ]
     },
     {
       "id": "verified-quality-assurance-in-another-world",
@@ -290,7 +542,24 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 222925,
-      "tmdbUrl": "https://www.themoviedb.org/tv/222925"
+      "tmdbUrl": "https://www.themoviedb.org/tv/222925",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G24H1NW30/quality-assurance-in-another-world"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81948423"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0KIE758OR6SVKC3OAFZ5PTGOFH"
+        }
+      ]
     },
     {
       "id": "verified-the-strongest-magician-in-the-demon-lord-s-army-was-a-human",
@@ -304,7 +573,24 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 248951,
-      "tmdbUrl": "https://www.themoviedb.org/tv/248951"
+      "tmdbUrl": "https://www.themoviedb.org/tv/248951",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQDD/the-strongest-magician-in-the-demon-lords-army-was-a-human"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81948358"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0FAGVLDGW2R4CWLYRQ71J2NQ6Z"
+        }
+      ]
     },
     {
       "id": "verified-wistoria--wand-and-sword",
@@ -318,7 +604,24 @@
       "mediaType": "tv",
       "year": 2024,
       "tmdbId": 245842,
-      "tmdbUrl": "https://www.themoviedb.org/tv/245842"
+      "tmdbUrl": "https://www.themoviedb.org/tv/245842",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81900358"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0M2DSTM3ZUD9NZ7M979D91ZR3L"
+        }
+      ]
     },
     {
       "id": "verified-fire-force-season-2",
@@ -336,6 +639,23 @@
       "tmdbSeason": 2,
       "aliases": [
         "Fire Force"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYQWNXPZY/fire-force"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81143589"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0F77369DIKKAQ6AD0SCR3X5R61"
+        }
       ]
     },
     {
@@ -354,6 +674,23 @@
       "tmdbSeason": 1,
       "aliases": [
         "The Ancient Magus' Bride"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRZXQJJ8Y/the-ancient-magus-bride"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/80223976"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0OSDLCPHU0ZEC7FNFAX9K15W56"
+        }
       ]
     },
     {
@@ -368,7 +705,24 @@
       "mediaType": "tv",
       "year": 2015,
       "tmdbId": 62110,
-      "tmdbUrl": "https://www.themoviedb.org/tv/62110"
+      "tmdbUrl": "https://www.themoviedb.org/tv/62110",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRE59JGX6/assassination-classroom"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/80045948"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0IJE09LK4SMS6UOW6P4I921KCZ"
+        }
+      ]
     },
     {
       "id": "verified-spy-x-family-season-1",
@@ -386,6 +740,23 @@
       "tmdbSeason": 1,
       "aliases": [
         "SPY x FAMILY"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81511410"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0I6EZQPJ2NEZZSCUQGYDYIU4BY"
+        }
       ]
     },
     {
@@ -404,6 +775,23 @@
       "tmdbSeason": 2,
       "aliases": [
         "SPY x FAMILY"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81511410"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0I6EZQPJ2NEZZSCUQGYDYIU4BY"
+        }
       ]
     },
     {
@@ -422,6 +810,23 @@
       "tmdbSeason": 1,
       "aliases": [
         "That Time I Got Reincarnated as a Slime"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/81028712"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0OD4QN4CRHXLXUNQO2DM6DGEVH"
+        }
       ]
     },
     {
@@ -436,7 +841,24 @@
       "mediaType": "tv",
       "year": 2016,
       "tmdbId": 68129,
-      "tmdbUrl": "https://www.themoviedb.org/tv/68129"
+      "tmdbUrl": "https://www.themoviedb.org/tv/68129",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GY2PEJ0MY/yuri-on-ice"
+        },
+        {
+          "name": "Netflix",
+          "available": true,
+          "officialUrl": "https://www.netflix.com/title/80185797"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0M2B3TDGIAAZ9NCYVRGH5U2VWA"
+        }
+      ]
     }
   ]
 }
