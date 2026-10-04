@@ -73,7 +73,7 @@ test("the manifest allow-list holds exactly the owner-confirmed Muse India chann
   const manifest = JSON.parse(read("data/official-tamil-dub-manifest.json"));
 
   assert.deepEqual(manifest.officialYouTubeChannels, [{ name: "Muse India", channelId: "UCYYhAzgWuxPauRXdPpLAX3Q" }]);
-  assert.equal(manifest.entries.length, 27, "no manifest entry was added or removed");
+  assert.equal(manifest.entries.length, 35, "27 earlier entries plus the 8 Muse India playlist series added on 2026-10-04");
 });
 
 /* ------------------------------ workflows (text checks only) ------------------------------ */
