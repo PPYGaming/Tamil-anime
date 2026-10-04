@@ -41,12 +41,15 @@ jobs:
           # the scan report says "missing-youtube-key" and only the manifest is processed.
           DISCOVERY_ENABLED: 'true'
           DISCOVERY_FULL_RESCAN: ${{ inputs.full_rescan == true && 'true' || 'false' }}
-        run: node scripts/update-anime.js
+        run: |
+          node scripts/update-anime.js
+          # Playlist links are an extra: if this step fails, the catalog written above is still valid and is committed.
+          node scripts/attach-playlists.js || true
       - name: Commit changes
         run: |
           set -euo pipefail
           # The checkpoint file is new on the first run, so stage first and test the staged diff (git diff alone ignores untracked files).
-          git add -A -- data/anime.json data/discovery-state.json
+          git add -A -- data/anime.json data/discovery-state.json data/youtube-playlists.json
           if git diff --cached --quiet; then
             echo "No catalog changes."
             exit 0
