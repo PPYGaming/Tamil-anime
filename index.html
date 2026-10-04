@@ -6,6 +6,9 @@
   <meta name="description" content="Discover Tamil-dubbed anime, official streaming availability, episodes and official videos.">
   <meta property="og:title" content="Tamil Dub Anime">
   <meta property="og:description" content="Anime discovery catalog with official platform availability and videos.">
+  <!-- Optional owner-only "Scan now". Leave empty until a scan backend has actually been deployed (see backend/refresh-scan/README.md).
+       This is a public address, not a secret: no key or token ever goes here. -->
+  <meta name="refresh-scan-endpoint" content="">
   <title>Tamil Dub Anime</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -53,6 +56,7 @@
     </section>
 
     <p id="status" class="status" role="status">Loading catalog...</p>
+    <p id="scanSummary" class="scan-summary" role="status" hidden></p>
     <section id="animeGrid" class="anime-grid" aria-live="polite"></section>
   </main>
 
@@ -66,8 +70,14 @@
 
   <footer class="footer wrap">
     <p>Catalog data is updated automatically. Platform availability and Tamil-audio verification are separate fields.</p>
+    <p>New Tamil-dub episodes are found by an automatic scan that runs every 6 hours. Refresh reloads the saved catalog; it does not search any source itself.</p>
+    <p id="ownerTools" class="owner-tools" hidden>
+      <button id="scanButton" type="button">Scan official channel now (site owner)</button>
+      <span id="scanProgress" role="status"></span>
+    </p>
   </footer>
 
+  <script src="scan-status.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
