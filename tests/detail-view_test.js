@@ -66,16 +66,6 @@ function platformItems(html) {
   });
 }
 
-function episodeRows(html) {
-  return html.split('<li class="episode-row ').slice(1).map((chunk) => {
-    const item = chunk.split("</li>")[0];
-    return {
-      linked: item.startsWith("has-link"),
-      href: (/href="([^"]*)"/.exec(item) || [])[1] || null,
-      text: item.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim()
-    };
-  });
-}
 
 const byName = (html) => Object.fromEntries(platformItems(html).map((p) => [p.name, p]));
 
@@ -329,47 +319,46 @@ test("unsafe URLs in every link field never reach an href", () => {
 /* Detail view: episodes                                                */
 /* ------------------------------------------------------------------ */
 
-test("episodes link only when an official URL exists; null URLs are plain text", () => {
+test("no per-episode rows or episode links are rendered, only season and episode totals", () => {
   const html = app.detailHtml(record({
     episodes: [
       { number: "1-1", title: "The Start", url: "https://www.crunchyroll.com/watch/G1/the-start", platform: "Crunchyroll" },
       { number: "1-2", url: null },
-      { number: "1-3", title: "Third", url: null }
+      { number: "2-1", title: "Third", url: null }
     ]
   }));
-  const rows = episodeRows(html);
-  assert.deepEqual(rows.map((r) => r.linked), [true, false, false]);
-  assert.equal(rows[0].href, "https://www.crunchyroll.com/watch/G1/the-start");
-  assert.match(rows[0].text, /Episode 1-1 The Start Watch on Crunchyroll/);
-  assert.equal(rows[1].href, null);
-  assert.match(rows[1].text, /Episode 1-2/);
-  assert.match(rows[1].text, /Official link not available/);
-  assert.match(html, /1 of 3 episodes have an official link/);
+  assert.ok(!/episode-row|episode-list|episodesHeading|Episode 1/.test(html));
+  assert.ok(!html.includes("crunchyroll.com/watch/G1"), "an episode URL is never shown");
+  assert.match(html, /<span>2 seasons<\/span>/);
+  assert.match(html, /<span>3 episodes<\/span>/);
 });
 
-test("generated placeholder numbers are never turned into URLs", () => {
-  const html = app.detailHtml(record({ episodes: [{ number: "1-1", url: null }, { number: "1-2", url: null }, { number: 3, url: "" }] }));
-  const rows = episodeRows(html);
-  assert.equal(rows.length, 3);
-  assert.ok(rows.every((r) => !r.linked && r.href === null));
-  assert.ok(!/<ul class="episode-list">[^]*href=/.test(html.split("</ul>").slice(-2)[0]), "no href inside the episode list");
-  assert.match(html, /Official episode links are not available for this title yet\./);
-  assert.match(rows[2].text, /Episode 3/);
+test("stored TMDB totals win over counting rows; a season record shows its season and episode count", () => {
+  const series = app.countsOf({ numberOfSeasons: 5, numberOfEpisodes: 120, episodes: [{ number: "1-1" }] });
+  assert.deepEqual([series.seasons, series.episodes, series.seasonNumber], [5, 120, null]);
+  const season = app.countsOf({ tmdbSeason: 2, episodes: [{ number: "2-1" }, { number: "2-2" }] });
+  assert.deepEqual([season.seasons, season.episodes, season.seasonNumber], [1, 2, 2]);
+  assert.match(app.cardHtml({ title: "S", tmdbSeason: 2, episodes: [{ number: "2-1" }, { number: "2-2" }] }), /<span>Season 2<\/span><span>2 episodes<\/span>/);
+  const none = app.countsOf({ episodes: [] });
+  assert.deepEqual([none.seasons, none.episodes], [null, null]);
+  assert.ok(!/season|episode/i.test(app.cardHtml({ title: "No counts", episodes: [] }).replace(/class="[^"]*"/g, "")));
 });
 
-test("episode summary wording covers all-linked and none-listed cases", () => {
-  assert.match(app.episodesSection([{ number: "1", url: "https://www.netflix.com/watch/81000001", platform: "Netflix" }]), /Every episode links to its official page\./);
-  assert.match(app.episodesSection([]), /No episodes are listed for this title yet\./);
-  assert.match(app.episodesSection(undefined), /No episodes are listed/);
-  assert.match(app.episodesSection([{ number: "1", url: "https://a.test/w", platform: "Other" }]), /Watch</, "unknown platform label falls back to a generic Watch");
-});
-
-test("episode text and URLs are escaped", () => {
-  const html = app.episodesSection([{ number: "<b>1</b>", title: '"><img src=x onerror=alert(1)>', url: 'https://a.test/w?x="1"&y=<2>' }]);
-  assert.ok(!html.includes("<img src=x"));
-  assert.ok(!html.includes("<b>1"));
-  assert.ok(!html.includes('"1"'), "quotes in the URL are escaped inside the attribute");
-  assert.match(html, /&lt;b&gt;1&lt;\/b&gt;/);
+test("a third-party reported platform row is labelled as reported, never as verified", () => {
+  const html = app.detailHtml(record({
+    platforms: [
+      { name: "Crunchyroll", available: false, officialUrl: null, tamilDubVerified: false },
+      { name: "Netflix", available: true, officialUrl: "https://www.netflix.com/title/81663323", tamilDubVerified: false, tamilDubReported: true, tamilDubReportSource: "Anime Mirchi", tamilDubReportUrl: "https://animemirchi.com/netflix-tamil-dubbed-anime-list/" },
+      { name: "Amazon Prime Video", available: true, officialUrl: "https://www.primevideo.com/detail/0J3OTJAN6KC2NV157JXI5G0TCD", tamilDubVerified: false, tamilDubReported: true, tamilDubReportSource: "Anime News India", tamilDubReportUrl: "https://animenewsindia.com/x", regionNote: "India listing not confirmed" }
+    ]
+  }));
+  const rows = byName(html);
+  assert.equal(rows.Netflix.state, "reported");
+  assert.match(rows.Netflix.label, /reported by a third party \(not confirmed\)/);
+  assert.ok(!/Tamil dub verified/.test(rows.Netflix.text));
+  assert.ok(rows.Netflix.hrefs.includes("https://www.netflix.com/title/81663323"));
+  assert.match(rows.Netflix.text, /See report \(Anime Mirchi\)/);
+  assert.match(rows["Amazon Prime Video"].text, /India listing not confirmed/);
 });
 
 /* ------------------------------------------------------------------ */
@@ -384,7 +373,7 @@ test("detail renders artwork, title, original title, description, tags and landm
   assert.match(html, /<img class="detail-backdrop" src="https:\/\/img\.example\/backdrop\.jpg" alt="">/);
   assert.match(html, /A demo title\./);
   assert.match(html, /<h2 id="platformsHeading">Where to watch<\/h2>/);
-  assert.match(html, /<h2 id="episodesHeading">Episodes<\/h2>/);
+  assert.ok(!/episodesHeading/.test(html));
   assert.match(html, /aria-labelledby="platformsHeading"/);
   assert.match(html, /<span class="tag">Drama<\/span>/);
   assert.equal((html.match(/<h1/g) || []).length, 1);
@@ -393,7 +382,7 @@ test("detail renders artwork, title, original title, description, tags and landm
 test("every external link opens safely and announces the new tab", () => {
   const html = app.detailHtml(record());
   const anchors = html.match(/<a [^>]*>/g) || [];
-  assert.ok(anchors.length >= 3);
+  assert.ok(anchors.length >= 1);
   for (const a of anchors) {
     assert.match(a, /target="_blank"/);
     assert.match(a, /rel="noopener noreferrer"/);
@@ -672,5 +661,5 @@ test("legacy catalog records (current schema) open without errors", async () => 
   env.grid.fire("click", click("body", "legacy-1"));
   assert.match(env.detailBody.innerHTML, /Legacy/);
   assert.equal(platformItems(env.detailBody.innerHTML).length, 4);
-  assert.equal(episodeRows(env.detailBody.innerHTML).length, 2);
+  assert.ok(!/episode-row/.test(env.detailBody.innerHTML));
 });
