@@ -80,3 +80,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
   .platform-actions p{text-align:left}
   .ep-go{margin-left:0}
 }
+
+/* ===== Scan status ===== */
+.scan-summary{margin:-6px 0 14px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--glass);color:var(--muted);font-size:.9rem}
+.scan-summary[data-tone="warn"]{border-color:rgba(246,210,139,.42);color:#f6d28b}
+.owner-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:14px 0 0}
+.owner-tools button{border:1px solid rgba(207,188,255,.26);background:rgba(30,23,54,.78);color:#fff;border-radius:11px;padding:8px 14px}
+.owner-tools button:disabled{opacity:.6;cursor:progress}
