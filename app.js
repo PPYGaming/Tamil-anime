@@ -296,6 +296,15 @@
 
   /* ---------- app wiring ---------- */
 
+  // Optional scan-status panel (scan-status.js). It must never be able to break catalog loading.
+  function notifyScanStatus(win, data) {
+    try {
+      if (win.ScanStatus && typeof win.ScanStatus.onCatalog === "function") win.ScanStatus.onCatalog(data);
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
   function createApp(win) {
     const doc = win.document;
     const $ = (s) => doc.querySelector(s);
@@ -406,6 +415,7 @@
         state.failed = false;
         render();
         statusEl.textContent = data.lastUpdated ? `Catalog updated: ${new Date(data.lastUpdated).toLocaleString()}` : "Catalog loaded.";
+        notifyScanStatus(win, data);
       } catch (err) {
         console.error(err);
         statusEl.textContent = "Unable to load the latest catalog.";
@@ -443,5 +453,13 @@
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = api;
-  if (typeof window !== "undefined" && window.document && window.document.querySelector("#animeGrid")) createApp(window).start();
+  if (typeof window !== "undefined" && window.document && window.document.querySelector("#animeGrid")) {
+    const app = createApp(window);
+    try {
+      if (window.ScanStatus && typeof window.ScanStatus.attach === "function") window.ScanStatus.attach(window, app);
+    } catch (err) {
+      console.error(err);
+    }
+    app.start();
+  }
 })();
