@@ -87,7 +87,7 @@ const SOURCE_LABELS = {
 const RECORD_KEY_ORDER = [
   "id", "title", "originalTitle", "description", "image", "backdrop", "rating",
   "likes", "availability", "status", "firstAirDate", "createdAt", "updatedAt",
-  "isNew", "tags", "platforms", "episodes", "youtube", "tamilDubVerified",
+  "isNew", "tags", "numberOfSeasons", "numberOfEpisodes", "platforms", "episodes", "youtube", "tamilDubVerified",
   "tamilDubVerificationSource", "tamilDubVerificationUrl", "tamilDubVerifiedAt",
   "tamilDubEvidence", "discoveryProvenance", "inclusionSource", "tmdbId", "tmdbUrl", "tmdbSeason", "tmdbSeasonUrl",
   "mediaType", "region"
@@ -1479,6 +1479,9 @@ function tmdbMetadata(details, type, season = null) {
     firstAirDate: date,
     createdAt: date ? `${date}T00:00:00Z` : null,
     tags: createTags(details),
+    // Series totals for the site (it shows only "N seasons, N episodes"); a single season has no series totals.
+    numberOfSeasons: isTv && !season && Number.isInteger(details.number_of_seasons) && details.number_of_seasons > 0 ? details.number_of_seasons : null,
+    numberOfEpisodes: isTv && !season && Number.isInteger(details.number_of_episodes) && details.number_of_episodes > 0 ? details.number_of_episodes : null,
     episodes: !isTv ? [] : season ? (seasonDetails ? createSeasonEpisodes(seasonDetails, season.number) : []) : createEpisodes(details)
   };
 }
@@ -2416,4 +2419,4 @@ if (require.main === module) {
     console.error(redact(error && error.stack ? error.stack : error));
     process.exit(1);
   });
-}
+    }
