@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "entries": [
     {
       "title": "Dragon Ball Daima",
@@ -623,6 +623,21 @@
         "checkedAt": "2026-10-04"
       },
       "regionNote": "Prime Video page not confirmed as the India listing (Tamil is on the paid Anime Times channel)"
+    },
+    {
+      "title": "JoJo's Bizarre Adventure: Steel Ball Run",
+      "mediaType": "tv",
+      "tmdbId": 45790,
+      "tmdbSeason": 6,
+      "year": 2026,
+      "platform": "Netflix",
+      "officialUrl": "https://www.netflix.com/title/82116553",
+      "report": {
+        "source": "Anime Mirchi",
+        "url": "https://animemirchi.com/netflix-tamil-dubbed-anime-list/",
+        "checkedAt": "2026-10-05"
+      },
+      "regionNote": "Netflix page not confirmed as the India listing"
     }
   ]
 }
