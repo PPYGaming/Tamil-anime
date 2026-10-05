@@ -2433,6 +2433,132 @@
           "officialUrl": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede"
         }
       ]
+    },
+    {
+      "id": "verified-365-days-to-the-wedding",
+      "title": "365 Days to the Wedding",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 230189,
+      "tmdbUrl": "https://www.themoviedb.org/tv/230189",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding"
+        }
+      ]
+    },
+    {
+      "id": "verified-a-misanthrope-teaches-a-class-for-demi-humans",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 303434,
+      "tmdbUrl": "https://www.themoviedb.org/tv/303434",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans"
+        }
+      ]
+    },
+    {
+      "id": "verified-girls-frontline",
+      "title": "Girls' Frontline",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 91643,
+      "tmdbUrl": "https://www.themoviedb.org/tv/91643",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline"
+        }
+      ]
+    },
+    {
+      "id": "verified-heroines-run-the-show",
+      "title": "Heroines Run the Show",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 132213,
+      "tmdbUrl": "https://www.themoviedb.org/tv/132213",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show"
+        }
+      ]
+    },
+    {
+      "id": "verified-if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+      "title": "If My Favorite Pop Idol Made It to the Budokan, I Would Die",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 208559,
+      "tmdbUrl": "https://www.themoviedb.org/tv/208559",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die"
+        }
+      ]
+    },
+    {
+      "id": "verified-miss-kuroitsu-from-the-monster-development-department",
+      "title": "Miss Kuroitsu from the Monster Development Department",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 128826,
+      "tmdbUrl": "https://www.themoviedb.org/tv/128826",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department"
+        }
+      ]
     }
   ]
 }
