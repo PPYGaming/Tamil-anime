@@ -71,6 +71,10 @@ const { sanitizeProvenance, mergeProvenance, applyAvailability, provenanceRows }
 
 const USER_AGENT = "Tamil-Dub-Anime-Catalog/3.0";
 const REQUIRED_PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
+// platforms rows may also carry verificationUrl/checkedAt/note: Tamil proof for THAT row only, accepted only when the URL is
+// an official title page on the row's own platform (never a blog, search page or another platform). JioHotstar and Sony LIV
+// rows are curated-only (no episode links).
+const CURATED_PLATFORMS = [...REQUIRED_PLATFORMS, "JioHotstar", "Sony LIV"];
 const PLACEHOLDER_DESCRIPTION = "No description available.";
 const MAX_REPORT_ITEMS = 50;
 const MAX_TAGS = 8;
@@ -81,7 +85,9 @@ const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 const SOURCE_LABELS = {
   Crunchyroll: "Crunchyroll official listing/announcement",
   Netflix: "Netflix official listing/announcement",
-  "Amazon Prime Video": "Amazon Prime Video official listing"
+  "Amazon Prime Video": "Amazon Prime Video official listing",
+  JioHotstar: "JioHotstar official listing",
+  "Sony LIV": "Sony LIV official listing"
 };
 
 const RECORD_KEY_ORDER = [
@@ -311,6 +317,16 @@ const PLATFORM_RULES = [
       hostMatches(h, "primevideo.com")
         ? /(^|\/)detail\/[A-Za-z0-9]+/.test(p)
         : /^\/gp\/video\/detail\/[A-Za-z0-9]+/.test(p)
+  },
+  {
+    platform: "JioHotstar",
+    host: (h) => hostMatches(h, "hotstar.com") || hostMatches(h, "jiohotstar.com"),
+    page: (h, p) => /^\/(?:[a-z]{2}(?:-[a-z]{2})?\/)?(?:shows|movies|tv)\/[^/]+\/\d+/i.test(p)
+  },
+  {
+    platform: "Sony LIV",
+    host: (h) => hostMatches(h, "sonyliv.com"),
+    page: (h, p) => /^\/(?:shows|movies)\/[^/]+/i.test(p)
   }
 ];
 
@@ -416,7 +432,9 @@ const TITLE_PAGE = {
 
 const EPISODE_PAGE = {
   Crunchyroll: new RegExp(`^\\/${LOCALE_SEGMENT}watch\\/[^/]+`, "i"),
-  Netflix: new RegExp(`^\\/${LOCALE_SEGMENT}watch\\/\\d+`, "i")
+  Netflix: new RegExp(`^\\/${LOCALE_SEGMENT}watch\\/\\d+`, "i"),
+  JioHotstar: /^$/, // no known watch-page shape: episode links are dropped
+  "Sony LIV": /^$/
 };
 
 // classifyOfficialUrl predates episode links and does not know Netflix /watch/<id> pages.
@@ -474,7 +492,7 @@ function parseCuratedPlatforms(raw, warnings) {
 
   for (const item of raw) {
     const given = cleanText(isPlainObject(item) ? item.name : item);
-    const name = REQUIRED_PLATFORMS.find((known) => known.toLowerCase() === given.toLowerCase());
+    const name = CURATED_PLATFORMS.find((known) => known.toLowerCase() === given.toLowerCase());
 
     if (!name) {
       warnings.push(`platforms: unknown platform "${given}" ignored`);
@@ -495,7 +513,14 @@ function parseCuratedPlatforms(raw, warnings) {
       continue;
     }
 
-    rows.push({ name, officialUrl: link.url, claimsTamil: item.tamilDubVerified === true });
+    rows.push({
+      name,
+      officialUrl: link.url,
+      claimsTamil: item.tamilDubVerified === true,
+      ...(cleanText(item.verificationUrl)
+        ? { verificationUrl: cleanText(item.verificationUrl), checkedAt: cleanText(item.checkedAt), note: cleanText(item.note) }
+        : {})
+    });
   }
 
   return rows;
@@ -708,8 +733,11 @@ function validateEntry(raw, channels, options = {}) {
     if (!Number.isInteger(year) || year < 1900 || year > 2100) return reject("year must be a 4-digit year");
   }
 
+  const rowProofRequested =
+    Array.isArray(raw.platforms) && raw.platforms.some((item) => isPlainObject(item) && cleanText(item.verificationUrl));
+
   const list = Array.isArray(raw.verification) ? raw.verification : raw.verification ? [raw.verification] : [];
-  if (!list.length) return reject("missing verification (official-source URL)");
+  if (!list.length && !rowProofRequested) return reject("missing verification (official-source URL)");
 
   const evidence = [];
   const problems = [];
@@ -721,11 +749,34 @@ function validateEntry(raw, channels, options = {}) {
     else if (!evidence.some((existing) => existing.url === result.evidence.url)) evidence.push(result.evidence);
   }
 
-  if (!evidence.length) return reject(`no acceptable official-source evidence: ${problems.join("; ")}`);
+  if (!evidence.length && !rowProofRequested) return reject(`no acceptable official-source evidence: ${problems.join("; ")}`);
 
   // Optional curated fields. Problems only drop the offending row or link, never the entry.
   const warnings = [];
   const curatedPlatforms = parseCuratedPlatforms(raw.platforms, warnings);
+
+  // Per-platform proof: a row's verificationUrl counts only as a title page on THAT row's own platform.
+  // A blog, a search page, an announcement or another platform's URL is ignored with a warning.
+  for (const row of curatedPlatforms) {
+    if (!row.verificationUrl) continue;
+
+    const link = classifyLink(row.verificationUrl, "title");
+    if (!link.ok || link.platform !== row.name) {
+      warnings.push(`platforms: ${row.name} verificationUrl ignored (${link.ok ? `it is a ${link.platform} URL; proof must be on ${row.name}'s own domain` : link.reason})`);
+      continue;
+    }
+
+    const result = validateEvidence({ url: row.verificationUrl, checkedAt: row.checkedAt, note: row.note }, channels);
+    if (!result.ok || result.evidence.platform !== row.name) {
+      warnings.push(`platforms: ${row.name} verificationUrl ignored (${result.ok ? "wrong platform" : result.reason})`);
+      continue;
+    }
+
+    row.proofUrl = result.evidence.url;
+    if (!evidence.some((existing) => existing.url === result.evidence.url)) evidence.push(result.evidence);
+  }
+
+  if (!evidence.length) return reject(`no acceptable official-source evidence: ${[...problems, ...warnings].join("; ")}`);
   let episodes = parseCuratedEpisodes(raw.episodes, warnings);
 
   if (tmdbSeason !== null) {
