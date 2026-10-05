@@ -158,3 +158,22 @@ test("attach: idempotent", () => {
   A.run(o);
   assert.deepEqual([fs.readFileSync(o.animeFile, "utf8"), fs.readFileSync(o.leadsFile, "utf8")], r1);
 });
+
+test("parseTitles reads post-style cards (second mirror markup)", () => {
+  const html = `<article class="post dfx fcl movies"><h2 class="entry-title" style="x">Spy x Family</h2></article><article class="post"><h2 class="entry-title">Re:Monster</h2></article>`;
+  assert.deepEqual(L.parseTitles(html), ["Spy x Family", "Re:Monster"]);
+});
+
+test("two sources of one site merge; one failing source still yields ok", async () => {
+  const cfg = [
+    { name: "Animesalt", bases: ["https://a.test"], listPath: "/l/", pagePath: (n) => `/l/p/${n}/`, maxPages: 3 },
+    { name: "Animesalt", bases: ["https://c.test"], listPath: "/l/", pagePath: (n) => `/l/p/${n}/`, maxPages: 3 },
+  ];
+  const o = mk({ config: cfg, fetchImpl: fx({ "https://a.test/l/": page(names(25)), "https://c.test/l/": page(names(25, "c")) }) });
+  await L.run(o);
+  assert.equal(read(o).titles.length, 50);
+  const o2 = mk({ config: cfg, fetchImpl: fx({ "https://c.test/l/": page(names(25, "c")) }) });
+  await L.run(o2);
+  assert.equal(read(o2).ok, true);
+  assert.equal(read(o2).titles.length, 25);
+});
