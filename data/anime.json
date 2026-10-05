@@ -239,7 +239,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
@@ -355,7 +362,14 @@
       "tmdbId": 237233,
       "tmdbUrl": "https://www.themoviedb.org/tv/237233",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-kaiju-no--8",
@@ -543,7 +557,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-blue-lock",
@@ -785,7 +806,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-mashle--magic-and-muscles",
@@ -968,7 +996,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-alya-sometimes-hides-her-feelings-in-russian",
@@ -1083,7 +1118,14 @@
       "tmdbId": 235758,
       "tmdbUrl": "https://www.themoviedb.org/tv/235758",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-bye-bye--earth",
@@ -1227,7 +1269,14 @@
       "tmdbId": 214587,
       "tmdbUrl": "https://www.themoviedb.org/tv/214587",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-makeine--too-many-losing-heroines",
@@ -1346,7 +1395,14 @@
       "tmdbId": 241535,
       "tmdbUrl": "https://www.themoviedb.org/tv/241535",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-no-longer-allowed-in-another-world",
@@ -1459,7 +1515,14 @@
       "tmdbId": 205743,
       "tmdbUrl": "https://www.themoviedb.org/tv/205743",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-quality-assurance-in-another-world",
@@ -1575,7 +1638,14 @@
       "tmdbId": 222925,
       "tmdbUrl": "https://www.themoviedb.org/tv/222925",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-strongest-magician-in-the-demon-lord-s-army-was-a-human",
@@ -1686,7 +1756,14 @@
       "tmdbId": 248951,
       "tmdbUrl": "https://www.themoviedb.org/tv/248951",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-wistoria--wand-and-sword",
@@ -1846,7 +1923,14 @@
       "tmdbId": 245842,
       "tmdbUrl": "https://www.themoviedb.org/tv/245842",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-assassination-classroom",
@@ -2121,7 +2205,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-yuri----on-ice",
@@ -2233,7 +2324,14 @@
       "tmdbId": 68129,
       "tmdbUrl": "https://www.themoviedb.org/tv/68129",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-jujutsu-kaisen-season-1",
@@ -2572,7 +2670,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
@@ -2994,7 +3099,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-black-butler--public-school-arc",
@@ -3362,7 +3474,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-dr--stone-season-1",
@@ -3875,7 +3994,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-haikyu---season-1",
@@ -4341,7 +4467,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-radiant-season-2",
@@ -4586,7 +4719,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-tsukimichi--moonlit-fantasy--season-1",
@@ -4835,7 +4975,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-fire-force-season-2",
@@ -5234,7 +5381,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-ancient-magus--bride-season-1",
@@ -5502,7 +5656,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-spy-x-family-season-1",
@@ -5812,7 +5973,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-that-time-i-got-reincarnated-as-a-slime-season-1",
@@ -6303,7 +6471,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-spy-x-family-season-2",
@@ -6487,7 +6662,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-attack-on-titan-season-1",
@@ -7569,7 +7751,14 @@
           "title": "[Tamil Dub] Attack on Titan | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL14l2AtiM3ief_kNirKuyroa"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-mob-psycho-100-season-1",
@@ -7728,7 +7917,14 @@
           "title": "[Tamil Dub] Mob Psycho 100 | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLF4OL6MRpW_U"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-mob-psycho-100-season-2",
@@ -7893,7 +8089,14 @@
           "title": "[Tamil Dub] Mob Psycho 100 | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLF4OL6MRpW_U"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-classroom-of-the-elite-season-1",
@@ -8051,7 +8254,14 @@
           "title": "[Tamil Dub] Classroom of the Elite | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-classroom-of-the-elite-season-2",
@@ -8649,7 +8859,14 @@
           "title": "[Tamil Dub] Classroom of the Elite | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-skeleton-knight-in-another-world-season-1",
@@ -9208,7 +9425,14 @@
           "title": "[Tamil Dub] Skeleton Knight in Another World | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLNTwZt1fyw5E"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-a-gatherer-s-adventure-in-isekai-season-1",
@@ -9369,7 +9593,14 @@
           "title": "[Tamil Dub] A Gatherer's Adventure in Isekai | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17oMZfy0JK02UuLNGLnoPDl"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-campfire-cooking-in-another-world-with-my-absurd-skill-season-1",
@@ -9600,7 +9831,14 @@
           "title": "[Tamil Dub] Campfire Cooking in Another World",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-campfire-cooking-in-another-world-with-my-absurd-skill-season-2",
@@ -9679,7 +9917,14 @@
           "title": "[Tamil Dub] Campfire Cooking in Another World",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL14H5UUGzQwUEXCvmK6MNPAj"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-watari-kun-s-is-about-to-collapse",
@@ -9849,7 +10094,14 @@
       "tmdbId": 285356,
       "tmdbUrl": "https://www.themoviedb.org/tv/285356",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-gods-games-we-play",
@@ -9967,7 +10219,14 @@
       "tmdbId": 156057,
       "tmdbUrl": "https://www.themoviedb.org/tv/156057",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-you-are-ms-servant",
@@ -10080,7 +10339,14 @@
       "tmdbId": 242143,
       "tmdbUrl": "https://www.themoviedb.org/tv/242143",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-an-archdemon-s-dilemma-how-to-love-your-elf-bride",
@@ -10195,7 +10461,14 @@
       "tmdbId": 238848,
       "tmdbUrl": "https://www.themoviedb.org/tv/238848",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-zenshu",
@@ -10310,7 +10583,14 @@
       "tmdbId": 249882,
       "tmdbUrl": "https://www.themoviedb.org/tv/249882",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-tying-the-knot-with-an-amagami-sister",
@@ -10471,7 +10751,14 @@
       "tmdbId": 234910,
       "tmdbUrl": "https://www.themoviedb.org/tv/234910",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-metallic-rouge",
@@ -10589,7 +10876,14 @@
       "tmdbId": 222787,
       "tmdbUrl": "https://www.themoviedb.org/tv/222787",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-wind-breaker",
@@ -10776,7 +11070,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-bucchigiri",
@@ -10891,7 +11192,14 @@
       "tmdbId": 226905,
       "tmdbUrl": "https://www.themoviedb.org/tv/226905",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-tower-of-god",
@@ -11146,7 +11454,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-robotics-notes",
@@ -11301,7 +11616,14 @@
       "tmdbId": 46435,
       "tmdbUrl": "https://www.themoviedb.org/tv/46435",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-mechanical-marie",
@@ -11415,7 +11737,14 @@
       "tmdbId": 287278,
       "tmdbUrl": "https://www.themoviedb.org/tv/287278",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-clevatess",
@@ -11581,7 +11910,14 @@
       "tmdbId": 258348,
       "tmdbUrl": "https://www.themoviedb.org/tv/258348",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-banished-from-the-hero-s-party-i-decided-to-live-a-quiet-life-in-the-countryside",
@@ -11748,7 +12084,14 @@
       "tmdbId": 113256,
       "tmdbUrl": "https://www.themoviedb.org/tv/113256",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-trillion-game",
@@ -11917,7 +12260,14 @@
       "tmdbId": 240125,
       "tmdbUrl": "https://www.themoviedb.org/tv/240125",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-solo-leveling",
@@ -12105,7 +12455,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-akebi-s-sailor-uniform",
@@ -12218,7 +12575,14 @@
       "tmdbId": 121792,
       "tmdbUrl": "https://www.themoviedb.org/tv/121792",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-i-m-getting-married-to-a-girl-i-hate-in-my-class",
@@ -12331,7 +12695,14 @@
       "tmdbId": 257790,
       "tmdbUrl": "https://www.themoviedb.org/tv/257790",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-let-s-play",
@@ -12444,7 +12815,14 @@
       "tmdbId": 293010,
       "tmdbUrl": "https://www.themoviedb.org/tv/293010",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-dan-da-dan",
@@ -12629,7 +13007,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-great-cleric",
@@ -12743,7 +13128,14 @@
       "tmdbId": 220779,
       "tmdbUrl": "https://www.themoviedb.org/tv/220779",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-hokkaido-gals-are-super-adorable",
@@ -12856,7 +13248,14 @@
       "tmdbId": 213181,
       "tmdbUrl": "https://www.themoviedb.org/tv/213181",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-nina-the-starry-bride",
@@ -12970,7 +13369,14 @@
       "tmdbId": 240641,
       "tmdbUrl": "https://www.themoviedb.org/tv/240641",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-true-beauty",
@@ -13099,7 +13505,14 @@
       "tmdbId": 112888,
       "tmdbUrl": "https://www.themoviedb.org/tv/112888",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-magic-maker-how-to-make-magic-in-another-world",
@@ -13214,7 +13627,14 @@
       "tmdbId": 258912,
       "tmdbUrl": "https://www.themoviedb.org/tv/258912",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-to-be-hero-x",
@@ -13376,7 +13796,14 @@
       "tmdbId": 272059,
       "tmdbUrl": "https://www.themoviedb.org/tv/272059",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-weakest-tamer-began-a-journey-to-pick-up-trash",
@@ -13490,7 +13917,14 @@
       "tmdbId": 214310,
       "tmdbUrl": "https://www.themoviedb.org/tv/214310",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-my-dress-up-darling",
@@ -13674,7 +14108,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-fullmetal-alchemist-brotherhood",
@@ -13997,7 +14438,14 @@
       "tmdbId": 31911,
       "tmdbUrl": "https://www.themoviedb.org/tv/31911",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-there-was-a-cute-girl-in-the-hero-s-party-so-i-tried-confessing-to-her",
@@ -14116,7 +14564,14 @@
       "tmdbId": 295366,
       "tmdbUrl": "https://www.themoviedb.org/tv/295366",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-sentenced-to-be-a-hero",
@@ -14230,7 +14685,14 @@
       "tmdbId": 249907,
       "tmdbUrl": "https://www.themoviedb.org/tv/249907",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-a-wild-last-boss-appeared",
@@ -14393,7 +14855,14 @@
       "tmdbId": 280042,
       "tmdbUrl": "https://www.themoviedb.org/tv/280042",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-warrior-princess-and-the-barbaric-king",
@@ -14507,7 +14976,14 @@
       "tmdbId": 273467,
       "tmdbUrl": "https://www.themoviedb.org/tv/273467",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-with-you-our-love-will-make-it-through",
@@ -14621,7 +15097,14 @@
       "tmdbId": 282662,
       "tmdbUrl": "https://www.themoviedb.org/tv/282662",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-tojima-wants-to-be-a-kamen-rider",
@@ -14783,7 +15266,14 @@
       "tmdbId": 285788,
       "tmdbUrl": "https://www.themoviedb.org/tv/285788",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-dark-moon-the-blood-altar",
@@ -14896,7 +15386,14 @@
       "tmdbId": 271609,
       "tmdbUrl": "https://www.themoviedb.org/tv/271609",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-hana-kimi",
@@ -15061,7 +15558,14 @@
       "tmdbId": 254492,
       "tmdbUrl": "https://www.themoviedb.org/tv/254492",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-kunon-the-sorcerer-can-see",
@@ -15179,7 +15683,14 @@
       "tmdbId": 282946,
       "tmdbUrl": "https://www.themoviedb.org/tv/282946",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-release-that-witch",
@@ -15277,7 +15788,14 @@
       "tmdbId": 298026,
       "tmdbUrl": "https://www.themoviedb.org/tv/298026",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-an-adventurer-s-daily-grind-at-age-29",
@@ -15391,7 +15909,14 @@
       "tmdbId": 290667,
       "tmdbUrl": "https://www.themoviedb.org/tv/290667",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-you-and-i-are-polar-opposites",
@@ -15568,7 +16093,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-oshi-no-ko",
@@ -15773,7 +16305,14 @@
       "tmdbId": 203737,
       "tmdbUrl": "https://www.themoviedb.org/tv/203737",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-daemons-of-the-shadow-realm",
@@ -15939,7 +16478,14 @@
       "tmdbId": 260463,
       "tmdbUrl": "https://www.themoviedb.org/tv/260463",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-agents-of-the-four-seasons-dance-of-spring",
@@ -16061,7 +16607,14 @@
       "tmdbId": 288659,
       "tmdbUrl": "https://www.themoviedb.org/tv/288659",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-eren-the-southpaw",
@@ -16178,7 +16731,14 @@
       "tmdbId": 305567,
       "tmdbUrl": "https://www.themoviedb.org/tv/305567",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-liar-game",
@@ -16347,7 +16907,14 @@
       "tmdbId": 300126,
       "tmdbUrl": "https://www.themoviedb.org/tv/300126",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-exiled-heavy-knight-knows-how-to-game-the-system",
@@ -16517,7 +17084,14 @@
       "tmdbId": 270603,
       "tmdbUrl": "https://www.themoviedb.org/tv/270603",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-hanaori-san-still-wants-to-fight-in-the-next-life",
@@ -16631,7 +17205,14 @@
       "tmdbId": 312266,
       "tmdbUrl": "https://www.themoviedb.org/tv/312266",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-tomb-raider-king",
@@ -16745,7 +17326,14 @@
       "tmdbId": 297826,
       "tmdbUrl": "https://www.themoviedb.org/tv/297826",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-i-m-in-love-with-the-villainess",
@@ -16859,7 +17447,14 @@
       "tmdbId": 216269,
       "tmdbUrl": "https://www.themoviedb.org/tv/216269",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-a-couple-of-cuckoos",
@@ -17068,7 +17663,14 @@
       "tmdbId": 122587,
       "tmdbUrl": "https://www.themoviedb.org/tv/122587",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-darling-in-the-franxx",
@@ -17243,7 +17845,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-daily-life-of-the-immortal-king",
@@ -17562,7 +18171,14 @@
       "tmdbId": 98123,
       "tmdbUrl": "https://www.themoviedb.org/tv/98123",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-apothecary-diaries",
@@ -17880,7 +18496,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-good-bye-dragon-life",
@@ -17994,7 +18617,14 @@
       "tmdbId": 259786,
       "tmdbUrl": "https://www.themoviedb.org/tv/259786",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-vinland-saga",
@@ -18275,7 +18905,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-god-of-high-school",
@@ -18394,7 +19031,14 @@
       "tmdbId": 99778,
       "tmdbUrl": "https://www.themoviedb.org/tv/99778",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-shoot-goal-to-the-future",
@@ -18510,7 +19154,14 @@
       "tmdbId": 138882,
       "tmdbUrl": "https://www.themoviedb.org/tv/138882",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-shangri-la-frontier",
@@ -18811,7 +19462,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-demon-lord-retry",
@@ -18974,7 +19632,14 @@
       "tmdbId": 88044,
       "tmdbUrl": "https://www.themoviedb.org/tv/88044",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-an-observation-log-of-my-fiance-who-calls-herself-a-villainess",
@@ -19088,7 +19753,14 @@
       "tmdbId": 288590,
       "tmdbUrl": "https://www.themoviedb.org/tv/288590",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "tmdb-63926-s1",
@@ -19722,7 +20394,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "tmdb-63926-s2",
@@ -20356,7 +21035,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "tmdb-63926-s3",
@@ -20990,7 +21676,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "tmdb-72517-s3",
@@ -21624,7 +22317,14 @@
           "title": "[Tamil Dub] Classroom of the Elite | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17zOfG5KleBHKrYJVk3ToBa"
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-dragon-ball-daima-236994",
@@ -21676,7 +22376,14 @@
       "tmdbId": 236994,
       "tmdbUrl": "https://www.themoviedb.org/tv/236994",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-berserk-of-gluttony-213331",
@@ -21726,7 +22433,14 @@
       "tmdbId": 213331,
       "tmdbUrl": "https://www.themoviedb.org/tv/213331",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-the-gorilla-god-s-go-to-girl-278816",
@@ -21842,7 +22556,14 @@
         }
       ],
       "numberOfSeasons": 1,
-      "numberOfEpisodes": 12
+      "numberOfEpisodes": 12,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-dead-mount-death-play-214540",
@@ -22006,7 +22727,14 @@
         }
       ],
       "numberOfSeasons": 1,
-      "numberOfEpisodes": 24
+      "numberOfEpisodes": 24,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-possibly-the-greatest-alchemist-of-all-time-261298",
@@ -22126,7 +22854,14 @@
         }
       ],
       "numberOfSeasons": 2,
-      "numberOfEpisodes": 13
+      "numberOfEpisodes": 13,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-my-tiny-senpai-217390",
@@ -22241,7 +22976,14 @@
         }
       ],
       "numberOfSeasons": 1,
-      "numberOfEpisodes": 12
+      "numberOfEpisodes": 12,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-naruto-46260",
@@ -22296,7 +23038,14 @@
       "tmdbId": 46260,
       "tmdbUrl": "https://www.themoviedb.org/tv/46260",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-naruto-shippuden-31910",
@@ -22347,7 +23096,14 @@
       "tmdbId": 31910,
       "tmdbUrl": "https://www.themoviedb.org/tv/31910",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-gachiakuta-256721",
@@ -22524,7 +23280,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-i-shall-survive-using-potions-221148",
@@ -22641,7 +23404,14 @@
         }
       ],
       "numberOfSeasons": 1,
-      "numberOfEpisodes": 12
+      "numberOfEpisodes": 12,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-my-unique-skill-makes-me-op-even-at-level-1-201363",
@@ -22693,7 +23463,14 @@
       "tmdbId": 201363,
       "tmdbUrl": "https://www.themoviedb.org/tv/201363",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-why-raeliana-ended-up-at-the-duke-s-mansion-205366",
@@ -22745,7 +23522,14 @@
       "tmdbId": 205366,
       "tmdbUrl": "https://www.themoviedb.org/tv/205366",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-after-school-dice-club-91026",
@@ -22795,7 +23579,14 @@
       "tmdbId": 91026,
       "tmdbUrl": "https://www.themoviedb.org/tv/91026",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-my-status-as-an-assassin-obviously-exceeds-the-hero-s-284644",
@@ -22846,7 +23637,14 @@
       "tmdbId": 284644,
       "tmdbUrl": "https://www.themoviedb.org/tv/284644",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-my-clueless-first-friend-214547",
@@ -22897,7 +23695,14 @@
       "tmdbId": 214547,
       "tmdbUrl": "https://www.themoviedb.org/tv/214547",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-my-hero-academia-65930",
@@ -22948,7 +23753,14 @@
       "tmdbId": 65930,
       "tmdbUrl": "https://www.themoviedb.org/tv/65930",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-my-hero-academia-vigilantes-280110",
@@ -23000,7 +23812,14 @@
       "tmdbId": 280110,
       "tmdbUrl": "https://www.themoviedb.org/tv/280110",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-the-rising-of-the-shield-hero-83095",
@@ -23349,7 +24168,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-tokyo-ghoul-61374",
@@ -23400,7 +24226,14 @@
       "tmdbId": 61374,
       "tmdbUrl": "https://www.themoviedb.org/tv/61374",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-arifureta-from-commonplace-to-world-s-strongest-86034",
@@ -23451,7 +24284,14 @@
       "tmdbId": 86034,
       "tmdbUrl": "https://www.themoviedb.org/tv/86034",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-one-piece-37854",
@@ -23502,7 +24342,14 @@
       "tmdbId": 37854,
       "tmdbUrl": "https://www.themoviedb.org/tv/37854",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-easygoing-territory-defense-by-the-optimistic-lord-288589",
@@ -23553,7 +24400,14 @@
       "tmdbId": 288589,
       "tmdbUrl": "https://www.themoviedb.org/tv/288589",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-karna-the-guardian-217167",
@@ -23664,7 +24518,14 @@
         }
       ],
       "numberOfSeasons": 1,
-      "numberOfEpisodes": 11
+      "numberOfEpisodes": 11,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs-139512",
@@ -23828,7 +24689,14 @@
         }
       ],
       "numberOfSeasons": 2,
-      "numberOfEpisodes": 24
+      "numberOfEpisodes": 24,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-i-ll-become-a-villainess-who-goes-down-in-history-248817",
@@ -23947,7 +24815,14 @@
         }
       ],
       "numberOfSeasons": 1,
-      "numberOfEpisodes": 13
+      "numberOfEpisodes": 13,
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-pok-mon-concierge-221301",
@@ -23998,7 +24873,14 @@
       "tmdbId": 221301,
       "tmdbUrl": "https://www.themoviedb.org/tv/221301",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-blue-box-207347",
@@ -24049,7 +24931,36 @@
       "tmdbId": 207347,
       "tmdbUrl": "https://www.themoviedb.org/tv/207347",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Netflix",
+              "status": "Complete",
+              "tamilEpisodes": null
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Netflix",
+              "status": "Ongoing",
+              "tamilEpisodes": null
+            }
+          ]
+        }
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-thunder-3-326119",
@@ -24100,7 +25011,14 @@
       "tmdbId": 326119,
       "tmdbUrl": "https://www.themoviedb.org/tv/326119",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-chainsmoker-cat-312949",
@@ -24152,7 +25070,14 @@
       "tmdbId": 312949,
       "tmdbUrl": "https://www.themoviedb.org/tv/312949",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-the-ramparts-of-ice-283428",
@@ -24203,7 +25128,36 @@
       "tmdbId": 283428,
       "tmdbUrl": "https://www.themoviedb.org/tv/283428",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Netflix",
+              "status": "Complete",
+              "tamilEpisodes": null
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Netflix",
+              "status": "Ongoing",
+              "tamilEpisodes": null
+            }
+          ]
+        }
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-fool-night-326247",
@@ -24256,7 +25210,14 @@
       "tmdbId": 326247,
       "tmdbUrl": "https://www.themoviedb.org/tv/326247",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-ultraman-rising-829402",
@@ -24309,7 +25270,14 @@
       "tmdbId": 829402,
       "tmdbUrl": "https://www.themoviedb.org/movie/829402",
       "mediaType": "movie",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-lost-in-starlight-1165642",
@@ -24362,7 +25330,14 @@
       "tmdbId": 1165642,
       "tmdbUrl": "https://www.themoviedb.org/movie/1165642",
       "mediaType": "movie",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-scarlet-1406657",
@@ -24415,7 +25390,14 @@
       "tmdbId": 1406657,
       "tmdbUrl": "https://www.themoviedb.org/movie/1406657",
       "mediaType": "movie",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-death-note-13916",
@@ -24479,7 +25461,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-as-a-reincarnated-aristocrat-i-ll-use-my-appraisal-skill-to-rise-in-the-world-237150",
@@ -24530,7 +25519,14 @@
       "tmdbId": 237150,
       "tmdbUrl": "https://www.themoviedb.org/tv/237150",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-let-this-grieving-soul-retire-258579",
@@ -24582,7 +25578,14 @@
       "tmdbId": 258579,
       "tmdbUrl": "https://www.themoviedb.org/tv/258579",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-paradox-live-the-animation-203045",
@@ -24633,7 +25636,14 @@
       "tmdbId": 203045,
       "tmdbUrl": "https://www.themoviedb.org/tv/203045",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-the-magical-girl-and-the-evil-lieutenant-used-to-be-archenemies-239764",
@@ -24685,7 +25695,14 @@
       "tmdbId": 239764,
       "tmdbUrl": "https://www.themoviedb.org/tv/239764",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-ghost-in-the-shell-stand-alone-complex-1095",
@@ -24738,7 +25755,14 @@
       "tmdbId": 1095,
       "tmdbUrl": "https://www.themoviedb.org/tv/1095",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-the-drops-of-god",
@@ -24900,7 +25924,14 @@
       "tmdbId": 306121,
       "tmdbUrl": "https://www.themoviedb.org/tv/306121",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-konosuba-season-3",
@@ -25033,7 +26064,14 @@
       "tmdbSeason": 3,
       "tmdbSeasonUrl": "https://www.themoviedb.org/tv/65844/season/3",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-ranking-of-kings",
@@ -25213,7 +26251,14 @@
             }
           ]
         }
-      ]
+      ],
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-jojo-s-bizarre-adventure-steel-ball-run-45790-s6",
@@ -25264,7 +26309,14 @@
       "mediaType": "tv",
       "inclusionSource": "third-party-report",
       "tmdbSeason": 6,
-      "tmdbSeasonUrl": "https://www.themoviedb.org/tv/45790/season/6"
+      "tmdbSeasonUrl": "https://www.themoviedb.org/tv/45790/season/6",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-overgeared",
@@ -25378,7 +26430,14 @@
       "tmdbId": 324502,
       "tmdbUrl": "https://www.themoviedb.org/tv/324502",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-trigun-stampede",
@@ -25536,7 +26595,14 @@
       "tmdbId": 204266,
       "tmdbUrl": "https://www.themoviedb.org/tv/204266",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-365-days-to-the-wedding",
@@ -25649,7 +26715,14 @@
       "tmdbId": 230189,
       "tmdbUrl": "https://www.themoviedb.org/tv/230189",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-a-misanthrope-teaches-a-class-for-demi-humans",
@@ -25767,7 +26840,14 @@
       "tmdbId": 303434,
       "tmdbUrl": "https://www.themoviedb.org/tv/303434",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-girls-frontline",
@@ -25978,7 +27058,14 @@
       "tmdbId": 91643,
       "tmdbUrl": "https://www.themoviedb.org/tv/91643",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-heroines-run-the-show",
@@ -26092,7 +27179,14 @@
       "tmdbId": 132213,
       "tmdbUrl": "https://www.themoviedb.org/tv/132213",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
@@ -26197,7 +27291,14 @@
       "tmdbId": 208559,
       "tmdbUrl": "https://www.themoviedb.org/tv/208559",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "verified-miss-kuroitsu-from-the-monster-development-department",
@@ -26311,7 +27412,14 @@
       "tmdbId": 128826,
       "tmdbUrl": "https://www.themoviedb.org/tv/128826",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-even-though-i-m-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fianc-303060",
@@ -26363,7 +27471,14 @@
       "tmdbId": 303060,
       "tmdbUrl": "https://www.themoviedb.org/tv/303060",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": false
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     },
     {
       "id": "reported-black-clover-73223",
@@ -26415,7 +27530,14 @@
       "tmdbId": 73223,
       "tmdbUrl": "https://www.themoviedb.org/tv/73223",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "freeSites": [
+        {
+          "name": "Animesalt",
+          "available": true
+        }
+      ],
+      "freeSitesCheckedAt": "2026-10-05"
     }
   ],
   "updateInfo": {
@@ -26431,9 +27553,9 @@
     "manualAnime": 150,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-05T13:39:51.497Z",
+      "scannedAt": "2026-10-05T23:34:43.762Z",
       "status": "zero-add",
-      "zeroAddReason": "124 manifest entries were already in the catalog; 2 need manual review (see needsReview) Discovery: The scan hit its page or unit budget before reaching the end of the channel history; it resumes next run.",
+      "zeroAddReason": "117 manifest entries were already in the catalog; 2 need manual review (see needsReview) Discovery: Tamil Dub videos were found but none could be placed safely; see the review list.",
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
         "found": true,
@@ -26447,7 +27569,7 @@
       "addedIds": [],
       "updatedExisting": 0,
       "updatedIds": [],
-      "alreadyInCatalog": 124,
+      "alreadyInCatalog": 117,
       "rejected": [],
       "needsReview": [
         {
@@ -26462,15 +27584,15 @@
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 10,
+        "requests": 7,
         "failures": 0,
         "note": null,
         "unavailable": []
       },
       "discovery": {
-        "status": "partial",
+        "status": "complete",
         "skipReason": null,
-        "scannedAt": "2026-10-05T13:39:51.497Z",
+        "scannedAt": "2026-10-05T23:34:43.762Z",
         "sources": {
           "youtube": {
             "configured": true,
@@ -26478,8 +27600,8 @@
               {
                 "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
                 "name": "Muse India",
-                "status": "partial",
-                "stopReason": "page-budget-reached",
+                "status": "complete",
+                "stopReason": null,
                 "uploadsPlaylistFound": true
               }
             ]
@@ -26489,23 +27611,23 @@
           }
         },
         "completeness": {
-          "complete": false,
-          "bootstrapComplete": false,
+          "complete": true,
+          "bootstrapComplete": true,
           "incrementalComplete": true,
-          "pagesProcessed": 101,
-          "hasMoreHistory": true,
-          "stopReason": "page-budget-reached"
+          "pagesProcessed": 42,
+          "hasMoreHistory": false,
+          "stopReason": null
         },
         "counts": {
-          "videosSeen": 5050,
-          "excludedNotTamilDub": 4856,
+          "videosSeen": 2100,
+          "excludedNotTamilDub": 2093,
           "foreignChannel": 0,
           "notReturnedByApi": 0,
-          "tamilDubPrefixed": 194,
-          "evidenceCandidates": 169,
-          "accepted": 99,
+          "tamilDubPrefixed": 96,
+          "evidenceCandidates": 71,
+          "accepted": 0,
           "rejected": 0,
-          "review": 95,
+          "review": 96,
           "deferred": 0,
           "announcements": 0,
           "promos": 0,
@@ -26516,7 +27638,7 @@
           "queueDropped": 0
         },
         "reasons": {
-          "series-needs-review": 70,
+          "series-needs-review": 71,
           "needs-review": 25
         },
         "review": [
@@ -26823,17 +27945,15 @@
         ],
         "announcements": [],
         "api": {
-          "unitsUsed": 205,
-          "requests": 205,
+          "unitsUsed": 89,
+          "requests": 89,
           "unitBudget": 2000,
           "failures": []
         },
-        "queueSize": 95,
-        "notes": [
-          "UCYYhAzgWuxPauRXdPpLAX3Q: full-rescan-requested"
-        ],
-        "zeroAddReason": "The scan hit its page or unit budget before reaching the end of the channel history; it resumes next run.",
-        "zeroAddReasonCode": "incomplete-scan"
+        "queueSize": 96,
+        "notes": [],
+        "zeroAddReason": "Tamil Dub videos were found but none could be placed safely; see the review list.",
+        "zeroAddReasonCode": "needs-review"
       }
     }
   }
