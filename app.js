@@ -9,6 +9,8 @@
   const SITE_TITLE = "Tamil Dub Anime";
   const ROUTE_PREFIX = "#/anime/";
   const PLATFORM_ORDER = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
+  // Shown only when a record actually lists them (no "Not available" rows on every title).
+  const OPTIONAL_PLATFORMS = ["JioHotstar", "Sony LIV"];
   const YOUTUBE_LABEL = "YouTube (Muse India)";
   const YOUTUBE_NAMES = ["youtube", "youtube (muse india)", "muse india"];
   const STATE_TEXT = {
@@ -42,6 +44,23 @@
     } catch {
       return null;
     }
+  }
+
+  // A proof link is shown on a row only when it sits on that platform's own domain.
+  const PLATFORM_DOMAINS = {
+    "Crunchyroll": [/(^|\.)crunchyroll\.com$/],
+    "Netflix": [/(^|\.)netflix\.com$/],
+    "Amazon Prime Video": [/(^|\.)primevideo\.com$/, /(^|\.)amazon\.(?:com|in|co\.uk|de|fr|es|it|ca|com\.au|co\.jp)$/],
+    "JioHotstar": [/(^|\.)hotstar\.com$/, /(^|\.)jiohotstar\.com$/],
+    "Sony LIV": [/(^|\.)sonyliv\.com$/]
+  };
+  function ownDomain(name, v) {
+    const href = externalUrl(v);
+    if (!href) return false;
+    const rules = PLATFORM_DOMAINS[name];
+    if (!rules) return true;
+    const host = new URL(href).hostname.toLowerCase();
+    return rules.some((re) => re.test(host));
   }
 
   function imageSrc(v) {
@@ -198,7 +217,8 @@
     let actions = "";
     if (state !== "unavailable") {
       const official = externalUrl(row.officialUrl);
-      const proof = state === "verified" ? externalUrl(row.tamilDubVerificationUrl) : null;
+      const proofHref = state === "verified" ? externalUrl(row.tamilDubVerificationUrl) : null;
+      const proof = proofHref && ownDomain(name, proofHref) ? proofHref : null;
       // An announcement is evidence, not a place to watch: it never gets the "Open on <platform>" label.
       const announcement = official && isAnnouncementUrl(official) ? official : null;
       const titlePage = announcement ? null : official;
@@ -261,7 +281,11 @@
   }
 
   function platformRows(a) {
-    return [...PLATFORM_ORDER.map((name) => streamingItem(name, findRow(a.platforms, [name]))), youtubeItem(a)].join("");
+    const optional = OPTIONAL_PLATFORMS.filter((name) => {
+      const row = findRow(a.platforms, [name]);
+      return row && row.available === true;
+    });
+    return [...[...PLATFORM_ORDER, ...optional].map((name) => streamingItem(name, findRow(a.platforms, [name]))), youtubeItem(a)].join("");
   }
 
   function detailHtml(a) {
@@ -452,7 +476,7 @@
 
   const api = {
     esc, safeUrl, externalUrl, imageSrc, youtubeId, recordId, routeFor, parseRoute,
-    cardHtml, detailHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl
+    cardHtml, detailHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = api;
