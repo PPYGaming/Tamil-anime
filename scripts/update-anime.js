@@ -2044,6 +2044,83 @@ function logScanSummary(report) {
 /* Main                                                                */
 /* ------------------------------------------------------------------ */
 
+const SEASON_PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video", "JioHotstar", "Sony LIV"];
+const SEASON_STATUSES = ["Complete", "Ongoing", "Unknown"];
+const SEASON_LABEL_MAX = 80;
+const SEASON_MAX = 40;
+const SEASON_EPISODES_MAX = 5000;
+
+function cleanSeasonRow(row) {
+  if (!row || typeof row !== "object") return null;
+  if (!SEASON_PLATFORMS.includes(row.platform)) return null;
+  const n = row.tamilEpisodes;
+  return {
+    platform: row.platform,
+    status: SEASON_STATUSES.includes(row.status) ? row.status : "Unknown",
+    tamilEpisodes: Number.isInteger(n) && n >= 0 && n <= SEASON_EPISODES_MAX ? n : null,
+  };
+}
+
+function cleanSeasons(seasons) {
+  if (!Array.isArray(seasons)) return [];
+  const out = [];
+  for (const season of seasons) {
+    if (out.length >= SEASON_MAX) break;
+    if (!season || typeof season.label !== "string") continue;
+    const label = season.label.trim();
+    if (!label || label.length > SEASON_LABEL_MAX) continue;
+    const rows = (Array.isArray(season.rows) ? season.rows : [])
+      .map(cleanSeasonRow)
+      .filter(Boolean);
+    if (rows.length) out.push({ label, rows });
+  }
+  return out;
+}
+
+// Pure: no I/O. Only ever reads/writes record.seasonDetails; no other field is touched
+// (tamilDubVerified and verification tiers are never read or modified).
+// Returns the number of records changed.
+function attachSeasonDetails(animeList, detailsFile) {
+  if (!Array.isArray(animeList) || !detailsFile || !Array.isArray(detailsFile.entries)) {
+    return 0;
+  }
+
+  const entries = [];
+  for (const entry of detailsFile.entries) {
+    if (!entry || typeof entry.title !== "string") continue;
+    const key = normalizeTitle(entry.title);
+    if (key) entries.push({ key, seasons: cleanSeasons(entry.seasons) });
+  }
+  // Longest entry title first, so the first match is the longest match.
+  entries.sort((a, b) => b.key.length - a.key.length);
+
+  let changed = 0;
+  for (const record of animeList) {
+    if (!record || typeof record !== "object") continue;
+
+    const title = normalizeTitle(record.title);
+    const match = title
+      ? entries.find((e) => title === e.key || title.startsWith(e.key + " "))
+      : undefined;
+    const hadKey = Object.prototype.hasOwnProperty.call(record, "seasonDetails");
+
+    if (!match || !match.seasons.length) {
+      if (hadKey) {
+        delete record.seasonDetails;
+        changed += 1;
+      }
+      continue;
+    }
+
+    const next = JSON.parse(JSON.stringify(match.seasons)); // deep copy per record
+    if (!hadKey || JSON.stringify(record.seasonDetails) !== JSON.stringify(next)) {
+      record.seasonDetails = next;
+      changed += 1;
+    }
+  }
+  return changed;
+}
+
 async function run(options = {}) {
   const cfg = { ...readConfig(), ...options };
   for (const value of [cfg.tmdbApiKey, cfg.youtubeApiKey]) if (value) secrets.add(value);
@@ -2414,6 +2491,17 @@ async function run(options = {}) {
     lastScan: report
   };
 
+  const seasonDetailsPath = path.join(path.dirname(cfg.catalogFile), "season-details.json");
+  let seasonDetails = null;
+  try {
+    seasonDetails = JSON.parse(await fs.readFile(seasonDetailsPath, "utf8"));
+  } catch (error) {
+    console.log("Season details skipped: data/season-details.json missing or invalid.");
+  }
+  if (seasonDetails) {
+    attachSeasonDetails(working.anime, seasonDetails);
+  }
+
   assertNoLoss(original, working);
   await writeJsonAtomic(cfg.catalogFile, working, originalText);
 
@@ -2461,7 +2549,8 @@ module.exports = {
   isEmptyValue,
   writeJsonAtomic,
   sortEpisodeRows,
-  explainZeroAdd
+  explainZeroAdd,
+  attachSeasonDetails
 };
 
 if (require.main === module) {
@@ -2470,4 +2559,4 @@ if (require.main === module) {
     console.error(redact(error && error.stack ? error.stack : error));
     process.exit(1);
   });
-    }
+          }
