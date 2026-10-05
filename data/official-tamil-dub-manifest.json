@@ -2066,7 +2066,10 @@
         {
           "name": "Crunchyroll",
           "available": true,
-          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier"
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
+          "verificationUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the Audio line on the Crunchyroll series page (signed-in view)."
         }
       ]
     },
