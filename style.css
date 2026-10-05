@@ -198,3 +198,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 #pager .pager-btn:hover:not(:disabled){background:linear-gradient(135deg,#7752c7,#4c9cae);border-color:#c4afff;transform:translateY(-1px)}
 #pager .pager-btn.active{border-color:#c4afff}
 html,body{overflow-x:hidden}
+
+/* Free-site rows: Available in light green, distinct from the teal Tamil dub verified pill. */
+.pill-free-yes{color:#b7f5b0;background:rgba(144,238,144,.12);border-color:rgba(144,238,144,.45)}
