@@ -4,6 +4,7 @@ const path = require("node:path");
 
 const CONFIG = [
   { name: "Animesalt", bases: ["https://animesalt.ro", "https://animesalt.in", "https://animesalt.me"], listPath: "/language/tamil/", pagePath: (n) => `/language/tamil/page/${n}/`, maxPages: 15 },
+  { name: "Animesalt", bases: ["https://animesalt.cx"], listPath: "/category/language/tamil/", pagePath: (n) => `/category/language/tamil/page/${n}/`, maxPages: 20 },
   { name: "Toon Stream", bases: ["https://toonstream.live", "https://toonstream.love"], listPath: "/language/tamil/", pagePath: (n) => `/language/tamil/page/${n}/`, maxPages: 15 },
 ];
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
@@ -30,6 +31,11 @@ function parseTitles(html) {
     if (a) add(a[2]);
     const h = /<h2\b[^>]*>([\s\S]*?)<\/h2>/i.exec(m[1]);
 
+    if (h) add(h[1]);
+  }
+  const re2 = /<article\b[^>]*\bclass\s*=\s*["'][^"']*\bpost\b[^"']*["'][^>]*>([\s\S]*?)<\/article>/gi;
+  while ((m = re2.exec(src))) {
+    const h = /<h2\b[^>]*\bentry-title\b[^>]*>([\s\S]*?)<\/h2>/i.exec(m[1]);
     if (h) add(h[1]);
   }
   return [...out];
@@ -93,23 +99,32 @@ async function run(o = {}) {
     try { const j = JSON.parse(fs.readFileSync(outFile, "utf8")); if (Array.isArray(j.sites)) prev = j.sites; } catch {}
     const budget = { left: MAX_REQUESTS };
     const sites = [];
-    for (const cfg of config) {
-      const old = prev.find((s) => s && s.name === cfg.name);
-
+    const names = [...new Set(config.map((c) => c.name))];
+    for (const name of names) {
+      const old = prev.find((s) => s && s.name === name);
       const oldN = old && Array.isArray(old.titles) ? old.titles.length : 0;
-      let res;
-      try { res = await scrapeSite(cfg, { fetchImpl, sleep, budget }); } catch { res = { fail: "unexpected error" }; }
+      const merged = new Set();
+      let anyOk = false, lastFail = "no source";
+      for (const cfg of config.filter((c) => c.name === name)) {
+        let res;
+        try { res = await scrapeSite(cfg, { fetchImpl, sleep, budget }); } catch { res = { fail: "unexpected error" }; }
+        if (res.fail) { lastFail = res.fail; continue; }
+        if (res.titles.length === 0) { lastFail = "no titles"; continue; }
+        anyOk = true;
+        res.titles.forEach((t) => merged.add(t));
+      }
+      let res = anyOk ? { titles: [...merged] } : { fail: lastFail };
       if (!res.fail) {
         const n = res.titles.length;
-        if (n === 0 || (n < 20 && n < oldN * 0.5)) res = { fail: `too few titles (${n})` };
+        if (n < 20 && n < oldN * 0.5) res = { fail: `too few titles (${n})` };
       }
       if (res.fail) {
         const reason = String(res.fail).replace(/https?:\/\/\S*/gi, "").slice(0, 80);
-        sites.push(old ? { ...old, lastError: reason } : { name: cfg.name, checkedAt: null, ok: false, titles: [], lastError: reason });
-        say(`${cfg.name}: failed (${reason})${old ? ", kept previous" : ""}`);
+        sites.push(old ? { ...old, lastError: reason } : { name, checkedAt: null, ok: false, titles: [], lastError: reason });
+        say(`${name}: failed (${reason})${old ? ", kept previous" : ""}`);
       } else {
-        sites.push({ name: cfg.name, checkedAt: now().toISOString().replace(/\.\d+Z$/, "Z"), ok: true, titles: res.titles });
-        say(`${cfg.name}: ok, ${res.titles.length} titles`);
+        sites.push({ name, checkedAt: now().toISOString().replace(/\.\d+Z$/, "Z"), ok: true, titles: res.titles });
+        say(`${name}: ok, ${res.titles.length} titles`);
       }
     }
     fs.mkdirSync(path.dirname(outFile), { recursive: true });
