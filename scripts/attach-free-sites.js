@@ -1,7 +1,8 @@
 "use strict";
 const fs = require("node:fs");
 const path = require("node:path");
-const { CONFIG } = require("./free-site-listings.js");
+const { CONFIG: RAW_CONFIG } = require("./free-site-listings.js");
+const CONFIG = RAW_CONFIG.filter((c, i, arr) => arr.findIndex((x) => x.name === c.name) === i);
 
 const MAX_AGE = 14 * 864e5, MAX_LEADS = 400;
 const SUFFIX = /\s(?:season \d+|part \d+|tamil|hindi|dub|dubbed|tv)$/;
