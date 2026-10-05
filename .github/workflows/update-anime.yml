@@ -58,6 +58,11 @@ jobs:
           node scripts/attach-playlists.js || true
           # Third-party reported Netflix/Prime dubs (never verified): an extra, so a failure keeps the catalog above.
           node scripts/add-reported.js || true
+      - name: Free-site listings (read-only, never blocks the run)
+        run: |
+          node scripts/free-site-listings.js || true
+          node scripts/attach-free-sites.js || true
+        continue-on-error: true
       - name: Commit changes
         run: |
           set -euo pipefail
@@ -65,6 +70,8 @@ jobs:
           git add -A -- data/anime.json data/discovery-state.json data/youtube-playlists.json data/discovery-leads.json
           # auto-reported.json exists only after the first promoted lead; git add fails on a missing path.
           if [ -f data/auto-reported.json ]; then git add -A -- data/auto-reported.json; fi
+          if [ -f data/free-site-listings.json ]; then git add -A -- data/free-site-listings.json; fi
+          if [ -f data/free-site-leads.json ]; then git add -A -- data/free-site-leads.json; fi
           if git diff --cached --quiet; then
             echo "No catalog changes."
             exit 0
