@@ -93,6 +93,92 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .search-row{display:flex;gap:10px;align-items:center}.search-row .search{flex:1;min-width:0}
 .refresh-btn{border:1px solid rgba(207,188,255,.26);background:rgba(30,23,54,.78);color:#fff;border-radius:11px;padding:11px 17px;cursor:pointer;white-space:nowrap}.refresh-btn:hover{background:linear-gradient(135deg,#7752c7,#4c9cae);border-color:#c4afff}.refresh-btn:disabled{opacity:.6;cursor:default}
 @media(max-width:620px){.hero{align-items:center}.header-inner{align-items:center;flex-direction:row}}
+/* Tamil dub by season */
+.season-section .season-block {
+  border: 1px solid rgba(207, 188, 255, 0.2);
+  background: rgba(30, 23, 54, 0.55);
+  border-radius: 14px;
+  padding: 12px 14px;
+  margin: 0 0 10px;
+  min-width: 0;
+}
+
+.season-section .season-block h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.season-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.season-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  padding: 8px 0;
+  min-width: 0;
+  border-top: 1px solid rgba(207, 188, 255, 0.12);
+}
+
+.season-row:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.season-platform {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.season-episodes {
+  font-size: 0.85rem;
+  color: rgba(226, 219, 248, 0.75);
+  overflow-wrap: anywhere;
+}
+
+.season-chip {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  border: 1px solid rgba(207, 188, 255, 0.25);
+  background: rgba(207, 188, 255, 0.08);
+  color: rgba(226, 219, 248, 0.85);
+}
+
+.season-chip--complete {
+  border-color: rgba(120, 200, 170, 0.4);
+  background: rgba(120, 200, 170, 0.12);
+}
+
+.season-chip--ongoing {
+  border-color: rgba(230, 190, 110, 0.4);
+  background: rgba(230, 190, 110, 0.12);
+}
+
+.season-chip--unknown,
+.season-chip--reported {
+  color: rgba(226, 219, 248, 0.65);
+}
+
+.season-chip--verified {
+  background: linear-gradient(135deg, #7752c7, #4c9cae);
+  border-color: transparent;
+  color: #fff;
+}
+
+@media (max-width: 430px) {
+  .season-section .season-block {
+    padding: 10px 12px;
+  }
+}
 /* Pagination */
 .pager{display:flex;flex-direction:column;align-items:center;gap:10px;margin:22px 0 8px;max-width:100%}
 .pager[hidden]{display:none}
