@@ -332,15 +332,50 @@
     }
   }
 
+  const PAGE_SIZE = 20;
+
+  // Pure: slice bounds for one page. start/end are 0-based slice indices (end exclusive).
+  function pageWindow(total, page, size = PAGE_SIZE) {
+    const count = Math.max(0, Math.floor(Number(total)) || 0);
+    const per = Math.max(1, Math.floor(Number(size)) || PAGE_SIZE);
+    const pages = Math.max(1, Math.ceil(count / per));
+    const current = Math.min(pages, Math.max(1, Math.floor(Number(page)) || 1));
+    const start = count ? (current - 1) * per : 0;
+    const end = Math.min(count, start + per);
+    return { page: current, pages, start, end };
+  }
+
+  // Pure: pager markup. Returns "" when there is nothing to page.
+  function pagerHtml(page, pages) {
+    const last = Math.max(1, Math.floor(Number(pages)) || 1);
+    if (last <= 1) return "";
+    const cur = Math.min(last, Math.max(1, Math.floor(Number(page)) || 1));
+    const nums = [...new Set([1, last, cur - 1, cur, cur + 1])]
+      .filter((n) => n >= 1 && n <= last)
+      .sort((a, b) => a - b);
+    let html = `<button type="button" class="pager-btn pager-prev" data-page="${Math.max(1, cur - 1)}"${cur === 1 ? " disabled" : ""}>Previous</button>`;
+    let prev = 0;
+    for (const n of nums) {
+      if (n - prev > 1) html += `<span class="pager-gap" aria-hidden="true">&hellip;</span>`;
+      html += n === cur
+        ? `<button type="button" class="pager-btn pager-num active" data-page="${n}" aria-current="page" aria-label="Page ${n}">${n}</button>`
+        : `<button type="button" class="pager-btn pager-num" data-page="${n}" aria-label="Page ${n}">${n}</button>`;
+      prev = n;
+    }
+    html += `<button type="button" class="pager-btn pager-next" data-page="${Math.min(last, cur + 1)}"${cur === last ? " disabled" : ""}>Next</button>`;
+    return `<div class="pager-buttons">${html}</div>`;
+  }
+
   function createApp(win) {
     const doc = win.document;
     const $ = (s) => doc.querySelector(s);
     const state = {
-      anime: [], filter: "all", search: "", sort: "newest",
+      anime: [], filter: "all", search: "", sort: "newest", page: 1,
       loaded: false, failed: false,
       view: null, detailId: undefined, detailKind: null, fromList: false, listScroll: 0, lastCard: null
     };
     const grid = $("#animeGrid");
+    const pager = $("#pager");
     const statusEl = $("#status");
     const searchInput = $("#searchInput");
     const refreshButton = $("#refreshButton");
@@ -364,7 +399,38 @@
         if (state.sort === "updated") return String(b.updatedAt || "").localeCompare(String(a.updatedAt || ""));
         return String(b.createdAt || b.updatedAt || "").localeCompare(String(a.createdAt || a.updatedAt || ""));
       });
-      grid.innerHTML = list.length ? list.map(cardHtml).join("") : `<div class="empty">No matching anime found.</div>`;
+      const w = pageWindow(list.length, state.page, PAGE_SIZE);
+      state.page = w.page; // clamp: keeps a valid page after filter/refresh/back-navigation
+      grid.innerHTML = list.length
+        ? list.slice(w.start, w.end).map(cardHtml).join("")
+        : `<div class="empty">No matching anime found.</div>`;
+      renderPager(w, list.length);
+    }
+
+    function renderPager(w, total) {
+      if (!pager) return;
+      if (!total || w.pages <= 1) {
+        pager.hidden = true;
+        pager.innerHTML = "";
+        return;
+      }
+      pager.hidden = false;
+      pager.innerHTML = pagerHtml(w.page, w.pages) +
+        `<p class="pager-status">Showing ${w.start + 1}-${w.end} of ${total}</p>`;
+    }
+
+    function onPagerClick(e) {
+      const btn = e.target && e.target.closest ? e.target.closest("button[data-page]") : null;
+      if (!btn || btn.disabled || !pager.contains(btn)) return;
+      const next = Number(btn.dataset.page);
+      if (!Number.isFinite(next) || next === state.page) return;
+      state.page = next;
+      render();
+      // The pager was just re-rendered, so hand keyboard focus to the new current page.
+      const current = pager.querySelector("[aria-current='page']");
+      if (current && current.focus) current.focus({ preventScroll: true });
+      const top = grid.getBoundingClientRect().top + (win.pageYOffset || 0) - 12;
+      win.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
     }
 
     function showList() {
@@ -440,6 +506,7 @@
         state.anime = Array.isArray(data.anime) ? data.anime.filter(isObj) : [];
         state.loaded = true;
         state.failed = false;
+        state.page = 1;
         render();
         statusEl.textContent = data.lastUpdated ? `Catalog updated: ${new Date(data.lastUpdated).toLocaleString()}` : "Catalog loaded.";
         notifyScanStatus(win, data);
@@ -456,15 +523,17 @@
 
     function start() {
       try { win.history.scrollRestoration = "manual"; } catch { /* not supported */ }
-      searchInput.addEventListener("input", (e) => { state.search = e.target.value; render(); });
-      sortSelect.addEventListener("change", (e) => { state.sort = e.target.value; render(); });
+      searchInput.addEventListener("input", (e) => { state.search = e.target.value; state.page = 1; render(); });
+      sortSelect.addEventListener("change", (e) => { state.sort = e.target.value; state.page = 1; render(); });
       filterButtons.forEach((b) => b.addEventListener("click", () => {
         state.filter = b.dataset.filter;
+        state.page = 1;
         filterButtons.forEach((x) => x.classList.toggle("active", x === b));
         render();
       }));
       refreshButton.addEventListener("click", () => loadCatalog("Refreshing catalog..."));
       grid.addEventListener("click", onGridClick);
+      if (pager) pager.addEventListener("click", onPagerClick);
       backLink.addEventListener("click", onBack);
       win.addEventListener("hashchange", () => showRoute({ fresh: true }));
       showRoute({ fresh: true });
@@ -476,7 +545,8 @@
 
   const api = {
     esc, safeUrl, externalUrl, imageSrc, youtubeId, recordId, routeFor, parseRoute,
-    cardHtml, detailHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain
+    cardHtml, detailHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
+    pageWindow, pagerHtml
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = api;
