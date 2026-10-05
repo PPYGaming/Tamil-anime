@@ -1,0 +1,1002 @@
+{
+ "version": 1,
+ "updatedAt": "2026-10-05",
+ "note": "Season-level Tamil dub listings from community reports. Not verified; shown as reported unless the title is verified on that platform.",
+ "entries": [
+  {
+   "title": "Jujutsu Kaisen",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 23
+      }
+     ]
+    },
+    {
+     "label": "Season 3 — The Culling Game Part 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Demon Slayer: Kimetsu no Yaiba",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Amazon Prime Video",
+       "status": "Complete",
+       "tamilEpisodes": 26
+      }
+     ]
+    },
+    {
+     "label": "Season 2 — Mugen Train Arc",
+     "rows": [
+      {
+       "platform": "Amazon Prime Video",
+       "status": "Complete",
+       "tamilEpisodes": 7
+      },
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 7
+      },
+      {
+       "platform": "JioHotstar",
+       "status": "Complete",
+       "tamilEpisodes": 7
+      }
+     ]
+    },
+    {
+     "label": "Season 2 — Entertainment District Arc",
+     "rows": [
+      {
+       "platform": "Amazon Prime Video",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      },
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      },
+      {
+       "platform": "JioHotstar",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      }
+     ]
+    },
+    {
+     "label": "Season 3 — Swordsmith Village Arc",
+     "rows": [
+      {
+       "platform": "Amazon Prime Video",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      },
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      },
+      {
+       "platform": "JioHotstar",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      }
+     ]
+    },
+    {
+     "label": "Season 4 — Hashira Training Arc",
+     "rows": [
+      {
+       "platform": "Amazon Prime Video",
+       "status": "Complete",
+       "tamilEpisodes": 8
+      },
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 8
+      },
+      {
+       "platform": "JioHotstar",
+       "status": "Complete",
+       "tamilEpisodes": 8
+      }
+     ]
+    },
+    {
+     "label": "Infinity Castle",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Spy x Family",
+   "seasons": [
+    {
+     "label": "Season 1 — Cour 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 1 — Cour 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 3",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Solo Leveling",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Frieren: Beyond Journey's End",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 28
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Blue Lock",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Kaiju No. 8",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      }
+     ]
+    },
+    {
+     "label": "Narumi's Week at Work",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Dr. Stone",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      }
+     ]
+    },
+    {
+     "label": "Season 3 — New World",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 22
+      }
+     ]
+    },
+    {
+     "label": "Season 4 — Science Future Cour 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 4 — Science Future Cour 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 4 — Science Future Cour 3",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    },
+    {
+     "label": "Ryusui",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Haikyu!!",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 25
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 25
+      }
+     ]
+    },
+    {
+     "label": "Season 3",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 10
+      }
+     ]
+    },
+    {
+     "label": "Season 4 — Cour 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    },
+    {
+     "label": "Season 4 — Cour 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "OVA 4 and 5",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Assassination Classroom",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 22
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "One-Punch Man",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 3",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Dan Da Dan",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Death Note",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Sony LIV",
+       "status": "Complete",
+       "tamilEpisodes": 37
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Vinland Saga",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Shangri-La Frontier",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 25
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "That Time I Got Reincarnated as a Slime",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 3",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 4",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Ongoing",
+       "tamilEpisodes": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Tower of God",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    },
+    {
+     "label": "Season 2 — Return of the Prince",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    },
+    {
+     "label": "Season 2 — Workshop Battle",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Fire Force",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    },
+    {
+     "label": "Season 3 — Cour 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 3 — Cour 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ranking of Kings",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 23
+      }
+     ]
+    },
+    {
+     "label": "Treasure Chest of Courage",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Mashle: Magic and Muscles",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Wind Breaker",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Tsukimichi: Moonlit Fantasy",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2 — Part 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2 — Part 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "My Dress-Up Darling",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Rising of the Shield Hero",
+   "seasons": [
+    {
+     "label": "Seasons 1–2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 38
+      }
+     ]
+    },
+    {
+     "label": "Season 3",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    },
+    {
+     "label": "Season 4",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Darling in the FranXX",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Radiant",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 21
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Ancient Magus' Bride",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Black Butler",
+   "seasons": [
+    {
+     "label": "Season 4 — Public School Arc",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 11
+      }
+     ]
+    },
+    {
+     "label": "Season 5 — Emerald Witch Arc",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Apothecary Diaries",
+   "seasons": [
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Gachiakuta",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "You and I Are Polar Opposites",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Crunchyroll",
+       "status": "Complete",
+       "tamilEpisodes": 12
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
