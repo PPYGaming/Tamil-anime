@@ -26,6 +26,17 @@ const path = require("path");
 
 const DATA_FILE = process.env.ANIME_DATA_FILE || path.join(__dirname, "..", "data", "anime.json");
 const REPORTS_FILE = process.env.REPORTS_FILE || path.join(__dirname, "..", "data", "third-party-reports.json");
+
+const AUTO_FILE = process.env.AUTO_REPORTED_FILE || path.join(__dirname, "..", "data", "auto-reported.json");
+
+function allEntries(reports) {
+  const manual = Array.isArray(reports.entries) ? reports.entries : [];
+  let auto = [];
+  try { const a = JSON.parse(fs.readFileSync(AUTO_FILE, "utf8")); if (Array.isArray(a.entries)) auto = a.entries; } catch {}
+  const key = (e) => e && [e.platform, e.mediaType, e.tmdbId].join("|");
+  const seen = new Set(manual.map(key));
+  return manual.concat(auto.filter((e) => !seen.has(key(e))));
+}
 const PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video", "JioHotstar", "Sony LIV"];
 // New records keep the original three empty rows; JioHotstar / Sony LIV rows exist only when reported or curated.
 const CORE_PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
@@ -170,7 +181,7 @@ async function main() {
   const now = new Date().toISOString();
   const stats = { added: 0, rows: 0, skipped: 0 };
 
-  for (const entry of Array.isArray(reports.entries) ? reports.entries : []) {
+  for (const entry of allEntries(reports)) {
     const problem = validate(entry);
     if (problem) { console.warn(`Reported dub "${entry && entry.title}" skipped: ${problem}`); stats.skipped++; continue; }
 
