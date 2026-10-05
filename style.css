@@ -191,3 +191,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .pager-gap{display:inline-flex;align-items:center;justify-content:center;min-width:20px;min-height:40px;color:rgba(255,255,255,.6)}
 .pager-status{margin:0;text-align:center;font-size:.9rem;color:rgba(255,255,255,.7)}
 @media (max-width:420px){.pager-btn{padding:0 8px}.pager-buttons{gap:5px}}
+#pager.pager{display:flex;flex-direction:column;align-items:center;width:100%;max-width:100%;box-sizing:border-box;overflow:hidden}
+#pager .pager-buttons{width:100%;box-sizing:border-box}
+#pager .pager-status{width:100%;overflow-wrap:anywhere}
+#pager .pager-btn{box-shadow:0 7px 24px rgba(0,0,0,.2);transition:transform .18s,background .18s,border-color .18s;-webkit-appearance:none;appearance:none}
+#pager .pager-btn:hover:not(:disabled){background:linear-gradient(135deg,#7752c7,#4c9cae);border-color:#c4afff;transform:translateY(-1px)}
+#pager .pager-btn.active{border-color:#c4afff}
+html,body{overflow-x:hidden}
