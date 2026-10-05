@@ -26427,13 +26427,13 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 8,
-    "manualAnime": 148,
+    "discoveredAnime": 0,
+    "manualAnime": 150,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-05T03:28:20.276Z",
-      "status": "added",
-      "zeroAddReason": null,
+      "scannedAt": "2026-10-05T13:39:51.497Z",
+      "status": "zero-add",
+      "zeroAddReason": "124 manifest entries were already in the catalog; 2 need manual review (see needsReview) Discovery: The scan hit its page or unit budget before reaching the end of the channel history; it resumes next run.",
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
         "found": true,
@@ -26441,30 +26441,13 @@
         "updatedAt": "2026-10-04",
         "entries": 119
       },
-      "catalogBefore": 144,
-      "catalogAfter": 152,
-      "added": 8,
-      "addedIds": [
-        "verified-overgeared",
-        "verified-trigun-stampede",
-        "verified-365-days-to-the-wedding",
-        "verified-a-misanthrope-teaches-a-class-for-demi-humans",
-        "verified-girls-frontline",
-        "verified-heroines-run-the-show",
-        "verified-if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
-        "verified-miss-kuroitsu-from-the-monster-development-department"
-      ],
-      "updatedExisting": 1,
-      "updatedIds": [
-        {
-          "id": "verified-shangri-la-frontier",
-          "fields": [
-            "tamilDubEvidence",
-            "platforms"
-          ]
-        }
-      ],
-      "alreadyInCatalog": 108,
+      "catalogBefore": 154,
+      "catalogAfter": 154,
+      "added": 0,
+      "addedIds": [],
+      "updatedExisting": 0,
+      "updatedIds": [],
+      "alreadyInCatalog": 124,
       "rejected": [],
       "needsReview": [
         {
@@ -26479,15 +26462,15 @@
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 15,
+        "requests": 10,
         "failures": 0,
         "note": null,
         "unavailable": []
       },
       "discovery": {
-        "status": "complete",
+        "status": "partial",
         "skipReason": null,
-        "scannedAt": "2026-10-05T03:28:20.276Z",
+        "scannedAt": "2026-10-05T13:39:51.497Z",
         "sources": {
           "youtube": {
             "configured": true,
@@ -26495,8 +26478,8 @@
               {
                 "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
                 "name": "Muse India",
-                "status": "complete",
-                "stopReason": null,
+                "status": "partial",
+                "stopReason": "page-budget-reached",
                 "uploadsPlaylistFound": true
               }
             ]
@@ -26506,21 +26489,21 @@
           }
         },
         "completeness": {
-          "complete": true,
-          "bootstrapComplete": true,
+          "complete": false,
+          "bootstrapComplete": false,
           "incrementalComplete": true,
-          "pagesProcessed": 1,
-          "hasMoreHistory": false,
-          "stopReason": null
+          "pagesProcessed": 101,
+          "hasMoreHistory": true,
+          "stopReason": "page-budget-reached"
         },
         "counts": {
-          "videosSeen": 50,
-          "excludedNotTamilDub": 43,
+          "videosSeen": 5050,
+          "excludedNotTamilDub": 4856,
           "foreignChannel": 0,
           "notReturnedByApi": 0,
-          "tamilDubPrefixed": 95,
-          "evidenceCandidates": 70,
-          "accepted": 0,
+          "tamilDubPrefixed": 194,
+          "evidenceCandidates": 169,
+          "accepted": 99,
           "rejected": 0,
           "review": 95,
           "deferred": 0,
@@ -26840,15 +26823,17 @@
         ],
         "announcements": [],
         "api": {
-          "unitsUsed": 7,
-          "requests": 7,
+          "unitsUsed": 205,
+          "requests": 205,
           "unitBudget": 2000,
           "failures": []
         },
         "queueSize": 95,
-        "notes": [],
-        "zeroAddReason": "Tamil Dub videos were found but none could be placed safely; see the review list.",
-        "zeroAddReasonCode": "needs-review"
+        "notes": [
+          "UCYYhAzgWuxPauRXdPpLAX3Q: full-rescan-requested"
+        ],
+        "zeroAddReason": "The scan hit its page or unit budget before reaching the end of the channel history; it resumes next run.",
+        "zeroAddReasonCode": "incomplete-scan"
       }
     }
   }
