@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T20:45:00.525Z",
+  "lastUpdated": "2026-10-05T03:28:20.276Z",
   "region": "IN",
   "anime": [
     {
@@ -217,7 +217,29 @@
       "tmdbId": 209867,
       "tmdbUrl": "https://www.themoviedb.org/tv/209867",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 28
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 10
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
@@ -489,7 +511,39 @@
       "tmdbId": 207468,
       "tmdbUrl": "https://www.themoviedb.org/tv/207468",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            }
+          ]
+        },
+        {
+          "label": "Narumi's Week at Work",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-blue-lock",
@@ -709,7 +763,29 @@
       "tmdbId": 131041,
       "tmdbUrl": "https://www.themoviedb.org/tv/131041",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 14
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-mashle--magic-and-muscles",
@@ -870,7 +946,29 @@
       "tmdbId": 204832,
       "tmdbUrl": "https://www.themoviedb.org/tv/204832",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-alya-sometimes-hides-her-feelings-in-russian",
@@ -2001,7 +2099,29 @@
       "tmdbId": 62110,
       "tmdbUrl": "https://www.themoviedb.org/tv/62110",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 22
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 25
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-yuri----on-ice",
@@ -2420,7 +2540,39 @@
       "tmdbId": 95479,
       "tmdbUrl": "https://www.themoviedb.org/tv/95479",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 23
+            }
+          ]
+        },
+        {
+          "label": "Season 3 — The Culling Game Part 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
@@ -2740,7 +2892,109 @@
       "tmdbId": 85937,
       "tmdbUrl": "https://www.themoviedb.org/tv/85937",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Amazon Prime Video",
+              "status": "Complete",
+              "tamilEpisodes": 26
+            }
+          ]
+        },
+        {
+          "label": "Season 2 — Mugen Train Arc",
+          "rows": [
+            {
+              "platform": "Amazon Prime Video",
+              "status": "Complete",
+              "tamilEpisodes": 7
+            },
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 7
+            },
+            {
+              "platform": "JioHotstar",
+              "status": "Complete",
+              "tamilEpisodes": 7
+            }
+          ]
+        },
+        {
+          "label": "Season 2 — Entertainment District Arc",
+          "rows": [
+            {
+              "platform": "Amazon Prime Video",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            },
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            },
+            {
+              "platform": "JioHotstar",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            }
+          ]
+        },
+        {
+          "label": "Season 3 — Swordsmith Village Arc",
+          "rows": [
+            {
+              "platform": "Amazon Prime Video",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            },
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            },
+            {
+              "platform": "JioHotstar",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            }
+          ]
+        },
+        {
+          "label": "Season 4 — Hashira Training Arc",
+          "rows": [
+            {
+              "platform": "Amazon Prime Video",
+              "status": "Complete",
+              "tamilEpisodes": 8
+            },
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 8
+            },
+            {
+              "platform": "JioHotstar",
+              "status": "Complete",
+              "tamilEpisodes": 8
+            }
+          ]
+        },
+        {
+          "label": "Infinity Castle",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-black-butler--public-school-arc",
@@ -3086,7 +3340,29 @@
       "tmdbId": 50712,
       "tmdbUrl": "https://www.themoviedb.org/tv/50712",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 4 — Public School Arc",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            }
+          ]
+        },
+        {
+          "label": "Season 5 — Emerald Witch Arc",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-dr--stone-season-1",
@@ -3527,7 +3803,79 @@
       "tmdbId": 86031,
       "tmdbUrl": "https://www.themoviedb.org/tv/86031",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 11
+            }
+          ]
+        },
+        {
+          "label": "Season 3 — New World",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 22
+            }
+          ]
+        },
+        {
+          "label": "Season 4 — Science Future Cour 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 4 — Science Future Cour 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 4 — Science Future Cour 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Ryusui",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-haikyu---season-1",
@@ -3931,7 +4279,69 @@
       "tmdbId": 60863,
       "tmdbUrl": "https://www.themoviedb.org/tv/60863",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 25
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 25
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 10
+            }
+          ]
+        },
+        {
+          "label": "Season 4 — Cour 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Season 4 — Cour 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "OVA 4 and 5",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 2
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-radiant-season-2",
@@ -4164,7 +4574,19 @@
       "tmdbId": 82879,
       "tmdbUrl": "https://www.themoviedb.org/tv/82879",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 21
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-tsukimichi--moonlit-fantasy--season-1",
@@ -4381,7 +4803,39 @@
       "tmdbId": 111819,
       "tmdbUrl": "https://www.themoviedb.org/tv/111819",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2 — Part 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2 — Part 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-fire-force-season-2",
@@ -4738,7 +5192,49 @@
       "tmdbId": 88046,
       "tmdbUrl": "https://www.themoviedb.org/tv/88046",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 3 — Cour 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 3 — Cour 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-the-ancient-magus--bride-season-1",
@@ -4994,7 +5490,19 @@
       "tmdbId": 73833,
       "tmdbUrl": "https://www.themoviedb.org/tv/73833",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-spy-x-family-season-1",
@@ -5262,7 +5770,49 @@
       "tmdbId": 120089,
       "tmdbUrl": "https://www.themoviedb.org/tv/120089",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1 — Cour 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 1 — Cour 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-that-time-i-got-reincarnated-as-a-slime-season-1",
@@ -5711,7 +6261,49 @@
       "tmdbId": 82684,
       "tmdbUrl": "https://www.themoviedb.org/tv/82684",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 4",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Ongoing",
+              "tamilEpisodes": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-spy-x-family-season-2",
@@ -5853,7 +6445,49 @@
       "tmdbSeason": 2,
       "tmdbSeasonUrl": "https://www.themoviedb.org/tv/120089/season/2",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1 — Cour 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 1 — Cour 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-attack-on-titan-season-1",
@@ -10120,7 +10754,29 @@
       "tmdbId": 223500,
       "tmdbUrl": "https://www.themoviedb.org/tv/223500",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-bucchigiri",
@@ -10458,7 +11114,39 @@
       "tmdbId": 97860,
       "tmdbUrl": "https://www.themoviedb.org/tv/97860",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Season 2 — Return of the Prince",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Season 2 — Workshop Battle",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-robotics-notes",
@@ -11395,7 +12083,29 @@
       "tmdbId": 127532,
       "tmdbUrl": "https://www.themoviedb.org/tv/127532",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-akebi-s-sailor-uniform",
@@ -11897,7 +12607,29 @@
       "tmdbId": 240411,
       "tmdbUrl": "https://www.themoviedb.org/tv/240411",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-the-great-cleric",
@@ -12920,7 +13652,29 @@
       "tmdbId": 123249,
       "tmdbUrl": "https://www.themoviedb.org/tv/123249",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-fullmetal-alchemist-brotherhood",
@@ -14802,7 +15556,19 @@
       "tmdbId": 278043,
       "tmdbUrl": "https://www.themoviedb.org/tv/278043",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-oshi-no-ko",
@@ -16465,7 +17231,19 @@
       "tmdbId": 76121,
       "tmdbUrl": "https://www.themoviedb.org/tv/76121",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-the-daily-life-of-the-immortal-king",
@@ -17090,7 +17868,19 @@
       "tmdbId": 220542,
       "tmdbUrl": "https://www.themoviedb.org/tv/220542",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-good-bye-dragon-life",
@@ -17463,7 +18253,29 @@
       "tmdbId": 88803,
       "tmdbUrl": "https://www.themoviedb.org/tv/88803",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-the-god-of-high-school",
@@ -17736,7 +18548,8 @@
           "name": "Crunchyroll",
           "available": true,
           "officialUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
-          "tamilDubVerified": false
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier"
         },
         {
           "name": "Netflix",
@@ -17963,13 +18776,42 @@
           "source": "Amazon Prime Video official listing",
           "checkedAt": "2026-10-04",
           "note": "Tamil is listed in the audio languages on the Prime Video title page."
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the Audio line on the Crunchyroll series page (signed-in view)."
         }
       ],
       "inclusionSource": "official-source-manifest",
       "tmdbId": 205050,
       "tmdbUrl": "https://www.themoviedb.org/tv/205050",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 25
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 25
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "verified-demon-lord-retry",
@@ -18848,6 +19690,38 @@
           "title": "[Tamil Dub] One-Punch Man | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17PmkqV5MkwGcbUgHlD89Xe"
         }
+      ],
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
       ]
     },
     {
@@ -19450,6 +20324,38 @@
           "title": "[Tamil Dub] One-Punch Man | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17PmkqV5MkwGcbUgHlD89Xe"
         }
+      ],
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
       ]
     },
     {
@@ -20051,6 +20957,38 @@
         {
           "title": "[Tamil Dub] One-Punch Man | Muse IN",
           "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17PmkqV5MkwGcbUgHlD89Xe"
+        }
+      ],
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
         }
       ]
     },
@@ -21574,7 +22512,19 @@
         }
       ],
       "numberOfSeasons": 1,
-      "numberOfEpisodes": 24
+      "numberOfEpisodes": 24,
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "reported-i-shall-survive-using-potions-221148",
@@ -22367,7 +23317,39 @@
         }
       ],
       "numberOfSeasons": 5,
-      "numberOfEpisodes": 62
+      "numberOfEpisodes": 62,
+      "seasonDetails": [
+        {
+          "label": "Seasons 1–2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 38
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 4",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "reported-tokyo-ghoul-61374",
@@ -23485,7 +24467,19 @@
       "tmdbId": 13916,
       "tmdbUrl": "https://www.themoviedb.org/tv/13916",
       "mediaType": "tv",
-      "inclusionSource": "third-party-report"
+      "inclusionSource": "third-party-report",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Sony LIV",
+              "status": "Complete",
+              "tamilEpisodes": 37
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "reported-as-a-reincarnated-aristocrat-i-ll-use-my-appraisal-skill-to-rise-in-the-world-237150",
@@ -24197,7 +25191,29 @@
       "tmdbId": 112613,
       "tmdbUrl": "https://www.themoviedb.org/tv/112613",
       "mediaType": "tv",
-      "region": "IN"
+      "region": "IN",
+      "seasonDetails": [
+        {
+          "label": "Season 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 23
+            }
+          ]
+        },
+        {
+          "label": "Treasure Chest of Courage",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 10
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "reported-jojo-s-bizarre-adventure-steel-ball-run-45790-s6",
@@ -24249,6 +25265,1157 @@
       "inclusionSource": "third-party-report",
       "tmdbSeason": 6,
       "tmdbSeasonUrl": "https://www.themoviedb.org/tv/45790/season/6"
+    },
+    {
+      "id": "verified-overgeared",
+      "title": "Overgeared",
+      "originalTitle": "テムパル～アイテムの力～",
+      "description": "Escape everyday life in SATISFY, a VR game where players earn real-world fame and fortune. One player, Grid, can't seem to catch a break in the game or in real life. That all changes when a challenging quest leads him to becoming the heir to a legendary blacksmith. His stats are reset to zero, but he's leveling up and crafting some seriously god-tier goods.",
+      "image": "https://image.tmdb.org/t/p/w500/94GLmulA9qVGsuo9kLpVKi01E2Z.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
+      "rating": 6.2,
+      "likes": null,
+      "availability": "Ongoing",
+      "status": "Returning Series",
+      "firstAirDate": "2026-10-02",
+      "createdAt": "2026-10-02T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": true,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 12,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00384004/overgeared",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00384004/overgeared"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00384004/overgeared",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GT00384004/overgeared",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 324502,
+      "tmdbUrl": "https://www.themoviedb.org/tv/324502",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-trigun-stampede",
+      "title": "TRIGUN STAMPEDE",
+      "originalTitle": "TRIGUN STAMPEDE",
+      "description": "Vash the Stampede's a joyful gunslinging pacifist, so why does he have a $$6 million bounty on his head? That's what's puzzling rookie reporter Meryl Stryfe and her jaded veteran partner when looking into the vigilante only to find someone who hates blood.",
+      "image": "https://image.tmdb.org/t/p/w500/4rMkVmkk6AzrcbBX9JSwqyG7pbK.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/6dErjmx17e8kZn5zHAqLrbcTesV.jpg",
+      "rating": 7.5,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2023-01-07",
+      "createdAt": "2023-01-07T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "numberOfSeasons": 2,
+      "numberOfEpisodes": 23,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 204266,
+      "tmdbUrl": "https://www.themoviedb.org/tv/204266",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-365-days-to-the-wedding",
+      "title": "365 Days to the Wedding",
+      "originalTitle": "結婚するって、本当ですか",
+      "description": "Takuya and Rika work at the same travel agency in Tokyo and are both happily introverted and single. But their company is opening a new branch in Alaska next year, and employees without a spouse will be recruited to work there. Desperate to avoid the move, and though they’ve hardly spoken before, they decide to fake an engagement. Can these quiet coworkers become a convincing couple?",
+      "image": "https://image.tmdb.org/t/p/w500/lMVkOrMaWEkHZLdPksKGcdi6hJg.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/hMLGxMnc3OQ6iE8IzKj4wWOIW6C.jpg",
+      "rating": 7,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2024-10-03",
+      "createdAt": "2024-10-03T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 12,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 230189,
+      "tmdbUrl": "https://www.themoviedb.org/tv/230189",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-a-misanthrope-teaches-a-class-for-demi-humans",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans",
+      "originalTitle": "人外教室の人間嫌い教師",
+      "description": "After a traumatic incident ends his teaching career, Rei Hitoma is certain he hates humans. Yet when he sees a job for \"a teacher who truly cares for their students,\" he's compelled to apply. Before he knows it, he's hired—only to find out his students are demi-humans. What begins as a job becomes a journey for healing for both a teacher who's lost faith in humanity and students who dream of it.",
+      "image": "https://image.tmdb.org/t/p/w500/yOM6DxJblSheZwOeGwAzfIHxnCc.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/yrDQ24QE2qW2eNB2TGNafYT1Wnh.jpg",
+      "rating": 5.7,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2026-01-11",
+      "createdAt": "2026-01-11T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 13,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "1-13",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 303434,
+      "tmdbUrl": "https://www.themoviedb.org/tv/303434",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-girls-frontline",
+      "title": "Girls' Frontline",
+      "originalTitle": "少女前线 人形小剧场",
+      "description": "After the Third World War in 206x AD, the world has been devastated, the tactical dolls of the private military company Griffin are in an endless battle with the “Iron-Blood Construction Company,” which deceived mankind.",
+      "image": "https://image.tmdb.org/t/p/w500/hG7qq8ed3c3CdbybiFRU97O6l5u.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/8yFwnqu64ufUMmGnw63Wq8YmYEu.jpg",
+      "rating": 7,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2019-07-28",
+      "createdAt": "2019-07-28T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "numberOfSeasons": 3,
+      "numberOfEpisodes": 36,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        },
+        {
+          "number": "2-1",
+          "url": null
+        },
+        {
+          "number": "2-2",
+          "url": null
+        },
+        {
+          "number": "2-3",
+          "url": null
+        },
+        {
+          "number": "2-4",
+          "url": null
+        },
+        {
+          "number": "2-5",
+          "url": null
+        },
+        {
+          "number": "2-6",
+          "url": null
+        },
+        {
+          "number": "2-7",
+          "url": null
+        },
+        {
+          "number": "2-8",
+          "url": null
+        },
+        {
+          "number": "2-9",
+          "url": null
+        },
+        {
+          "number": "2-10",
+          "url": null
+        },
+        {
+          "number": "2-11",
+          "url": null
+        },
+        {
+          "number": "2-12",
+          "url": null
+        },
+        {
+          "number": "3-1",
+          "url": null
+        },
+        {
+          "number": "3-2",
+          "url": null
+        },
+        {
+          "number": "3-3",
+          "url": null
+        },
+        {
+          "number": "3-4",
+          "url": null
+        },
+        {
+          "number": "3-5",
+          "url": null
+        },
+        {
+          "number": "3-6",
+          "url": null
+        },
+        {
+          "number": "3-7",
+          "url": null
+        },
+        {
+          "number": "3-8",
+          "url": null
+        },
+        {
+          "number": "3-9",
+          "url": null
+        },
+        {
+          "number": "3-10",
+          "url": null
+        },
+        {
+          "number": "3-11",
+          "url": null
+        },
+        {
+          "number": "3-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 91643,
+      "tmdbUrl": "https://www.themoviedb.org/tv/91643",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-heroines-run-the-show",
+      "title": "Heroines Run the Show",
+      "originalTitle": "ヒロインたるもの！〜嫌われヒロインと内緒のお仕事〜",
+      "description": "What would you do to pursue your passion? For Hiyori Suzumi, it’s leaving her simple rural hometown for the bustling city of Tokyo to join Sakuragaoka High School’s track team. Between being a manager-in-training for two cutthroat schoolboy idols, track, and friends, Hiyori shows no signs of slowing down.",
+      "image": "https://image.tmdb.org/t/p/w500/A5OlJA472GSc2S05bzAMaTw1o9w.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/oPyLzaWOFsbteeOmlBt1b36jsT.jpg",
+      "rating": 6.7,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2022-04-07",
+      "createdAt": "2022-04-07T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 12,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 132213,
+      "tmdbUrl": "https://www.themoviedb.org/tv/132213",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+      "title": "If My Favorite Pop Idol Made It to the Budokan, I Would Die",
+      "originalTitle": "推しが武道館いってくれたら死ぬ",
+      "description": "Eripiyo is initially a woman leading a normal life until it is turned upside down after watching a performance of the minor idol group ChamJam, which leads her to becoming obsessed with one of its members, Maina Ichii. Despite Eripiyo's enthusiasm towards her, Maina is consistently the least popular member of the group, leaving Eripiyo to take it upon herself to buy a lot of Maina's merchandise, which mainly involves singles.",
+      "image": "https://image.tmdb.org/t/p/w500/t9fiqbRiZ3SDGZVoLSza1eYDq7A.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/rEI0Qyf732Fqb14eixIqxqYICdh.jpg",
+      "rating": 6.7,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2022-10-09",
+      "createdAt": "2022-10-09T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Drama",
+        "Comedy"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 10,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 208559,
+      "tmdbUrl": "https://www.themoviedb.org/tv/208559",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "verified-miss-kuroitsu-from-the-monster-development-department",
+      "title": "Miss Kuroitsu from the Monster Development Department",
+      "originalTitle": "怪人開発部の黒井津さん",
+      "description": "Touka Kuroitsu is a research assistant who belongs to the Monster Development Department of the evil organization Agastia. However, the enemy she has to fight right now isn't the heroes of justice, but her boss. So long justice exists, evil too, will exist. This is the story of those who fight secretly in the shadows of justice and evil's confrontation.",
+      "image": "https://image.tmdb.org/t/p/w500/yP0gRkxo9puHGAc9PgwUj9Ym0h.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/zYJqj1bnINvbqBwxAEFiMZ78XrS.jpg",
+      "rating": 6,
+      "likes": null,
+      "availability": "Completed",
+      "status": "Ended",
+      "firstAirDate": "2022-01-09",
+      "createdAt": "2022-01-09T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:20.276Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "numberOfSeasons": 1,
+      "numberOfEpisodes": 12,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "1-1",
+          "url": null
+        },
+        {
+          "number": "1-2",
+          "url": null
+        },
+        {
+          "number": "1-3",
+          "url": null
+        },
+        {
+          "number": "1-4",
+          "url": null
+        },
+        {
+          "number": "1-5",
+          "url": null
+        },
+        {
+          "number": "1-6",
+          "url": null
+        },
+        {
+          "number": "1-7",
+          "url": null
+        },
+        {
+          "number": "1-8",
+          "url": null
+        },
+        {
+          "number": "1-9",
+          "url": null
+        },
+        {
+          "number": "1-10",
+          "url": null
+        },
+        {
+          "number": "1-11",
+          "url": null
+        },
+        {
+          "number": "1-12",
+          "url": null
+        }
+      ],
+      "youtube": [],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Crunchyroll official listing/announcement",
+      "tamilDubVerificationUrl": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department",
+      "tamilDubVerifiedAt": "2026-10-05",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+        }
+      ],
+      "inclusionSource": "official-source-manifest",
+      "tmdbId": 128826,
+      "tmdbUrl": "https://www.themoviedb.org/tv/128826",
+      "mediaType": "tv",
+      "region": "IN"
+    },
+    {
+      "id": "reported-even-though-i-m-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fianc-303060",
+      "title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+      "originalTitle": "",
+      "description": "Pia Rockwell is a minor villainess in the game Caroline and the Rainbow Magic Sweets. At the end of the game, she's destined to be judged at her graduation party, see her engagement broken off, and be banished from the kingdom. Realizing she's doomed, Pia offers to end her engagement with Rufus Stan…but this only inspires the proud chancellor’s son to make a bet with her about their future!",
+      "image": "https://image.tmdb.org/t/p/w500/deFPIrhtwbVp1juu0b5Vi94DVLN.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/6tdkrWkbHlNZ8ZGn5blye4KTm57.jpg",
+      "rating": null,
+      "likes": null,
+      "availability": "",
+      "status": "Returning Series",
+      "firstAirDate": "2026-10-04",
+      "createdAt": "2026-10-04T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:26.372Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365562/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fianc",
+          "tamilDubVerified": false,
+          "tamilDubReported": true,
+          "tamilDubReportSource": "VViP Times",
+          "tamilDubReportUrl": "https://vviptimes.com/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance-episode-1-release-time-streaming-details-and-story-recap/",
+          "regionNote": "Crunchyroll page lists Japanese audio only so far; Tamil dub reported as coming"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [],
+      "tamilDubVerified": false,
+      "tmdbId": 303060,
+      "tmdbUrl": "https://www.themoviedb.org/tv/303060",
+      "mediaType": "tv",
+      "inclusionSource": "third-party-report"
+    },
+    {
+      "id": "reported-black-clover-73223",
+      "title": "Black Clover",
+      "originalTitle": "",
+      "description": "Asta and Yuno are two orphans who want the same thing: to become the Wizard King. Locked in a friendly rivalry, they work hard towards their goal. While Yuno excels at magic, Asta has a problem uncommon in this world: he has no powers! But, on the day they receive their grimoires, they surprise everyone. To reach their goal, they’ll each find their own path to greatness—with or without magic.",
+      "image": "https://image.tmdb.org/t/p/w500/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "rating": 8.5,
+      "likes": null,
+      "availability": "",
+      "status": "Returning Series",
+      "firstAirDate": "2017-10-03",
+      "createdAt": "2017-10-03T00:00:00Z",
+      "updatedAt": "2026-10-05T03:28:26.372Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRE50KV36/black-clover",
+          "tamilDubVerified": false,
+          "tamilDubReported": true,
+          "tamilDubReportSource": "Otakukart",
+          "tamilDubReportUrl": "https://otakukart.com/black-clover-season-2-returns-to-crunchyroll-india-on-october-3-after-five-year-wait/",
+          "regionNote": "Tamil dub reported for Season 2 only, coming soon; the Crunchyroll page does not list Tamil yet"
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [],
+      "tamilDubVerified": false,
+      "tmdbId": 73223,
+      "tmdbUrl": "https://www.themoviedb.org/tv/73223",
+      "mediaType": "tv",
+      "inclusionSource": "third-party-report"
     }
   ],
   "updateInfo": {
@@ -24260,11 +26427,11 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 3,
-    "manualAnime": 139,
+    "discoveredAnime": 8,
+    "manualAnime": 148,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-04T20:45:00.525Z",
+      "scannedAt": "2026-10-05T03:28:20.276Z",
       "status": "added",
       "zeroAddReason": null,
       "manifest": {
@@ -24272,197 +26439,32 @@
         "found": true,
         "version": 1,
         "updatedAt": "2026-10-04",
-        "entries": 111
+        "entries": 119
       },
-      "catalogBefore": 140,
-      "catalogAfter": 143,
-      "added": 3,
+      "catalogBefore": 144,
+      "catalogAfter": 152,
+      "added": 8,
       "addedIds": [
-        "verified-the-drops-of-god",
-        "verified-konosuba-season-3",
-        "verified-ranking-of-kings"
+        "verified-overgeared",
+        "verified-trigun-stampede",
+        "verified-365-days-to-the-wedding",
+        "verified-a-misanthrope-teaches-a-class-for-demi-humans",
+        "verified-girls-frontline",
+        "verified-heroines-run-the-show",
+        "verified-if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+        "verified-miss-kuroitsu-from-the-monster-development-department"
       ],
-      "updatedExisting": 11,
+      "updatedExisting": 1,
       "updatedIds": [
         {
           "id": "verified-shangri-la-frontier",
           "fields": [
+            "tamilDubEvidence",
             "platforms"
-          ]
-        },
-        {
-          "id": "reported-the-gorilla-god-s-go-to-girl-278816",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-dead-mount-death-play-214540",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-possibly-the-greatest-alchemist-of-all-time-261298",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-my-tiny-senpai-217390",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-gachiakuta-256721",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-i-shall-survive-using-potions-221148",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-the-rising-of-the-shield-hero-83095",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-karna-the-guardian-217167",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "rating",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs-139512",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
-          ]
-        },
-        {
-          "id": "reported-i-ll-become-a-villainess-who-goes-down-in-history-248817",
-          "fields": [
-            "region",
-            "tamilDubVerified",
-            "tamilDubVerificationSource",
-            "tamilDubVerificationUrl",
-            "tamilDubVerifiedAt",
-            "tamilDubEvidence",
-            "platforms",
-            "originalTitle",
-            "availability",
-            "numberOfSeasons",
-            "numberOfEpisodes",
-            "episodes"
           ]
         }
       ],
-      "alreadyInCatalog": 95,
+      "alreadyInCatalog": 108,
       "rejected": [],
       "needsReview": [
         {
@@ -24477,7 +26479,7 @@
       "deferred": [],
       "tmdb": {
         "enabled": true,
-        "requests": 21,
+        "requests": 15,
         "failures": 0,
         "note": null,
         "unavailable": []
@@ -24485,7 +26487,7 @@
       "discovery": {
         "status": "complete",
         "skipReason": null,
-        "scannedAt": "2026-10-04T20:45:00.525Z",
+        "scannedAt": "2026-10-05T03:28:20.276Z",
         "sources": {
           "youtube": {
             "configured": true,
@@ -24507,13 +26509,13 @@
           "complete": true,
           "bootstrapComplete": true,
           "incrementalComplete": true,
-          "pagesProcessed": 42,
+          "pagesProcessed": 1,
           "hasMoreHistory": false,
           "stopReason": null
         },
         "counts": {
-          "videosSeen": 2093,
-          "excludedNotTamilDub": 2086,
+          "videosSeen": 50,
+          "excludedNotTamilDub": 43,
           "foreignChannel": 0,
           "notReturnedByApi": 0,
           "tamilDubPrefixed": 95,
@@ -24838,8 +26840,8 @@
         ],
         "announcements": [],
         "api": {
-          "unitsUsed": 89,
-          "requests": 89,
+          "unitsUsed": 7,
+          "requests": 7,
           "unitBudget": 2000,
           "failures": []
         },
