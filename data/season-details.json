@@ -997,6 +997,56 @@
      ]
     }
    ]
+  },
+  {
+   "title": "Blue Box",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Netflix",
+       "status": "Complete",
+       "tamilEpisodes": null
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Netflix",
+       "status": "Ongoing",
+       "tamilEpisodes": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Ramparts of Ice",
+   "seasons": [
+    {
+     "label": "Season 1",
+     "rows": [
+      {
+       "platform": "Netflix",
+       "status": "Complete",
+       "tamilEpisodes": null
+      }
+     ]
+    },
+    {
+     "label": "Season 2",
+     "rows": [
+      {
+       "platform": "Netflix",
+       "status": "Ongoing",
+       "tamilEpisodes": null
+      }
+     ]
+    }
+   ]
   }
  ]
 }
