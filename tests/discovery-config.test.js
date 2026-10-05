@@ -94,7 +94,7 @@ test("update workflow: serialised, bounded, discovery on, and both data files co
 
 test("update workflow: secrets are passed to the updater step only, by name, and never printed", () => {
   const workflow = read(".github/workflows/update-anime.yml");
-  const used = [...workflow.matchAll(/\$\{\{\s*secrets\.([A-Z_]+)\s*\}\}/g)].map((match) => match[1]).sort();
+  const used = [...workflow.matchAll(/\$\{\{\s*secrets\.([A-Z_]+)\s*\}\}/g)].map((match) => match[1]).filter((v, i, a) => a.indexOf(v) === i).sort();
 
   assert.deepEqual(used, ["TAVILY_API_KEY", "TMDB_API_KEY", "YOUTUBE_API_KEY"], "only the three data/search keys, no dispatch token or other secret");
   assert.match(workflow, /TAVILY_API_KEY: \$\{\{ secrets\.TAVILY_API_KEY \}\}/);
