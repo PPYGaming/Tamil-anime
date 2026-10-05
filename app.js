@@ -288,6 +288,61 @@
     return [...[...PLATFORM_ORDER, ...optional].map((name) => streamingItem(name, findRow(a.platforms, [name]))), youtubeItem(a)].join("");
   }
 
+  const SEASON_STATUS_CLASS = {
+    Complete: "complete",
+    Ongoing: "ongoing",
+    Unknown: "unknown",
+  };
+
+  function seasonRowHtml(a, row) {
+    if (!row || typeof row !== "object") return "";
+    const statusLabel = Object.prototype.hasOwnProperty.call(SEASON_STATUS_CLASS, row.status)
+      ? row.status
+      : "Unknown";
+    const statusClass = SEASON_STATUS_CLASS[statusLabel];
+
+    const n = row.tamilEpisodes;
+    let episodes = "Episode count not reported";
+    if (Number.isInteger(n) && n >= 0) {
+      episodes = n === 1 ? "1 Tamil episode" : `${n} Tamil episodes`;
+    }
+
+    const platformRow = findRow(a.platforms, [row.platform]);
+    const verified = Boolean(
+      platformRow && platformRow.available === true && platformRow.tamilDubVerified === true
+    );
+    const tierClass = verified ? "verified" : "reported";
+    const tierLabel = verified ? "Verified" : "Reported";
+
+    return `<li class="season-row">` +
+      `<span class="season-platform">${esc(row.platform)}</span>` +
+      `<span class="season-chip season-chip--${statusClass}">${esc(statusLabel)}</span>` +
+      `<span class="season-episodes">${esc(episodes)}</span>` +
+      `<span class="season-chip season-chip--${tierClass}">${esc(tierLabel)}</span>` +
+      `</li>`;
+  }
+
+  function seasonSectionHtml(a) {
+    const seasons = a && Array.isArray(a.seasonDetails) ? a.seasonDetails : [];
+    const blocks = seasons
+      .map((season) => {
+        if (!season || !Array.isArray(season.rows)) return "";
+        const rows = season.rows.map((row) => seasonRowHtml(a, row)).join("");
+        if (!rows) return "";
+        return `<div class="season-block"><h3>${esc(season.label)}</h3>` +
+          `<ul class="season-rows">${rows}</ul></div>`;
+      })
+      .filter(Boolean);
+
+    if (!blocks.length) return "";
+
+    return `<section class="detail-section season-section" aria-labelledby="seasonsHeading">
+      <h2 id="seasonsHeading">Tamil dub by season</h2>
+      ${blocks.join("")}
+      <p class="section-note">${esc("Season details come from community reports. Only titles marked Verified are confirmed from an official platform page; episode counts are not independently verified.")}</p>
+    </section>`;
+  }
+
   function detailHtml(a) {
     const title = text(a.title) || "Untitled";
     const original = text(a.originalTitle);
@@ -313,6 +368,7 @@
       <ul class="platform-list">${platformRows(a)}</ul>
       <p class="section-note">Only platforms with an official listing in the catalog show as available, and a listing alone does not prove Tamil audio.</p>
     </section>
+    ${seasonSectionHtml(a)}
   </article>`;
   }
 
@@ -545,7 +601,7 @@
 
   const api = {
     esc, safeUrl, externalUrl, imageSrc, youtubeId, recordId, routeFor, parseRoute,
-    cardHtml, detailHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
+    cardHtml, detailHtml, seasonSectionHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
     pageWindow, pagerHtml
   };
 
