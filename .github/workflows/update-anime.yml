@@ -30,6 +30,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Tavily discovery (leads only)
+        run: node scripts/discover-tavily.js
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        continue-on-error: true
       - name: Run updater
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
@@ -51,7 +56,7 @@ jobs:
         run: |
           set -euo pipefail
           # The checkpoint file is new on the first run, so stage first and test the staged diff (git diff alone ignores untracked files).
-          git add -A -- data/anime.json data/discovery-state.json data/youtube-playlists.json
+          git add -A -- data/anime.json data/discovery-state.json data/youtube-playlists.json data/discovery-leads.json
           if git diff --cached --quiet; then
             echo "No catalog changes."
             exit 0
