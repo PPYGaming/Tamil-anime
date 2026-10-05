@@ -5,6 +5,7 @@ const path = require("node:path");
 const CONFIG = [
   { name: "Animesalt", bases: ["https://animesalt.ro", "https://animesalt.in", "https://animesalt.me"], listPath: "/language/tamil/", pagePath: (n) => `/language/tamil/page/${n}/`, maxPages: 15 },
   { name: "Animesalt", bases: ["https://animesalt.cx"], listPath: "/category/language/tamil/", pagePath: (n) => `/category/language/tamil/page/${n}/`, maxPages: 20 },
+  { name: "AnimeDekho", bases: ["https://animedekho.tv"], listPath: "/category/tamil/", pagePath: (n) => `/category/tamil/page/${n}/`, maxPages: 40 },
   { name: "Toon Stream", bases: ["https://toonstream.live", "https://toonstream.love"], listPath: "/language/tamil/", pagePath: (n) => `/language/tamil/page/${n}/`, maxPages: 15 },
 ];
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
