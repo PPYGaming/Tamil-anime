@@ -26,16 +26,23 @@ const path = require("path");
 
 const DATA_FILE = process.env.ANIME_DATA_FILE || path.join(__dirname, "..", "data", "anime.json");
 const REPORTS_FILE = process.env.REPORTS_FILE || path.join(__dirname, "..", "data", "third-party-reports.json");
-const PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
+const PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video", "JioHotstar", "Sony LIV"];
+// New records keep the original three empty rows; JioHotstar / Sony LIV rows exist only when reported or curated.
+const CORE_PLATFORMS = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
+
+const HOTSTAR_HOSTS = ["hotstar.com", "www.hotstar.com", "jiohotstar.com", "www.jiohotstar.com"];
+const SONYLIV_HOSTS = ["sonyliv.com", "www.sonyliv.com"];
 
 function platformUrlOk(platform, value) {
   let url;
   try { url = new URL(String(value)); } catch { return false; }
-  if (url.protocol !== "https:") return false;
+  if (url.protocol !== "https:" || url.username || url.password) return false;
   const host = url.hostname.toLowerCase();
   if (platform === "Crunchyroll") return (host === "www.crunchyroll.com" || host === "crunchyroll.com") && /^\/series\/[0-9A-Z]{6,}(?:\/|$)/.test(url.pathname);
   if (platform === "Netflix") return (host === "www.netflix.com" || host === "netflix.com") && /^\/(?:[a-z]{2}\/)?title\/\d+/.test(url.pathname);
   if (platform === "Amazon Prime Video") return (host === "www.primevideo.com" || host === "primevideo.com") && /\/detail\/(?:[^/]+\/)?[0-9A-Z]{20,}/.test(url.pathname);
+  if (platform === "JioHotstar") return HOTSTAR_HOSTS.includes(host) && /^\/(?:[a-z]{2}(?:-[a-z]{2})?\/)?(?:shows|movies|tv)\/[^/]+\/\d+(?:\/|$)/i.test(url.pathname);
+  if (platform === "Sony LIV") return SONYLIV_HOSTS.includes(host) && /^\/(?:shows|movies)\/[^/]+/i.test(url.pathname);
   return false;
 }
 
@@ -49,7 +56,7 @@ function validate(entry) {
   if (!String(entry.title || "").trim()) return "missing title";
   if (entry.mediaType !== "tv" && entry.mediaType !== "movie") return "mediaType must be tv or movie";
   if (!Number.isInteger(entry.tmdbId) || entry.tmdbId <= 0) return "tmdbId must be a positive integer";
-  if (!PLATFORMS.includes(entry.platform)) return "platform must be Crunchyroll, Netflix or Amazon Prime Video";
+  if (!PLATFORMS.includes(entry.platform)) return "platform must be Crunchyroll, Netflix, Amazon Prime Video, JioHotstar or Sony LIV";
   if (!platformUrlOk(entry.platform, entry.officialUrl)) return "officialUrl must be that platform's own title page";
   if (!reportOk(entry.report)) return "report needs an https url and a source name";
   if (entry.tmdbSeason !== undefined && (entry.mediaType !== "tv" || !Number.isInteger(entry.tmdbSeason) || entry.tmdbSeason < 1 || entry.tmdbSeason > 60)) return "tmdbSeason must be an integer 1-60 on a tv entry";
@@ -79,7 +86,7 @@ function reportedRow(entry) {
 }
 
 function emptyRows() {
-  return PLATFORMS.map((name) => ({ name, available: false, officialUrl: null, tamilDubVerified: false }));
+  return CORE_PLATFORMS.map((name) => ({ name, available: false, officialUrl: null, tamilDubVerified: false }));
 }
 
 function newRecord(entry, now) {
