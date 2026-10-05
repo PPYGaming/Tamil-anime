@@ -638,6 +638,34 @@
         "checkedAt": "2026-10-05"
       },
       "regionNote": "Netflix page not confirmed as the India listing"
+    },
+    {
+      "title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+      "mediaType": "tv",
+      "tmdbId": 303060,
+      "year": 2026,
+      "platform": "Crunchyroll",
+      "officialUrl": "https://www.crunchyroll.com/series/GT00365562/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fianc",
+      "report": {
+        "source": "VViP Times",
+        "url": "https://vviptimes.com/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance-episode-1-release-time-streaming-details-and-story-recap/",
+        "checkedAt": "2026-10-05"
+      },
+      "regionNote": "Crunchyroll page lists Japanese audio only so far; Tamil dub reported as coming"
+    },
+    {
+      "title": "Black Clover",
+      "mediaType": "tv",
+      "tmdbId": 73223,
+      "year": 2017,
+      "platform": "Crunchyroll",
+      "officialUrl": "https://www.crunchyroll.com/series/GRE50KV36/black-clover",
+      "report": {
+        "source": "Otakukart",
+        "url": "https://otakukart.com/black-clover-season-2-returns-to-crunchyroll-india-on-october-3-after-five-year-wait/",
+        "checkedAt": "2026-10-05"
+      },
+      "regionNote": "Tamil dub reported for Season 2 only, coming soon; the Crunchyroll page does not list Tamil yet"
     }
   ]
 }
