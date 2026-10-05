@@ -2388,6 +2388,48 @@
           "officialUrl": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history"
         }
       ]
+    },
+    {
+      "id": "verified-overgeared",
+      "title": "Overgeared",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00384004/overgeared",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 324502,
+      "tmdbUrl": "https://www.themoviedb.org/tv/324502",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00384004/overgeared"
+        }
+      ]
+    },
+    {
+      "id": "verified-trigun-stampede",
+      "title": "TRIGUN STAMPEDE",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 204266,
+      "tmdbUrl": "https://www.themoviedb.org/tv/204266",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede"
+        }
+      ]
     }
   ]
 }
