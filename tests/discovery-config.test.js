@@ -96,7 +96,8 @@ test("update workflow: secrets are passed to the updater step only, by name, and
   const workflow = read(".github/workflows/update-anime.yml");
   const used = [...workflow.matchAll(/\$\{\{\s*secrets\.([A-Z_]+)\s*\}\}/g)].map((match) => match[1]).sort();
 
-  assert.deepEqual(used, ["TMDB_API_KEY", "YOUTUBE_API_KEY"], "only the two data keys, no dispatch token or other secret");
+  assert.deepEqual(used, ["TAVILY_API_KEY", "TMDB_API_KEY", "YOUTUBE_API_KEY"], "only the three data/search keys, no dispatch token or other secret");
+  assert.match(workflow, /TAVILY_API_KEY: \$\{\{ secrets\.TAVILY_API_KEY \}\}/);
   assert.doesNotMatch(workflow, /echo[^\n]*secrets\./);
   assert.doesNotMatch(workflow, /set -x/);
 });
