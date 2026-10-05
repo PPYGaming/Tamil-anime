@@ -280,6 +280,25 @@
     return platformItem(YOUTUBE_LABEL, state, links + none + other);
   }
 
+  // Free-site rows sit in the Where to watch list like the other platforms: name and a status pill, never a link.
+  function freeSiteItems(a) {
+    const rows = a && Array.isArray(a.freeSites) ? a.freeSites.filter((s) => s && text(s.name)) : [];
+    return rows
+      .map((s) => {
+        const yes = s.available === true;
+        return `<li class="platform-item is-free-site"><h3 class="platform-name">${esc(text(s.name))}</h3>` +
+          `<p class="platform-state"><span class="pill ${yes ? "pill-free-yes" : "pill-unavailable"}">${yes ? "Available" : "Not available"}</span></p>` +
+          `<div class="platform-actions"></div></li>`;
+      })
+      .join("");
+  }
+
+  // Same rows in their own card under Where to watch: no heading, no links.
+  function freeSiteSectionHtml(a) {
+    const items = freeSiteItems(a);
+    return items ? `<section class="detail-section free-site-section"><ul class="platform-list">${items}</ul></section>` : "";
+  }
+
   function platformRows(a) {
     const optional = OPTIONAL_PLATFORMS.filter((name) => {
       const row = findRow(a.platforms, [name]);
@@ -368,6 +387,7 @@
       <ul class="platform-list">${platformRows(a)}</ul>
       <p class="section-note">Only platforms with an official listing in the catalog show as available, and a listing alone does not prove Tamil audio.</p>
     </section>
+    ${freeSiteSectionHtml(a)}
     ${seasonSectionHtml(a)}
   </article>`;
   }
@@ -601,7 +621,7 @@
 
   const api = {
     esc, safeUrl, externalUrl, imageSrc, youtubeId, recordId, routeFor, parseRoute,
-    cardHtml, detailHtml, seasonSectionHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
+    cardHtml, detailHtml, seasonSectionHtml, freeSiteItems, freeSiteSectionHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
     pageWindow, pagerHtml
   };
 
