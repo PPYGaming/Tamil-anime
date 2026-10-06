@@ -207,7 +207,9 @@
       "pageUrl": "https://www.hotstar.com/in/movies/falimy/1260158602",
       "snippet": "To fulfill the elderly patriarch's wish, a dissonant family embarks on a trip to Varanasi. Will this journey mend their bonds or deepen the fault lines?",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Nadu Center",
@@ -215,7 +217,9 @@
       "pageUrl": "https://www.hotstar.com/in/shows/nadu-center/1271506722",
       "snippet": "They fight, they fall, they rise... together! Watch Nadu Center - Hindi Telugu Tamil Malayalam Bengali Marathi Kannada Drama Sports Teen serial on JioHotstar",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "TV Shows, Movies, Specials, Live Cricket & Football",
@@ -223,7 +227,9 @@
       "pageUrl": "https://www.hotstar.com/in/movies/hum-hain-rahi-pyar-ke/1260103083/watch",
       "snippet": "JioHotstar is India's largest premium streaming platform with more than 100000 hours of drama and movies in 17 languages, and coverage of every major global",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Bigg Boss",
@@ -231,7 +237,9 @@
       "pageUrl": "https://www.hotstar.com/in/shows/bigg-boss/14455",
       "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Mr.X",
@@ -239,7 +247,9 @@
       "pageUrl": "https://www.hotstar.com/in/movies/mr-x/1271640545",
       "snippet": "Mr.X ... A rogue agent races against time to stop a nuclear catastrophe. Defying orders, he uncovers a conspiracy that could push the world to the brink.",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Catch Me If You Can",
@@ -247,7 +257,9 @@
       "pageUrl": "https://www.hotstar.com/in/movies/catch-me-if-you-can/1971001326",
       "snippet": "Before his 21st birthday, Frank W. Abagnale, Jr. becomes a master of deception, impersonating a pilot, lawyer, and doctor. Watch Catch Me If You Can",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Send Help",
@@ -255,7 +267,9 @@
       "pageUrl": "https://www.hotstar.com/in/movies/send-help/1271506594",
       "snippet": "When two colleagues are stranded on a island as the only survivors of a plane crash, they must overcome past grievances and work together to stay alive.",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Dear Comrade",
@@ -263,7 +277,9 @@
       "pageUrl": "https://www.hotstar.com/in/movies/dear-comrade/1260049350",
       "snippet": "Rebel without a cause Bobby constantly gets into fights because of his temper. However, he meets his match when he comes across state-level cricketer Lilly.",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Skylab (Tamil) - Watch Full Movie Online In HD on Sony LIV",
@@ -271,7 +287,9 @@
       "pageUrl": "https://www.sonyliv.com/movies/skylab-tamil-1000154125",
       "snippet": "Watch Skylab - Tamil Fantasy, Drama movie online on Sony LIV. Enjoy full HD movie Skylab directed by Vishvak Khanderao and film starring Nithya Menen,",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Aavasavyuham (Tamil) - Watch Full Movie Online in HD on ...",
@@ -279,7 +297,9 @@
       "pageUrl": "https://www.sonyliv.com/movies/aavasavyuham-tamil-1500004577",
       "snippet": "Watch Aavasavyuham - Tamil thriller movie online on Sony LIV. Enjoy full HD movie directed by Krishand RK and film starring Sreenath Babu, Ajayaghosh,",
       "foundAt": "2026-10-05",
-      "status": "needsReview"
+      "status": "notConfirmed",
+      "checkedAt": "2026-10-06",
+      "reason": "not-anime"
     },
     {
       "title": "Meet Cute Web Series Online - Watch All Episodes in HD ...",
@@ -463,6 +483,158 @@
       "pageUrl": "https://sonyliv.com/movies/lucifer-dub-1500004796",
       "snippet": "Title: Watch Lucifer (Dub) Full HD Movie Online - Sony LIV # Lucifer (Dub). After the death of the ruling party's supreme leader in God's own country, a power vaccuum gives rise to unprecedent forces in the chaos for succession, impacting both the party and state. The 2019 Malayalam blockbuster Luci",
       "foundAt": "2026-10-05",
+      "status": "needsReview"
+    },
+    {
+      "title": "Maamannan (Tamil)",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/in/title/81597747",
+      "snippet": "Title: Watch Maamannan (Tamil) | Netflix # Maamannan (Tamil). Endless entertainment starting at MXN 139. ## More Details. #### Watch offline. #### Genres. #### Audio. #### Subtitles. #### Cast. ## You Might Also Like. ## A Plan To Suit Your Needs. ## 1080p. Less ads than you might think. ### Standar",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Virupaksha (Tamil)",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/81699650",
+      "snippet": "Title: Watch Virupaksha (Tamil) | Netflix # Virupaksha (Tamil). Endless entertainment starting at EUR 4.99. ## More Details. #### Watch offline. #### Genres. #### Audio. #### Subtitles. #### Cast. ## You Might Also Like. ## A Plan To Suit Your Needs. ## 720p. For your phone, tablet, laptop and TV. #",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Aaryan (Tamil)",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/81615047",
+      "snippet": "Title: Watch Aaryan (Tamil) | Netflix # Aaryan (Tamil). Endless entertainment starting at 189.99 TL. ## More Details. #### Watch offline. #### Genres. #### Audio. #### Subtitles. #### Cast. ## You Might Also Like. ## A Plan To Suit Your Needs. ## 720p. For your phone, tablet, laptop and TV. ### Stan",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Kushi (Tamil)",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/81728992",
+      "snippet": "Title: Watch Kushi (Tamil) | Netflix # Kushi (Tamil). Endless entertainment starting at $8.99. ## More Details. #### Watch offline. #### Genres. #### Audio. #### Subtitles. #### Cast. ## You Might Also Like. ## A Plan To Suit Your Needs. ## 1080p. Less ads than you might think. ### Standard. ### Pre",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Kurup (Tamil)",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/81555313",
+      "snippet": "Title: Watch Kurup (Tamil) | Netflix # Kurup (Tamil). Endless entertainment starting at $7.99. Endless entertainment starting at $7.99. ## Kurup (Tamil). ## More Details. #### Watch offline. #### Genres. #### Audio. #### Subtitles. #### Cast. ## You Might Also Like. ## Trending Now. ## A Plan To Sui",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Doctor (Tamil)",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/81337210",
+      "snippet": "Title: Watch Doctor (Tamil) | Netflix # Doctor (Tamil). Endless entertainment starting at EUR 8.99. ## More Details. #### Watch offline. #### Genres. #### Audio. #### Subtitles. #### Cast. ## You Might Also Like. ## A Plan To Suit Your Needs. ## 720p. For your phone, tablet, laptop and TV. ### Stand",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Frank Zappa: The Dub Room Special",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/70040895",
+      "snippet": "Title: Watch Frank Zappa: The Dub Room Special | Netflix This title currently isn’t available to watch in your country. # Frank Zappa: The Dub Room Special. Frank Zappa: The Dub Room Special. ## Frank Zappa: The Dub Room Special. This compilation of clips from two live performances captures musical ",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "She",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/81183494",
+      "snippet": "# She Endless entertainment starting at ₱169 Endless entertainment starting at ₱169 ## She ## Trailers 1m 8s TEASER Season 2 Teaser: She 46s TEASER Season 2 Teaser 2: She 1m 37s TRAILER Season 2 Trailer: She 1m 10s TRAILER Season 1 Trailer: She ## Episodes 1. The Pickup Police officer Bhumi goes und",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "#Love",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/81680908",
+      "snippet": "# #Love Endless entertainment starting at ₪32.90 Endless entertainment starting at ₪32.90 ## #Love ## Trailers 1m 2s TEASER Season 1 Teaser: #Love 1m 59s TRAILER Season 1 Trailer: #Love ## Episodes 1. Episode 1 Desperate to secure funding for her dating app, Tara hangs her company's future on a bold",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Stranger Things",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/in/title/80057281",
+      "snippet": "# Stranger Things Endless entertainment starting at BRL 20.90 Endless entertainment starting at BRL 20.90 ## Stranger Things ## Trailers 2m 15s TRAILER Franchise Trailer: Stranger Things 1m 57s TRAILER Trailer Part 2: Stranger Things 5 18m Stranger Scenes: Chapter Eight: The Rightside Up 10m Strange",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Nee Forever",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/title/82776015",
+      "snippet": "# Nee Forever Endless entertainment starting at 259.99 TL Endless entertainment starting at 259.99 TL ## Nee Forever ## More Details #### Watch offline #### Genres #### This show is ... #### Audio #### Subtitles #### Cast ## You Might Also Like ## Trending Now ## A Plan To Suit Your Needs ### Basic ",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Prime Video: Maaveeran (Tamil)",
+      "platform": "Amazon Prime Video",
+      "pageUrl": "https://www.primevideo.com/-/fr/detail/0PO73W4V7FVMFWNG031T23HKJZ",
+      "snippet": "Distribution : Sivakarthikeyan, Aditi Shankar, Mysskin, Saritha, Sunil, Yogi Babu Studio : Shanthi Talkies Avertissement relatif au contenu : violence, Les lumières clignotantes et stroboscopiques peuvent affecter les spectateurs photosensibles Audio : தமிழ் Sous-titres : Português (Brasil) [autom.]",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Prime Video: Hit (The First Case)",
+      "platform": "Amazon Prime Video",
+      "pageUrl": "https://www.primevideo.com/detail/0SGJY3S61Q4YNQAE6YNU685NKH",
+      "snippet": "HIT (The Second Case) K.G.F Chapter 2 (Tamil) Pushpa: The Rise (Tamil) Mark Antony Vakeel Saab Rangasthalam (4K UHD) Master (Telugu) Ninu Veedani Needanu Nene Master (Tamil) Mahaveerudu Bharat Ane Nenu Asuran (4K UHD) Goodachari Hit (The First Case) Suspense•Drama•Serious IMDb 7.6/1020202 h 8 min [.",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Prime Video: Double Occupancy",
+      "platform": "Amazon Prime Video",
+      "pageUrl": "https://www.primevideo.com/detail/0NZL1OFSQ7KN0MI0ORK5N8RY3H",
+      "snippet": "A miraculous twist of fate binds two souls to a single body, with a woman emerging by day and a man by night. As they struggle to coexist, they must navigate love, identity, and a secret that threatens to upend their lives. Creators and Cast Directors : Aswin Kandasamy Producers : Sundar C., Devaraj",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Prime Video: See You at Work Tomorrow!",
+      "platform": "Amazon Prime Video",
+      "pageUrl": "https://www.primevideo.com/detail/0NKUDJIM5VAE9079ZGUUVI3SS4",
+      "snippet": "Cha Ji-yoon is a 7th-year corporate worker who's tired of both work and dating. She crosses paths with Kang Si-woo, the cynical boss with a terrifying reputation. Unexpectedly, she regains spark in her life as she gets to know the kindness behind his stern words. Amid repeated commutes, accidents at",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Maine Pyar Kiya",
+      "platform": "Amazon Prime Video",
+      "pageUrl": "https://www.primevideo.com/detail/0SIDNHV26KYILS7939Y441O717",
+      "snippet": "Set in the village of Unnikkulam, youth, friendship, and first love. It follows a football-loving, slightly melancholic young man falls in love with a reserved",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Ved",
+      "platform": "JioHotstar",
+      "pageUrl": "https://www.hotstar.com/in/movies/ved/1260139813",
+      "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Tamil Episodic Show Online",
+      "platform": "Sony LIV",
+      "pageUrl": "https://www.sonyliv.com/shows/tamil-1500002586",
+      "snippet": "Tamil Tamil # Tamil Hindi •U •Drama Watch your favourite Shows & Movies in Tamil. Episodes Explore ### LIV Exclusive Movies In Tamil ### LIV Originals In Tamil ### Tamil Hits ### Kids Shows In Tamil",
+      "foundAt": "2026-10-06",
+      "status": "needsReview"
+    },
+    {
+      "title": "Innale Vare (Tamil) - Watch Full Movie Online in HD on Sony LIV",
+      "platform": "Sony LIV",
+      "pageUrl": "https://www.sonyliv.com/movies/innale-vare-tamil-1000174394",
+      "snippet": "Innale Vare (Tamil) Innale Vare (Tamil) # Innale Vare (Tamil) 5 languages •2022 •A •Thriller,Crime, •2h 16m Available In FULL_HDSTEREO Adhi Shankar, a well-known film star and producer in the Malayalam film industry, struggles to maintain his stardom and position after a string of flops and misjudge",
+      "foundAt": "2026-10-06",
       "status": "needsReview"
     }
   ]
