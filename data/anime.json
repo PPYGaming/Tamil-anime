@@ -27553,7 +27553,7 @@
     "manualAnime": 150,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-06T04:16:13.706Z",
+      "scannedAt": "2026-10-06T12:34:20.222Z",
       "status": "zero-add",
       "zeroAddReason": "117 manifest entries were already in the catalog; 2 need manual review (see needsReview) Discovery: Tamil Dub videos were found but none could be placed safely; see the review list.",
       "manifest": {
@@ -27592,7 +27592,7 @@
       "discovery": {
         "status": "complete",
         "skipReason": null,
-        "scannedAt": "2026-10-06T04:16:13.706Z",
+        "scannedAt": "2026-10-06T12:34:20.222Z",
         "sources": {
           "youtube": {
             "configured": true,
