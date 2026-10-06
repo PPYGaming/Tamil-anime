@@ -27553,7 +27553,7 @@
     "manualAnime": 150,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-10-06T12:34:20.222Z",
+      "scannedAt": "2026-10-06T22:07:46.505Z",
       "status": "zero-add",
       "zeroAddReason": "117 manifest entries were already in the catalog; 2 need manual review (see needsReview) Discovery: Tamil Dub videos were found but none could be placed safely; see the review list.",
       "manifest": {
@@ -27592,7 +27592,7 @@
       "discovery": {
         "status": "complete",
         "skipReason": null,
-        "scannedAt": "2026-10-06T12:34:20.222Z",
+        "scannedAt": "2026-10-06T22:07:46.505Z",
         "sources": {
           "youtube": {
             "configured": true,
@@ -27623,11 +27623,11 @@
           "excludedNotTamilDub": 43,
           "foreignChannel": 0,
           "notReturnedByApi": 0,
-          "tamilDubPrefixed": 96,
-          "evidenceCandidates": 71,
+          "tamilDubPrefixed": 97,
+          "evidenceCandidates": 72,
           "accepted": 0,
           "rejected": 0,
-          "review": 96,
+          "review": 97,
           "deferred": 0,
           "announcements": 0,
           "promos": 0,
@@ -27638,7 +27638,7 @@
           "queueDropped": 0
         },
         "reasons": {
-          "series-needs-review": 71,
+          "series-needs-review": 72,
           "needs-review": 25
         },
         "review": [
@@ -27835,6 +27835,12 @@
             "reason": "video metadata lists its audio language as \"ja\""
           },
           {
+            "videoId": "E3KOxEF01VY",
+            "title": "[Tamil Dub] Campfire Cooking in Another World - Episode 23 (S2E11) | Muse IN",
+            "status": "review",
+            "reason": "no exact TMDB title match for \"Campfire Cooking in Another World\" (fuzzy suggestions only: #213402 \"Campfire Cooking in Another World with My Absurd Skill\" (2023))"
+          },
+          {
             "videoId": "eA-IId9NpL0",
             "title": "[Tamil Dub] Classroom of the Elite - Episode 12 | Muse IN",
             "status": "review",
@@ -27935,12 +27941,6 @@
             "title": "[Tamil Dub] Mob Psycho 100 III - Episode 02 | Muse IN",
             "status": "review",
             "reason": "no exact TMDB title match for \"Mob Psycho 100 III\""
-          },
-          {
-            "videoId": "kBZuyQddV_s",
-            "title": "[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 01 | Muse IN",
-            "status": "review",
-            "reason": "video metadata lists its audio language as \"ja\""
           }
         ],
         "announcements": [],
@@ -27950,7 +27950,7 @@
           "unitBudget": 2000,
           "failures": []
         },
-        "queueSize": 96,
+        "queueSize": 97,
         "notes": [],
         "zeroAddReason": "Tamil Dub videos were found but none could be placed safely; see the review list.",
         "zeroAddReasonCode": "needs-review"
