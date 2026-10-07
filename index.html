@@ -20,7 +20,7 @@
        This is a public address, not a secret: no key or token ever goes here. -->
   <meta name="refresh-scan-endpoint" content="">
   <title>Tamil Dub Anime</title>
-  <link rel="stylesheet" href="style.css?v=20261007-grouped">
+  <link rel="stylesheet" href="style.css?v=20261007-neon-verified">
 </head>
 <body>
   <header class="site-header">
@@ -79,10 +79,11 @@
   <section id="feedback" class="wrap feedback-section" aria-labelledby="feedbackHeading">
     <details>
       <summary id="feedbackHeading">Send feedback</summary>
-      <form action="https://formsubmit.co/ppyarmy35@gmail.com" method="POST" class="feedback-form">
+      <form action="https://formsubmit.co/ppyarmy35@gmail.com" method="POST" enctype="multipart/form-data" class="feedback-form">
         <label for="feedbackMessage">Your message</label>
         <textarea id="feedbackMessage" name="message" rows="5" maxlength="5000" placeholder="Tell us what to fix or add..." required></textarea>
-        <p class="feedback-note">Your message is sent by email through FormSubmit. Don't include passwords or other private details.</p>
+        <label for="feedbackImage">Image (optional)</label>
+        <input id="feedbackImage" type="file" name="attachment" accept="image/png,image/jpeg,image/webp,image/gif">
         <button type="submit">Send feedback</button>
       </form>
     </details>
@@ -97,7 +98,7 @@
     </p>
   </footer>
 
-  <script src="feedback.js"></script>
+  <script src="feedback.js?v=20261007-image"></script>
   <script src="scan-status.js"></script>
   <script src="app.js?v=20261007-all-sites"></script>
 </body>
