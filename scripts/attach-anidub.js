@@ -32,6 +32,8 @@ function safePosterUrl(v) {
 }
 
 const safe=safePosterUrl;
+const POSTERS=JSON.parse(fs.readFileSync(path.join(__dirname,'..','data','poster-overrides.json'),'utf8')).records;
+function applyPosters(records){for(const record of records){const p=POSTERS[record.id];if(p&&safe(p.image)){record.image=p.image;record.posterSourceUrl=p.sourceUrl;record.posterSourceTitle=p.sourceTitle;}}}
 function applySnapshot(catalog,snapshot,{now=new Date(),identities={entries:{}}}={}){
  const result={catalog:clone(catalog),added:[],updated:[],skipped:[]};
  const ts=Date.parse(snapshot?.checkedAt),n=+new Date(typeof now==='function'?now():now);
@@ -47,7 +49,7 @@ function applySnapshot(catalog,snapshot,{now=new Date(),identities={entries:{}}}
  const seasonal=ss.length===1, s=seasonal?seasons.get(ss[0]):null;
  const title=s?`${a.title} ${s.season_name}`:a.title;
  const id=s?`anidub-${a.id}-season-${s.id}`:`anidub-${a.id}`;
- return {id,title,originalTitle:a.japanese_title||'',description:a.synopsis||'',image:safe(a.poster_url)||'',backdrop:'',rating:null,likes:null,availability:'Available',status:a.status||'',year:seasonal?null:a.year,firstAirDate:!seasonal&&a.year?`${a.year}-01-01`:'',createdAt:snapshot.checkedAt,updatedAt:snapshot.checkedAt,isNew:false,tags:['Anime'],mediaType:a.type==='Movie'?'movie':'tv',platforms:['Crunchyroll','Netflix','Amazon Prime Video'].map(name=>({name,available:false,officialUrl:null,tamilDubVerified:false})),episodes:[],youtube:[],tamilDubVerified:false,inclusionSource:'anidub-india',anidubId:a.id,anidubSeasonIds:ss};
+ return {id,title,originalTitle:a.japanese_title||'',description:a.synopsis||'',image:seasonal?'':safe(a.poster_url)||'',backdrop:'',rating:null,likes:null,availability:'Available',status:a.status||'',year:seasonal?null:a.year,firstAirDate:!seasonal&&a.year?`${a.year}-01-01`:'',createdAt:snapshot.checkedAt,updatedAt:snapshot.checkedAt,isNew:false,tags:['Anime'],mediaType:a.type==='Movie'?'movie':'tv',platforms:['Crunchyroll','Netflix','Amazon Prime Video'].map(name=>({name,available:false,officialUrl:null,tamilDubVerified:false})),episodes:[],youtube:[],tamilDubVerified:false,inclusionSource:'anidub-india',anidubId:a.id,anidubSeasonIds:ss};
  };
  const update=(record,a,ids)=>{
  const relevant=rows.filter(r=>r.anime_id===a.id&&ids.includes(r.season_id));if(!relevant.length)return;
@@ -71,6 +73,7 @@ function applySnapshot(catalog,snapshot,{now=new Date(),identities={entries:{}}}
  const groups=targets.length?left.map(id=>[id]):[left];
  for(const ids of groups){const fresh=make(a,ids);let r=records.find(r=>r.id===fresh.id);if(!r){r=fresh;records.push(r);result.added.push(r.id);}update(r,a,ids);}
  }
+ applyPosters(records);
  result.catalog.anidubSync={source:'AniDub India',checkedAt:snapshot.checkedAt,tamilTitles:new Set(rows.map(r=>r.anime_id)).size,seasonRows:new Set(rows.map(r=>r.season_id)).size};return result;
 }
 function run(o={}){try{const dir=path.join(__dirname,'..','data');const file=o.animeFile||path.join(dir,'anime.json');const c=JSON.parse(fs.readFileSync(file));const s=JSON.parse(fs.readFileSync(o.snapshotFile||path.join(dir,'anidub-snapshot.json')));let identities=o.identities; if(!identities)try{identities=JSON.parse(fs.readFileSync(path.join(dir,'anidub-identities.json')));}catch{}const r=applySnapshot(c,s,{now:o.now||new Date(),identities});if(!r.skipped.includes('invalid-or-stale-snapshot')){const out=JSON.stringify(r.catalog,null,2)+'\n';if(out!==fs.readFileSync(file,'utf8')){fs.writeFileSync(file+'.tmp',out);fs.renameSync(file+'.tmp',file);}}console.log(`AniDub: ${r.added.length} added, ${r.updated.length} updated, ${r.skipped.length} skipped`);return r;}catch(e){console.warn(`AniDub import skipped: ${e.message}`);return null;}}
