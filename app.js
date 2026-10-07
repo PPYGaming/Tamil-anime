@@ -15,7 +15,7 @@
   const YOUTUBE_NAMES = ["youtube", "youtube (muse india)", "muse india"];
   const STATE_TEXT = {
     verified: "Tamil dub verified",
-    confirmed: "Tamil dub confirmed",
+    confirmed: "Tamil dub verified",
     unverified: "Available, no confirmed Tamil audio",
     reported: "Tamil dub reported by a third party (not confirmed)",
     unavailable: "Not available"
@@ -153,7 +153,7 @@
     return a.tamilDubVerified === true
       ? `<span class="badge badge-verified">${STATE_TEXT.verified}</span>`
       : a.tamilDubConfirmed === true || freeTamilConfirmed(a)
-        ? `<span class="badge badge-confirmed">Tamil dub confirmed</span>`
+        ? `<span class="badge badge-confirmed">Tamil dub verified</span>`
         : (a.platforms||[]).some(r=>r.tamilDubReported===true)?`<span class="badge badge-reported">Tamil dub reported</span>`:`<span class="badge badge-unverified">Tamil dub unconfirmed</span>`;
   }
 
