@@ -475,7 +475,7 @@ test("the scan module embeds no URL of its own: the endpoint can only come from 
 test("index.html loads the scan module before app.js and exposes no inline script", () => {
   const html = read("index.html");
 
-  assert.ok(html.indexOf('src="scan-status.js"') > -1 && html.indexOf('src="scan-status.js"') < html.indexOf('src="app.js"'));
+  assert.ok(html.indexOf('src="scan-status.js"') > -1 && html.indexOf('src="scan-status.js"') < html.indexOf('src="app.js'));
   assert.doesNotMatch(html, /<script(?![^>]*\bsrc=)[^>]*>/i, "no inline scripts");
   assert.match(html, /Refresh reloads the saved catalog; it does not search any source itself/);
 });
