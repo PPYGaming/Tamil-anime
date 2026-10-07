@@ -4,6 +4,7 @@ const path = require("node:path");
 const { CONFIG: RAW_CONFIG } = require("./free-site-listings.js");
 const CONFIG = RAW_CONFIG.filter((c, i, arr) => arr.findIndex((x) => x.name === c.name) === i);
 
+const { matchTitle: scopedMatchTitle } = require("./title-match");
 const MAX_AGE = 14 * 864e5, MAX_LEADS = 400;
 const SUFFIX = /\s(?:season \d+|part \d+|tamil|hindi|dub|dubbed|tv)$/;
 
@@ -24,8 +25,7 @@ function variants(title) {
 }
 const recordKeys = (a) => [normalize(a.title), normalize(a.originalTitle)].filter(Boolean);
 function matchTitle(siteTitle, record) {
-  const keys = recordKeys(record || {});
-  return [...variants(siteTitle)].some((v) => keys.includes(v));
+  return scopedMatchTitle(siteTitle, record).setsAvailable;
 }
 function readJson(f) { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return null; } }
 function writeAtomic(f, s) { const t = f + ".tmp"; fs.writeFileSync(t, s); fs.renameSync(t, f); }
@@ -44,6 +44,8 @@ function run(o = {}) {
 
     const listed = readJson(listingsFile);
     const byName = new Map((listed && Array.isArray(listed.sites) ? listed.sites : []).filter(Boolean).map((s) => [s.name, s]));
+    const evidenceDoc = readJson(o.evidenceFile || path.join(d, "free-season-evidence.json"));
+    const evidence = (evidenceDoc?.evidence || []).filter(e => e.tamil === true && Number.isFinite(Date.parse(e.checkedAt)) && +nowD - Date.parse(e.checkedAt) <= MAX_AGE);
     const sites = [];
     for (const c of CONFIG) {
       const s = byName.get(c.name), t = s ? Date.parse(s.checkedAt) : NaN;
@@ -61,7 +63,14 @@ function run(o = {}) {
       if (!sites.length) { delete a.freeSites; delete a.freeSitesCheckedAt; continue; }
       const keys = recordKeys(a);
       keys.forEach((k) => catalog.add(k));
-      a.freeSites = sites.map((s) => ({ name: s.name, available: keys.some((k) => s.keys.has(k)) }));
+      a.freeSites = sites.flatMap((s) => {
+        const seasonMatch = String(a.title || "").match(/^(.*?)\s+Season\s+(\d+)(?:\s*$)/i);
+        const specific = seasonMatch || /\bSeason\s+\d|\bArc\b|\bCour\b/i.test(String(a.title || ""));
+        const hit = seasonMatch && evidence.some(e => e.source === s.name && e.season === +seasonMatch[2] && normalize(e.title) === normalize(seasonMatch[1]));
+        const available = Boolean(hit) || s.titles.some(t => matchTitle(t, a));
+        // Category absence is not season-level evidence of absence. Omit unknown rows.
+        return specific && !available ? [] : [{ name: s.name, available }];
+      });
       a.freeSitesCheckedAt = oldest;
 
     }
@@ -89,4 +98,4 @@ function run(o = {}) {
 }
 
 if (require.main === module) { try { run(); } catch {} }
-module.exports = { run, matchTitle, normalize };
+module.exports = { run, matchTitle, normalize, variants };
