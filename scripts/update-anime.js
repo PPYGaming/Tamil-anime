@@ -2104,13 +2104,10 @@ function attachSeasonDetails(animeList, detailsFile) {
       : undefined;
     const hadKey = Object.prototype.hasOwnProperty.call(record, "seasonDetails");
 
-    if (!match || !match.seasons.length) {
-      if (hadKey) {
-        delete record.seasonDetails;
-        changed += 1;
-      }
-      continue;
-    }
+    // This file enriches records it covers; it is not a complete inventory.
+    // Preserve details supplied by other importers or earlier scans when there
+    // is no usable matching entry. The add-only safety check still applies.
+    if (!match || !match.seasons.length) continue;
 
     const next = JSON.parse(JSON.stringify(match.seasons)); // deep copy per record
     if (!hadKey || JSON.stringify(record.seasonDetails) !== JSON.stringify(next)) {
