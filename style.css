@@ -216,3 +216,5 @@ html,body{overflow-x:hidden}
 .feedback-form textarea:focus{outline:2px solid #5eead4;outline-offset:2px;}
 .feedback-note{margin:0;color:#aaa3bf;font-size:13px;line-height:1.5;}
 .feedback-form button{justify-self:start;border:1px solid #5eead4;border-radius:999px;padding:10px 20px;background:#14332f;color:#cafff1;font:inherit;font-weight:600;cursor:pointer;}
+
+.season-selector{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;}.season-select{display:inline-block;border:1px solid #504868;border-radius:12px;padding:10px 14px;color:#ddd6fe;text-decoration:none;font-size:14px;}.season-select.active{background:#20443b;border-color:#5eead4;color:#d5fff2;}
