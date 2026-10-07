@@ -52,7 +52,9 @@ function run(o = {}) {
       if (s && s.ok === true && Array.isArray(s.titles) && s.titles.length > 0 && Number.isFinite(t) && +nowD - t <= MAX_AGE) {
         const keys = new Set();
         s.titles.forEach((x) => variants(x).forEach((v) => keys.add(v)));
-        sites.push({ name: c.name, t, keys, titles: s.titles });
+        const allowed=new Set(RAW_CONFIG.filter(x=>x.name===c.name).flatMap(x=>x.bases.map(b=>b+x.listPath)));
+        const titleEvidence=(s.titleEvidence||[]).filter(e=>e.kind==='tamil-category'&&[...allowed].some(u=>e.url===u||e.url.startsWith(u+'page/')||e.url.startsWith(u.replace(/\/$/,'')+'?'))&&s.titles.includes(e.title));
+        sites.push({ name: c.name, t, keys, titles: s.titles, titleEvidence });
       }
     }
 
@@ -67,9 +69,12 @@ function run(o = {}) {
         const seasonMatch = String(a.title || "").match(/^(.*?)\s+Season\s+(\d+)(?:\s*$)/i);
         const specific = seasonMatch || /\bSeason\s+\d|\bArc\b|\bCour\b/i.test(String(a.title || ""));
         const hit = seasonMatch && evidence.some(e => e.source === s.name && e.season === +seasonMatch[2] && normalize(e.title) === normalize(seasonMatch[1]));
-        const available = Boolean(hit) || s.titles.some(t => matchTitle(t, a));
+        const exactEvidence=s.titleEvidence.find(e=>matchTitle(e.title,a));
+        const seasonEvidence=seasonMatch&&evidence.find(e=>e.source===s.name&&e.season===+seasonMatch[2]&&normalize(e.title)===normalize(seasonMatch[1]));
+        const available = Boolean(hit) || Boolean(exactEvidence);
+        const proof=seasonEvidence||exactEvidence;
         // Category absence is not season-level evidence of absence. Omit unknown rows.
-        return specific && !available ? [] : [{ name: s.name, available }];
+        return (specific && !available)||(!s.titleEvidence.length&&!proof)?[]:[{name:s.name,available,...(available?{tamilDubConfirmed:true,tamilEvidenceUrl:proof.url,tamilEvidenceKind:seasonEvidence?'episode':'tamil-category',tamilEvidenceCheckedAt:new Date(s.t).toISOString()}: {})}];
       });
       a.freeSitesCheckedAt = oldest;
 

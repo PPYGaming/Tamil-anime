@@ -1,0 +1,5 @@
+const test=require('node:test'),assert=require('node:assert/strict');const ui=require('../app');
+const free={name:'Animesalt',available:true,tamilDubConfirmed:true,tamilEvidenceUrl:'https://animesalt.ro/language/tamil/'};
+const reported={name:'Netflix',available:true,tamilDubReported:true};
+test('free proof plus Netflix report confirms title and platform without official verification',()=>{const a={platforms:[reported],freeSites:[free]};assert.match(ui.verifiedBadge(a),/Tamil dub confirmed/);const row=ui.corroboratedPlatforms(a)[0];assert.equal(row.tamilDubConfirmed,true);assert.notEqual(row.tamilDubVerified,true);assert.equal(reported.tamilDubConfirmed,undefined);});
+test('a plain Available without evidence does not confirm Tamil',()=>{assert.equal(ui.freeTamilConfirmed({freeSites:[{name:'x',available:true}]}),false);assert.match(ui.verifiedBadge({platforms:[reported]}),/Tamil dub reported/);assert.match(ui.verifiedBadge({}),/Tamil dub unconfirmed/);assert.match(ui.verifiedBadge({tamilDubVerified:true,freeSites:[free]}),/Tamil dub verified/);});

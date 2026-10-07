@@ -147,12 +147,14 @@
     return tags.slice(0, max).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
   }
 
+  function freeTamilConfirmed(a){return (a.freeSites||[]).some(r=>r.available===true&&r.tamilDubConfirmed===true&&externalUrl(r.tamilEvidenceUrl));}
+  function corroboratedPlatforms(a){return (a.platforms||[]).map(r=>r.tamilDubReported===true&&freeTamilConfirmed(a)&&r.tamilDubVerified!==true?{...r,tamilDubConfirmed:true}:r);}
   function verifiedBadge(a) {
     return a.tamilDubVerified === true
       ? `<span class="badge badge-verified">${STATE_TEXT.verified}</span>`
-      : a.tamilDubConfirmed === true
+      : a.tamilDubConfirmed === true || freeTamilConfirmed(a)
         ? `<span class="badge badge-confirmed">Tamil dub confirmed</span>`
-        : `<span class="badge badge-unverified">Tamil dub not verified</span>`;
+        : (a.platforms||[]).some(r=>r.tamilDubReported===true)?`<span class="badge badge-reported">Tamil dub reported</span>`:`<span class="badge badge-unverified">Tamil dub unconfirmed</span>`;
   }
 
   function groupCatalog(records) {
@@ -330,7 +332,7 @@
       const row = findRow(a.platforms, [name]);
       return row && row.available === true;
     });
-    return [...[...PLATFORM_ORDER, ...optional].map((name) => streamingItem(name, findRow(a.platforms, [name]))), youtubeItem(a)].join("");
+    return [...[...PLATFORM_ORDER, ...optional].map((name) => streamingItem(name, findRow(corroboratedPlatforms(a), [name]))), youtubeItem(a)].join("");
   }
 
   const SEASON_STATUS_CLASS = {
@@ -652,7 +654,7 @@
 
   const api = {
     esc, safeUrl, externalUrl, imageSrc, youtubeId, recordId, routeFor, parseRoute,
-    groupCatalog, seasonSelectorHtml, cardHtml, detailHtml, seasonSectionHtml, freeSiteItems, freeSiteSectionHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
+    freeTamilConfirmed, corroboratedPlatforms, verifiedBadge, groupCatalog, seasonSelectorHtml, cardHtml, detailHtml, seasonSectionHtml, freeSiteItems, freeSiteSectionHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
     pageWindow, pagerHtml
   };
 

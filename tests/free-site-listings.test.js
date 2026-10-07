@@ -98,7 +98,7 @@ test("never writes a URL into titles or lastError", async () => {
 
 // ---- attach ----
 const recs = () => [{ id: 1, title: "Naruto", originalTitle: "NARUTO" }, { id: 2, title: "Black Clover", originalTitle: "Black Clover" }, { id: 3, title: "Attack on Titan", originalTitle: "Shingeki no Kyojin" }];
-const site = (name, titles, o = {}) => ({ name, checkedAt: "2026-10-04T00:00:00Z", ok: true, base: "https://x.test", titles, ...o });
+const site = (name, titles, o = {}) => ({ name, checkedAt: "2026-10-04T00:00:00Z", ok: true, base: "https://x.test", titles, titleEvidence:titles.map(title=>({title,url:name==="Animesalt"?"https://animesalt.ro/language/tamil/":"https://toonstream.us/category/tamil/",kind:"tamil-category"})), ...o });
 function setup(sites, anime = recs()) {
   const d = tmp();
   const o = { animeFile: path.join(d, "anime.json"), listingsFile: path.join(d, "l.json"), leadsFile: path.join(d, "leads.json"), now: NOW };
@@ -112,7 +112,7 @@ test("attach: exact, non-match, season suffix, leads unmatched only", () => {
   const o = setup([site("Animesalt", ["Naruto", "Attack on Titan Season 2", "Black Clover: Sword of the Wizard King", "Unknown Show"])]);
   A.run(o);
   const a = animeOf(o);
-  assert.deepEqual(a[0].freeSites, [{ name: "Animesalt", available: true }]);
+  assert.deepEqual(a[0].freeSites.map(({name,available})=>({name,available})), [{ name: "Animesalt", available: true }]);
   assert.equal(a[1].freeSites[0].available, false);
   assert.equal(a[2].freeSites[0].available, true);
   assert.equal(a[0].freeSitesCheckedAt, "2026-10-04");
@@ -124,7 +124,7 @@ test("attach: exact, non-match, season suffix, leads unmatched only", () => {
 test("attach: stale site omitted", () => {
   const o = setup([site("Animesalt", ["Naruto"], { checkedAt: "2026-09-01T00:00:00Z" }), site("Toon Stream", ["Naruto"])]);
   A.run(o);
-  assert.deepEqual(animeOf(o)[0].freeSites, [{ name: "Toon Stream", available: true }]);
+  assert.deepEqual(animeOf(o)[0].freeSites.map(({name,available})=>({name,available})), [{ name: "Toon Stream", available: true }]);
 });
 
 test("attach: failed or empty site omitted", () => {
@@ -181,3 +181,4 @@ test('Toon Stream .us Tamil page excludes sidebar recommendation titles',async()
  const fs=require('node:fs'),os=require('node:os'),path=require('node:path');const {run,CONFIG}=require('../scripts/free-site-listings');const file=path.join(fs.mkdtempSync(path.join(os.tmpdir(),'toon-')),'list.json');let calls=0;const html='<article class="post"><h2 class="entry-title">Tamil Anime</h2></article><nav class="navigation pagination"></nav><article class="post"><h2 class="entry-title">English recommendation</h2></article>';
  await run({outFile:file,config:CONFIG.filter(c=>c.mainOnly),fetchImpl:async()=>({status:++calls===1?200:404,text:async()=>html}),sleep:async()=>{},log:()=>{}});assert.deepEqual(JSON.parse(fs.readFileSync(file)).sites[0].titles,['Tamil Anime']);
 });
+test('attach refuses generic title matches without Tamil category provenance',()=>{const o=setup([site('Animesalt',['Naruto'],{titleEvidence:[]})]);A.run(o);assert.deepEqual(animeOf(o)[0].freeSites,[]);});
