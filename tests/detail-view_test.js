@@ -144,7 +144,7 @@ test("card shows poster, title link, description, metadata and badge, with no pl
 
 test("card badge never claims verification the record does not have", () => {
   const html = app.cardHtml(record({ tamilDubVerified: false }));
-  assert.match(html, /Tamil dub not verified/);
+  assert.match(html, /Tamil dub unconfirmed/);
   assert.ok(!html.includes("Tamil dub verified"));
 });
 
