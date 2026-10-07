@@ -20,12 +20,13 @@
        This is a public address, not a secret: no key or token ever goes here. -->
   <meta name="refresh-scan-endpoint" content="">
   <title>Tamil Dub Anime</title>
-  <link rel="stylesheet" href="style.css?v=20261005a">
+  <link rel="stylesheet" href="style.css?v=20261007-confirmed">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="./">Tamil Dub Anime</a>
+      <a class="feedback-toggle" href="#feedback">Feedback</a>
     </div>
   </header>
 
@@ -75,6 +76,18 @@
     <div id="detailBody"></div>
   </main>
 
+  <section id="feedback" class="wrap feedback-section" aria-labelledby="feedbackHeading">
+    <details>
+      <summary id="feedbackHeading">Send feedback</summary>
+      <form action="https://formsubmit.co/ppyarmy35@gmail.com" method="POST" class="feedback-form">
+        <label for="feedbackMessage">Your message</label>
+        <textarea id="feedbackMessage" name="message" rows="5" maxlength="5000" placeholder="Tell us what to fix or add..." required></textarea>
+        <p class="feedback-note">Your message is sent by email through FormSubmit. Don't include passwords or other private details.</p>
+        <button type="submit">Send feedback</button>
+      </form>
+    </details>
+  </section>
+
   <footer class="footer wrap">
     <p>Catalog data is updated automatically. Platform availability and Tamil-audio verification are separate fields.</p>
     <p>New Tamil-dub episodes are found by an automatic scan that runs every 6 hours. Refresh reloads the saved catalog; it does not search any source itself.</p>
@@ -84,7 +97,8 @@
     </p>
   </footer>
 
+  <script src="feedback.js"></script>
   <script src="scan-status.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=20261007-confirmed"></script>
 </body>
 </html>

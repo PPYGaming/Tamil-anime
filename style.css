@@ -201,3 +201,18 @@ html,body{overflow-x:hidden}
 
 /* Free-site rows: Available in light green, distinct from the teal Tamil dub verified pill. */
 .pill-free-yes{color:#b7f5b0;background:rgba(144,238,144,.12);border-color:rgba(144,238,144,.45)}
+
+/* Owner-trusted directory confirmation, separate from official verification. */
+.badge-confirmed,.pill-confirmed,.season-chip--confirmed{background:#e0f2fe;color:#075985;border:1px solid #7dd3fc;}
+.season-chip--confirmed{white-space:normal;line-height:1.35;}
+
+.feedback-toggle{margin-left:auto;border:1px solid #373451;border-radius:999px;padding:8px 14px;color:#a8f1ef;text-decoration:none;font-size:14px;}
+.feedback-section{margin-top:28px;margin-bottom:28px;}
+.feedback-section details{border:1px solid #373451;border-radius:20px;background:#111022;padding:20px;}
+.feedback-section summary{cursor:pointer;font-size:18px;font-weight:700;color:#f4f2ff;}
+.feedback-form{display:grid;gap:12px;margin-top:20px;}
+.feedback-form label{font-size:14px;color:#e3dff1;}
+.feedback-form textarea{width:100%;box-sizing:border-box;min-height:140px;resize:vertical;background:#090a15;border:1px solid #514966;border-radius:12px;padding:14px;color:#f4f2ff;font:inherit;line-height:1.5;}
+.feedback-form textarea:focus{outline:2px solid #5eead4;outline-offset:2px;}
+.feedback-note{margin:0;color:#aaa3bf;font-size:13px;line-height:1.5;}
+.feedback-form button{justify-self:start;border:1px solid #5eead4;border-radius:999px;padding:10px 20px;background:#14332f;color:#cafff1;font:inherit;font-weight:600;cursor:pointer;}

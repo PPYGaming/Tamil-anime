@@ -10,11 +10,12 @@
   const ROUTE_PREFIX = "#/anime/";
   const PLATFORM_ORDER = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
   // Shown only when a record actually lists them (no "Not available" rows on every title).
-  const OPTIONAL_PLATFORMS = ["JioHotstar", "Sony LIV"];
+  const OPTIONAL_PLATFORMS = ["JioHotstar", "Sony LIV", "Muse Asia"];
   const YOUTUBE_LABEL = "YouTube (Muse India)";
   const YOUTUBE_NAMES = ["youtube", "youtube (muse india)", "muse india"];
   const STATE_TEXT = {
     verified: "Tamil dub verified",
+    confirmed: "Tamil dub confirmed",
     unverified: "Available, no confirmed Tamil audio",
     reported: "Tamil dub reported by a third party (not confirmed)",
     unavailable: "Not available"
@@ -149,7 +150,9 @@
   function verifiedBadge(a) {
     return a.tamilDubVerified === true
       ? `<span class="badge badge-verified">${STATE_TEXT.verified}</span>`
-      : `<span class="badge badge-unverified">Tamil dub not verified</span>`;
+      : a.tamilDubConfirmed === true
+        ? `<span class="badge badge-confirmed">Tamil dub confirmed</span>`
+        : `<span class="badge badge-unverified">Tamil dub not verified</span>`;
   }
 
   function cardHtml(a) {
@@ -182,7 +185,7 @@
       .reduce((best, p) => (!best || rank(p) > rank(best) ? p : best), null);
   }
 
-  const stateOf = (row) => (!row || row.available !== true ? "unavailable" : row.tamilDubVerified === true ? "verified" : row.tamilDubReported === true ? "reported" : "unverified");
+  const stateOf = (row) => (!row || row.available !== true ? "unavailable" : row.tamilDubVerified === true ? "verified" : row.tamilDubConfirmed === true ? "confirmed" : row.tamilDubReported === true ? "reported" : "unverified");
 
   function extLink(href, label, cls = "") {
     return `<a class="action${cls ? ` ${cls}` : ""}" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}<span class="sr-only"> (opens in a new tab)</span></a>`;
@@ -328,10 +331,11 @@
 
     const platformRow = findRow(a.platforms, [row.platform]);
     const verified = Boolean(
-      platformRow && platformRow.available === true && platformRow.tamilDubVerified === true
+      platformRow && platformRow.available === true && platformRow.tamilDubVerified === true && (a.tamilDubConfirmed !== true || row.tamilDubConfirmed === true)
     );
-    const tierClass = verified ? "verified" : "reported";
-    const tierLabel = verified ? "Verified" : "Reported";
+    const trusted = row.tamilDubConfirmed === true;
+    const tierClass = trusted ? "confirmed" : verified ? "verified" : "reported";
+    const tierLabel = trusted ? "Confirmed" : verified ? "Verified" : "Reported";
 
     return `<li class="season-row">` +
       `<span class="season-platform">${esc(row.platform)}</span>` +
@@ -358,7 +362,7 @@
     return `<section class="detail-section season-section" aria-labelledby="seasonsHeading">
       <h2 id="seasonsHeading">Tamil dub by season</h2>
       ${blocks.join("")}
-      <p class="section-note">${esc("Season details come from community reports. Only titles marked Verified are confirmed from an official platform page; episode counts are not independently verified.")}</p>
+      <p class="section-note">${esc("Season rows marked Confirmed have a checked Tamil dub listing. Verified refers to official platform evidence; other rows remain community reports. Counts follow the named source and are not independently checked.")}</p>
     </section>`;
   }
 
@@ -385,7 +389,7 @@
     <section class="detail-section" aria-labelledby="platformsHeading">
       <h2 id="platformsHeading">Where to watch</h2>
       <ul class="platform-list">${platformRows(a)}</ul>
-      <p class="section-note">Only platforms with an official listing in the catalog show as available, and a listing alone does not prove Tamil audio.</p>
+      <p class="section-note">Confirmed rows have a checked Tamil dub listing. Verified rows have official platform evidence. A generic platform listing alone does not prove Tamil audio.</p>
     </section>
     ${freeSiteSectionHtml(a)}
     ${seasonSectionHtml(a)}

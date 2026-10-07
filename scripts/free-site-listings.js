@@ -5,9 +5,9 @@ const path = require("node:path");
 const CONFIG = [
   { name: "Animesalt", bases: ["https://animesalt.ro", "https://animesalt.in", "https://animesalt.me"], listPath: "/language/tamil/", pagePath: (n) => `/language/tamil/page/${n}/`, maxPages: 15 },
   { name: "Animesalt", bases: ["https://animesalt.cx"], listPath: "/category/language/tamil/", pagePath: (n) => `/category/language/tamil/page/${n}/`, maxPages: 20 },
-  { name: "AnimeDekho", bases: ["https://animedekho.tv"], listPath: "/category/tamil/", pagePath: (n) => `/category/tamil/page/${n}/`, maxPages: 40 },
   { name: "Toon Stream", bases: ["https://toonstream.live", "https://toonstream.love"], listPath: "/language/tamil/", pagePath: (n) => `/language/tamil/page/${n}/`, maxPages: 15 },
 ];
+CONFIG.push({ name: "Toon Stream", bases: ["https://toonstream.us"], listPath: "/category/tamil/", pagePath: (n) => `/category/tamil?type=all&page=${n}`, maxPages: 50, mainOnly: true });
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 const BLOCK_BODY = /Just a moment|cf-chl|Attention Required/i;
 const MAX_REQUESTS = 200, MAX_SITE_MS = 90000, PAUSE_MS = 1500;
@@ -42,6 +42,16 @@ function parseTitles(html) {
   return [...out];
 }
 
+function parseRoutes(html,base){
+ const out=[];
+ for(const m of String(html).matchAll(/<article\b[\s\S]*?<\/article>/gi)){
+  const title=parseTitles(m[0])[0];if(!title)continue;
+  for(const link of m[0].matchAll(/href=["']([^"']+)["']/gi))try{
+   const u=new URL(link[1],base);if(u.hostname===new URL(base).hostname&&/^\/series\//.test(u.pathname)){out.push({title,url:u.href});break;}
+  }catch{}
+ }return out;
+}
+
 async function scrapeSite(cfg, io) {
   const t0 = Date.now();
   const get = async (url) => {
@@ -71,9 +81,11 @@ async function scrapeSite(cfg, io) {
   if (!base) return { fail: why };
 
 
-  const seen = new Set(), titles = [];
+  const seen = new Set(), titles = [], routes = [];
   for (let n = 1; ; n++) {
-    const fresh = parseTitles(r.html).filter((t) => !seen.has(t));
+    const html = cfg.mainOnly ? r.html.split('<nav class="navigation pagination"')[0] : r.html;
+    routes.push(...parseRoutes(html,base));
+    const fresh = parseTitles(html).filter((t) => !seen.has(t));
     if (!fresh.length) break;
     fresh.forEach((t) => { seen.add(t); titles.push(t); });
     if (n >= cfg.maxPages) break;
@@ -85,7 +97,7 @@ async function scrapeSite(cfg, io) {
     if (r.status === 404) break;
     if (r.status !== 200) return { fail: `HTTP ${r.status}` };
   }
-  return { base, titles };
+  return { base, titles, routes };
 }
 
 async function run(o = {}) {
@@ -104,7 +116,7 @@ async function run(o = {}) {
     for (const name of names) {
       const old = prev.find((s) => s && s.name === name);
       const oldN = old && Array.isArray(old.titles) ? old.titles.length : 0;
-      const merged = new Set();
+      const merged = new Set(), routes = [];
       let anyOk = false, lastFail = "no source";
       for (const cfg of config.filter((c) => c.name === name)) {
         let res;
@@ -113,6 +125,7 @@ async function run(o = {}) {
         if (res.titles.length === 0) { lastFail = "no titles"; continue; }
         anyOk = true;
         res.titles.forEach((t) => merged.add(t));
+        routes.push(...(res.routes||[]));
       }
       let res = anyOk ? { titles: [...merged] } : { fail: lastFail };
       if (!res.fail) {
@@ -124,7 +137,7 @@ async function run(o = {}) {
         sites.push(old ? { ...old, lastError: reason } : { name, checkedAt: null, ok: false, titles: [], lastError: reason });
         say(`${name}: failed (${reason})${old ? ", kept previous" : ""}`);
       } else {
-        sites.push({ name, checkedAt: now().toISOString().replace(/\.\d+Z$/, "Z"), ok: true, titles: res.titles });
+        sites.push({ name, checkedAt: now().toISOString().replace(/\.\d+Z$/, "Z"), ok: true, titles: res.titles, routes });
         say(`${name}: ok, ${res.titles.length} titles`);
       }
     }
@@ -140,4 +153,4 @@ async function run(o = {}) {
 }
 
 if (require.main === module) run().catch(() => {});
-module.exports = { run, parseTitles, CONFIG };
+module.exports = { run, parseTitles, parseRoutes, CONFIG };
