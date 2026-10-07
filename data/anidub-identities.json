@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "entries": {
+    "1": {
+      "title": "Jujutsu Kaisen",
+      "records": [
+        {
+          "id": "verified-jujutsu-kaisen-season-1",
+          "seasonIds": [
+            58
+          ]
+        }
+      ]
+    },
+    "2": {
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "records": [
+        {
+          "id": "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
+          "seasonIds": [
+            51
+          ]
+        }
+      ]
+    },
+    "3": {
+      "title": "Spy x Family",
+      "records": [
+        {
+          "id": "verified-spy-x-family-season-1",
+          "seasonIds": [
+            61,
+            62
+          ]
+        },
+        {
+          "id": "verified-spy-x-family-season-2",
+          "seasonIds": [
+            63
+          ]
+        }
+      ]
+    },
+    "4": {
+      "title": "Solo Leveling",
+      "records": [
+        {
+          "id": "verified-solo-leveling",
+          "seasonIds": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Frieren: Beyond Journey's End",
+      "records": [
+        {
+          "id": "verified-frieren--beyond-journey-s-end",
+          "seasonIds": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Blue Lock",
+      "records": [
+        {
+          "id": "verified-blue-lock",
+          "seasonIds": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Kaiju No. 8",
+      "records": [
+        {
+          "id": "verified-kaiju-no--8",
+          "seasonIds": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Dr. Stone",
+      "records": [
+        {
+          "id": "verified-dr--stone-season-1",
+          "seasonIds": [
+            74
+          ]
+        }
+      ]
+    },
+    "9": {
+      "title": "Haikyu!!",
+      "records": [
+        {
+          "id": "verified-haikyu---season-1",
+          "seasonIds": [
+            81
+          ]
+        }
+      ]
+    },
+    "10": {
+      "title": "Assassination Classroom",
+      "records": [
+        {
+          "id": "verified-assassination-classroom",
+          "seasonIds": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Attack on Titan",
+      "records": [
+        {
+          "id": "verified-attack-on-titan-season-1",
+          "seasonIds": [
+            11
+          ]
+        }
+      ]
+    },
+    "12": {
+      "title": "Naruto",
+      "records": [
+        {
+          "id": "reported-naruto-46260",
+          "seasonIds": null
+        }
+      ]
+    },
+    "13": {
+      "title": "One-Punch Man",
+      "records": [
+        {
+          "id": "tmdb-63926-s1",
+          "seasonIds": [
+            90
+          ]
+        },
+        {
+          "id": "tmdb-63926-s2",
+          "seasonIds": [
+            91
+          ]
+        },
+        {
+          "id": "tmdb-63926-s3",
+          "seasonIds": [
+            92
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "Dan Da Dan",
+      "records": [
+        {
+          "id": "verified-dan-da-dan",
+          "seasonIds": null
+        }
+      ]
+    },
+    "15": {
+      "title": "Death Note",
+      "records": [
+        {
+          "id": "reported-death-note-13916",
+          "seasonIds": null
+        }
+      ]
+    },
+    "17": {
+      "title": "My Hero Academia",
+      "records": [
+        {
+          "id": "reported-my-hero-academia-65930",
+          "seasonIds": null
+        }
+      ]
+    },
+    "18": {
+      "title": "Vinland Saga",
+      "records": [
+        {
+          "id": "verified-vinland-saga",
+          "seasonIds": null
+        }
+      ]
+    },
+    "19": {
+      "title": "Shangri-La Frontier",
+      "records": [
+        {
+          "id": "verified-shangri-la-frontier",
+          "seasonIds": null
+        }
+      ]
+    },
+    "20": {
+      "title": "That Time I Got Reincarnated as a Slime",
+      "records": [
+        {
+          "id": "verified-that-time-i-got-reincarnated-as-a-slime-season-1",
+          "seasonIds": [
+            109
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Tower of God",
+      "records": [
+        {
+          "id": "verified-tower-of-god",
+          "seasonIds": null
+        }
+      ]
+    },
+    "25": {
+      "title": "Dragon Ball Daima",
+      "records": [
+        {
+          "id": "reported-dragon-ball-daima-236994",
+          "seasonIds": null
+        }
+      ]
+    },
+    "26": {
+      "title": "Fire Force",
+      "records": [
+        {
+          "id": "verified-fire-force-season-2",
+          "seasonIds": [
+            119
+          ]
+        }
+      ]
+    },
+    "27": {
+      "title": "Ranking of Kings",
+      "records": [
+        {
+          "id": "verified-ranking-of-kings",
+          "seasonIds": null
+        }
+      ]
+    },
+    "28": {
+      "title": "Mashle: Magic and Muscles",
+      "records": [
+        {
+          "id": "verified-mashle--magic-and-muscles",
+          "seasonIds": null
+        }
+      ]
+    },
+    "29": {
+      "title": "One Piece",
+      "records": [
+        {
+          "id": "reported-one-piece-37854",
+          "seasonIds": null
+        }
+      ]
+    },
+    "30": {
+      "title": "Classroom of the Elite",
+      "records": [
+        {
+          "id": "verified-classroom-of-the-elite-season-1",
+          "seasonIds": [
+            30
+          ]
+        }
+      ]
+    },
+    "31": {
+      "title": "Wind Breaker",
+      "records": [
+        {
+          "id": "verified-wind-breaker",
+          "seasonIds": null
+        }
+      ]
+    },
+    "32": {
+      "title": "Tsukimichi: Moonlit Fantasy",
+      "records": [
+        {
+          "id": "verified-tsukimichi--moonlit-fantasy--season-1",
+          "seasonIds": [
+            131
+          ]
+        }
+      ]
+    },
+    "34": {
+      "title": "My Dress-Up Darling",
+      "records": [
+        {
+          "id": "verified-my-dress-up-darling",
+          "seasonIds": null
+        }
+      ]
+    },
+    "35": {
+      "title": "The Rising of the Shield Hero",
+      "records": [
+        {
+          "id": "reported-the-rising-of-the-shield-hero-83095",
+          "seasonIds": null
+        }
+      ]
+    },
+    "39": {
+      "title": "Darling in the FranXX",
+      "records": [
+        {
+          "id": "verified-darling-in-the-franxx",
+          "seasonIds": null
+        }
+      ]
+    },
+    "41": {
+      "title": "Radiant",
+      "records": [
+        {
+          "id": "verified-radiant-season-2",
+          "seasonIds": [
+            147
+          ]
+        }
+      ]
+    },
+    "42": {
+      "title": "The Ancient Magus' Bride",
+      "records": [
+        {
+          "id": "verified-the-ancient-magus--bride-season-1",
+          "seasonIds": [
+            148
+          ]
+        }
+      ]
+    },
+    "45": {
+      "title": "Black Butler",
+      "records": [
+        {
+          "id": "verified-black-butler--public-school-arc",
+          "seasonIds": [
+            156
+          ]
+        }
+      ]
+    },
+    "46": {
+      "title": "The Apothecary Diaries",
+      "records": [
+        {
+          "id": "verified-the-apothecary-diaries",
+          "seasonIds": null
+        }
+      ]
+    },
+    "47": {
+      "title": "Gachiakuta",
+      "records": [
+        {
+          "id": "reported-gachiakuta-256721",
+          "seasonIds": null
+        }
+      ]
+    },
+    "48": {
+      "title": "Naruto Shippuden",
+      "records": [
+        {
+          "id": "reported-naruto-shippuden-31910",
+          "seasonIds": null
+        }
+      ]
+    },
+    "49": {
+      "title": "Arifureta: From Commonplace to World's Strongest",
+      "records": [
+        {
+          "id": "reported-arifureta-from-commonplace-to-world-s-strongest-86034",
+          "seasonIds": null
+        }
+      ]
+    },
+    "51": {
+      "title": "You and I Are Polar Opposites",
+      "records": [
+        {
+          "id": "verified-you-and-i-are-polar-opposites",
+          "seasonIds": null
+        }
+      ]
+    }
+  }
+}
