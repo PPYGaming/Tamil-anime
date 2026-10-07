@@ -30,16 +30,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Tavily discovery (leads only)
-        run: node scripts/discover-tavily.js
-        env:
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        continue-on-error: true
-      - name: Promote leads to reported (never verified)
-        run: node scripts/promote-leads.js
-        env:
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      - name: Test catalog pipeline
+        run: node --test
+      - name: AniDub India first scan (owner-trusted Tamil directory)
+        run: node scripts/fetch-anidub.js
         continue-on-error: true
       - name: Run updater
         env:
@@ -54,20 +48,47 @@ jobs:
           DISCOVERY_FULL_RESCAN: ${{ inputs.full_rescan == true && 'true' || 'false' }}
         run: |
           node scripts/update-anime.js
+          node scripts/attach-anidub.js || true
           # Playlist links are an extra: if this step fails, the catalog written above is still valid and is committed.
           node scripts/attach-playlists.js || true
-          # Third-party reported Netflix/Prime dubs (never verified): an extra, so a failure keeps the catalog above.
-          node scripts/add-reported.js || true
       - name: Free-site listings (read-only, never blocks the run)
         run: |
           node scripts/free-site-listings.js || true
+          node scripts/free-season-evidence.js || true
           node scripts/attach-free-sites.js || true
+        continue-on-error: true
+      - name: Free-source identity-gated additions
+        run: node scripts/add-fallbacks.js
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        continue-on-error: true
+      - name: Tavily discovery (leads only)
+        run: node scripts/discover-tavily.js
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        continue-on-error: true
+      - name: Promote leads to reported (never verified)
+        run: node scripts/promote-leads.js
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        continue-on-error: true
+      - name: Third-party fallback and cross-availability
+        run: |
+          node scripts/add-reported.js || true
+          node scripts/add-fallbacks.js --third-party || true
+          node scripts/attach-free-sites.js || true
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         continue-on-error: true
       - name: Commit changes
         run: |
           set -euo pipefail
           # The checkpoint file is new on the first run, so stage first and test the staged diff (git diff alone ignores untracked files).
           git add -A -- data/anime.json data/discovery-state.json data/youtube-playlists.json data/discovery-leads.json
+          if [ -f data/anidub-snapshot.json ]; then git add -A -- data/anidub-snapshot.json; fi
+          if [ -f data/free-season-evidence.json ]; then git add -A -- data/free-season-evidence.json; fi
+          if [ -f data/fallback-state.json ]; then git add -A -- data/fallback-state.json; fi
           # auto-reported.json exists only after the first promoted lead; git add fails on a missing path.
           if [ -f data/auto-reported.json ]; then git add -A -- data/auto-reported.json; fi
           if [ -f data/free-site-listings.json ]; then git add -A -- data/free-site-listings.json; fi
