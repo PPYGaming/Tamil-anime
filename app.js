@@ -416,7 +416,6 @@
       ${a.selectedSeasonTitle?`<h2>${esc(a.selectedSeasonTitle)}</h2>`:""}
       <h2 id="platformsHeading">Where to watch</h2>
       <ul class="platform-list">${platformRows(a)}</ul>
-      <p class="section-note">Confirmed rows have a checked Tamil dub listing. Verified rows have official platform evidence. A generic platform listing alone does not prove Tamil audio.</p>
     </section>
     ${freeSiteSectionHtml(a)}
     ${seasonSectionHtml(a)}
