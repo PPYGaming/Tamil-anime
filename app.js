@@ -9,7 +9,7 @@
   const SITE_TITLE = "Tamil Dub Anime";
   const ROUTE_PREFIX = "#/anime/";
   const PLATFORM_ORDER = ["Crunchyroll", "Netflix", "Amazon Prime Video"];
-  // Shown only when a record actually lists them (no "Not available" rows on every title).
+  // Every supported platform is shown, including missing selected-season rows.
   const OPTIONAL_PLATFORMS = ["JioHotstar", "Sony LIV", "Muse Asia"];
   const YOUTUBE_LABEL = "YouTube (Muse India)";
   const YOUTUBE_NAMES = ["youtube", "youtube (muse india)", "muse india"];
@@ -310,7 +310,8 @@
 
   // Free-site rows sit in the Where to watch list like the other platforms: name and a status pill, never a link.
   function freeSiteItems(a) {
-    const rows = a && Array.isArray(a.freeSites) ? a.freeSites.filter((s) => s && text(s.name)) : [];
+    const sourceRows = a && Array.isArray(a.freeSites) ? a.freeSites.filter((s) => s && text(s.name)) : [];
+    const rows = ["Animesalt", "Toon Stream"].map(name => sourceRows.find(s => text(s.name).toLowerCase() === name.toLowerCase()) || {name, available:false});
     return rows
       .map((s) => {
         const yes = s.available === true;
@@ -328,11 +329,7 @@
   }
 
   function platformRows(a) {
-    const optional = OPTIONAL_PLATFORMS.filter((name) => {
-      const row = findRow(a.platforms, [name]);
-      return row && row.available === true;
-    });
-    return [...[...PLATFORM_ORDER, ...optional].map((name) => streamingItem(name, findRow(corroboratedPlatforms(a), [name]))), youtubeItem(a)].join("");
+    return [...[...PLATFORM_ORDER, ...OPTIONAL_PLATFORMS].map((name) => streamingItem(name, findRow(corroboratedPlatforms(a), [name]))), youtubeItem(a)].join("");
   }
 
   const SEASON_STATUS_CLASS = {
