@@ -159,14 +159,27 @@ test("never changes tamilDubVerified or any other field", () => {
   assert.equal("tamilDubVerified" in list[2], false);
 });
 
-test("removes seasonDetails when the record no longer matches", () => {
-  const stale = [{ title: "Gone Show", seasonDetails: [season("Season 1", row("Netflix", "Complete", 1))] }];
-  assert.equal(attachSeasonDetails(stale, file(entry("Other", season("S", row("Netflix", "Complete", 1))))), 1);
-  assert.equal("seasonDetails" in stale[0], false);
-
+test("preserves existing seasonDetails when the supplemental file has no usable match", () => {
+  const existing = [season("Season 1", row("Netflix", "Complete", 1))];
+  for (const details of [file(), file(entry("Other", season("S", row("Netflix", "Complete", 1)))), file(entry("Gone Show", season("S", row("Hulu", "Complete", 1))))]) {
+    const list = [{ id: "existing", title: "Gone Show", seasonDetails: structuredClone(existing) }];
+    const before = structuredClone(list);
+    assert.equal(attachSeasonDetails(list, details), 0);
+    assert.deepEqual(list, before);
+  }
   const clean = [{ title: "Gone Show" }];
   assert.equal(attachSeasonDetails(clean, file()), 0);
   assert.equal("seasonDetails" in clean[0], false);
+});
+
+test("supplemental season details preserve every current catalog field", () => {
+  const list = structuredClone(require("../data/anime.json").anime);
+  const before = structuredClone(list);
+  attachSeasonDetails(list, require("../data/season-details.json"));
+  for (const [index, original] of before.entries()) {
+    for (const key of Object.keys(original)) assert.ok(key in list[index], `${original.id}: ${key}`);
+
+  }
 });
 
 test("malformed details file leaves the catalog untouched", () => {
