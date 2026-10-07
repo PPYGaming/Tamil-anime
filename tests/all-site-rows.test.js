@@ -1,0 +1,3 @@
+const test=require('node:test'),assert=require('node:assert/strict'),ui=require('../app');
+test('empty selected seasons keep both free-site rows without mutating data',()=>{const a={id:'season',title:'Season',freeSites:[]};const html=ui.freeSiteSectionHtml(a);assert.match(html,/Animesalt/);assert.match(html,/Toon Stream/);assert.equal((html.match(/Not available/g)||[]).length,2);assert.deepEqual(a.freeSites,[]);});
+test('existing available row stays available and missing site gets fallback',()=>{const a={freeSites:[{name:'Animesalt',available:true}]};const html=ui.freeSiteSectionHtml(a);assert.equal((html.match(/pill-free-yes/g)||[]).length,1);assert.equal((html.match(/Not available/g)||[]).length,1);});
