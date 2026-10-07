@@ -27,7 +27,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .anime-content .badge{margin-top:auto;align-self:flex-start}
 .meta:empty{display:none}
 .badge,.pill{display:inline-block;border:1px solid;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:650;line-height:1.4}
-.badge-verified,.pill-verified{color:#8ff1f5;background:rgba(114,229,235,.12);border-color:rgba(114,229,235,.42)}
+.badge-verified,.pill-verified,.badge-confirmed,.pill-confirmed{color:#8ff1f5;background:rgba(114,229,235,.12);border-color:rgba(114,229,235,.42);text-shadow:0 0 5px rgba(114,229,235,.55);box-shadow:0 0 4px rgba(114,229,235,.18),inset 0 0 3px rgba(114,229,235,.1)}
 .pill-reported,.pill-unverified{color:#f6d28b;background:rgba(246,210,139,.1);border-color:rgba(246,210,139,.42)}
 .badge-unverified,.pill-unavailable{color:#a9a6bd;background:rgba(255,255,255,.04);border:1px dashed rgba(201,185,255,.28)}
 
@@ -203,7 +203,7 @@ html,body{overflow-x:hidden}
 .pill-free-yes{color:#b7f5b0;background:rgba(144,238,144,.12);border-color:rgba(144,238,144,.45)}
 
 /* Owner-trusted directory confirmation, separate from official verification. */
-.badge-confirmed,.pill-confirmed,.season-chip--confirmed{background:#e0f2fe;color:#075985;border:1px solid #7dd3fc;}
+.season-chip--confirmed{background:#e0f2fe;color:#075985;border:1px solid #7dd3fc;}
 .season-chip--confirmed{white-space:normal;line-height:1.35;}
 
 .feedback-toggle{margin-left:auto;border:1px solid #373451;border-radius:999px;padding:8px 14px;color:#a8f1ef;text-decoration:none;font-size:14px;}
@@ -218,3 +218,5 @@ html,body{overflow-x:hidden}
 .feedback-form button{justify-self:start;border:1px solid #5eead4;border-radius:999px;padding:10px 20px;background:#14332f;color:#cafff1;font:inherit;font-weight:600;cursor:pointer;}
 
 .season-selector{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;}.season-select{display:inline-block;border:1px solid #504868;border-radius:12px;padding:10px 14px;color:#ddd6fe;text-decoration:none;font-size:14px;}.season-select.active{background:#20443b;border-color:#5eead4;color:#d5fff2;}
+
+.feedback-form input[type=file]{width:100%;max-width:100%;font:inherit;color:#c8c4dc;border:1px solid #373451;border-radius:12px;padding:12px;background:#0c0b18;}.feedback-form input[type=file]::file-selector-button{border:1px solid #4d6971;border-radius:8px;background:#142d35;color:#8ff1f5;padding:8px 10px;margin-right:10px;}
