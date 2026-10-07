@@ -177,3 +177,7 @@ test("two sources of one site merge; one failing source still yields ok", async 
   assert.equal(read(o2).ok, true);
   assert.equal(read(o2).titles.length, 25);
 });
+test('Toon Stream .us Tamil page excludes sidebar recommendation titles',async()=>{
+ const fs=require('node:fs'),os=require('node:os'),path=require('node:path');const {run,CONFIG}=require('../scripts/free-site-listings');const file=path.join(fs.mkdtempSync(path.join(os.tmpdir(),'toon-')),'list.json');let calls=0;const html='<article class="post"><h2 class="entry-title">Tamil Anime</h2></article><nav class="navigation pagination"></nav><article class="post"><h2 class="entry-title">English recommendation</h2></article>';
+ await run({outFile:file,config:CONFIG.filter(c=>c.mainOnly),fetchImpl:async()=>({status:++calls===1?200:404,text:async()=>html}),sleep:async()=>{},log:()=>{}});assert.deepEqual(JSON.parse(fs.readFileSync(file)).sites[0].titles,['Tamil Anime']);
+});
