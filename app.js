@@ -135,7 +135,7 @@
     if (present(a.likes)) items.push(`Likes ${a.likes}`);
     const counts = a.variants?{seasons:a.variants.length}:countsOf(a);
     if (counts.seasonNumber) items.push(`Season ${counts.seasonNumber}`);
-    else if (counts.seasons) items.push(`${counts.seasons} ${counts.seasons === 1 ? "season" : "seasons"}`);
+    else if (counts.seasons) items.push(a.variants?`${counts.seasons} season / special choices`:`${counts.seasons} ${counts.seasons === 1 ? "season" : "seasons"}`);
     if (counts.episodes) items.push(`${counts.episodes} ${counts.episodes === 1 ? "episode" : "episodes"}`);
     const status = releaseStatus(a);
     if (status) items.push(status);
