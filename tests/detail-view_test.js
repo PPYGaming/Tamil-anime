@@ -177,9 +177,9 @@ test("card escapes untrusted fields and drops unsafe image URLs", () => {
 /* Detail view: platforms                                               */
 /* ------------------------------------------------------------------ */
 
-test("detail lists exactly the four platforms in the fixed order", () => {
+test("detail lists all supported sites in the fixed order", () => {
   const items = platformItems(app.detailHtml(record()));
-  assert.deepEqual(items.map((p) => p.name), ["Crunchyroll", "Netflix", "Amazon Prime Video", "YouTube (Muse India)"]);
+  assert.deepEqual(items.map((p) => p.name), ["Crunchyroll", "Netflix", "Amazon Prime Video", "JioHotstar", "Sony LIV", "Muse Asia", "YouTube (Muse India)", "Animesalt", "Toon Stream"]);
 });
 
 test("detail never duplicates a platform even when the data does", () => {
@@ -193,7 +193,7 @@ test("detail never duplicates a platform even when the data does", () => {
     ]
   });
   const items = platformItems(app.detailHtml(dup));
-  assert.equal(items.length, 4);
+  assert.equal(items.length, 9);
   assert.equal(byName(app.detailHtml(dup)).Crunchyroll.state, "verified", "best row wins over a later placeholder");
   assert.equal(byName(app.detailHtml(dup)).Netflix.state, "unverified");
   assert.ok(!app.detailHtml(dup).includes("Disney"));
@@ -234,9 +234,9 @@ test("detail distinguishes verified, available-unverified and not available, plu
 test("legacy record with only placeholder rows shows every platform as not available and links nothing", () => {
   const html = app.detailHtml({ id: "old", title: "Old Title", description: "x", platforms: placeholders(), episodes: [{ number: "1-1", url: null }], youtube: [] });
   const items = platformItems(html);
-  assert.equal(items.length, 4);
+  assert.equal(items.length, 9);
   for (const item of items) {
-    assert.equal(item.state, "unavailable", item.name);
+    assert.equal(item.state, ["Animesalt", "Toon Stream"].includes(item.name) ? "free" : "unavailable", item.name);
     assert.equal(item.label, "Not available");
     assert.deepEqual(item.hrefs, []);
   }
@@ -244,7 +244,7 @@ test("legacy record with only placeholder rows shows every platform as not avail
 
 test("records with no platforms array at all do not crash and show everything as unavailable", () => {
   const items = platformItems(app.detailHtml({ id: "bare", title: "Bare" }));
-  assert.deepEqual(items.map((p) => p.state), ["unavailable", "unavailable", "unavailable", "unavailable"]);
+  assert.deepEqual(items.map((p) => p.state), [...Array(7).fill("unavailable"), "free", "free"]);
 });
 
 test("an available platform without a configured URL says so instead of linking", () => {
@@ -407,7 +407,7 @@ test("untitled or malformed records fall back to safe text", () => {
   const html = app.detailHtml({});
   assert.match(html, />Untitled</);
   assert.match(html, /No description available\./);
-  assert.equal(platformItems(html).length, 4);
+  assert.equal(platformItems(html).length, 9);
 });
 
 test("not-found, loading and error states are accessible headings", () => {
@@ -660,6 +660,6 @@ test("legacy catalog records (current schema) open without errors", async () => 
   await env.instance.start();
   env.grid.fire("click", click("body", "legacy-1"));
   assert.match(env.detailBody.innerHTML, /Legacy/);
-  assert.equal(platformItems(env.detailBody.innerHTML).length, 4);
+  assert.equal(platformItems(env.detailBody.innerHTML).length, 9);
   assert.ok(!/episode-row/.test(env.detailBody.innerHTML));
 });
