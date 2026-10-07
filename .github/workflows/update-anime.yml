@@ -81,6 +81,8 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         continue-on-error: true
+      - name: Validate generated catalog and UI before publishing
+        run: node --test
       - name: Commit changes
         run: |
           set -euo pipefail
