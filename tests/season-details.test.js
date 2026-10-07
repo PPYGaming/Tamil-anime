@@ -219,7 +219,7 @@ test("renders heading, status chips and the note", () => {
   assert.ok(html.includes('aria-labelledby="seasonsHeading"'));
   assert.ok(html.includes("Tamil dub by season"));
   assert.ok(html.includes("season-chip--ongoing"));
-  assert.ok(html.includes("Season details come from community reports."));
+  assert.ok(html.includes("Season rows marked Confirmed have a checked Tamil dub listing."));
 });
 
 test("singular and plural episode text", () => {
