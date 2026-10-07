@@ -81,13 +81,13 @@ async function scrapeSite(cfg, io) {
   if (!base) return { fail: why };
 
 
-  const seen = new Set(), titles = [], routes = [];
+  const seen = new Set(), titles = [], routes = [], titleEvidence = [];
   for (let n = 1; ; n++) {
     const html = cfg.mainOnly ? r.html.split('<nav class="navigation pagination"')[0] : r.html;
     routes.push(...parseRoutes(html,base));
     const fresh = parseTitles(html).filter((t) => !seen.has(t));
     if (!fresh.length) break;
-    fresh.forEach((t) => { seen.add(t); titles.push(t); });
+    fresh.forEach((t) => { seen.add(t); titles.push(t); titleEvidence.push({title:t,url:base+(n===1?cfg.listPath:cfg.pagePath(n)),kind:"tamil-category"}); });
     if (n >= cfg.maxPages) break;
     await io.sleep(PAUSE_MS);
     if (Date.now() - t0 > MAX_SITE_MS) return { fail: "time limit" };
@@ -97,7 +97,7 @@ async function scrapeSite(cfg, io) {
     if (r.status === 404) break;
     if (r.status !== 200) return { fail: `HTTP ${r.status}` };
   }
-  return { base, titles, routes };
+  return { base, titles, routes, titleEvidence };
 }
 
 async function run(o = {}) {
@@ -116,7 +116,7 @@ async function run(o = {}) {
     for (const name of names) {
       const old = prev.find((s) => s && s.name === name);
       const oldN = old && Array.isArray(old.titles) ? old.titles.length : 0;
-      const merged = new Set(), routes = [];
+      const merged = new Set(), routes = [], titleEvidence = [];
       let anyOk = false, lastFail = "no source";
       for (const cfg of config.filter((c) => c.name === name)) {
         let res;
@@ -126,6 +126,7 @@ async function run(o = {}) {
         anyOk = true;
         res.titles.forEach((t) => merged.add(t));
         routes.push(...(res.routes||[]));
+        titleEvidence.push(...(res.titleEvidence||[]));
       }
       let res = anyOk ? { titles: [...merged] } : { fail: lastFail };
       if (!res.fail) {
@@ -137,7 +138,7 @@ async function run(o = {}) {
         sites.push(old ? { ...old, lastError: reason } : { name, checkedAt: null, ok: false, titles: [], lastError: reason });
         say(`${name}: failed (${reason})${old ? ", kept previous" : ""}`);
       } else {
-        sites.push({ name, checkedAt: now().toISOString().replace(/\.\d+Z$/, "Z"), ok: true, titles: res.titles, routes });
+        sites.push({ name, checkedAt: now().toISOString().replace(/\.\d+Z$/, "Z"), ok: true, titles: res.titles, routes, titleEvidence });
         say(`${name}: ok, ${res.titles.length} titles`);
       }
     }
