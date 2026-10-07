@@ -4,8 +4,8 @@ const assert = require("node:assert/strict");
 const api = require("../app.js");
 const f = api.freeSiteItems;
 
-test("empty when no data", () => {
-  for (const a of [null, {}, { freeSites: [] }, { freeSites: "x" }]) assert.equal(f(a), "");
+test("fallback rows when no data", () => {
+  for (const a of [null, {}, { freeSites: [] }, { freeSites: "x" }]) assert.equal((f(a).match(/Not available/g)||[]).length, 2);
 });
 
 test("site names with Available / Not available and no links or extra heading", () => {
@@ -20,11 +20,11 @@ test("detail page shows the rows in their own card after Where to watch, no head
   assert.ok(html.indexOf("free-site-section") > html.indexOf("platformsHeading"));
   assert.ok(html.indexOf("Animesalt") > html.indexOf("free-site-section"));
   assert.ok(!/<h2[^>]*>[^<]*free/i.test(html));
-  assert.equal(api.freeSiteSectionHtml({}), "");
+  assert.match(api.freeSiteSectionHtml({}), /free-site-section/);
 });
 
-test("escapes hostile site name", () => {
+test("ignores unsupported hostile site name", () => {
   const html = f({ freeSites: [{ name: "<img onerror=x>", available: true }] });
   assert.ok(!html.includes("<img"));
-  assert.ok(html.includes("&lt;img onerror=x&gt;"));
+  assert.ok(!html.includes("&lt;img onerror=x&gt;"));
 });
