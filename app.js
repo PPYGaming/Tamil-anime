@@ -133,7 +133,7 @@
     if (year) items.push(year[1]);
     if (present(a.rating)) items.push(`Rating ${a.rating}`);
     if (present(a.likes)) items.push(`Likes ${a.likes}`);
-    const counts = countsOf(a);
+    const counts = a.variants?{seasons:a.variants.length}:countsOf(a);
     if (counts.seasonNumber) items.push(`Season ${counts.seasonNumber}`);
     else if (counts.seasons) items.push(`${counts.seasons} ${counts.seasons === 1 ? "season" : "seasons"}`);
     if (counts.episodes) items.push(`${counts.episodes} ${counts.episodes === 1 ? "episode" : "episodes"}`);
@@ -153,6 +153,29 @@
       : a.tamilDubConfirmed === true
         ? `<span class="badge badge-confirmed">Tamil dub confirmed</span>`
         : `<span class="badge badge-unverified">Tamil dub not verified</span>`;
+  }
+
+  function groupCatalog(records) {
+    const groups=new Map();
+    const baseTitle=a=>text(a.title).replace(/\s+Season\s+\d+.*$/i,"").trim();
+    for(const a of records){
+      const seasonal=/\bSeason\s+\d/i.test(a.title||"");
+      const key=a.anidubId?"directory:"+a.anidubId:(seasonal&&a.mediaType!=="movie"?"series:"+baseTitle(a).toLowerCase():"record:"+recordId(a));
+      if(!groups.has(key))groups.set(key,[]);groups.get(key).push(a);
+    }
+    return [...groups.values()].map(items=>{
+      if(items.length===1)return items[0];
+      const variants=items.slice().sort((a,b)=>{
+        const n=a=>{const m=text(a.title).match(/Season\s+(\d+)/i);return m?+m[1]:99;};return n(a)-n(b)||text(a.title).localeCompare(text(b.title));
+      });
+      const first=variants[0];
+      return {...first,title:baseTitle(first),variants,createdAt:items.map(a=>a.createdAt||"").sort().pop(),updatedAt:items.map(a=>a.updatedAt||"").sort().pop()};
+    });
+  }
+  function seasonSelectorHtml(a){
+    if(!Array.isArray(a.variants)||a.variants.length<2)return "";
+    const selected=a.selectedId||a.variants[0].id;
+    return `<nav class="season-selector" aria-label="Choose season">${a.variants.map(v=>`<a class="season-select${v.id===selected?" active":""}" href="${esc(routeFor(v.id))}"${v.id===selected?' aria-current="true"':""}>${esc(text(v.title).replace(new RegExp("^"+text(a.title).replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\s*","i"),"")||v.title)}</a>`).join("")}</nav>`;
   }
 
   function cardHtml(a) {
@@ -373,6 +396,7 @@
     const backdrop = imageSrc(a.backdrop);
     const tags = tagSpans(a, 12);
     return `<article class="detail-article">
+    ${seasonSelectorHtml(a)}
     <header class="detail-hero">
       ${backdrop ? `<img class="detail-backdrop" src="${esc(backdrop)}" alt="">` : ""}
       <div class="detail-hero-inner">
@@ -387,6 +411,7 @@
       </div>
     </header>
     <section class="detail-section" aria-labelledby="platformsHeading">
+      ${a.selectedSeasonTitle?`<h2>${esc(a.selectedSeasonTitle)}</h2>`:""}
       <h2 id="platformsHeading">Where to watch</h2>
       <ul class="platform-list">${platformRows(a)}</ul>
       <p class="section-note">Confirmed rows have a checked Tamil dub listing. Verified rows have official platform evidence. A generic platform listing alone does not prove Tamil audio.</p>
@@ -538,7 +563,9 @@
       listView.hidden = true;
       detailView.hidden = false;
 
-      const record = route.id === null ? null : state.anime.find((a) => recordId(a) === route.id);
+      const group = route.id === null ? null : state.anime.find(a=>recordId(a)===route.id||(a.variants||[]).some(v=>recordId(v)===route.id));
+      const selected=group&&group.variants?group.variants.find(v=>recordId(v)===route.id)||group.variants[0]:group;
+      const record=group&&group.variants?{...selected,title:group.title,variants:group.variants,selectedId:recordId(selected),selectedSeasonTitle:selected.title}:selected;
       state.detailKind = record ? "ready" : state.loaded ? "notfound" : state.failed ? "error" : "loading";
       detailBody.innerHTML = record ? detailHtml(record) : stateHtml(state.detailKind);
       doc.title = `${record ? text(record.title) || "Untitled" : NOTICE[state.detailKind][0]} - ${SITE_TITLE}`;
@@ -583,7 +610,7 @@
         const res = await win.fetch(`data/anime.json?t=${Date.now()}`, { cache: "no-store" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        state.anime = Array.isArray(data.anime) ? data.anime.filter(isObj) : [];
+        state.anime = Array.isArray(data.anime) ? groupCatalog(data.anime.filter(isObj)) : [];
         state.loaded = true;
         state.failed = false;
         state.page = 1;
@@ -625,7 +652,7 @@
 
   const api = {
     esc, safeUrl, externalUrl, imageSrc, youtubeId, recordId, routeFor, parseRoute,
-    cardHtml, detailHtml, seasonSectionHtml, freeSiteItems, freeSiteSectionHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
+    groupCatalog, seasonSelectorHtml, cardHtml, detailHtml, seasonSectionHtml, freeSiteItems, freeSiteSectionHtml, stateHtml, platformRows, countsOf, createApp, isAnnouncementUrl, ownDomain,
     pageWindow, pagerHtml
   };
 
