@@ -150,11 +150,11 @@
   function freeTamilConfirmed(a){return (a.freeSites||[]).some(r=>r.available===true&&r.tamilDubConfirmed===true&&externalUrl(r.tamilEvidenceUrl));}
   function corroboratedPlatforms(a){return (a.platforms||[]).map(r=>r.tamilDubReported===true&&freeTamilConfirmed(a)&&r.tamilDubVerified!==true?{...r,tamilDubConfirmed:true}:r);}
   function verifiedBadge(a) {
-    return a.tamilDubVerified === true
-      ? `<span class="badge badge-verified">${STATE_TEXT.verified}</span>`
-      : a.tamilDubConfirmed === true || freeTamilConfirmed(a)
-        ? `<span class="badge badge-confirmed">Tamil dub verified</span>`
-        : (a.platforms||[]).some(r=>r.tamilDubReported===true)?`<span class="badge badge-reported">Tamil dub reported</span>`:`<span class="badge badge-unverified">Tamil dub unconfirmed</span>`;
+    // Free-site presence is the only arbiter of the title badge: Tamil dub on Animesalt/Toon Stream = verified, otherwise not confirmed.
+    const sources = [a].concat(Array.isArray(a && a.variants) ? a.variants : []);
+    return sources.some((r) => r && freeTamilConfirmed(r))
+      ? `<span class="badge badge-confirmed">Tamil dub verified</span>`
+      : `<span class="badge badge-unverified">Tamil dub not confirmed</span>`;
   }
 
   function groupCatalog(records) {
