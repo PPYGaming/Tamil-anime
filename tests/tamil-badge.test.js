@@ -2,4 +2,11 @@ const test=require('node:test'),assert=require('node:assert/strict');const ui=re
 const free={name:'Animesalt',available:true,tamilDubConfirmed:true,tamilEvidenceUrl:'https://animesalt.ro/language/tamil/'};
 const reported={name:'Netflix',available:true,tamilDubReported:true};
 test('free proof plus Netflix report confirms title and platform without official verification',()=>{const a={platforms:[reported],freeSites:[free]};assert.match(ui.verifiedBadge(a),/Tamil dub verified/);const row=ui.corroboratedPlatforms(a)[0];assert.equal(row.tamilDubConfirmed,true);assert.notEqual(row.tamilDubVerified,true);assert.equal(reported.tamilDubConfirmed,undefined);});
-test('a plain Available without evidence does not confirm Tamil',()=>{assert.equal(ui.freeTamilConfirmed({freeSites:[{name:'x',available:true}]}),false);assert.match(ui.verifiedBadge({platforms:[reported]}),/Tamil dub reported/);assert.match(ui.verifiedBadge({}),/Tamil dub unconfirmed/);assert.match(ui.verifiedBadge({tamilDubVerified:true,freeSites:[free]}),/Tamil dub verified/);});
+test('a plain Available without evidence does not confirm Tamil',()=>{assert.equal(ui.freeTamilConfirmed({freeSites:[{name:'x',available:true}]}),false);assert.match(ui.verifiedBadge({platforms:[reported]}),/Tamil dub not confirmed/);assert.match(ui.verifiedBadge({}),/Tamil dub not confirmed/);assert.match(ui.verifiedBadge({tamilDubVerified:true,freeSites:[free]}),/Tamil dub verified/);});
+test('free-site presence is the only arbiter of the title badge',()=>{const off={name:'Crunchyroll',available:true,tamilDubVerified:true};
+assert.match(ui.verifiedBadge({tamilDubVerified:true,platforms:[off]}),/Tamil dub not confirmed/);
+assert.match(ui.verifiedBadge({tamilDubConfirmed:true,tamilDubConfirmationSource:'AniDub India',platforms:[]}),/Tamil dub not confirmed/);
+assert.match(ui.verifiedBadge({platforms:[reported]}),/Tamil dub not confirmed/);
+assert.doesNotMatch(ui.verifiedBadge({tamilDubVerified:true,platforms:[off]}),/badge-verified|badge-confirmed|badge-reported/);
+assert.match(ui.verifiedBadge({title:'S',freeSites:[],variants:[{freeSites:[free]}]}),/Tamil dub verified/);
+assert.match(ui.verifiedBadge({freeSites:[{name:'Animesalt',available:true}]}),/Tamil dub not confirmed/);});
