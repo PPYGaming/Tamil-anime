@@ -1,5 +1,6 @@
 'use strict';
-// Ordered fallback: only exact Japanese animation identity can become a catalog record.
+// DISABLED for catalog additions. A free-site category page or a third-party lead is not Tamil dub evidence, so this
+// script never adds a record. Only official-manifest, AniDub India or allow-listed official YouTube evidence may add a title.
 const fs=require('node:fs'),path=require('node:path');
 const {normalize}=require('./attach-anidub');
 const MAX=12,AGE=14*864e5;
@@ -12,7 +13,8 @@ async function identify(title,key,fetchImpl){
  }return null;
 }
 function baseRecord(title,id,now){const h=id.hit;return {id:`fallback-${id.type}-${h.id}`,title,originalTitle:h.original_name||h.original_title||'',tmdbId:h.id,mediaType:id.type,description:h.overview||'',image:h.poster_path?`https://image.tmdb.org/t/p/w500${h.poster_path}`:'',backdrop:'',rating:h.vote_average||null,createdAt:now,updatedAt:now,firstAirDate:h.first_air_date||h.release_date||'',availability:'Available',status:'',tags:['Anime'],platforms:['Crunchyroll','Netflix','Amazon Prime Video'].map(name=>({name,available:false,officialUrl:null,tamilDubVerified:false})),episodes:[],youtube:[],tamilDubVerified:false};}
-async function run(o={}){const dir=path.join(__dirname,'..','data'),get=(name)=>{try{return JSON.parse(fs.readFileSync(path.join(dir,name)));}catch{return null;}};const now=o.now||new Date().toISOString(),key=o.key||process.env.TMDB_API_KEY,fetchImpl=o.fetchImpl||fetch;
+async function run(o={}){const dir=path.join(__dirname,'..','data'),get=(name)=>{try{return JSON.parse(fs.readFileSync(path.join(dir,name)));}catch{return null;}};if(!o.allowUnconfirmedForTests)return {checked:0,added:0,skipped:'tamil-evidence-required',catalog:o.catalog};
+ const now=o.now||new Date().toISOString(),key=o.key||process.env.TMDB_API_KEY,fetchImpl=o.fetchImpl||fetch;
  if(!key)return {skipped:'missing-identity-key'};
  const catalog=o.catalog||get('anime.json'),listings=o.listings||get('free-site-listings.json'),leads=o.leads||get('discovery-leads.json');if(!Array.isArray(catalog?.anime))return {skipped:'invalid-catalog'};
  const state=o.state||get('fallback-state.json')||{version:1,checked:{}};state.checked??={};
