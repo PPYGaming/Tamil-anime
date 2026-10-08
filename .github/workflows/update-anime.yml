@@ -57,26 +57,14 @@ jobs:
           node scripts/free-season-evidence.js || true
           node scripts/attach-free-sites.js || true
         continue-on-error: true
-      - name: Free-source identity-gated additions
-        run: node scripts/add-fallbacks.js
-        env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        continue-on-error: true
       - name: Tavily discovery (leads only)
         run: node scripts/discover-tavily.js
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         continue-on-error: true
-      - name: Promote leads to reported (never verified)
-        run: node scripts/promote-leads.js
-        env:
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        continue-on-error: true
       - name: Third-party fallback and cross-availability
         run: |
           node scripts/add-reported.js || true
-          node scripts/add-fallbacks.js --third-party || true
           node scripts/attach-free-sites.js || true
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
