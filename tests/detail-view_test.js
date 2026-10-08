@@ -128,7 +128,7 @@ test("recordId prefers id and falls back to a title slug", () => {
 /* ------------------------------------------------------------------ */
 
 test("card shows poster, title link, description, metadata and badge, with no platform or episode blocks", () => {
-  const html = app.cardHtml(record({ youtube: [{ title: "Demo Quest", url: VIDEO }] }));
+  const html = app.cardHtml(record({ youtube: [{ title: "Demo Quest", url: VIDEO }], freeSites: [{ name: "Animesalt", available: true, tamilDubConfirmed: true, tamilEvidenceUrl: "https://animesalt.ro/language/tamil/" }] }));
   assert.match(html, /<a class="card-link" href="#\/anime\/demo-1" data-id="demo-1">Demo Quest<\/a>/);
   assert.match(html, /A demo title\./);
   assert.match(html, /Tamil dub verified/);
@@ -144,7 +144,7 @@ test("card shows poster, title link, description, metadata and badge, with no pl
 
 test("card badge never claims verification the record does not have", () => {
   const html = app.cardHtml(record({ tamilDubVerified: false }));
-  assert.match(html, /Tamil dub unconfirmed/);
+  assert.match(html, /Tamil dub not confirmed/);
   assert.ok(!html.includes("Tamil dub verified"));
 });
 
