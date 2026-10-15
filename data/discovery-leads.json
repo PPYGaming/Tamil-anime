@@ -1500,6 +1500,30 @@
       "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
       "foundAt": "2026-10-15",
       "status": "needsReview"
+    },
+    {
+      "title": "Prime Video: Drishyam 2",
+      "platform": "Amazon Prime Video",
+      "pageUrl": "https://www.primevideo.com/detail/0PI0IFOE2K9DGDC2N6YOLYBX4O",
+      "snippet": "Subtitles : English [CC], Português (Brasil) [autom.], العربية, Deutsch [automatisch], Español (Latinoamérica) [autom.], Filipino, Indonesia, Melayu, Nederlands [auto], Português (Portugal) [autom.], தமிழ், తెలుగు, ไทย, 中文（简体）, 中文（繁體） By clicking play, you agree to our Terms of Use. ### Feedback ###",
+      "foundAt": "2026-10-15",
+      "status": "needsReview"
+    },
+    {
+      "title": "JioHotstar - Watch TV Shows, Movies, Specials, Live ...",
+      "platform": "JioHotstar",
+      "pageUrl": "https://www.hotstar.com/in/movies/don/1271634450/watch",
+      "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
+      "foundAt": "2026-10-15",
+      "status": "needsReview"
+    },
+    {
+      "title": "Office",
+      "platform": "JioHotstar",
+      "pageUrl": "https://www.hotstar.com/in/shows/office/1271375100",
+      "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
+      "foundAt": "2026-10-15",
+      "status": "needsReview"
     }
   ]
 }
