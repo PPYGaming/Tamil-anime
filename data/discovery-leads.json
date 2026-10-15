@@ -1468,6 +1468,30 @@
       "snippet": "waving-hand-icon Say hello to The Disney Bundle, the new home of Hotstar favorites! Enjoy LIVE cricket matches, tons of Indian films, shows and more with The Disney Bundle (Disney+, Hulu, and ESPN+). Hotstar isn't up in the US anymore, but the fun quotient is up and running! Check your registered em",
       "foundAt": "2026-10-14",
       "status": "needsReview"
+    },
+    {
+      "title": "Halo",
+      "platform": "JioHotstar",
+      "pageUrl": "https://www.hotstar.com/in/shows/halo/1971308176",
+      "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
+      "foundAt": "2026-10-15",
+      "status": "needsReview"
+    },
+    {
+      "title": "Haikyu!!",
+      "platform": "JioHotstar",
+      "pageUrl": "https://www.hotstar.com/in/shows/haikyu/1271498191",
+      "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
+      "foundAt": "2026-10-15",
+      "status": "needsReview"
+    },
+    {
+      "title": "Neeya Naana",
+      "platform": "JioHotstar",
+      "pageUrl": "https://www.hotstar.com/in/shows/neeya-naana/1584",
+      "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
+      "foundAt": "2026-10-15",
+      "status": "needsReview"
     }
   ]
 }
