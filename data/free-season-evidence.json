@@ -577,7 +577,7 @@
       "source": "Toon Stream",
       "title": "Thunder 3",
       "url": "https://toonstream.us/series/thunder-3",
-      "priority": false
+      "priority": true
     },
     {
       "source": "Toon Stream",
@@ -595,7 +595,7 @@
       "source": "Toon Stream",
       "title": "Blue Box",
       "url": "https://toonstream.us/series/blue-box",
-      "priority": false
+      "priority": true
     },
     {
       "source": "Toon Stream",
@@ -655,7 +655,7 @@
       "source": "Toon Stream",
       "title": "Chainsmoker Cat",
       "url": "https://toonstream.us/series/chainsmoker-cat",
-      "priority": false
+      "priority": true
     },
     {
       "source": "Toon Stream",
@@ -859,7 +859,7 @@
       "source": "Toon Stream",
       "title": "Ghost in the Shell: Stand Alone Complex",
       "url": "https://toonstream.us/series/ghost-in-the-shell-stand-alone-complex",
-      "priority": false
+      "priority": true
     },
     {
       "source": "Toon Stream",

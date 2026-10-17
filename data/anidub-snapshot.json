@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T20:22:42.734Z",
+  "checkedAt": "2026-10-17T02:30:48.248Z",
   "anime": [
     {
       "id": 1,
@@ -3769,6 +3769,947 @@
       "synopsis": "Yuri Katsuki makes his way to the Grand Prix ice skating competition as Japan’s top representative with his eyes on the prize. However, instead of celebrating, Yuri walks away defeated and ready to retire for good. But a run-in with champion Viktor Nikiforov and rising star Yuri Plisetsky ignites a new fire within him. With the two of them close by his side, Yuri will take to the ice once more.\n\n(Source: Funimation)",
       "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21709-aqPBDxJPruYR.png",
       "created_at": "2026-10-11T04:52:37.369438+00:00"
+    },
+    {
+      "id": 207,
+      "title": "Mob Psycho 100",
+      "japanese_title": "モブサイコ100",
+      "mal_id": 32182,
+      "genre": [
+        "Shounen",
+        "Comedy",
+        "Psychological",
+        "Slice of Life",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2016,
+      "total_episodes": 37,
+      "synopsis": "Kageyama Shigeo, nicknamed Mob, is a quiet middle-school student with immense psychic power. He keeps his emotions buried so they never hit 100%, and he works odd spirit cases for the self-proclaimed psychic Reigen Arataka.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-6YUSbh2m0N1p.jpg",
+      "created_at": "2026-10-17T01:12:38.901439+00:00"
+    },
+    {
+      "id": 208,
+      "title": "Blue Box",
+      "japanese_title": "アオのハコ",
+      "mal_id": 57181,
+      "genre": [
+        "Shounen",
+        "Romance",
+        "Slice of Life",
+        "Sports"
+      ],
+      "type": "Series",
+      "status": "Ongoing",
+      "year": 2024,
+      "total_episodes": 25,
+      "synopsis": "Taiki Inomata trains at badminton every morning in the same gym as Chinatsu Kano, the upperclassman he likes. When the two are thrown together, the court and their feelings start to overlap.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170942-KKcLfQzV57nG.jpg",
+      "created_at": "2026-10-17T01:12:41.970801+00:00"
+    },
+    {
+      "id": 209,
+      "title": "Ghost in the Shell: Stand Alone Complex",
+      "japanese_title": "攻殻機動隊 STAND ALONE COMPLEX",
+      "mal_id": 467,
+      "genre": [
+        "Mystery",
+        "Psychological"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2002,
+      "total_episodes": 52,
+      "synopsis": "In a future where bodies can be replaced with machines, Major Motoko Kusanagi and Public Security Section 9 investigate crimes that cross between the physical world and the net.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx467-mBTtIoR13qs2.jpg",
+      "created_at": "2026-10-17T01:12:42.849211+00:00"
+    },
+    {
+      "id": 210,
+      "title": "The Ramparts of Ice",
+      "japanese_title": "氷の城壁",
+      "mal_id": 60852,
+      "genre": [
+        "Shoujo",
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Slice of Life"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 14,
+      "synopsis": "Koyuki Hikawa keeps everyone at a distance. In high school she meets Minato, Miki, and Youta, and the four of them start to pull each other's walls down.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186497-uwPrNPphXvjP.jpg",
+      "created_at": "2026-10-17T01:12:44.392416+00:00"
+    },
+    {
+      "id": 211,
+      "title": "My Neighbor Totoro",
+      "japanese_title": "となりのトトロ",
+      "mal_id": 523,
+      "genre": [
+        "Slice of Life",
+        "Supernatural"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 1988,
+      "total_episodes": 1,
+      "synopsis": "Follow the adventures of Satsuki and her four-year-old sister Mei when they move into a new home in the countryside. To their delight they discover that their new neighbor is a mysterious forest spirit called Totoro who can be seen only through the eyes of a child. Totoro introduces them to extraordinary characters, including a cat that doubles as a bus, takes them on a journey through the wonders of nature.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx523-fErBvxOHP7IX.jpg",
+      "created_at": "2026-10-17T01:43:46.494641+00:00"
+    },
+    {
+      "id": 212,
+      "title": "Kiki's Delivery Service",
+      "japanese_title": "魔女の宅急便",
+      "mal_id": 512,
+      "genre": [
+        "Drama",
+        "Slice of Life"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 1989,
+      "total_episodes": 1,
+      "synopsis": "Kiki is an enterprising young girl who must follow tradition to become a full-fledged witch. Venturing out with only her chatty black cat, Jiji, Kiki flies off for the adventure of a lifetime. Landing in a far-off city, she sets up a high-flying delivery service and begins a wonderful experience of independence and responsibility as she finds her place in the world.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx512-UwP8X4BR8YoM.png",
+      "created_at": "2026-10-17T01:43:47.464264+00:00"
+    },
+    {
+      "id": 213,
+      "title": "Pokémon: Mewtwo Strikes Back — Evolution",
+      "japanese_title": "劇場版 ポケットモンスター ミュウツーの逆襲 EVOLUTION",
+      "mal_id": 37966,
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2019,
+      "total_episodes": 1,
+      "synopsis": "When researchers discover and exploit a fossil of the Mythical Pokémon Mew, they unleash a\ncreation that goes against the very laws of nature. \n\nThe Legendary Pokémon Mewtwo was intended for use as a tool of destruction. But as Mewtwo\nbecomes aware of its own dubious origin, it begins to resent its human creators and seeks revenge…",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106287-THH8DMCFuVNc.png",
+      "created_at": "2026-10-17T01:43:48.312562+00:00"
+    },
+    {
+      "id": 214,
+      "title": "Spirited Away",
+      "japanese_title": "千と千尋の神隠し",
+      "mal_id": 199,
+      "genre": [
+        "Drama",
+        "Supernatural"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2001,
+      "total_episodes": 1,
+      "synopsis": "On the way to their new home, 10-year-old Chihiro Ogino's family stumbles upon a deserted theme park. Intrigued, the family investigates the park, though unbeknownst to them, it is secretly inhabited by spirits who sleep by day and appear at night. When Chihiro's mother and father eat food from a restaurant in the street, angry spirits turn them into pigs. Furthermore, a wide sea has appeared between the spirit world and the human one, trapping Chihiro, the sole human, in a land of spirits. Luckily for her though, a mysterious boy named Haku appears, claiming to know her from the past. Under his instructions, Chihiro secures a job in the bathhouse where Haku works. With only her courage and ",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
+      "created_at": "2026-10-17T01:43:49.246176+00:00"
+    },
+    {
+      "id": 215,
+      "title": "Princess Mononoke",
+      "japanese_title": "もののけ姫",
+      "mal_id": 164,
+      "genre": [
+        "Drama"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 1997,
+      "total_episodes": 1,
+      "synopsis": "A calm village residing in the mountains comes under attack from a demon-possessed boar one day.\n\nAshitaka, a young man and prince of the tribe, engages the creature in an attempt to save his village. During the battle, the boar bites him on the arm, leaving it blackened and cursed. Following his village's traditions, Ashitaka is exiled and becomes a wanderer, looking for a solution to the curse before it engulfs him.\n\nIron Town is a fortress under the leadership of Lady Eboshi. Through the clearing of the surrounding forests, Iron Town produces large amounts of Ironsand, used for gunpowder and other machinery. However, because of the forests destruction, nearby animal clans seek revenge led",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx164-ySuGzCWVw2cL.jpg",
+      "created_at": "2026-10-17T01:43:50.028848+00:00"
+    },
+    {
+      "id": 216,
+      "title": "Altered Carbon: Resleeved",
+      "japanese_title": "オルタード・カーボン：リスリーブド",
+      "mal_id": 40613,
+      "genre": [
+        "Drama"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2020,
+      "total_episodes": 1,
+      "synopsis": "Spin-off based on Netflix's live-action Sci-Fi series of the same name.\n\nOn the planet Latimer, Takeshi Kovacs must protect a tattooist while investigating the death of a yakuza boss alongside a no-nonsense CTAC.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115715-8vtVT74WLjlK.jpg",
+      "created_at": "2026-10-17T01:43:50.887501+00:00"
+    },
+    {
+      "id": 217,
+      "title": "Howl's Moving Castle",
+      "japanese_title": "ハウルの動く城",
+      "mal_id": 431,
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2004,
+      "total_episodes": 1,
+      "synopsis": "Sophie, a quiet girl working in a hat shop, finds her life thrown into turmoil when she is literally swept off her feet by a handsome but mysterious wizard named Howl. The vain and vengeful Witch of the Waste, jealous of their friendship, puts a spell on Sophie. In a life-changing adventure, Sophie climbs aboard Howl's magnificent flying castle and enters a magical world on a quest to break the spell.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx431-o8Lj3XkjHm2k.jpg",
+      "created_at": "2026-10-17T01:43:51.805732+00:00"
+    },
+    {
+      "id": 218,
+      "title": "Ponyo",
+      "japanese_title": "崖の上のポニョ",
+      "mal_id": 2890,
+      "genre": [],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2008,
+      "total_episodes": 1,
+      "synopsis": "A young boy named Sosuke rescues a goldfish named Ponyo, and they embark on a fantastic journey of friendship and discovery before Ponyo's father, a powerful sorcerer, forces her to return to her home in the sea. But Ponyo's desire to be human upsets the delicate balance of nature and triggers a gigantic storm. Only Ponyo's mother, a beautiful sea goddess, can restore nature's balance and make Ponyo's dreams come true.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2890-wcNtFr6aUYOR.jpg",
+      "created_at": "2026-10-17T01:43:52.553827+00:00"
+    },
+    {
+      "id": 219,
+      "title": "Ghost in the Shell: SAC_2045 Sustainable War",
+      "japanese_title": "攻殻機動隊 SAC_2045 持続可能戦争",
+      "mal_id": 49402,
+      "genre": [
+        "Mystery"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2021,
+      "total_episodes": 1,
+      "synopsis": "Film compiling the first season of Koukaku Kidoutai: SAC_2045 with the addition of new scenes and full re-color grading of all footage.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138899-mtjPqyGw7Yxf.jpg",
+      "created_at": "2026-10-17T01:43:53.391753+00:00"
+    },
+    {
+      "id": 220,
+      "title": "Earwig and the Witch",
+      "japanese_title": "アーヤと魔女",
+      "mal_id": 42143,
+      "genre": [],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2020,
+      "total_episodes": 1,
+      "synopsis": "Not every orphan would love living at St. Morwald's Home for Children, but Earwig does. She gets whatever she wants, whenever she wants it, and it's been that way since she was dropped on the orphanage doorstep as a baby. But all that changes the day Bella Yaga and the Mandrake come to St. Morwald's, disguised as foster parents. Earwig is whisked off to their mysterious house full of invisible rooms, potions, and spell books, with magic around every corner. Most children would run in terror from a house like that...but not Earwig. Using her own cleverness—with a lot of help from a talking cat—she decides to show the witch who's boss.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119321-Gc4A3x0vNgWH.jpg",
+      "created_at": "2026-10-17T01:43:54.271162+00:00"
+    },
+    {
+      "id": 221,
+      "title": "Stand by Me Doraemon",
+      "japanese_title": "STAND BY ME ドラえもん",
+      "mal_id": 21469,
+      "genre": [
+        "Comedy"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2014,
+      "total_episodes": 1,
+      "synopsis": "The robotic cat was sent by a boy in the future to the present day to help the boy's hapless grandfather, Nobita. Doraemon, Nobita, and other children deal with everyday childhood issues, solve (and cause) problems with the gadgets in Doraemon's fourth-dimensional pocket, and embark on escapades through time and space.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20515.jpg",
+      "created_at": "2026-10-17T01:43:55.069272+00:00"
+    },
+    {
+      "id": 222,
+      "title": "Stand by Me Doraemon 2",
+      "japanese_title": "STAND BY ME ドラえもん 2",
+      "mal_id": 40853,
+      "genre": [
+        "Comedy"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2020,
+      "total_episodes": 1,
+      "synopsis": "Nobita travels to the future to show his beloved grandma his bride, but adult Nobita has fled his own wedding. Can he ever be a good husband to Shizuka?",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122575-ONoFsuxiBlcI.jpg",
+      "created_at": "2026-10-17T01:43:55.878489+00:00"
+    },
+    {
+      "id": 223,
+      "title": "Black Clover: Sword of the Wizard King",
+      "japanese_title": "ブラッククローバー 魔法帝の剣",
+      "mal_id": 48585,
+      "genre": [],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2023,
+      "total_episodes": 1,
+      "synopsis": "As a lionhearted boy who can’t wield magic strives for the title of Wizard King, four banished Wizard Kings of yore return to crush the Clover Kingdom.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131680-gjs8mMQPmkOQ.png",
+      "created_at": "2026-10-17T01:43:56.641173+00:00"
+    },
+    {
+      "id": 224,
+      "title": "My Oni Girl",
+      "japanese_title": "好きでも嫌いなあまのじゃく",
+      "mal_id": 58449,
+      "genre": [
+        "Supernatural"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2024,
+      "total_episodes": 1,
+      "synopsis": "Yearning to get along with others and not be disliked, first-year high school student Hiiragi finds himself unable to say no whenever someone requests something of him. One summer day, while unsuccessfully carrying out yet another request, he encounters an oni girl named Tsumugi, who has come to the human world to search for her mother. She does whatever she pleases and is the complete opposite of Hiiragi. Snow mysteriously begins to fall... and their adventure begins.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx148080-2wVRYUghiaAq.png",
+      "created_at": "2026-10-17T01:43:57.49173+00:00"
+    },
+    {
+      "id": 225,
+      "title": "Baki Hanma vs Kengan Ashura",
+      "japanese_title": "範馬刃牙VSケンガンアシュラ",
+      "mal_id": 58510,
+      "genre": [
+        "Sports"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2024,
+      "total_episodes": 1,
+      "synopsis": "Who will be crowned victorious in the ultimate fight between the strongest high schooler on earth and the successor of the Niko Style?",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176287-evl3ehXyZ80q.jpg",
+      "created_at": "2026-10-17T01:43:58.357723+00:00"
+    },
+    {
+      "id": 226,
+      "title": "The Imaginary",
+      "japanese_title": "屋根裏のラジャー",
+      "mal_id": 50553,
+      "genre": [],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2023,
+      "total_episodes": 1,
+      "synopsis": "Born from a young girl’s imagination, Rudger is a boy no one can see who lives in a world where imaginations can live and be eaten by others. The Imaginary is an extraordinarily touching and beautiful hand-drawn fantasy film in which Rudger and his new friends in “The Imaginaries Town” embark on an adventure no one can see at the risk of the futures and fates of those they love.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142494-HsEsBP0sgsa2.jpg",
+      "created_at": "2026-10-17T01:43:59.148482+00:00"
+    },
+    {
+      "id": 227,
+      "title": "Mononoke the Movie: Phantom in the Rain",
+      "japanese_title": "モノノ怪 唐傘",
+      "mal_id": 52107,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Psychological",
+        "Supernatural"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2024,
+      "total_episodes": 1,
+      "synopsis": "Asa and Kame strike up an immediate friendship when they arrive at the same time for their first day of duty at the Ooku, the splendid pleasure palace housing the harem of Lord Tenshi. The two young women are there to join the many hundreds of other maidservants—men are barred from entering, with immediate beheading the price of trespassing. It soon becomes clear that behind the luxurious lifestyle and ritualized routines of the Ooku lie sinister schemes and cynical rivalries. Meanwhile, a mysterious wandering potion-peddler known only as the Medicine Seller subtly insinuates himself into the Ooku, just as an uncanny, otherworldly menace begins to reveal itself.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151117-AOcwR3mXCDx7.jpg",
+      "created_at": "2026-10-17T01:43:59.986299+00:00"
+    },
+    {
+      "id": 228,
+      "title": "Lost in Starlight",
+      "japanese_title": "이 별에 필요한",
+      "mal_id": 61595,
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2025,
+      "total_episodes": 1,
+      "synopsis": "In 2050 Seoul, astronaut Nan-young’s ultimate goal is to visit Mars. But she fails the final test to onboard the fourth Mars Expedition Project. The musician Jay buries his dreams in a vintage audio equipment shop.\nThe two fall in love after a chance encounter. As they root for each other and dream of a new future. Nan-young is given another chance to fly to Mars, which is all she ever wanted…",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192002-sZCUa2OSDhZi.jpg",
+      "created_at": "2026-10-17T01:44:00.862633+00:00"
+    },
+    {
+      "id": 229,
+      "title": "Mononoke the Movie: Chapter II — The Ashes of Rage",
+      "japanese_title": "モノノ怪 火鼠",
+      "mal_id": 59408,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Psychological",
+        "Supernatural"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2025,
+      "total_episodes": 1,
+      "synopsis": "The Medicine Seller returns as the Edo harem faces a new crisis, with family feuds, inner turmoil and fiery envy igniting the birth of a raging spirit.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179852-tPwGOkCxA8em.jpg",
+      "created_at": "2026-10-17T01:44:01.682583+00:00"
+    },
+    {
+      "id": 230,
+      "title": "Final Fantasy: The Spirits Within",
+      "japanese_title": "ファイナルファンタジー",
+      "mal_id": 1361,
+      "genre": [
+        "Drama"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2001,
+      "total_episodes": 1,
+      "synopsis": "A planet is overrun by a mysterious group of creatures that infect and destroy all life on Earth. Only the determination of a single woman to find a cure will prevent the world from slowly being eaten away. Yet there are those from within who are impatient for results and will do anything to win this war.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1361-jyjigHHRkzMO.jpg",
+      "created_at": "2026-10-17T01:44:02.490446+00:00"
+    },
+    {
+      "id": 231,
+      "title": "Iron Man: Rise of Technovore",
+      "japanese_title": "アイアンマン：ライズ・オブ・テクノヴォア",
+      "mal_id": 15847,
+      "genre": [
+        "Mecha"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2013,
+      "total_episodes": 1,
+      "synopsis": "The film explores a confrontation between Iron Man and the villainous Ezekiel Stane, who develops new bio-technology that seemingly outclasses the Iron Man armor. After Stane unleashes a terrorist attack and sets Tony Stark up to take the fall, Iron Man must evade S.H.I.E.L.D.'s man hunt and find a way to clear his name.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15847.jpg",
+      "created_at": "2026-10-17T01:44:03.332838+00:00"
+    },
+    {
+      "id": 232,
+      "title": "Scarlet",
+      "japanese_title": "果てしなきスカーレット",
+      "mal_id": 60610,
+      "genre": [
+        "Drama",
+        "Psychological"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2025,
+      "total_episodes": 1,
+      "synopsis": "Scarlet, the protagonist of this work, is a princess whose father, the king of a certain country, was murdered. However, after failing to exact revenge, Scarlet wakes up to find herself in the \"Otherlands.\"\n\nIn this \"Otherlands,\" filled with madness, it is said that if one does not exact revenge on their nemesis and reach the \"Infinity Land,\" they will become \"nothingness\" and disappear from existence.\n\nWill Scarlet be able to exact revenge on her nemesis without becoming \"nothingness\"? The story unfolds as the endless journey for revenge begins.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185773-N7dLeWyB14VA.png",
+      "created_at": "2026-10-17T01:44:04.206134+00:00"
+    },
+    {
+      "id": 233,
+      "title": "Milky Subway: The Galactic Limited Express",
+      "japanese_title": "銀河特急 ミルキー☆サブウェイ 各駅停車劇場行き",
+      "mal_id": 62518,
+      "genre": [
+        "Comedy"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 1,
+      "synopsis": "Theatrical version of Ginga Tokkyuu Milky☆Subway with additional new scenes.\n\nSix delinquents are tasked with cleaning a train as part of a community service program. But when the train suddenly takes off, chaos ensues.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204949-1eneer7CutVn.jpg",
+      "created_at": "2026-10-17T01:44:04.976014+00:00"
+    },
+    {
+      "id": 234,
+      "title": "The Ribbon Hero",
+      "japanese_title": "THE RIBBON HERO",
+      "mal_id": 64012,
+      "genre": [],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 1,
+      "synopsis": "Princess Sapphire of the lost kingdom. Stripped of everything in her homeland, Silverland, by the calamity known as \"Nergal,\" she arrived in Goldland at the very depths of despair. While carrying the weight of her past, she began to find a glimmer of hope through the kindness of the people. Yet, as if mocking her peaceful daily life, the calamity \"Nergal\" appears once more. The same despair that reduced her homeland to ashes is now threatening to steal the light from this land as well.\n\n\"No more loss for me. No more loss for anyone.” \n\nWiping way her fears of sorrow, the young girl takes up her sword. \nThis is the story of a hero who ties her ribbon and resolves to defy fate.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211308-KG8w6IyCI3r0.png",
+      "created_at": "2026-10-17T01:44:05.818389+00:00"
+    },
+    {
+      "id": 235,
+      "title": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
+      "japanese_title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
+      "mal_id": 38716,
+      "genre": [
+        "Drama",
+        "Mecha"
+      ],
+      "type": "Movie",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 1,
+      "synopsis": "Second movie in the Hathaway trilogy celebrating the Gundam franchise's 40th anniversary, and the second project in the \"UC NexT 0100 Project\" that will tackle the future of the UC timeline.\n\nHaunted by past trauma, Hathaway is drawn to the mysterious girl Gigi Andalucia, whose strange powers stir memories within him. While swayed by her cryptic words, he continues preparing for Mafty’s mission — the attack on the Adelaide Conference. Meanwhile, Kenneth Sleg of the Federation Forces prepares a defense operation for the Adelaide Conference and a plan to eliminate Mafty, when he is approached by Handley Yoxon of the Criminal Police Organization with a secret proposal. As Hathaway and Kenneth p",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113971-GIit95PnSGvt.jpg",
+      "created_at": "2026-10-17T01:44:06.592794+00:00"
+    },
+    {
+      "id": 236,
+      "title": "Ghost in the Shell: SAC_2045",
+      "japanese_title": "攻殻機動隊 SAC_2045",
+      "mal_id": 38799,
+      "genre": [
+        "Mystery"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2020,
+      "total_episodes": 24,
+      "synopsis": "After a global financial crisis, the world is engulfed in an AI-driven \"sustainable war.\" It's up to Section 9 to counter new forms of cyber threats.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106154-14XxxKUUwh13.jpg",
+      "created_at": "2026-10-17T01:44:07.405881+00:00"
+    },
+    {
+      "id": 237,
+      "title": "Detective Conan: Zero's Tea Time",
+      "japanese_title": "名探偵コナン ゼロの日常（ティータイム）",
+      "mal_id": 50012,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Slice of Life"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2022,
+      "total_episodes": 6,
+      "synopsis": "A detective who's also a public security agent and a member of a shadowy organization juggles his triple identities in this \"Detective Conan\" spinoff.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140002-zbEoTkcXifOa.jpg",
+      "created_at": "2026-10-17T01:44:08.718985+00:00"
+    },
+    {
+      "id": 238,
+      "title": "Lookism",
+      "japanese_title": "외모지상주의",
+      "mal_id": 53149,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2022,
+      "total_episodes": 8,
+      "synopsis": "In a society that favors good looks, a high school outcast leads a double life switching between his two bodies that are polar opposites in appearance.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158539-jcLUcvqALA08.jpg",
+      "created_at": "2026-10-17T01:44:09.575603+00:00"
+    },
+    {
+      "id": 239,
+      "title": "Detective Conan: The Culprit Hanzawa",
+      "japanese_title": "名探偵コナン 犯人の犯沢さん",
+      "mal_id": 50010,
+      "genre": [
+        "Comedy",
+        "Mystery"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2022,
+      "total_episodes": 12,
+      "synopsis": "A town of crime, Beika Town. A mysterious Dark Shadow descends onto this town that ranks among the highest crime rates in the world. His (or her?) goal is to kill a “certain man.” That key player in Detective Conan is now a protagonist! Clad in tights and possessing a pure intellect, this person’s name is… the (pseudonymous) Culprit Hanzawa!",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140005-BMmsl94sUPsw.jpg",
+      "created_at": "2026-10-17T01:44:10.421389+00:00"
+    },
+    {
+      "id": 240,
+      "title": "Baki Hanma",
+      "japanese_title": "範馬刃牙",
+      "mal_id": 42940,
+      "genre": [
+        "Sports"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2021,
+      "total_episodes": 39,
+      "synopsis": "To gain the skills he needs to surpass his powerful father, Baki enters Arizona State Prison to take on the notorious inmate known as Mr. Unchained.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124195-5Z1JSrRlbMRe.jpg",
+      "created_at": "2026-10-17T01:44:11.262258+00:00"
+    },
+    {
+      "id": 241,
+      "title": "Onimusha",
+      "japanese_title": "鬼武者",
+      "mal_id": 53150,
+      "genre": [
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2023,
+      "total_episodes": 8,
+      "synopsis": "An anime based on CAPCOM's legendary Sengoku period game: ONIMUSHA. The adaptation will have famed director Takashi Miike as the chief director of the series at animation studio Sublimation, while Shinya Sugai is directing the series. The anime will use the late prolific actor Toshiro Mifune as a model for the character Miyamoto Musashi.\n \n\nThe beginning of the Edo Period, Musashi is no longer a young man. He departs with the legendary  Oni Gauntlet to defeat the Genma.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155015-YJkkmMgJesxE.jpg",
+      "created_at": "2026-10-17T01:44:12.671411+00:00"
+    },
+    {
+      "id": 242,
+      "title": "Akuma Kun",
+      "japanese_title": "悪魔くん (ONA)",
+      "mal_id": 48425,
+      "genre": [
+        "Horror",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2023,
+      "total_episodes": 12,
+      "synopsis": "Akuma-kun is a boy who was adopted and risen by the former Akuma: Shingo Umoregi. He works as a paranormal investigator and solves murder mysteries with the helping hand of his half-human partner Mephisto the Third.\n\nThe show, despite being an alternate story, is set to be the adventure of Shingo's \"son\", therefore, it could be considered as a sequel to the 1989 original",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130706-nu8D23EjKltW.jpg",
+      "created_at": "2026-10-17T01:44:13.447424+00:00"
+    },
+    {
+      "id": 243,
+      "title": "Scott Pilgrim Takes Off",
+      "japanese_title": "スコット・ピルグリム テイクス・オフ",
+      "mal_id": null,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Mystery",
+        "Romance",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2023,
+      "total_episodes": 8,
+      "synopsis": "When girl meets boy, love takes off...\n\nScott Pilgrim meets the girl of his dreams, Ramona Flowers, but learns he must defeat her seven evil exes in order to date her. Then things get even more complicated. Based on the graphic novels by Bryan Lee O'Malley.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170206-ZP4qAzx2I2oR.jpg",
+      "created_at": "2026-10-17T01:44:14.27303+00:00"
+    },
+    {
+      "id": 244,
+      "title": "Pokémon Concierge",
+      "japanese_title": "ポケモンコンシェルジュ",
+      "mal_id": 54633,
+      "genre": [
+        "Slice of Life"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2023,
+      "total_episodes": 8,
+      "synopsis": "Pack your bags—an all-new Pokémon paradise awaits!\n\nIntroducing Pokémon Concierge, a new collaboration between Pokémon and Netflix featuring stop-motion animation by dwarf studio. Set in a resort on a tropical island resort for Pokémon, rookie concierge Haru and her partner Psyduck interact with trainers and Pokémon guests in this heartwarming story of growth.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162147-90IXqW7pehgw.jpg",
+      "created_at": "2026-10-17T01:44:15.143379+00:00"
+    },
+    {
+      "id": 245,
+      "title": "Delicious in Dungeon",
+      "japanese_title": "ダンジョン飯",
+      "mal_id": 52701,
+      "genre": [
+        "Comedy"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2024,
+      "total_episodes": 24,
+      "synopsis": "When young adventurer Laios and his company are attacked and soundly thrashed by a dragon deep in a dungeon, the party loses all its money and provisions...and a member! They're eager to go back and save her, but there is just one problem: If they set out with no food or coin to speak of, they're sure to starve on the way! But Laios comes up with a brilliant idea: \"Let's eat the monsters!\" Slimes, basilisks, and even dragons...none are safe from the appetites of these dungeon-crawling gourmands!",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153518-IVXPDY5ph3kO.jpg",
+      "created_at": "2026-10-17T01:44:16.628959+00:00"
+    },
+    {
+      "id": 246,
+      "title": "The Grimm Variations",
+      "japanese_title": "グリム組曲",
+      "mal_id": 49210,
+      "genre": [
+        "Psychological"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2024,
+      "total_episodes": 6,
+      "synopsis": "Once upon a time, brothers Jacob and Wilhelm collected fairy tales from across the land and made them into a book. They also had a much younger sister, the innocent and curious Charlotte, who they loved very much. One day, while the brothers were telling Charlotte a fairy tale like usual, they saw that she had a somewhat melancholy look on her face. She asked them, \"Do you suppose they really lived happily ever after?\"\n\nThe pages of Grimms' Fairy Tales, written by Jacob and Wilhelm, are now presented from the unique perspective of Charlotte, who sees the stories quite differently from her brothers.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135643-wcXWT26p84R3.png",
+      "created_at": "2026-10-17T01:44:17.469056+00:00"
+    },
+    {
+      "id": 247,
+      "title": "Garouden: The Way of the Lone Wolf",
+      "japanese_title": "餓狼伝: The Way of the Lone Wolf",
+      "mal_id": 58717,
+      "genre": [],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2024,
+      "total_episodes": 8,
+      "synopsis": "On the run from a past crime, Juzo Fujimaki is blackmailed into joining an illicit tournament and has to face top martial artists in deadly match-ups.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177106-xXjCfOXvYoa7.jpg",
+      "created_at": "2026-10-17T01:44:18.268738+00:00"
+    },
+    {
+      "id": 248,
+      "title": "Ranma 1/2 (2024)",
+      "japanese_title": "らんま1/2 (2024)",
+      "mal_id": 59145,
+      "genre": [
+        "Comedy",
+        "Ecchi",
+        "Romance",
+        "Slice of Life"
+      ],
+      "type": "Series",
+      "status": "Ongoing",
+      "year": 2024,
+      "total_episodes": 24,
+      "synopsis": "Ranma Saotome and Akane Tendou of Tendou Dojo are betrothed to each other by their parents. But Ranma faces a unique problem…\n\nEver since he fell into the cursed springs of Jusenkyo while training in China, his body has acquired the peculiar trait of transforming into a girl when doused with cold water and reverting to a boy with hot water.\n\nGet ready for the slapstick, action-packed rom com featuring Ranma, Akane, and a vibrant cast of unique characters!",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178533-b88OLxm50jcH.jpg",
+      "created_at": "2026-10-17T01:44:19.145368+00:00"
+    },
+    {
+      "id": 249,
+      "title": "My Happy Marriage",
+      "japanese_title": "わたしの幸せな結婚",
+      "mal_id": 51552,
+      "genre": [
+        "Drama",
+        "Romance",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2023,
+      "total_episodes": 25,
+      "synopsis": "Despite being born into a noble family, Miyo lost her birth mother at a young age and grew up being abused by her stepmother, stepsister, and father.\n\nWhen she finally receives news that she's to be married off, she finds out that her husband-to-be is Kiyoka, a soldier with a reputation for being cruel and heartless. In fact, he's had numerous previous fiancées who have all fled his household; none lasting even a mere three days. \n\n Resigned to the fact that her family had abandoned her, Miyo knocks on the gate of the Kudou household to find herself greeted by a beautiful man with pale skin. Despite the poor treatment she receives from her husband-to-be during their first meeting, Miyo is un",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147103-Om2LOXlhHNAe.png",
+      "created_at": "2026-10-17T01:44:21.09896+00:00"
+    },
+    {
+      "id": 250,
+      "title": "Sakamoto Days",
+      "japanese_title": "SAKAMOTO DAYS",
+      "mal_id": 58939,
+      "genre": [
+        "Comedy"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2025,
+      "total_episodes": 22,
+      "synopsis": "When Sakamoto meets Aoi, the convenience store clerk, it’s love at first sight — and just like that, he retires.\n\nSakamoto gets married, has a daughter, opens a mom-and-pop store in a quiet town, and completely transforms … into a plus-size man. To ensure a peaceful life with his beloved family, the legendary ex–hit man bands together with comrades to face off against the looming threat of assassins.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177709-e5Qx6RlsBgD5.png",
+      "created_at": "2026-10-17T01:44:22.549848+00:00"
+    },
+    {
+      "id": 251,
+      "title": "Leviathan",
+      "japanese_title": "リヴァイアサン",
+      "mal_id": 59005,
+      "genre": [
+        "Mecha"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2025,
+      "total_episodes": 12,
+      "synopsis": "Set in a war-torn reimagining of 1914, Leviathan follows Alek, a fugitive prince of the Austro-Hungarian Empire, and Deryn Sharp, a daring young girl disguised as a boy to serve in the British Air Service. When fate throws them together aboard the HMS Leviathan, a massive, living airship made from genetically engineered creatures, they embark on a world-changing adventure that will challenge everything they know about war, loyalty, and identity.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b177887-YurdmOTIetZS.jpg",
+      "created_at": "2026-10-17T01:44:23.990598+00:00"
+    },
+    {
+      "id": 252,
+      "title": "Baki",
+      "japanese_title": "バキ",
+      "mal_id": 34443,
+      "genre": [
+        "Sports"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2018,
+      "total_episodes": 39,
+      "synopsis": "The protagonist, Baki Hanma, trains with an intense focus to become strong enough to surpass his father, Yujiro Hanma, the strongest fighter in the world. Five of the world's most violent and brutal death row inmates are gathering to face Baki. Their objective is to taste defeat -- their unmatched strength and skill have led them to grow bored of life itself, and they now seek out Baki in the hopes that he can overwhelm and utterly crush them. In this crisis, other underground martial art warriors gather to fight by Baki's side: Kaoru Hanayama, Gouki Shibukawa, Retsu Kaioh, and Doppo Orochi. An epic showdown between violent death row inmates and Baki and his friends begins!",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97888-tdZ1r7qN1DRs.jpg",
+      "created_at": "2026-10-17T01:44:24.896316+00:00"
+    },
+    {
+      "id": 253,
+      "title": "The Summer Hikaru Died",
+      "japanese_title": "光が死んだ夏",
+      "mal_id": 58913,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Psychological",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2025,
+      "total_episodes": 12,
+      "synopsis": "Two best friends living in a rural Japanese village: Yoshiki and Hikaru. Growing up together, they were inseparable… until the day Hikaru came back from the mountains, and was no longer himself. “Something” has taken over Hikaru’s body, memories, feelings… and everything they know begins to unravel.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177689-d0mB5nYgdnhi.jpg",
+      "created_at": "2026-10-17T01:44:26.343642+00:00"
+    },
+    {
+      "id": 254,
+      "title": "Baki-Dou: The Invincible Samurai",
+      "japanese_title": "刃牙道",
+      "mal_id": 58573,
+      "genre": [
+        "Sports"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 25,
+      "synopsis": "Musashi Miyamoto — the ultimate symbol of strength — descends into an underground fighting arena where the use of weapons is permitted. Underground fighters including Doppo Orochi, Goki Shibukawa and Sea King Retsu square off in succession against Musashi and his godlike strength. It’s sword versus fist in the most heart-pounding and deadly battles yet, where defeat means certain death. \n\nBe prepared to be blown away by Baki and the other underground fighters as they bravely take on this new battle to determine the strongest fighter in human history.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176509-GRUa4fzyAM9u.jpg",
+      "created_at": "2026-10-17T01:44:27.203581+00:00"
+    },
+    {
+      "id": 255,
+      "title": "Steel Ball Run",
+      "japanese_title": "ジョジョの奇妙な冒険 スティール・ボール・ラン 1st STAGE",
+      "mal_id": 61469,
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Sports",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Ongoing",
+      "year": 2026,
+      "total_episodes": 1,
+      "synopsis": "It’s 1890, in America, the Steel Ball Run — the first horse racing championship across the North American continent — was about to begin. Johnny Joestar, once being hailed as a genius jockey, is now paralysed and lost in despair. He finds hope in the mysterious phenomena caused by Gyro Zeppeli, an outlaw aiming to win the race, and determines to participate in the 4,000 miles of grueling adventure.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190327-riJNCFL7w9y4.jpg",
+      "created_at": "2026-10-17T01:44:28.633801+00:00"
+    },
+    {
+      "id": 256,
+      "title": "Dandelion",
+      "japanese_title": "だんでらいおん",
+      "mal_id": 63572,
+      "genre": [
+        "Comedy",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 7,
+      "synopsis": "Dandelion follows Tetsuo Tanba and Misaki Kurogane, members of the Japanese Angel Federation’s Send-Off Department. Their job? Tracking down restless earthbound spirits and gently guiding them to the afterlife.\n\nWhile other angels rush to close their cases, the 21st Division’s Dandelion Clan takes a different approach. Dandelion members Tetsuo Tanba and his leader, Misaki Kurogane, listen to each spirit’s regrets and help them resolve what’s holding them back. They even help a spirit who’s an elderly man running at full speed, desperate to escape.\n\nThe angels themselves are full of surprises. Tanba’s permanent scowl and sharp tongue mask a deeply compassionate nature, while Kurogane is a for",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b208352-KUuXI4sVbtYV.jpg",
+      "created_at": "2026-10-17T01:44:30.065659+00:00"
+    },
+    {
+      "id": 257,
+      "title": "Witch Hat Atelier",
+      "japanese_title": "とんがり帽子のアトリエ",
+      "mal_id": 51553,
+      "genre": [
+        "Drama"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 13,
+      "synopsis": "In a world where everyone takes wonders like magic spells and dragons for granted, Coco is a girl with a simple dream: she wants to be a witch. But everybody knows magicians are born, not made, and Coco was not born with a gift for magic. Resigned to her un-magical life, Coco is about to give up on her dream to become a witch … until the day she meets Qifrey, a mysterious, traveling magician. After secretly seeing Qifrey perform magic in a way she’s never seen before, Coco soon learns what everybody “knows” might not be the truth, and discovers that her magical dream may not be as far away as it may seem...",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg",
+      "created_at": "2026-10-17T01:44:30.946091+00:00"
+    },
+    {
+      "id": 258,
+      "title": "Gantz",
+      "japanese_title": "GANTZ",
+      "mal_id": 384,
+      "genre": [
+        "Drama",
+        "Ecchi",
+        "Horror",
+        "Psychological",
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2004,
+      "total_episodes": 26,
+      "synopsis": "Thought your life was bad? Sometimes, death is worse. There is no salvation, peace, nor god waiting to receive you into their care. But wait, a god? Maybe you are talking about that big black ball stuck in the room with you. Now you are thrown into a game, fighting green aliens and robot monsters for the chance to survive.\n\nWhen Kei Kurono is killed, he thus finds himself caught in such a game; a test of his skills, morals and will to survive. His life is not his own, his death spat and trampled upon over and over again. What happens if he does not listen? God knows.\n\nA word of warning: Gantz is not for the faint-hearted, but neither is it as simple as it looks. Gore, rape and violence is ra",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx384-5vHimZPju1Wr.jpg",
+      "created_at": "2026-10-17T01:44:31.859401+00:00"
+    },
+    {
+      "id": 259,
+      "title": "Sparks of Tomorrow",
+      "japanese_title": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+      "mal_id": 62856,
+      "genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 13,
+      "synopsis": "The novel takes place in the summer of 1907, the 40th year of the Meiji era. 15-year-old Inako Momokawa lives in the Fushimi area of Kyoto, and is the second daughter of a sake brewer. Nothing she does ever comes out right, and she receives a scolding from her father every day. Her only relief is the trust she places in her prayers to the gods. One day while at Fushimi Inari shrine, she meets a freewheeling young man named Kihachi Sakamoto. He rejects the gods, and boasts of the incoming age of electricity. \n\nThe topic of marriage suddenly comes up in Inako's household. Her father is one-sidedly making all the decisions for her, and Inako is about to give up hope. It is then that Kihachi dra",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
+      "created_at": "2026-10-17T01:44:33.325122+00:00"
+    },
+    {
+      "id": 260,
+      "title": "Thunder 3",
+      "japanese_title": "サンダー３",
+      "mal_id": 63418,
+      "genre": [
+        "Drama"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 12,
+      "synopsis": "Three ordinary schoolboys come into possession of a DVD that supposedly opens a gateway to a parallel universe, but when their backs are turned Pyontaro's little sister Futaba passes through and gets kidnapped by the aliens that have overrun that version of Earth! Discovering that their cartoonish bodies make them supermen in the hyper-realistic parallel universe, the boys set out to rescue Futaba.",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207254-StcuNpmZTDCL.jpg",
+      "created_at": "2026-10-17T01:44:34.127205+00:00"
+    },
+    {
+      "id": 261,
+      "title": "Smoking Behind the Supermarket with You",
+      "japanese_title": "スーパーの裏でヤニ吸うふたり",
+      "mal_id": 62076,
+      "genre": [
+        "Comedy",
+        "Romance",
+        "Slice of Life"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 12,
+      "synopsis": "Sasaki is an overworked salaryman drifting through the corporate grind, sustained by cigarettes and the cheerful service and smile of Yamada, the clerk at his favorite supermarket. But one night after a grueling shift, he arrives late to find Yamada nowhere to be seen. With nowhere left to smoke, his spirits sink—until a pierced young woman calls out to him: “You can smoke here.”",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196187-0dgFi2CPp3xn.jpg",
+      "created_at": "2026-10-17T01:44:34.984122+00:00"
+    },
+    {
+      "id": 262,
+      "title": "Chainsmoker Cat",
+      "japanese_title": "ヤニねこ",
+      "mal_id": 63403,
+      "genre": [
+        "Comedy",
+        "Ecchi",
+        "Slice of Life"
+      ],
+      "type": "Series",
+      "status": "Completed",
+      "year": 2026,
+      "total_episodes": 12,
+      "synopsis": "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts—and plenty of other trash! Every time she tries to quit, she becomes weak to the cravings and gives in almost instantly. Will she ever get her life together, or is she doomed to live as a chainsmoking slob forever?",
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg",
+      "created_at": "2026-10-17T01:44:35.818453+00:00"
     }
   ],
   "seasons": [
@@ -5997,6 +6938,517 @@
       "season_number": 1,
       "season_name": "Season 1",
       "year": 2016
+    },
+    {
+      "id": 363,
+      "anime_id": 207,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2016
+    },
+    {
+      "id": 364,
+      "anime_id": 207,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2019
+    },
+    {
+      "id": 365,
+      "anime_id": 207,
+      "season_number": 3,
+      "season_name": "Season 3",
+      "year": 2022
+    },
+    {
+      "id": 366,
+      "anime_id": 207,
+      "season_number": 4,
+      "season_name": "OVA — The First Spirits and Such Company Trip",
+      "year": 2019
+    },
+    {
+      "id": 367,
+      "anime_id": 208,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2024
+    },
+    {
+      "id": 368,
+      "anime_id": 209,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2002
+    },
+    {
+      "id": 369,
+      "anime_id": 209,
+      "season_number": 2,
+      "season_name": "Season 2 — 2nd GIG",
+      "year": 2004
+    },
+    {
+      "id": 370,
+      "anime_id": 210,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 371,
+      "anime_id": 211,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 1988
+    },
+    {
+      "id": 372,
+      "anime_id": 212,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 1989
+    },
+    {
+      "id": 373,
+      "anime_id": 213,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2019
+    },
+    {
+      "id": 374,
+      "anime_id": 214,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2001
+    },
+    {
+      "id": 375,
+      "anime_id": 215,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 1997
+    },
+    {
+      "id": 376,
+      "anime_id": 216,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2020
+    },
+    {
+      "id": 377,
+      "anime_id": 217,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2004
+    },
+    {
+      "id": 378,
+      "anime_id": 218,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2008
+    },
+    {
+      "id": 379,
+      "anime_id": 219,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2021
+    },
+    {
+      "id": 380,
+      "anime_id": 220,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2020
+    },
+    {
+      "id": 381,
+      "anime_id": 221,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2014
+    },
+    {
+      "id": 382,
+      "anime_id": 222,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2020
+    },
+    {
+      "id": 383,
+      "anime_id": 223,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2023
+    },
+    {
+      "id": 384,
+      "anime_id": 224,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2024
+    },
+    {
+      "id": 385,
+      "anime_id": 225,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2024
+    },
+    {
+      "id": 386,
+      "anime_id": 226,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2023
+    },
+    {
+      "id": 387,
+      "anime_id": 227,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2024
+    },
+    {
+      "id": 388,
+      "anime_id": 228,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2025
+    },
+    {
+      "id": 389,
+      "anime_id": 229,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2025
+    },
+    {
+      "id": 390,
+      "anime_id": 230,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2001
+    },
+    {
+      "id": 391,
+      "anime_id": 231,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2013
+    },
+    {
+      "id": 392,
+      "anime_id": 232,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2025
+    },
+    {
+      "id": 393,
+      "anime_id": 233,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2026
+    },
+    {
+      "id": 394,
+      "anime_id": 234,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2026
+    },
+    {
+      "id": 395,
+      "anime_id": 235,
+      "season_number": 1,
+      "season_name": "Movie",
+      "year": 2026
+    },
+    {
+      "id": 396,
+      "anime_id": 236,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2020
+    },
+    {
+      "id": 397,
+      "anime_id": 236,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2022
+    },
+    {
+      "id": 398,
+      "anime_id": 237,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2022
+    },
+    {
+      "id": 399,
+      "anime_id": 238,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": null
+    },
+    {
+      "id": 400,
+      "anime_id": 239,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2022
+    },
+    {
+      "id": 401,
+      "anime_id": 240,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2021
+    },
+    {
+      "id": 402,
+      "anime_id": 240,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2023
+    },
+    {
+      "id": 403,
+      "anime_id": 241,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2023
+    },
+    {
+      "id": 404,
+      "anime_id": 242,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2023
+    },
+    {
+      "id": 405,
+      "anime_id": 243,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2023
+    },
+    {
+      "id": 406,
+      "anime_id": 244,
+      "season_number": 1,
+      "season_name": "Season 1 — Cour 1",
+      "year": 2023
+    },
+    {
+      "id": 407,
+      "anime_id": 244,
+      "season_number": 2,
+      "season_name": "Season 1 — Cour 2",
+      "year": 2025
+    },
+    {
+      "id": 408,
+      "anime_id": 245,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2024
+    },
+    {
+      "id": 409,
+      "anime_id": 246,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2024
+    },
+    {
+      "id": 410,
+      "anime_id": 247,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2024
+    },
+    {
+      "id": 411,
+      "anime_id": 248,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2024
+    },
+    {
+      "id": 412,
+      "anime_id": 248,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2025
+    },
+    {
+      "id": 413,
+      "anime_id": 248,
+      "season_number": 3,
+      "season_name": "Season 3",
+      "year": 2026
+    },
+    {
+      "id": 414,
+      "anime_id": 249,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2023
+    },
+    {
+      "id": 415,
+      "anime_id": 249,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2025
+    },
+    {
+      "id": 416,
+      "anime_id": 250,
+      "season_number": 1,
+      "season_name": "Season 1 — Cour 1",
+      "year": 2025
+    },
+    {
+      "id": 417,
+      "anime_id": 250,
+      "season_number": 2,
+      "season_name": "Season 1 — Cour 2",
+      "year": 2025
+    },
+    {
+      "id": 418,
+      "anime_id": 251,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2025
+    },
+    {
+      "id": 419,
+      "anime_id": 252,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2018
+    },
+    {
+      "id": 420,
+      "anime_id": 252,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2020
+    },
+    {
+      "id": 421,
+      "anime_id": 253,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2025
+    },
+    {
+      "id": 422,
+      "anime_id": 254,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 423,
+      "anime_id": 254,
+      "season_number": 2,
+      "season_name": "Cour 2",
+      "year": 2026
+    },
+    {
+      "id": 424,
+      "anime_id": 255,
+      "season_number": 1,
+      "season_name": "1st Stage",
+      "year": 2026
+    },
+    {
+      "id": 425,
+      "anime_id": 255,
+      "season_number": 2,
+      "season_name": "2nd Stage",
+      "year": 2026
+    },
+    {
+      "id": 426,
+      "anime_id": 256,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 427,
+      "anime_id": 257,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 428,
+      "anime_id": 258,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2004
+    },
+    {
+      "id": 429,
+      "anime_id": 258,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2004
+    },
+    {
+      "id": 430,
+      "anime_id": 259,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 431,
+      "anime_id": 260,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 432,
+      "anime_id": 261,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 433,
+      "anime_id": 262,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 434,
+      "anime_id": 208,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2026
+    },
+    {
+      "id": 435,
+      "anime_id": 210,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2026
     }
   ],
   "dubs": [
@@ -8794,6 +10246,270 @@
       "episodes_dubbed": "12",
       "stream_url": null,
       "updated_at": "2026-10-11T04:52:37.742579+00:00",
+      "notes": null
+    },
+    {
+      "id": 915,
+      "anime_id": 207,
+      "season_id": 363,
+      "language": "Tamil",
+      "platform": "Muse Asia",
+      "status": "Complete",
+      "episodes_dubbed": "12",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:39.785983+00:00",
+      "notes": null
+    },
+    {
+      "id": 919,
+      "anime_id": 207,
+      "season_id": 364,
+      "language": "Tamil",
+      "platform": "Muse Asia",
+      "status": "Complete",
+      "episodes_dubbed": "13",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:40.4238+00:00",
+      "notes": null
+    },
+    {
+      "id": 922,
+      "anime_id": 207,
+      "season_id": 365,
+      "language": "Tamil",
+      "platform": "Muse Asia",
+      "status": "Complete",
+      "episodes_dubbed": "12",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:41.040917+00:00",
+      "notes": null
+    },
+    {
+      "id": 926,
+      "anime_id": 207,
+      "season_id": 366,
+      "language": "Tamil",
+      "platform": "Muse Asia",
+      "status": "Complete",
+      "episodes_dubbed": "1",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:41.645359+00:00",
+      "notes": null
+    },
+    {
+      "id": 929,
+      "anime_id": 208,
+      "season_id": 367,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "25",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:42.561064+00:00",
+      "notes": null
+    },
+    {
+      "id": 932,
+      "anime_id": 209,
+      "season_id": 368,
+      "language": "Tamil",
+      "platform": "Amazon Prime Video",
+      "status": "Complete",
+      "episodes_dubbed": "26",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:43.460923+00:00",
+      "notes": null
+    },
+    {
+      "id": 935,
+      "anime_id": 209,
+      "season_id": 369,
+      "language": "Tamil",
+      "platform": "Amazon Prime Video",
+      "status": "Complete",
+      "episodes_dubbed": "26",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:44.066595+00:00",
+      "notes": null
+    },
+    {
+      "id": 938,
+      "anime_id": 210,
+      "season_id": 370,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "14",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:12:44.933748+00:00",
+      "notes": null
+    },
+    {
+      "id": 958,
+      "anime_id": 228,
+      "season_id": 388,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "1",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:01.41463+00:00",
+      "notes": null
+    },
+    {
+      "id": 964,
+      "anime_id": 232,
+      "season_id": 392,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "1",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:04.707787+00:00",
+      "notes": null
+    },
+    {
+      "id": 980,
+      "anime_id": 244,
+      "season_id": 406,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "4",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:15.787555+00:00",
+      "notes": null
+    },
+    {
+      "id": 983,
+      "anime_id": 244,
+      "season_id": 407,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "4",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:16.347782+00:00",
+      "notes": null
+    },
+    {
+      "id": 1002,
+      "anime_id": 255,
+      "season_id": 424,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "1",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:29.210573+00:00",
+      "notes": null
+    },
+    {
+      "id": 1005,
+      "anime_id": 255,
+      "season_id": 425,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:29.794871+00:00",
+      "notes": null
+    },
+    {
+      "id": 1013,
+      "anime_id": 260,
+      "season_id": 431,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:34.753562+00:00",
+      "notes": null
+    },
+    {
+      "id": 1017,
+      "anime_id": 262,
+      "season_id": 433,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:36.40253+00:00",
+      "notes": null
+    },
+    {
+      "id": 1020,
+      "anime_id": 2,
+      "season_id": 2,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "26",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:36.940125+00:00",
+      "notes": null
+    },
+    {
+      "id": 1023,
+      "anime_id": 2,
+      "season_id": 57,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Complete",
+      "episodes_dubbed": "1",
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:37.569658+00:00",
+      "notes": null
+    },
+    {
+      "id": 1026,
+      "anime_id": 118,
+      "season_id": 255,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:38.130588+00:00",
+      "notes": null
+    },
+    {
+      "id": 1029,
+      "anime_id": 118,
+      "season_id": 256,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:38.731537+00:00",
+      "notes": null
+    },
+    {
+      "id": 1032,
+      "anime_id": 208,
+      "season_id": 434,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:39.794932+00:00",
+      "notes": null
+    },
+    {
+      "id": 1035,
+      "anime_id": 210,
+      "season_id": 435,
+      "language": "Tamil",
+      "platform": "Netflix",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-10-17T01:44:40.925742+00:00",
       "notes": null
     }
   ]
