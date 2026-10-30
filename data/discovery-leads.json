@@ -2260,6 +2260,30 @@
       "snippet": "background-img Disney+ Hotstar #### Seems like we are not here yet We're not available in this location, thank you for your love!",
       "foundAt": "2026-10-29",
       "status": "needsReview"
+    },
+    {
+      "title": "Wild Dog (Tamil)",
+      "platform": "Netflix",
+      "pageUrl": "https://www.netflix.com/in/title/81444683",
+      "snippet": "A brash but brilliant Indian intelligence agent leads a covert operation to nab the mastermind behind a series of attacks threatening national security.",
+      "foundAt": "2026-10-30",
+      "status": "needsReview"
+    },
+    {
+      "title": "Prime Video: True Beauty - Season 1",
+      "platform": "Amazon Prime Video",
+      "pageUrl": "https://www.primevideo.com/detail/0LKCHIZP6E5N9AE93EIV50L6G1",
+      "snippet": "Marry My Husband Jailer Yashoda Thiruchitrambalam Varisu (Hindi) The K2 GOOD BOY Drishyam 2 (Hindi) Jathi Ratnalu True Beauty Comedy•Drama•Fun IMDb 7.9/102020 Based on popular web comic, a high school girl uses her make up skills to improve her look. Creators and Cast Directors : Kim Sang-hyub Produ",
+      "foundAt": "2026-10-30",
+      "status": "needsReview"
+    },
+    {
+      "title": "Bharath Ennum Naan",
+      "platform": "JioHotstar",
+      "pageUrl": "https://www.hotstar.com/in/movies/bharath-ennum-naan/1100014734",
+      "snippet": "Watch Bharath Ennum Naan - Tamil Action movie on JioHotstar now ... Bharath Ennum Naan. IMDB 7.42018U/A 13+2h 41mTamil. When circumstances land a young",
+      "foundAt": "2026-10-30",
+      "status": "needsReview"
     }
   ]
 }
