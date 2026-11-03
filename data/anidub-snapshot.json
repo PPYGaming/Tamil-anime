@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T14:28:37.507Z",
+  "checkedAt": "2026-11-03T00:17:38.865Z",
   "anime": [
     {
       "id": 1,
@@ -556,7 +556,7 @@
         "School"
       ],
       "type": "Series",
-      "status": "Ongoing",
+      "status": "Completed",
       "year": 2017,
       "total_episodes": 13,
       "synopsis": "Students at an elite school discover their merit-based paradise hides a brutal social experiment where only the cleverest survive.",
@@ -7456,6 +7456,20 @@
       "season_number": 7,
       "season_name": "Haikyu!!: The Dumpster Battle Movie",
       "year": null
+    },
+    {
+      "id": 437,
+      "anime_id": 30,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": 2022
+    },
+    {
+      "id": 438,
+      "anime_id": 30,
+      "season_number": 3,
+      "season_name": "Season 3",
+      "year": 2024
     }
   ],
   "dubs": [
@@ -7492,7 +7506,7 @@
       "status": "Complete",
       "episodes_dubbed": "13",
       "stream_url": null,
-      "updated_at": "2026-09-06T08:47:42.731806+00:00",
+      "updated_at": "2026-11-02T17:51:21.987+00:00",
       "notes": null
     },
     {
@@ -10517,6 +10531,42 @@
       "episodes_dubbed": null,
       "stream_url": null,
       "updated_at": "2026-10-17T01:44:40.925742+00:00",
+      "notes": null
+    },
+    {
+      "id": 1038,
+      "anime_id": 191,
+      "season_id": 346,
+      "language": "Tamil",
+      "platform": "Crunchyroll",
+      "status": "Complete",
+      "episodes_dubbed": "13",
+      "stream_url": null,
+      "updated_at": "2026-11-02T17:39:31.400723+00:00",
+      "notes": null
+    },
+    {
+      "id": 1040,
+      "anime_id": 30,
+      "season_id": 437,
+      "language": "Tamil",
+      "platform": "Muse Asia",
+      "status": "Complete",
+      "episodes_dubbed": "13",
+      "stream_url": null,
+      "updated_at": "2026-11-02T18:13:43.634571+00:00",
+      "notes": null
+    },
+    {
+      "id": 1043,
+      "anime_id": 30,
+      "season_id": 438,
+      "language": "Tamil",
+      "platform": "Muse Asia",
+      "status": "Complete",
+      "episodes_dubbed": "13",
+      "stream_url": null,
+      "updated_at": "2026-11-02T18:14:39.953886+00:00",
       "notes": null
     }
   ]
