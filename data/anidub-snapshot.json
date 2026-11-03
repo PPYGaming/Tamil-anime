@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T00:17:38.865Z",
+  "checkedAt": "2026-11-03T13:25:20.835Z",
   "anime": [
     {
       "id": 1,
@@ -856,7 +856,7 @@
         "Seinen"
       ],
       "type": "Series",
-      "status": "Completed",
+      "status": "Ongoing",
       "year": 2023,
       "total_episodes": 48,
       "synopsis": "A knowledgeable apothecary girl kidnapped into the imperial court becomes a lady-in-waiting and uses her medical expertise to solve deadly mysteries in the palace.",
@@ -1122,7 +1122,7 @@
         "Fantasy"
       ],
       "type": "Series",
-      "status": "Completed",
+      "status": "Ongoing",
       "year": 2025,
       "total_episodes": 12,
       "synopsis": "An MMO gamer awakens as the Black-Winged Tyrant, Lufas Maphaahl, rising from her sealed fate—only to find this is very real. Her defeat 200 years ago unleashed monsters of death, and the legend is one of terror. Now, trapped in the body of history’s most feared conqueror, he must survive a world that wants her dead…and uncover why he’s here.\n\n(Source: Crunchyroll)",
@@ -3213,7 +3213,7 @@
         "Fantasy"
       ],
       "type": "Series",
-      "status": "Completed",
+      "status": "Ongoing",
       "year": 2023,
       "total_episodes": 12,
       "synopsis": "The Arnold Academy of Sorcery for society’s most elite has just received their first commoner student: Ray White. Despite the contempt he’s received, Ray’s managed to befriend an eclectic group of classmates that get him into all sorts of schemes. But the pressures of maneuvering teenage drama is half his worries, as he secretly is the most powerful sorcerer…the Iceblade Sorcerer!\n\n(Source: Crunchyroll)",
@@ -4710,6 +4710,54 @@
       "synopsis": "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts—and plenty of other trash! Every time she tries to quit, she becomes weak to the cravings and gives in almost instantly. Will she ever get her life together, or is she doomed to live as a chainsmoking slob forever?",
       "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg",
       "created_at": "2026-10-17T01:44:35.818453+00:00"
+    },
+    {
+      "id": 264,
+      "title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+      "japanese_title": null,
+      "mal_id": 62753,
+      "genre": [
+        "Romance"
+      ],
+      "type": "Series",
+      "status": "Ongoing",
+      "year": 2026,
+      "total_episodes": 0,
+      "synopsis": null,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200455-P3XStRQMJ7Di.png",
+      "created_at": "2026-11-03T11:45:51.760105+00:00"
+    },
+    {
+      "id": 265,
+      "title": "Psyren",
+      "japanese_title": null,
+      "mal_id": 63098,
+      "genre": [
+        "Supernatural"
+      ],
+      "type": "Series",
+      "status": "Ongoing",
+      "year": 2026,
+      "total_episodes": 0,
+      "synopsis": null,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204011-j45RZoqYbdZK.jpg",
+      "created_at": "2026-11-03T11:57:18.80095+00:00"
+    },
+    {
+      "id": 266,
+      "title": "Firefly Weeding",
+      "japanese_title": null,
+      "mal_id": 63293,
+      "genre": [
+        "Romance"
+      ],
+      "type": "Series",
+      "status": "Ongoing",
+      "year": 2026,
+      "total_episodes": 12,
+      "synopsis": null,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205909-DM0fAzNQulod.jpg",
+      "created_at": "2026-11-03T12:00:35.911803+00:00"
     }
   ],
   "seasons": [
@@ -7470,6 +7518,48 @@
       "season_number": 3,
       "season_name": "Season 3",
       "year": 2024
+    },
+    {
+      "id": 439,
+      "anime_id": 264,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 440,
+      "anime_id": 46,
+      "season_number": 3,
+      "season_name": "Season 3",
+      "year": 2026
+    },
+    {
+      "id": 441,
+      "anime_id": 61,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": null
+    },
+    {
+      "id": 442,
+      "anime_id": 265,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": 2026
+    },
+    {
+      "id": 443,
+      "anime_id": 266,
+      "season_number": 1,
+      "season_name": "Season 1",
+      "year": null
+    },
+    {
+      "id": 444,
+      "anime_id": 176,
+      "season_number": 2,
+      "season_name": "Season 2",
+      "year": null
     }
   ],
   "dubs": [
@@ -10567,6 +10657,66 @@
       "episodes_dubbed": "13",
       "stream_url": null,
       "updated_at": "2026-11-02T18:14:39.953886+00:00",
+      "notes": null
+    },
+    {
+      "id": 1044,
+      "anime_id": 264,
+      "season_id": 439,
+      "language": "Tamil",
+      "platform": "Crunchyroll",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-11-03T11:45:52.544486+00:00",
+      "notes": null
+    },
+    {
+      "id": 1047,
+      "anime_id": 46,
+      "season_id": 158,
+      "language": "Tamil",
+      "platform": "Crunchyroll",
+      "status": "Complete",
+      "episodes_dubbed": "24",
+      "stream_url": null,
+      "updated_at": "2026-11-03T11:50:44.110769+00:00",
+      "notes": null
+    },
+    {
+      "id": 1049,
+      "anime_id": 46,
+      "season_id": 440,
+      "language": "Tamil",
+      "platform": "Crunchyroll",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-11-03T11:51:24.181536+00:00",
+      "notes": null
+    },
+    {
+      "id": 1052,
+      "anime_id": 61,
+      "season_id": 441,
+      "language": "Tamil",
+      "platform": "Crunchyroll",
+      "status": "Ongoing",
+      "episodes_dubbed": null,
+      "stream_url": null,
+      "updated_at": "2026-11-03T11:55:11.301082+00:00",
+      "notes": null
+    },
+    {
+      "id": 1056,
+      "anime_id": 266,
+      "season_id": 443,
+      "language": "Tamil",
+      "platform": "Crunchyroll",
+      "status": "Ongoing",
+      "episodes_dubbed": "12",
+      "stream_url": null,
+      "updated_at": "2026-11-03T12:00:36.32445+00:00",
       "notes": null
     }
   ]
