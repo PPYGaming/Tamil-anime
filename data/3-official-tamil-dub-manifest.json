@@ -1,0 +1,2574 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-14",
+  "officialYouTubeChannels": [
+    {
+      "name": "Muse India",
+      "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q"
+    }
+  ],
+  "entries": [
+    {
+      "id": "verified-jujutsu-kaisen-season-1",
+      "title": "JUJUTSU KAISEN Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/7/28/chainsaw-man-jujutsu-kaisen-season-1-hindi-dub-premiere-dates-announced",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article states Season 1 Hindi and Tamil dubs."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 95479,
+      "tmdbUrl": "https://www.themoviedb.org/tv/95479",
+      "tmdbSeason": 1,
+      "aliases": [
+        "JUJUTSU KAISEN"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen"
+        }
+      ]
+    },
+    {
+      "id": "anidub-1-season-59",
+      "title": "JUJUTSU KAISEN Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/9/21/crunchyroll-jujutsu-kaisen-season-2-hindi-tamil-dubs",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article announces Hindi and Tamil dubs."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 95479,
+      "tmdbUrl": "https://www.themoviedb.org/tv/95479",
+      "tmdbSeason": 2,
+      "aliases": [
+        "JUJUTSU KAISEN"
+      ]
+    },
+    {
+      "id": "verified-demon-slayer--kimetsu-no-yaiba-mugen-train-arc",
+      "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/8/11/demon-slayer-kimetsu-no-yaiba-mugen-train-arc-tamil-dub-august-13",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article explicitly announces Tamil dub premiere and cast."
+      },
+      "mediaType": "tv",
+      "year": 2021,
+      "tmdbId": 85937,
+      "tmdbUrl": "https://www.themoviedb.org/tv/85937",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Demon Slayer: Kimetsu no Yaiba"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
+        }
+      ]
+    },
+    {
+      "id": "verified-frieren--beyond-journey-s-end",
+      "title": "Frieren: Beyond Journey's End",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/9/20/crunchyroll-fall-2023-dubs-girlfriend-girlfriend-season-2-goblin-slayer-ii",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Fall 2023 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 209867,
+      "tmdbUrl": "https://www.themoviedb.org/tv/209867",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
+        }
+      ]
+    },
+    {
+      "id": "verified-black-butler--public-school-arc",
+      "title": "Black Butler -Public School Arc-",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 50712,
+      "tmdbUrl": "https://www.themoviedb.org/tv/50712",
+      "tmdbSeason": 4,
+      "aliases": [
+        "Black Butler"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYQ43P3E6/black-butler"
+        }
+      ]
+    },
+    {
+      "id": "verified-chillin--in-another-world-with-level-2-super-cheat-powers",
+      "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 237233,
+      "tmdbUrl": "https://www.themoviedb.org/tv/237233",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GEXH3W2PK/chillin-in-another-world-with-level-2-super-cheat-powers"
+        }
+      ]
+    },
+    {
+      "id": "verified-kaiju-no--8",
+      "title": "Kaiju No. 8",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/seasonal-lineup/2024/3/13/crunchyroll-spring-2024-dubs-konosuba-black-butler-kaiju-no-8",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Spring 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 207468,
+      "tmdbUrl": "https://www.themoviedb.org/tv/207468",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQ7D/kaiju-no-8"
+        }
+      ]
+    },
+    {
+      "id": "verified-blue-lock",
+      "title": "BLUE LOCK",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 131041,
+      "tmdbUrl": "https://www.themoviedb.org/tv/131041",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WEKE/blue-lock"
+        }
+      ]
+    },
+    {
+      "id": "verified-dr--stone-season-1",
+      "title": "Dr. STONE Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 86031,
+      "tmdbUrl": "https://www.themoviedb.org/tv/86031",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Dr. STONE"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone"
+        }
+      ]
+    },
+    {
+      "id": "verified-haikyu---season-1",
+      "title": "Haikyu!! Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2014,
+      "tmdbId": 60863,
+      "tmdbUrl": "https://www.themoviedb.org/tv/60863",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Haikyu!!"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GY8VM8MWY/haikyu"
+        }
+      ]
+    },
+    {
+      "id": "verified-mashle--magic-and-muscles",
+      "title": "MASHLE: MAGIC AND MUSCLES",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 204832,
+      "tmdbUrl": "https://www.themoviedb.org/tv/204832",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GDKHZEP8W/mashle-magic-and-muscles"
+        }
+      ]
+    },
+    {
+      "id": "verified-radiant-season-2",
+      "title": "Radiant Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 82879,
+      "tmdbUrl": "https://www.themoviedb.org/tv/82879",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Radiant"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G6W4MEZ0R/radiant"
+        }
+      ]
+    },
+    {
+      "id": "verified-tsukimichi--moonlit-fantasy--season-1",
+      "title": "TSUKIMICHI -Moonlit Fantasy- Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/16/dr-stone-blue-lock-haikyu-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article identifies Tamil in the title-specific language line."
+      },
+      "mediaType": "tv",
+      "year": 2021,
+      "tmdbId": 111819,
+      "tmdbUrl": "https://www.themoviedb.org/tv/111819",
+      "tmdbSeason": 1,
+      "aliases": [
+        "TSUKIMICHI -Moonlit Fantasy-"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GZJH3D719/tsukimichi--moonlit-fantasy-"
+        }
+      ]
+    },
+    {
+      "id": "verified-alya-sometimes-hides-her-feelings-in-russian",
+      "title": "Alya Sometimes Hides Her Feelings in Russian",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 235758,
+      "tmdbUrl": "https://www.themoviedb.org/tv/235758",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G1XHJV0XM/alya-sometimes-hides-her-feelings-in-russian"
+        }
+      ]
+    },
+    {
+      "id": "verified-bye-bye--earth",
+      "title": "Bye Bye, Earth",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 214587,
+      "tmdbUrl": "https://www.themoviedb.org/tv/214587",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WJXN/bye-bye-earth"
+        }
+      ]
+    },
+    {
+      "id": "verified-makeine--too-many-losing-heroines",
+      "title": "Makeine: Too Many Losing Heroines!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 241535,
+      "tmdbUrl": "https://www.themoviedb.org/tv/241535",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines"
+        }
+      ]
+    },
+    {
+      "id": "verified-no-longer-allowed-in-another-world",
+      "title": "No Longer Allowed in Another World",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 205743,
+      "tmdbUrl": "https://www.themoviedb.org/tv/205743",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM3G7X/no-longer-allowed-in-another-world"
+        }
+      ]
+    },
+    {
+      "id": "verified-quality-assurance-in-another-world",
+      "title": "Quality Assurance in Another World",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 222925,
+      "tmdbUrl": "https://www.themoviedb.org/tv/222925",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G24H1NW30/quality-assurance-in-another-world"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-strongest-magician-in-the-demon-lord-s-army-was-a-human",
+      "title": "The Strongest Magician in the Demon Lord's Army was a Human",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 248951,
+      "tmdbUrl": "https://www.themoviedb.org/tv/248951",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQDD/the-strongest-magician-in-the-demon-lords-army-was-a-human"
+        }
+      ]
+    },
+    {
+      "id": "verified-wistoria--wand-and-sword",
+      "title": "Wistoria: Wand and Sword",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/6/18/crunchyroll-summer-2024-dubs-tower-of-god-season-2",
+        "checkedAt": "2026-10-01",
+        "note": "Listed under Crunchyroll Summer 2024 Tamil Dubs."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 245842,
+      "tmdbUrl": "https://www.themoviedb.org/tv/245842",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword"
+        }
+      ]
+    },
+    {
+      "id": "verified-fire-force-season-2",
+      "title": "Fire Force Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 88046,
+      "tmdbUrl": "https://www.themoviedb.org/tv/88046",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Fire Force"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYQWNXPZY/fire-force"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-ancient-magus--bride-season-1",
+      "title": "The Ancient Magus' Bride Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2017,
+      "tmdbId": 73833,
+      "tmdbUrl": "https://www.themoviedb.org/tv/73833",
+      "tmdbSeason": 1,
+      "aliases": [
+        "The Ancient Magus' Bride"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRZXQJJ8Y/the-ancient-magus-bride"
+        }
+      ]
+    },
+    {
+      "id": "verified-assassination-classroom",
+      "title": "Assassination Classroom",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2015,
+      "tmdbId": 62110,
+      "tmdbUrl": "https://www.themoviedb.org/tv/62110",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRE59JGX6/assassination-classroom"
+        }
+      ]
+    },
+    {
+      "id": "verified-spy-x-family-season-1",
+      "title": "SPY x FAMILY Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 120089,
+      "tmdbUrl": "https://www.themoviedb.org/tv/120089",
+      "tmdbSeason": 1,
+      "aliases": [
+        "SPY x FAMILY"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family"
+        }
+      ]
+    },
+    {
+      "id": "verified-spy-x-family-season-2",
+      "title": "SPY x FAMILY Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 120089,
+      "tmdbUrl": "https://www.themoviedb.org/tv/120089",
+      "tmdbSeason": 2,
+      "aliases": [
+        "SPY x FAMILY"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family"
+        }
+      ]
+    },
+    {
+      "id": "verified-that-time-i-got-reincarnated-as-a-slime-season-1",
+      "title": "That Time I Got Reincarnated as a Slime Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/th/news/announcements/2024/1/30/spy-x-family-assassination-classroom-hindi-tamil-telugu-dub-premiere-dates",
+        "checkedAt": "2026-10-01",
+        "note": "Official Crunchyroll article gives Tamil as the language for this season/title."
+      },
+      "mediaType": "tv",
+      "year": 2018,
+      "tmdbId": 82684,
+      "tmdbUrl": "https://www.themoviedb.org/tv/82684",
+      "tmdbSeason": 1,
+      "aliases": [
+        "That Time I Got Reincarnated as a Slime"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
+        }
+      ]
+    },
+    {
+      "id": "verified-yuri----on-ice",
+      "title": "Yuri!!! on ICE",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2026/2/6/yuri-on-ice-anime-hindi-tamil-telugu-dub-streaming",
+        "checkedAt": "2026-10-01",
+        "note": "Official article states Tamil dub available and names Tamil cast."
+      },
+      "mediaType": "tv",
+      "year": 2016,
+      "tmdbId": 68129,
+      "tmdbUrl": "https://www.themoviedb.org/tv/68129",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GY2PEJ0MY/yuri-on-ice"
+        }
+      ]
+    },
+    {
+      "id": "verified-attack-on-titan-season-1",
+      "title": "Attack on Titan Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=u2DagDGS1uQ",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Attack on Titan."
+      },
+      "mediaType": "tv",
+      "year": 2013,
+      "tmdbId": 1429,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1429",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Attack on Titan"
+      ]
+    },
+    {
+      "id": "verified-mob-psycho-100-season-1",
+      "title": "Mob Psycho 100 Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=4d1jgV0Y4hw",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Mob Psycho 100."
+      },
+      "mediaType": "tv",
+      "year": 2016,
+      "tmdbId": 67075,
+      "tmdbUrl": "https://www.themoviedb.org/tv/67075",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Mob Psycho 100"
+      ]
+    },
+    {
+      "id": "verified-mob-psycho-100-season-2",
+      "title": "Mob Psycho 100 Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=CTenU-JXeNw",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Mob Psycho 100 II."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 67075,
+      "tmdbUrl": "https://www.themoviedb.org/tv/67075",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Mob Psycho 100"
+      ]
+    },
+    {
+      "id": "verified-classroom-of-the-elite-season-1",
+      "title": "Classroom of the Elite Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=pfSoj_2kHXM",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Classroom of the Elite."
+      },
+      "mediaType": "tv",
+      "year": 2017,
+      "tmdbId": 72517,
+      "tmdbUrl": "https://www.themoviedb.org/tv/72517",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Classroom of the Elite"
+      ]
+    },
+    {
+      "id": "verified-classroom-of-the-elite-season-2",
+      "title": "Classroom of the Elite Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=RSzxgUoKNG0",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Classroom of the Elite Season 2."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 72517,
+      "tmdbUrl": "https://www.themoviedb.org/tv/72517",
+      "tmdbSeason": 2,
+      "aliases": [
+        "Classroom of the Elite"
+      ]
+    },
+    {
+      "id": "verified-skeleton-knight-in-another-world-season-1",
+      "title": "Skeleton Knight in Another World Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=nfl5fvgfUqk",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Skeleton Knight in Another World."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 123528,
+      "tmdbUrl": "https://www.themoviedb.org/tv/123528",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Skeleton Knight in Another World"
+      ]
+    },
+    {
+      "id": "verified-a-gatherer-s-adventure-in-isekai-season-1",
+      "title": "A Gatherer's Adventure in Isekai Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=kBZuyQddV_s",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for A Gatherer's Adventure in Isekai."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 284442,
+      "tmdbUrl": "https://www.themoviedb.org/tv/284442",
+      "tmdbSeason": 1,
+      "aliases": [
+        "A Gatherer's Adventure in Isekai"
+      ]
+    },
+    {
+      "id": "verified-campfire-cooking-in-another-world-with-my-absurd-skill-season-1",
+      "title": "Campfire Cooking in Another World with My Absurd Skill Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=DHkaJD4n_RU",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-10-04",
+        "note": "Muse India official YouTube channel: Tamil Dub playlist video for Campfire Cooking in Another World."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 213402,
+      "tmdbUrl": "https://www.themoviedb.org/tv/213402",
+      "tmdbSeason": 1,
+      "aliases": [
+        "Campfire Cooking in Another World with My Absurd Skill"
+      ]
+    },
+    {
+      "id": "verified-campfire-cooking-in-another-world-with-my-absurd-skill-season-2",
+      "title": "Campfire Cooking in Another World with My Absurd Skill Season 2",
+      "tamilDubVerified": true,
+      "verification": [
+        {
+          "url": "https://www.youtube.com/watch?v=85GpwS99_IU",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "checkedAt": "2026-10-04",
+          "note": "Muse India official YouTube channel: Tamil Dub playlist video, Episode 13 (S2E01). TMDB has no season 2 record, so this entry is manual."
+        },
+        {
+          "url": "https://www.crunchyroll.com/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skill",
+          "checkedAt": "2026-10-12",
+          "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+        }
+      ],
+      "mediaType": "tv",
+      "year": 2025,
+      "description": "When a magical realm looks to summon heroes, they're sorely disappointed to end up with a mediocre salaryman. Mukoda Tsuyoshi may not be a hero, but this conjuring error has given him a delicious power - Online Grocery. And something about this modern food brings with it unbelievable effects. This easy access paired with his cooking skills will have patrons from across the land coming back for more!",
+      "image": "https://image.tmdb.org/t/p/w500/cXc3yiQ5RrimzfucovjO83RTrnq.jpg",
+      "tags": [
+        "Anime",
+        "Animation",
+        "Fantasy"
+      ],
+      "aliases": [
+        "Campfire Cooking in Another World with My Absurd Skill Season 2"
+      ],
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skill"
+        }
+      ]
+    },
+    {
+      "id": "verified-watari-kun-s-is-about-to-collapse",
+      "title": "Watari-kun's ****** Is About to Collapse",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM18X/watari-kuns--is-about-to-collapse",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 285356,
+      "tmdbUrl": "https://www.themoviedb.org/tv/285356",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM18X/watari-kuns--is-about-to-collapse"
+        }
+      ]
+    },
+    {
+      "id": "verified-gods-games-we-play",
+      "title": "Gods' Games We Play",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM1Q0/gods-games-we-play",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 156057,
+      "tmdbUrl": "https://www.themoviedb.org/tv/156057",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM1Q0/gods-games-we-play"
+        }
+      ]
+    },
+    {
+      "id": "verified-you-are-ms-servant",
+      "title": "You are Ms. Servant",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G1XHJV02M/you-are-ms-servant",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 242143,
+      "tmdbUrl": "https://www.themoviedb.org/tv/242143",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G1XHJV02M/you-are-ms-servant"
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0M2SI7MCVULFXJVQWD8LJYX27I"
+        }
+      ]
+    },
+    {
+      "id": "verified-an-archdemon-s-dilemma-how-to-love-your-elf-bride",
+      "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 238848,
+      "tmdbUrl": "https://www.themoviedb.org/tv/238848",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride"
+        }
+      ]
+    },
+    {
+      "id": "verified-zenshu",
+      "title": "Zenshu",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G24H1NW8E/zenshu",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 249882,
+      "tmdbUrl": "https://www.themoviedb.org/tv/249882",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G24H1NW8E/zenshu"
+        }
+      ]
+    },
+    {
+      "id": "verified-tying-the-knot-with-an-amagami-sister",
+      "title": "Tying the Knot with an Amagami Sister",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G24H1NWJ0/tying-the-knot-with-an-amagami-sister",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 234910,
+      "tmdbUrl": "https://www.themoviedb.org/tv/234910",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G24H1NWJ0/tying-the-knot-with-an-amagami-sister"
+        }
+      ]
+    },
+    {
+      "id": "verified-metallic-rouge",
+      "title": "Metallic Rouge",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G24H1NWMJ/metallic-rouge",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 222787,
+      "tmdbUrl": "https://www.themoviedb.org/tv/222787",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G24H1NWMJ/metallic-rouge"
+        }
+      ]
+    },
+    {
+      "id": "verified-wind-breaker",
+      "title": "Wind Breaker",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G3KHEVDPE/wind-breaker",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 223500,
+      "tmdbUrl": "https://www.themoviedb.org/tv/223500",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G3KHEVDPE/wind-breaker"
+        }
+      ]
+    },
+    {
+      "id": "verified-bucchigiri",
+      "title": "Bucchigiri?!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G5PHNM985/bucchigiri",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 226905,
+      "tmdbUrl": "https://www.themoviedb.org/tv/226905",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G5PHNM985/bucchigiri"
+        }
+      ]
+    },
+    {
+      "id": "verified-tower-of-god",
+      "title": "Tower of God",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G6J0G49DR/tower-of-god",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 97860,
+      "tmdbUrl": "https://www.themoviedb.org/tv/97860",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G6J0G49DR/tower-of-god"
+        }
+      ]
+    },
+    {
+      "id": "verified-robotics-notes",
+      "title": "Robotics;Notes",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G6X08VQ8Y/roboticsnotes",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2012,
+      "tmdbId": 46435,
+      "tmdbUrl": "https://www.themoviedb.org/tv/46435",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G6X08VQ8Y/roboticsnotes"
+        }
+      ]
+    },
+    {
+      "id": "verified-mechanical-marie",
+      "title": "Mechanical Marie",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G79H23ZJ9/mechanical-marie",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 287278,
+      "tmdbUrl": "https://www.themoviedb.org/tv/287278",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23ZJ9/mechanical-marie"
+        }
+      ]
+    },
+    {
+      "id": "verified-clevatess",
+      "title": "Clevatess",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 258348,
+      "tmdbUrl": "https://www.themoviedb.org/tv/258348",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess"
+        }
+      ]
+    },
+    {
+      "id": "verified-banished-from-the-hero-s-party-i-decided-to-live-a-quiet-life-in-the-countryside",
+      "title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G9VHN974E/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2021,
+      "tmdbId": 113256,
+      "tmdbUrl": "https://www.themoviedb.org/tv/113256",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G9VHN974E/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside"
+        }
+      ]
+    },
+    {
+      "id": "verified-trillion-game",
+      "title": "Trillion Game",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G9VHN9Q7Q/trillion-game",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 240125,
+      "tmdbUrl": "https://www.themoviedb.org/tv/240125",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G9VHN9Q7Q/trillion-game"
+        }
+      ]
+    },
+    {
+      "id": "verified-solo-leveling",
+      "title": "Solo Leveling",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 127532,
+      "tmdbUrl": "https://www.themoviedb.org/tv/127532",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling"
+        }
+      ]
+    },
+    {
+      "id": "verified-akebi-s-sailor-uniform",
+      "title": "Akebi's Sailor Uniform",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GDKHZEW97/akebis-sailor-uniform",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 121792,
+      "tmdbUrl": "https://www.themoviedb.org/tv/121792",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GDKHZEW97/akebis-sailor-uniform"
+        }
+      ]
+    },
+    {
+      "id": "verified-i-m-getting-married-to-a-girl-i-hate-in-my-class",
+      "title": "I'm Getting Married to a Girl I Hate in My Class",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GEXH3W22Z/im-getting-married-to-a-girl-i-hate-in-my-class",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 257790,
+      "tmdbUrl": "https://www.themoviedb.org/tv/257790",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GEXH3W22Z/im-getting-married-to-a-girl-i-hate-in-my-class"
+        }
+      ]
+    },
+    {
+      "id": "verified-let-s-play",
+      "title": "Let's Play",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GEXH3W2N9/lets-play",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 293010,
+      "tmdbUrl": "https://www.themoviedb.org/tv/293010",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GEXH3W2N9/lets-play"
+        }
+      ]
+    },
+    {
+      "id": "verified-dan-da-dan",
+      "title": "Dan Da Dan",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 240411,
+      "tmdbUrl": "https://www.themoviedb.org/tv/240411",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-great-cleric",
+      "title": "The Great Cleric",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GG5H5XQ24/the-great-cleric",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 220779,
+      "tmdbUrl": "https://www.themoviedb.org/tv/220779",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GG5H5XQ24/the-great-cleric"
+        }
+      ]
+    },
+    {
+      "id": "verified-hokkaido-gals-are-super-adorable",
+      "title": "Hokkaido Gals Are Super Adorable!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GJ0H7QGPK/hokkaido-gals-are-super-adorable",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 213181,
+      "tmdbUrl": "https://www.themoviedb.org/tv/213181",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GJ0H7QGPK/hokkaido-gals-are-super-adorable"
+        }
+      ]
+    },
+    {
+      "id": "verified-nina-the-starry-bride",
+      "title": "Nina the Starry Bride",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GKEH2G0QK/nina-the-starry-bride",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 240641,
+      "tmdbUrl": "https://www.themoviedb.org/tv/240641",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GKEH2G0QK/nina-the-starry-bride"
+        }
+      ]
+    },
+    {
+      "id": "verified-true-beauty",
+      "title": "True Beauty",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GMEHME741/true-beauty",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 112888,
+      "tmdbUrl": "https://www.themoviedb.org/tv/112888",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GMEHME741/true-beauty"
+        }
+      ]
+    },
+    {
+      "id": "verified-magic-maker-how-to-make-magic-in-another-world",
+      "title": "Magic Maker – How to Make Magic in Another World",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GP5HJ8417/magic-maker-how-to-make-magic-in-another-world",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 258912,
+      "tmdbUrl": "https://www.themoviedb.org/tv/258912",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GP5HJ8417/magic-maker-how-to-make-magic-in-another-world"
+        }
+      ]
+    },
+    {
+      "id": "verified-to-be-hero-x",
+      "title": "To Be Hero X",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 272059,
+      "tmdbUrl": "https://www.themoviedb.org/tv/272059",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-weakest-tamer-began-a-journey-to-pick-up-trash",
+      "title": "The Weakest Tamer Began a Journey to Pick Up Trash",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GQWH0M1XK/the-weakest-tamer-began-a-journey-to-pick-up-trash",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "tmdbId": 214310,
+      "tmdbUrl": "https://www.themoviedb.org/tv/214310",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GQWH0M1XK/the-weakest-tamer-began-a-journey-to-pick-up-trash"
+        }
+      ]
+    },
+    {
+      "id": "verified-my-dress-up-darling",
+      "title": "My Dress-Up Darling",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GQWH0M9N8/my-dress-up-darling",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 123249,
+      "tmdbUrl": "https://www.themoviedb.org/tv/123249",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GQWH0M9N8/my-dress-up-darling"
+        }
+      ]
+    },
+    {
+      "id": "verified-fullmetal-alchemist-brotherhood",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GRGGPG93R/fullmetal-alchemist-brotherhood",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2009,
+      "tmdbId": 31911,
+      "tmdbUrl": "https://www.themoviedb.org/tv/31911",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRGGPG93R/fullmetal-alchemist-brotherhood"
+        }
+      ]
+    },
+    {
+      "id": "verified-there-was-a-cute-girl-in-the-hero-s-party-so-i-tried-confessing-to-her",
+      "title": "There Was a Cute Girl in the Hero's Party, So I Tried Confessing to Her",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00355229/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 295366,
+      "tmdbUrl": "https://www.themoviedb.org/tv/295366",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00355229/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her"
+        }
+      ]
+    },
+    {
+      "id": "verified-sentenced-to-be-a-hero",
+      "title": "Sentenced to Be a Hero",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00356809/sentenced-to-be-a-hero",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 249907,
+      "tmdbUrl": "https://www.themoviedb.org/tv/249907",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00356809/sentenced-to-be-a-hero"
+        }
+      ]
+    },
+    {
+      "id": "verified-a-wild-last-boss-appeared",
+      "title": "A Wild Last Boss Appeared!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00361955/a-wild-last-boss-appeared",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 280042,
+      "tmdbUrl": "https://www.themoviedb.org/tv/280042",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00361955/a-wild-last-boss-appeared"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-warrior-princess-and-the-barbaric-king",
+      "title": "The Warrior Princess and the Barbaric King",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00362253/the-warrior-princess-and-the-barbaric-king",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 273467,
+      "tmdbUrl": "https://www.themoviedb.org/tv/273467",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00362253/the-warrior-princess-and-the-barbaric-king"
+        }
+      ]
+    },
+    {
+      "id": "verified-with-you-our-love-will-make-it-through",
+      "title": "With You, Our Love Will Make It Through",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00362308/with-you-our-love-will-make-it-through",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 282662,
+      "tmdbUrl": "https://www.themoviedb.org/tv/282662",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00362308/with-you-our-love-will-make-it-through"
+        }
+      ]
+    },
+    {
+      "id": "verified-tojima-wants-to-be-a-kamen-rider",
+      "title": "Tojima Wants to Be a Kamen Rider",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00364945/tojima-wants-to-be-a-kamen-rider",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 285788,
+      "tmdbUrl": "https://www.themoviedb.org/tv/285788",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00364945/tojima-wants-to-be-a-kamen-rider"
+        }
+      ]
+    },
+    {
+      "id": "verified-dark-moon-the-blood-altar",
+      "title": "Dark Moon: The Blood Altar",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365556/dark-moon-the-blood-altar",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 271609,
+      "tmdbUrl": "https://www.themoviedb.org/tv/271609",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365556/dark-moon-the-blood-altar"
+        }
+      ]
+    },
+    {
+      "id": "verified-hana-kimi",
+      "title": "Hana-Kimi",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365568/hana-kimi",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 254492,
+      "tmdbUrl": "https://www.themoviedb.org/tv/254492",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365568/hana-kimi"
+        }
+      ]
+    },
+    {
+      "id": "verified-kunon-the-sorcerer-can-see",
+      "title": "Kunon the Sorcerer Can See",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365586/kunon-the-sorcerer-can-see",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 282946,
+      "tmdbUrl": "https://www.themoviedb.org/tv/282946",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365586/kunon-the-sorcerer-can-see"
+        }
+      ]
+    },
+    {
+      "id": "verified-release-that-witch",
+      "title": "Release That Witch",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365589/release-that-witch",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 298026,
+      "tmdbUrl": "https://www.themoviedb.org/tv/298026",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365589/release-that-witch"
+        }
+      ]
+    },
+    {
+      "id": "verified-an-adventurer-s-daily-grind-at-age-29",
+      "title": "An Adventurer's Daily Grind at Age 29",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365607/an-adventurers-daily-grind-at-age-29",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 290667,
+      "tmdbUrl": "https://www.themoviedb.org/tv/290667",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365607/an-adventurers-daily-grind-at-age-29"
+        }
+      ]
+    },
+    {
+      "id": "verified-you-and-i-are-polar-opposites",
+      "title": "You and I Are Polar Opposites",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 278043,
+      "tmdbUrl": "https://www.themoviedb.org/tv/278043",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites"
+        }
+      ]
+    },
+    {
+      "id": "verified-oshi-no-ko",
+      "title": "Oshi no Ko",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00366791/oshi-no-ko",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 203737,
+      "tmdbUrl": "https://www.themoviedb.org/tv/203737",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00366791/oshi-no-ko"
+        }
+      ]
+    },
+    {
+      "id": "verified-daemons-of-the-shadow-realm",
+      "title": "Daemons of the Shadow Realm",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 260463,
+      "tmdbUrl": "https://www.themoviedb.org/tv/260463",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm"
+        }
+      ]
+    },
+    {
+      "id": "verified-agents-of-the-four-seasons-dance-of-spring",
+      "title": "Agents of the Four Seasons: Dance of Spring",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons-dance-of-spring",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 288659,
+      "tmdbUrl": "https://www.themoviedb.org/tv/288659",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons-dance-of-spring"
+        }
+      ]
+    },
+    {
+      "id": "verified-eren-the-southpaw",
+      "title": "Eren the Southpaw",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371659/eren-the-southpaw",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 305567,
+      "tmdbUrl": "https://www.themoviedb.org/tv/305567",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371659/eren-the-southpaw"
+        }
+      ]
+    },
+    {
+      "id": "verified-liar-game",
+      "title": "Liar Game",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 300126,
+      "tmdbUrl": "https://www.themoviedb.org/tv/300126",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371851/liar-game"
+        }
+      ]
+    },
+    {
+      "id": "verified-marriagetoxin",
+      "title": "Marriagetoxin",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371857/marriagetoxin",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 301944,
+      "tmdbUrl": "https://www.themoviedb.org/tv/301944",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371857/marriagetoxin"
+        }
+      ],
+      "aliases": [
+        "Marriage Toxin"
+      ]
+    },
+    {
+      "id": "verified-the-exiled-heavy-knight-knows-how-to-game-the-system",
+      "title": "The Exiled Heavy Knight Knows How to Game the System",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "tmdbId": 270603,
+      "tmdbUrl": "https://www.themoviedb.org/tv/270603",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system"
+        }
+      ]
+    },
+    {
+      "id": "verified-hanaori-san-still-wants-to-fight-in-the-next-life",
+      "title": "Hanaori-san Still Wants to Fight in the Next Life",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00378066/hanaori-san-still-wants-to-fight-in-the-next-life",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 312266,
+      "tmdbUrl": "https://www.themoviedb.org/tv/312266",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00378066/hanaori-san-still-wants-to-fight-in-the-next-life"
+        }
+      ]
+    },
+    {
+      "id": "verified-tomb-raider-king",
+      "title": "Tomb Raider King",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00378123/tomb-raider-king",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 297826,
+      "tmdbUrl": "https://www.themoviedb.org/tv/297826",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00378123/tomb-raider-king"
+        }
+      ]
+    },
+    {
+      "id": "verified-i-m-in-love-with-the-villainess",
+      "title": "I'm in Love with the Villainess",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GVDHX851V/im-in-love-with-the-villainess",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 216269,
+      "tmdbUrl": "https://www.themoviedb.org/tv/216269",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GVDHX851V/im-in-love-with-the-villainess"
+        }
+      ]
+    },
+    {
+      "id": "verified-a-couple-of-cuckoos",
+      "title": "A Couple of Cuckoos",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GXJHM39MP/a-couple-of-cuckoos",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 122587,
+      "tmdbUrl": "https://www.themoviedb.org/tv/122587",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM39MP/a-couple-of-cuckoos"
+        }
+      ]
+    },
+    {
+      "id": "verified-darling-in-the-franxx",
+      "title": "Darling in the Franxx",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GY8VEQ95Y/darling-in-the-franxx",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2018,
+      "tmdbId": 76121,
+      "tmdbUrl": "https://www.themoviedb.org/tv/76121",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GY8VEQ95Y/darling-in-the-franxx"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-daily-life-of-the-immortal-king",
+      "title": "The Daily Life of the Immortal King",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 98123,
+      "tmdbUrl": "https://www.themoviedb.org/tv/98123",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-apothecary-diaries",
+      "title": "The Apothecary Diaries",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 220542,
+      "tmdbUrl": "https://www.themoviedb.org/tv/220542",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
+        }
+      ]
+    },
+    {
+      "id": "verified-good-bye-dragon-life",
+      "title": "Good Bye, Dragon Life",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G79H23Z0X/good-bye-dragon-life",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 259786,
+      "tmdbUrl": "https://www.themoviedb.org/tv/259786",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z0X/good-bye-dragon-life"
+        }
+      ]
+    },
+    {
+      "id": "verified-vinland-saga",
+      "title": "Vinland Saga",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GEXH3WKK0/vinland-saga",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 88803,
+      "tmdbUrl": "https://www.themoviedb.org/tv/88803",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GEXH3WKK0/vinland-saga"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-god-of-high-school",
+      "title": "The God of High School",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GRVD0ZDQR/the-god-of-high-school",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2020,
+      "tmdbId": 99778,
+      "tmdbUrl": "https://www.themoviedb.org/tv/99778",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GRVD0ZDQR/the-god-of-high-school"
+        }
+      ]
+    },
+    {
+      "id": "verified-shoot-goal-to-the-future",
+      "title": "Shoot! Goal to the Future",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GVDHX8JZ2/shoot-goal-to-the-future",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 138882,
+      "tmdbUrl": "https://www.themoviedb.org/tv/138882",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GVDHX8JZ2/shoot-goal-to-the-future"
+        }
+      ]
+    },
+    {
+      "id": "verified-shangri-la-frontier",
+      "title": "Shangri-La Frontier",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.primevideo.com/detail/0LA5USYMUJWOHIADWEXZSMJU6R",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on the Prime Video title page."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 205050,
+      "tmdbUrl": "https://www.themoviedb.org/tv/205050",
+      "platforms": [
+        {
+          "name": "Amazon Prime Video",
+          "available": true,
+          "officialUrl": "https://www.primevideo.com/detail/0LA5USYMUJWOHIADWEXZSMJU6R"
+        },
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
+          "verificationUrl": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
+          "checkedAt": "2026-10-05",
+          "note": "Tamil is listed in the Audio line on the Crunchyroll series page (signed-in view)."
+        }
+      ]
+    },
+    {
+      "id": "verified-demon-lord-retry",
+      "title": "Demon Lord, Retry!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GXJHM37KD/demon-lord-retry",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 88044,
+      "tmdbUrl": "https://www.themoviedb.org/tv/88044",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM37KD/demon-lord-retry"
+        }
+      ]
+    },
+    {
+      "id": "verified-an-observation-log-of-my-fiance-who-calls-herself-a-villainess",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess",
+        "checkedAt": "2026-10-04",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 288590,
+      "tmdbUrl": "https://www.themoviedb.org/tv/288590",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-drops-of-god",
+      "title": "The Drops of God",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 306121,
+      "tmdbUrl": "https://www.themoviedb.org/tv/306121",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+        }
+      ]
+    },
+    {
+      "id": "verified-konosuba-season-3",
+      "title": "KONOSUBA -God's Blessing on This Wonderful World! Season 3",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/watch/GE00335674TAIN/gods-blessings-on-this-bright-future",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages of Season 3 episode 1 on Crunchyroll (signed-in view); IGN India also reports the Tamil dub."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 65844,
+      "tmdbUrl": "https://www.themoviedb.org/tv/65844",
+      "tmdbSeason": 3,
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GYE5K3GQR/konosuba---gods-blessing-on-this-wonderful-world"
+        }
+      ],
+      "aliases": [
+        "KONOSUBA -God's Blessing on This Wonderful World!"
+      ]
+    },
+    {
+      "id": "verified-ranking-of-kings",
+      "title": "Ranking of Kings",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2023/9/8/ranking-of-kings-tamil-dub-code-geass-hindi-dub",
+        "checkedAt": "2026-10-05",
+        "note": "Official Crunchyroll announcement of the Tamil dub; Crunchyroll episode pages are titled Ranking of Kings (Tamil Dub)."
+      },
+      "mediaType": "tv",
+      "year": 2021,
+      "tmdbId": 112613,
+      "tmdbUrl": "https://www.themoviedb.org/tv/112613",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23W70/ranking-of-kings"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-gorilla-god-s-go-to-girl",
+      "title": "The Gorilla God's Go-To Girl",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 278816,
+      "tmdbUrl": "https://www.themoviedb.org/tv/278816",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl"
+        }
+      ]
+    },
+    {
+      "id": "verified-dead-mount-death-play",
+      "title": "Dead Mount Death Play",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 214540,
+      "tmdbUrl": "https://www.themoviedb.org/tv/214540",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play"
+        }
+      ]
+    },
+    {
+      "id": "verified-possibly-the-greatest-alchemist-of-all-time",
+      "title": "Possibly the Greatest Alchemist of All Time",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 261298,
+      "tmdbUrl": "https://www.themoviedb.org/tv/261298",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time"
+        }
+      ]
+    },
+    {
+      "id": "verified-my-tiny-senpai",
+      "title": "My Tiny Senpai",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 217390,
+      "tmdbUrl": "https://www.themoviedb.org/tv/217390",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G79H23Z45/my-tiny-senpai"
+        }
+      ]
+    },
+    {
+      "id": "verified-gachiakuta",
+      "title": "Gachiakuta",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2025,
+      "tmdbId": 256721,
+      "tmdbUrl": "https://www.themoviedb.org/tv/256721",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta"
+        }
+      ]
+    },
+    {
+      "id": "verified-i-shall-survive-using-potions",
+      "title": "I Shall Survive Using Potions!",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 221148,
+      "tmdbUrl": "https://www.themoviedb.org/tv/221148",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions"
+        }
+      ]
+    },
+    {
+      "id": "verified-the-rising-of-the-shield-hero",
+      "title": "The Rising of the Shield Hero",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2019,
+      "tmdbId": 83095,
+      "tmdbUrl": "https://www.themoviedb.org/tv/83095",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero"
+        }
+      ]
+    },
+    {
+      "id": "verified-karna-the-guardian",
+      "title": "Karna the Guardian",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 217167,
+      "tmdbUrl": "https://www.themoviedb.org/tv/217167",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00351082/karna-the-guardian"
+        }
+      ]
+    },
+    {
+      "id": "verified-trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+      "title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 139512,
+      "tmdbUrl": "https://www.themoviedb.org/tv/139512",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs"
+        }
+      ]
+    },
+    {
+      "id": "verified-i-ll-become-a-villainess-who-goes-down-in-history",
+      "title": "I'll Become a Villainess Who Goes Down in History",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 248817,
+      "tmdbUrl": "https://www.themoviedb.org/tv/248817",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history"
+        }
+      ]
+    },
+    {
+      "id": "verified-overgeared",
+      "title": "Overgeared",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00384004/overgeared",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 324502,
+      "tmdbUrl": "https://www.themoviedb.org/tv/324502",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00384004/overgeared"
+        }
+      ]
+    },
+    {
+      "id": "verified-trigun-stampede",
+      "title": "TRIGUN STAMPEDE",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2023,
+      "tmdbId": 204266,
+      "tmdbUrl": "https://www.themoviedb.org/tv/204266",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede"
+        }
+      ]
+    },
+    {
+      "id": "verified-365-days-to-the-wedding",
+      "title": "365 Days to the Wedding",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2024,
+      "tmdbId": 230189,
+      "tmdbUrl": "https://www.themoviedb.org/tv/230189",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding"
+        }
+      ]
+    },
+    {
+      "id": "verified-a-misanthrope-teaches-a-class-for-demi-humans",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2026,
+      "tmdbId": 303434,
+      "tmdbUrl": "https://www.themoviedb.org/tv/303434",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans"
+        }
+      ]
+    },
+    {
+      "id": "verified-girls-frontline",
+      "title": "Girls' Frontline",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 91643,
+      "tmdbUrl": "https://www.themoviedb.org/tv/91643",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GW4HM7GQX/girls-frontline"
+        }
+      ]
+    },
+    {
+      "id": "verified-heroines-run-the-show",
+      "title": "Heroines Run the Show",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 132213,
+      "tmdbUrl": "https://www.themoviedb.org/tv/132213",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM023/heroines-run-the-show"
+        }
+      ]
+    },
+    {
+      "id": "verified-if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+      "title": "If My Favorite Pop Idol Made It to the Budokan, I Would Die",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 208559,
+      "tmdbUrl": "https://www.themoviedb.org/tv/208559",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/GXJHM39E9/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die"
+        }
+      ]
+    },
+    {
+      "id": "verified-miss-kuroitsu-from-the-monster-development-department",
+      "title": "Miss Kuroitsu from the Monster Development Department",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department",
+        "checkedAt": "2026-10-05",
+        "note": "Tamil is listed in the audio languages on Crunchyroll's series page (signed-in view)."
+      },
+      "mediaType": "tv",
+      "year": 2022,
+      "tmdbId": 128826,
+      "tmdbUrl": "https://www.themoviedb.org/tv/128826",
+      "platforms": [
+        {
+          "name": "Crunchyroll",
+          "available": true,
+          "officialUrl": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department"
+        }
+      ]
+    }
+  ]
+}
