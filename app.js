@@ -312,13 +312,16 @@
 
   // Free-site rows sit in the Where to watch list like the other platforms: name and a status pill, never a link.
   function freeSiteItems(a) {
+    // Availability is shown only when a fresh check found the title; unknown or stale
+    // rows are hidden instead of rendering a false "Not available".
     const sourceRows = a && Array.isArray(a.freeSites) ? a.freeSites.filter((s) => s && text(s.name)) : [];
-    const rows = ["Animesalt", "Toon Stream"].map(name => sourceRows.find(s => text(s.name).toLowerCase() === name.toLowerCase()) || {name, available:false});
+    const rows = ["Animesalt", "Toon Stream"]
+      .map((name) => sourceRows.find((s) => text(s.name).toLowerCase() === name.toLowerCase()))
+      .filter((s) => s && s.available === true);
     return rows
       .map((s) => {
-        const yes = s.available === true;
         return `<li class="platform-item is-free-site"><h3 class="platform-name">${esc(text(s.name))}</h3>` +
-          `<p class="platform-state"><span class="pill ${yes ? "pill-free-yes" : "pill-unavailable"}">${yes ? "Available" : "Not available"}</span></p>` +
+          `<p class="platform-state"><span class="pill pill-free-yes">Available</span></p>` +
           `<div class="platform-actions"></div></li>`;
       })
       .join("");
@@ -378,10 +381,14 @@
 
   function seasonSectionHtml(a) {
     const seasons = a && Array.isArray(a.seasonDetails) ? a.seasonDetails : [];
+    // Strict confirmed-only policy: a season row is public only with its own direct
+    // official proof. Reported/community rows stay in the data for internal review
+    // but are never rendered.
     const blocks = seasons
       .map((season) => {
         if (!season || !Array.isArray(season.rows)) return "";
-        const rows = season.rows.map((row) => seasonRowHtml(a, row)).join("");
+        const rows = season.rows.filter((row) => row && row.tamilDubVerified === true)
+          .map((row) => seasonRowHtml(a, row)).join("");
         if (!rows) return "";
         return `<div class="season-block"><h3>${esc(season.label)}</h3>` +
           `<ul class="season-rows">${rows}</ul></div>`;
