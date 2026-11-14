@@ -151,9 +151,12 @@
   function corroboratedPlatforms(a){return (a.platforms||[]).map(r=>r.tamilDubReported===true&&freeTamilConfirmed(a)&&r.tamilDubVerified!==true?{...r,tamilDubConfirmed:true}:r);}
   function officialReported(a){return a.tamilDubVerified===true||(a.platforms||[]).some(r=>r&&r.available===true&&(r.tamilDubVerified===true||r.tamilDubReported===true));}
   function verifiedBadge(a) {
-    // Verified needs BOTH signals: an official-platform Tamil report (available row) and Tamil dub on a free site (Animesalt/Toon Stream).
+    // Strict confirmed-only policy: the badge reflects official Tamil-dub evidence only
+    // (record-level flag or any platform row). Free-site rows are reference extras, never a requirement.
     const sources = [a].concat(Array.isArray(a && a.variants) ? a.variants : []).filter(Boolean);
-    return sources.some(freeTamilConfirmed) && sources.some(officialReported)
+    const ok = sources.some((s) => s.tamilDubVerified === true
+      || (Array.isArray(s.platforms) && s.platforms.some((p) => p && p.tamilDubVerified === true)));
+    return ok
       ? `<span class="badge badge-confirmed">Tamil dub verified</span>`
       : `<span class="badge badge-unverified">Tamil dub not confirmed</span>`;
   }
@@ -248,13 +251,12 @@
       const official = externalUrl(row.officialUrl);
       const proofHref = state === "verified" ? externalUrl(row.tamilDubVerificationUrl) : null;
       const proof = proofHref && ownDomain(name, proofHref) ? proofHref : null;
-      // An announcement is evidence, not a place to watch: it never gets the "Open on <platform>" label.
+      // Availability-only catalog: no watch/stream CTAs. Announcements and verification pages are
+      // evidence links and stay; title/watch pages are intentionally not linked.
       const announcement = official && isAnnouncementUrl(official) ? official : null;
-      const titlePage = announcement ? null : official;
-      actions = titlePage
-        ? extLink(titlePage, `Open on ${name}`)
-        : `<span class="muted">${announcement ? "Announcement only: no official title or watch page linked" : "Official link not configured"}</span>`;
-      if (proof && proof !== titlePage) actions += extLink(proof, "View Tamil dub verification", "subtle");
+      if (!official) actions += `<span class="muted">Official link not configured</span>`;
+      else if (announcement) actions += `<span class="muted">Announcement only: no official title or watch page linked</span>`;
+      if (proof) actions += extLink(proof, "View Tamil dub verification", "subtle");
       if (state === "reported") {
         const report = externalUrl(row.tamilDubReportUrl);
         if (report) actions += extLink(report, `See report${row.tamilDubReportSource ? ` (${text(row.tamilDubReportSource)})` : ""}`, "subtle");
@@ -292,17 +294,16 @@
     // Official Muse India "[Tamil Dub] <series>" playlists, attached by scripts/attach-playlists.js.
     const playlists = (Array.isArray(a.youtubePlaylists) ? a.youtubePlaylists : [])
       .filter((p) => isObj(p) && externalUrl(p.url) && /^https:\/\/www\.youtube\.com\/playlist\?list=PL[\w-]+$/.test(text(p.url)));
-    const playlistLinks = playlists.map((p, i) => extLink(externalUrl(p.url), playlists.length > 1 ? `Watch playlist on YouTube (${i + 1})` : "Watch playlist on YouTube")).join("");
     const state = (confirmed.length && a.tamilDubVerified === true) || (listed && row.tamilDubVerified === true) || (playlists.length && a.tamilDubVerified === true)
       ? "verified"
       : listed || confirmed.length || playlists.length ? "unverified" : "unavailable";
+    if (state === "unavailable" && !unconfirmed.length) return "";
 
-    const links = playlistLinks + confirmed.map((v, i) => {
-      const title = text(v.title);
-      const label = title && title !== text(a.title) ? title : confirmed.length > 1 ? `Watch on YouTube (${i + 1})` : "Watch on YouTube";
-      return extLink(externalUrl(v.url), label);
-    }).join("");
-    const none = state !== "unavailable" && !links ? `<span class="muted">No confirmed official video link</span>` : "";
+    // Availability-only catalog: no watch CTAs. The verification URL stays as the evidence link.
+    let links = "";
+    const ytProof = state === "verified" ? externalUrl(row && row.tamilDubVerificationUrl) : null;
+    if (ytProof) links += extLink(ytProof, "View Tamil dub verification", "subtle");
+    const none = !links ? `<span class="muted">No confirmed official video link</span>` : "";
     const other = unconfirmed.length
       ? `<p class="muted">Not linked, because it can't be confirmed as an official video: ${unconfirmed.map((v) => esc(text(v.title) || "Untitled video")).join(", ")}</p>`
       : "";
@@ -330,7 +331,15 @@
   }
 
   function platformRows(a) {
-    return [...[...PLATFORM_ORDER, ...OPTIONAL_PLATFORMS].map((name) => streamingItem(name, findRow(corroboratedPlatforms(a), [name]))), youtubeItem(a)].join("");
+    // Only platforms with actual availability are listed; unsupported rows are hidden
+    // instead of showing a "Not confirmed" pill.
+    const rows = [...PLATFORM_ORDER, ...OPTIONAL_PLATFORMS]
+      .map((name) => findRow(corroboratedPlatforms(a), [name]))
+      .filter((row) => row && row.available === true)
+      .map((row) => streamingItem(row.name, row));
+    const yt = youtubeItem(a);
+    if (yt) rows.push(yt);
+    return rows.join("");
   }
 
   const SEASON_STATUS_CLASS = {
@@ -352,10 +361,9 @@
       episodes = n === 1 ? "1 Tamil episode" : `${n} Tamil episodes`;
     }
 
-    const platformRow = findRow(a.platforms, [row.platform]);
-    const verified = Boolean(
-      platformRow && platformRow.available === true && platformRow.tamilDubVerified === true && (a.tamilDubConfirmed !== true || row.tamilDubConfirmed === true)
-    );
+    // A season row is Verified only by its own direct proof. Title-level or series-level
+    // evidence never promotes a season row.
+    const verified = row.tamilDubVerified === true;
     const trusted = row.tamilDubConfirmed === true;
     const tierClass = trusted ? "confirmed" : verified ? "verified" : "reported";
     const tierLabel = trusted ? "Confirmed" : verified ? "Verified" : "Reported";
@@ -414,6 +422,7 @@
       ${a.selectedSeasonTitle?`<h2>${esc(a.selectedSeasonTitle)}</h2>`:""}
       <h2 id="platformsHeading">Where to watch</h2>
       <ul class="platform-list">${platformRows(a)}</ul>
+      ${text(a.tamilDubEvidenceScope) ? `<p class="muted evidence-scope">Tamil dub evidence: ${esc(text(a.tamilDubEvidenceScope))}${externalUrl(a.tamilDubVerificationUrl) ? " " + extLink(externalUrl(a.tamilDubVerificationUrl), "View proof", "subtle") : ""}</p>` : ""}
     </section>
     ${freeSiteSectionHtml(a)}
     ${seasonSectionHtml(a)}

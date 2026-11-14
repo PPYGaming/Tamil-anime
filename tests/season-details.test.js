@@ -200,28 +200,21 @@ test("escapes a <script> label", () => {
 });
 
 test("Verified vs Reported chips", () => {
-  const seasonDetails = [season("Season 1", row("Netflix", "Complete", 3), row("Crunchyroll", "Complete", 4))];
+  // A season row shows Verified only from its own direct proof (row.tamilDubVerified === true).
+  // Title-level or series-level evidence never promotes a season row.
+  const seasonDetails = [season("Season 1", { ...row("Netflix", "Complete", 3), tamilDubVerified: true }, row("Crunchyroll", "Complete", 4))];
 
-  const verifiedHtml = seasonSectionHtml({
+  const direct = seasonSectionHtml({ platforms: [], seasonDetails });
+  assert.equal(count(direct, "season-chip--verified"), 1); // the row with its own proof
+  assert.equal(count(direct, "season-chip--reported"), 1); // the row without
+
+  const aggregate = seasonSectionHtml({
     platforms: platformsFor("Netflix", true, true),
-    seasonDetails,
+    tamilDubVerified: true,
+    seasonDetails: [season("Season 1", row("Netflix", "Complete", 3))],
   });
-  assert.equal(count(verifiedHtml, "season-chip--verified"), 1); // Netflix only
-  assert.equal(count(verifiedHtml, "season-chip--reported"), 1); // Crunchyroll has no platform row
-
-  const notAvailable = seasonSectionHtml({
-    platforms: platformsFor("Netflix", false, true),
-    seasonDetails,
-  });
-  assert.equal(count(notAvailable, "season-chip--verified"), 0);
-  assert.equal(count(notAvailable, "season-chip--reported"), 2);
-
-  const notVerified = seasonSectionHtml({
-    platforms: platformsFor("Netflix", true, false),
-    seasonDetails,
-  });
-  assert.equal(count(notVerified, "season-chip--verified"), 0);
-  assert.equal(count(notVerified, "season-chip--reported"), 2);
+  assert.equal(count(aggregate, "season-chip--verified"), 0, "title/platform-level proof must not promote a season row");
+  assert.equal(count(aggregate, "season-chip--reported"), 1);
 });
 
 test("renders heading, status chips and the note", () => {
