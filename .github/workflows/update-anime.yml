@@ -48,7 +48,9 @@ jobs:
           DISCOVERY_FULL_RESCAN: ${{ inputs.full_rescan == true && 'true' || 'false' }}
         run: |
           node scripts/update-anime.js
-          node scripts/attach-anidub.js || true
+          # STRICT CONFIRMED-ONLY POLICY: the AniDub attach step intentionally no longer runs here.
+          # It pushed AniDub-reported rows (tamilDubVerified:false) into the public catalog;
+          # AniDub data stays in the snapshot file as internal discovery leads only.
           # Playlist links are an extra: if this step fails, the catalog written above is still valid and is committed.
           node scripts/attach-playlists.js || true
       - name: Free-site listings (read-only, never blocks the run)
@@ -64,7 +66,7 @@ jobs:
         continue-on-error: true
       # STRICT CONFIRMED-ONLY POLICY: third-party-reported titles (AniDub rows)
       # are discovery leads only and are NOT merged into the public catalog.
-      # add-reported.js intentionally no longer runs here; its inputs stay in
+      # the reported-titles merge step intentionally no longer runs here; its inputs stay in
       # data/third-party-reports.json for internal review.
       - name: Free-site cross-availability (link extras on confirmed titles only)
         run: |

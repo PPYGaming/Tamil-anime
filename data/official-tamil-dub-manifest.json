@@ -57,8 +57,8 @@
       "tamilDubVerified": true,
       "verification": {
         "url": "https://www.crunchyroll.com/news/announcements/2023/8/11/demon-slayer-kimetsu-no-yaiba-mugen-train-arc-tamil-dub-august-13",
-        "checkedAt": "2026-10-01",
-        "note": "Official Crunchyroll article explicitly announces Tamil dub premiere and cast."
+        "checkedAt": "2026-11-14",
+        "note": "\"the Tamil dub of Demon Slayer: Kimetsu no Yaiba Mugen Train Arc premieres on Crunchyroll on Sunday, August 13\""
       },
       "mediaType": "tv",
       "year": 2021,
@@ -2569,6 +2569,83 @@
           "officialUrl": "https://www.crunchyroll.com/series/G0XHWM0G9/miss-kuroitsu-from-the-monster-development-department"
         }
       ]
+    },
+    {
+      "id": "tmdb-63926-s1",
+      "title": "One-Punch Man Season 1",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=bAOSWboFNoc",
+        "checkedAt": "2026-11-14",
+        "note": "\"[Tamil Dub] One-Punch Man - Episode 01 (S1E01) | Muse IN\"",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q"
+      },
+      "mediaType": "tv",
+      "aliases": [],
+      "platforms": [],
+      "tmdbId": 63926,
+      "tmdbSeason": 1
+    },
+    {
+      "id": "tmdb-63926-s2",
+      "title": "One-Punch Man Season 2",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=IoraWOol35I",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-11-14",
+        "note": "\"[Tamil Dub] One-Punch Man - Episode 13 (S2E01) | Muse IN\""
+      },
+      "mediaType": "tv",
+      "aliases": [],
+      "platforms": [],
+      "tmdbId": 63926,
+      "tmdbSeason": 2
+    },
+    {
+      "id": "tmdb-63926-s3",
+      "title": "One-Punch Man Season 3",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=n8cIeW5du6w",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-11-14",
+        "note": "\"[Tamil Dub] One-Punch Man - Episode 25 (S3E01) | Muse IN\""
+      },
+      "mediaType": "tv",
+      "aliases": [],
+      "platforms": [],
+      "tmdbId": 63926,
+      "tmdbSeason": 3
+    },
+    {
+      "id": "tmdb-72517-s3",
+      "title": "Classroom of the Elite Season 3",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.youtube.com/watch?v=8az53fYfPzg",
+        "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+        "checkedAt": "2026-11-14",
+        "note": "\"[Tamil Dub] Classroom of the Elite Season 3 - Episode 01 | Muse IN\""
+      },
+      "mediaType": "tv",
+      "aliases": [],
+      "platforms": [],
+      "tmdbId": 72517,
+      "tmdbSeason": 3
+    },
+    {
+      "id": "anidub-2-season-54",
+      "title": "Demon Slayer: Kimetsu no Yaiba Season 4 — Hashira Training Arc",
+      "tamilDubVerified": true,
+      "verification": {
+        "url": "https://www.crunchyroll.com/news/announcements/2024/5/31/demon-slayer-hashira-training-arc-hindi-tamil-telugu-dub-release-date",
+        "checkedAt": "2026-11-14",
+        "note": "fans in India can watch the Hindi, Tamil and Telugu dubs for Demon Slayer: Kimetsu no Yaiba Hashira Training Arc starting Sunday, June 9"
+      },
+      "mediaType": "tv",
+      "aliases": [],
+      "platforms": []
     }
   ]
 }
