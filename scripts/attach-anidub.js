@@ -44,7 +44,7 @@ function applySnapshot(catalog,snapshot,{now=new Date(),identities={entries:{}}}
  const rows=snapshot.dubs.filter(r=>r.language==='Tamil'&&ALLOWED.has(r.platform)&&anime.has(r.anime_id)&&seasons.get(r.season_id)?.anime_id===r.anime_id);
  if(!rows.length){result.skipped.push('no-valid-Tamil-rows');return result;}
  const records=result.catalog.anime;
- const confirm=(r,id)=>Object.assign(r,{tamilDubConfirmed:true,tamilDubConfirmationSource:'AniDub India',tamilDubConfirmationUrl:ROOT+id,tamilDubConfirmedAt:snapshot.checkedAt.slice(0,10)});
+ const confirm=(r,id)=>{const out={tamilDubReported:true,tamilDubReportedSource:'AniDub India',tamilDubReportedUrl:ROOT+id,tamilDubReportedAt:snapshot.checkedAt.slice(0,10)};if(r.tamilDubConfirmationSource==='AniDub India'){out.tamilDubConfirmed=false;}return Object.assign(r,out);};
  const make=(a,ss)=>{
  const seasonal=ss.length===1, s=seasonal?seasons.get(ss[0]):null;
  const title=s?`${a.title} ${s.season_name}`:a.title;
