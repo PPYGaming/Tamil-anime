@@ -62,9 +62,12 @@ jobs:
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         continue-on-error: true
-      - name: Third-party fallback and cross-availability
+      # STRICT CONFIRMED-ONLY POLICY: third-party-reported titles (AniDub rows)
+      # are discovery leads only and are NOT merged into the public catalog.
+      # add-reported.js intentionally no longer runs here; its inputs stay in
+      # data/third-party-reports.json for internal review.
+      - name: Free-site cross-availability (link extras on confirmed titles only)
         run: |
-          node scripts/add-reported.js || true
           node scripts/attach-free-sites.js || true
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
