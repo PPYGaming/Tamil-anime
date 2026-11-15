@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T18:58:49.970147+00:00",
+  "lastUpdated": "2026-11-15T12:19:13.180Z",
   "region": "IN",
   "anime": [
     {
@@ -230,11 +230,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 28,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=5",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 28
             }
           ]
         },
@@ -244,11 +240,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 10,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=5",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 10
             }
           ]
         }
@@ -260,7 +252,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -408,7 +400,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -612,11 +604,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=7",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -626,11 +614,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 11,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=7",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 11
             }
           ]
         },
@@ -640,11 +624,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 1,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=7",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 1
             }
           ]
         }
@@ -656,7 +636,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -664,7 +644,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=3",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -913,11 +893,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=6",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         },
@@ -927,11 +903,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 14,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=6",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 14
             }
           ]
         }
@@ -943,7 +915,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -1136,11 +1108,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=28",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -1150,11 +1118,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=28",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         }
@@ -1166,7 +1130,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -1174,7 +1138,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=16",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -1317,7 +1281,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -1325,7 +1289,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=13",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -1513,7 +1477,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -1521,7 +1485,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=14",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -1700,7 +1664,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -1708,7 +1672,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=16",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -1865,7 +1829,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -1873,7 +1837,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=17",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -2033,7 +1997,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -2041,7 +2005,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=17",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -2196,7 +2160,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -2404,7 +2368,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -2412,7 +2376,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=4",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -2725,11 +2689,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 22,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=10",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 22
             }
           ]
         },
@@ -2739,11 +2699,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 25,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=10",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 25
             }
           ]
         }
@@ -2755,7 +2711,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -2763,7 +2719,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=13",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -2907,7 +2863,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -3258,11 +3214,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=1",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         },
@@ -3657,29 +3609,17 @@
             {
               "platform": "Amazon Prime Video",
               "status": "Complete",
-              "tamilEpisodes": 7,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=2",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 7
             },
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 7,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=2",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 7
             },
             {
               "platform": "JioHotstar",
               "status": "Complete",
-              "tamilEpisodes": 7,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=2",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 7
             }
           ]
         },
@@ -4125,11 +4065,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 11,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=45",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 11
             }
           ]
         },
@@ -4610,11 +4546,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=8",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         },
@@ -5108,11 +5040,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 25,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=9",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 25
             }
           ]
         },
@@ -5426,7 +5354,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 2",
       "tamilDubEvidenceQuote": "\"Radiant Season 2 Language: Tamil and Telugu Release Date: June 26\""
     },
@@ -5658,11 +5586,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=32",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -6079,11 +6003,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=26",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         },
@@ -6389,11 +6309,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=42",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         }
@@ -6691,11 +6607,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=3",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -6705,11 +6617,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 13,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=3",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 13
             }
           ]
         },
@@ -7209,11 +7117,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=20",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         },
@@ -7435,11 +7339,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=3",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -8750,7 +8650,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 1",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] Mob Psycho 100 - Episode 01 | Muse IN\""
     },
@@ -8919,7 +8819,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 2",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] Mob Psycho 100 II - Episode 01 | Muse IN\""
     },
@@ -9720,7 +9620,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 2",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] Classroom of the Elite Season 2 - Episode 01 | Muse IN\""
     },
@@ -10283,7 +10183,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 1",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] Skeleton Knight in Another World | Episode 01 (S1E01) | Muse IN\""
     },
@@ -10448,7 +10348,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 1",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] A Gatherer's Adventure in Isekai - Episode 01 | Muse IN\""
     },
@@ -10683,7 +10583,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 1",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] Campfire Cooking in Another World - Episode 01 (S1E01) | Muse IN\""
     },
@@ -10774,7 +10674,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 2",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] Campfire Cooking in Another World - Episode 13 (S2E01) | Muse IN\""
     },
@@ -10959,7 +10859,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -10967,7 +10867,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=6",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -11129,7 +11029,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -11290,7 +11190,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -11298,7 +11198,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -11457,7 +11357,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -11620,7 +11520,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -11628,7 +11528,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -11833,7 +11733,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -11841,7 +11741,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -12003,7 +11903,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -12216,11 +12116,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 13,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=31",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 13
             }
           ]
         },
@@ -12230,11 +12126,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=31",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         }
@@ -12246,7 +12138,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -12393,7 +12285,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -12664,11 +12556,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 13,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=24",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 13
             }
           ]
         },
@@ -12678,11 +12566,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 13,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=24",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 13
             }
           ]
         },
@@ -12692,11 +12576,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 13,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=24",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 13
             }
           ]
         }
@@ -12892,7 +12772,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -12900,7 +12780,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=18",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -13058,7 +12938,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -13066,7 +12946,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=16",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -13276,7 +13156,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -13284,7 +13164,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=3",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -13511,7 +13391,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -13744,7 +13624,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -13752,7 +13632,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=19",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -13962,11 +13842,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=4",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -13976,11 +13852,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 13,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=4",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 13
             }
           ]
         }
@@ -13992,7 +13864,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -14000,7 +13872,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=18",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -14141,7 +14013,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -14302,7 +14174,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -14310,7 +14182,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=15",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -14467,7 +14339,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -14475,7 +14347,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=16",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -14682,11 +14554,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=14",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -14696,11 +14564,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=14",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         }
@@ -14712,7 +14576,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -15015,7 +14879,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -15177,7 +15041,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -15185,7 +15049,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=16",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -15358,7 +15222,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -15366,7 +15230,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=19",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -15525,7 +15389,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -15739,7 +15603,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=19",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -15897,7 +15761,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -16107,11 +15971,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=34",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -16121,11 +15981,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=34",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         }
@@ -16137,7 +15993,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -16145,7 +16001,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=16",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -16711,7 +16567,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=19",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -16873,7 +16729,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=18",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -17080,7 +16936,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -17088,7 +16944,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -17266,7 +17122,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=4",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -17424,7 +17280,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -17432,7 +17288,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -17638,7 +17494,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -17646,7 +17502,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=19",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -17807,7 +17663,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=14",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -18020,7 +17876,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=2",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -18202,7 +18058,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -18348,7 +18204,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -18510,7 +18366,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=13",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -18719,11 +18575,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=51",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         }
@@ -18739,7 +18591,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -18975,7 +18827,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=3",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -19221,7 +19073,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -19229,7 +19081,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=2",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -19431,7 +19283,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -19439,7 +19291,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=5",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -19600,7 +19452,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -19608,7 +19460,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=4",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -19821,7 +19673,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -19829,7 +19681,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=2",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -20043,7 +19895,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/2/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -20051,7 +19903,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -20209,7 +20061,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -20217,7 +20069,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=2",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -20375,7 +20227,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -20383,7 +20235,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=2",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -20794,7 +20646,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -21021,11 +20873,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=39",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         }
@@ -21037,7 +20885,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -21387,7 +21235,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -21395,7 +21243,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=18",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -21809,39 +21657,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=46",
-              "tamilDubReportedAt": "2026-11-15"
-            }
-          ]
-        },
-        {
-          "label": "Season 1",
-          "rows": [
-            {
-              "platform": "Crunchyroll",
-              "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=46",
-              "tamilDubReportedAt": "2026-11-15"
-            }
-          ]
-        },
-        {
-          "label": "Season 3",
-          "rows": [
-            {
-              "platform": "Crunchyroll",
-              "status": "Ongoing",
-              "tamilEpisodes": null,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=46",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         }
@@ -21853,7 +21669,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -21861,7 +21677,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -22004,7 +21820,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -22012,7 +21828,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=15",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -22315,11 +22131,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=18",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         },
@@ -22329,11 +22141,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=18",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         }
@@ -22345,7 +22153,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -22496,7 +22304,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -22504,7 +22312,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=20",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -22664,7 +22472,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -22672,7 +22480,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=18",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -22995,11 +22803,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 25,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=19",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 25
             }
           ]
         },
@@ -23009,11 +22813,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 25,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=19",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 25
             }
           ]
         }
@@ -23025,7 +22825,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -23033,7 +22833,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=18",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -23224,7 +23024,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -23232,7 +23032,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=14",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -23410,7 +23210,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=4",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -24066,20 +23866,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=13",
-              "tamilDubReportedAt": "2026-11-15"
-            },
-            {
-              "platform": "Muse Asia",
-              "status": "Unknown",
-              "tamilEpisodes": null,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=13",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -24740,11 +24527,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=13",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -25405,11 +25188,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=13",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         }
@@ -26062,7 +25841,7 @@
         }
       ],
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 3",
       "tamilDubEvidenceQuote": "\"[Tamil Dub] Classroom of the Elite Season 3 - Episode 01 | Muse IN\""
     },
@@ -26192,7 +25971,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -26200,7 +25979,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=19",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -26407,7 +26186,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -26415,7 +26194,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=14",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -26578,7 +26357,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -26586,7 +26365,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=17",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -26744,7 +26523,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -26752,7 +26531,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=16",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -26960,11 +26739,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 24,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=47",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 24
             }
           ]
         }
@@ -26976,7 +26751,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -26984,7 +26759,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=14",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -27127,7 +26902,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -27491,11 +27266,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 38,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=35",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 38
             }
           ]
         },
@@ -27505,11 +27276,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=35",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         },
@@ -27519,11 +27286,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 12,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=35",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 12
             }
           ]
         }
@@ -27539,7 +27302,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=6",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -27674,7 +27437,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/6/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -27682,10 +27445,10 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=4",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Whole series as announced",
       "tamilDubEvidenceQuote": "The series will be available worldwide in English, Hindi, Tamil and Telugu dubs (Release Date: May 7, 2026; Territories: Worldwide)"
     },
@@ -27863,7 +27626,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/7/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -27871,7 +27634,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=2",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -28049,7 +27812,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -28057,7 +27820,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=15",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -28263,7 +28026,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -28271,7 +28034,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=3",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -28437,7 +28200,7 @@
       "mediaType": "tv",
       "region": "IN",
       "freeSites": [],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Season 3: Tamil listed in the audio languages on a Season 3 episode page on Crunchyroll",
       "tamilDubEvidenceQuote": "Audio Japanese, English, Español (América Latina), Português (Brasil), हिंदी, தமிழ், తెలుగు"
     },
@@ -28610,11 +28373,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 23,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=27",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 23
             }
           ]
         },
@@ -28624,11 +28383,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 10,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=27",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 10
             }
           ]
         }
@@ -28640,7 +28395,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/8/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -28648,7 +28403,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=17",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -28790,7 +28545,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -28798,7 +28553,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -28999,10 +28754,10 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=6",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Series-level: Tamil listed in the audio languages on the Crunchyroll series page; individual seasons are not separately confirmed",
       "tamilDubEvidenceQuote": "Audio: : Japanese, English, Deutsch, Español (América Latina), Français, Português (Brasil), Русский, हिंदी, தமிழ், తెలుగు"
     },
@@ -29130,7 +28885,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/11/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -29138,7 +28893,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=5",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -29304,7 +29059,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=6",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -29559,7 +29314,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/10/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -29567,7 +29322,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=14",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -29725,7 +29480,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -29733,7 +29488,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=15",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -29882,7 +29637,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://animesalt.ro/language/tamil/page/9/",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:14:45.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:19:40.000Z"
         },
         {
           "name": "Toon Stream",
@@ -29890,7 +29645,7 @@
           "tamilDubConfirmed": true,
           "tamilEvidenceUrl": "https://toonstream.us/category/tamil?type=all&page=15",
           "tamilEvidenceKind": "tamil-category",
-          "tamilEvidenceCheckedAt": "2026-11-15T04:15:41.000Z"
+          "tamilEvidenceCheckedAt": "2026-11-15T12:20:37.000Z"
         }
       ],
       "freeSitesCheckedAt": "2026-11-15",
@@ -30156,11 +29911,7 @@
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 23,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=1",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 23
             }
           ]
         },
@@ -30227,7 +29978,7 @@
         {
           "name": "Crunchyroll",
           "available": true,
-          "officialUrl": null,
+          "officialUrl": "https://www.crunchyroll.com/news/announcements/2024/5/31/demon-slayer-hashira-training-arc-hindi-tamil-telugu-dub-release-date",
           "tamilDubVerified": true,
           "tamilDubConfirmed": false,
           "tamilDubReported": true,
@@ -30351,29 +30102,17 @@
             {
               "platform": "Amazon Prime Video",
               "status": "Complete",
-              "tamilEpisodes": 8,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=2",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 8
             },
             {
               "platform": "Crunchyroll",
               "status": "Complete",
-              "tamilEpisodes": 8,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=2",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 8
             },
             {
               "platform": "JioHotstar",
               "status": "Complete",
-              "tamilEpisodes": 8,
-              "tamilDubReported": true,
-              "tamilDubReportedSource": "AniDub India",
-              "tamilDubReportedUrl": "https://kuskakuruma.github.io/anidub-india/anime.html?id=2",
-              "tamilDubReportedAt": "2026-11-15"
+              "tamilEpisodes": 8
             }
           ]
         },
@@ -30400,7 +30139,17 @@
       "tamilDubVerificationUrl": "https://www.crunchyroll.com/news/announcements/2024/5/31/demon-slayer-hashira-training-arc-hindi-tamil-telugu-dub-release-date",
       "tamilDubVerifiedAt": "2026-11-14",
       "tamilDubEvidenceScope": "Hashira Training Arc (Season 4) only",
-      "tamilDubEvidenceQuote": "fans in India can watch the Hindi, Tamil and Telugu dubs for Demon Slayer: Kimetsu no Yaiba Hashira Training Arc starting Sunday, June 9"
+      "tamilDubEvidenceQuote": "fans in India can watch the Hindi, Tamil and Telugu dubs for Demon Slayer: Kimetsu no Yaiba Hashira Training Arc starting Sunday, June 9",
+      "region": "IN",
+      "tamilDubEvidence": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/news/announcements/2024/5/31/demon-slayer-hashira-training-arc-hindi-tamil-telugu-dub-release-date",
+          "source": "Crunchyroll official listing/announcement",
+          "checkedAt": "2026-11-14",
+          "note": "fans in India can watch the Hindi, Tamil and Telugu dubs for Demon Slayer: Kimetsu no Yaiba Hashira Training Arc starting Sunday, June 9"
+        }
+      ]
     },
     {
       "id": "verified-marriagetoxin",
@@ -30529,9 +30278,696 @@
           "available": false
         }
       ],
-      "freeSitesCheckedAt": "2026-11-14",
+      "freeSitesCheckedAt": "2026-11-15",
       "tamilDubEvidenceScope": "Series-level: Tamil listed in the audio languages on the Crunchyroll series page; individual seasons are not separately confirmed",
       "tamilDubEvidenceQuote": "Audio: : Japanese, English, Deutsch, Español (América Latina), Français, Português (Brasil), हिंदी, தமிழ், తెలుగు"
+    },
+    {
+      "id": "tmdb-120089-s3",
+      "title": "SPY x FAMILY Season 3",
+      "originalTitle": "SPY×FAMILY",
+      "description": "The cold war between Ostania and Westalis continues with a terrible strawberry shortage. Fiona Frost, AKA Nightfall, tries to solve the crisis before it becomes too much. Perhaps, the bigger question is whether or not the entire Forger family can thwart an enraged construction worker from going on a rampage without letting each other in on their secrets.",
+      "image": "https://image.tmdb.org/t/p/w500/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/lysUnU6V0VfcthDbviuVlIqgHOR.jpg",
+      "rating": 8.5,
+      "likes": null,
+      "availability": "Available",
+      "status": null,
+      "firstAirDate": "2025-10-04",
+      "createdAt": "2025-10-04T00:00:00Z",
+      "updatedAt": "2026-11-15T12:19:13.180Z",
+      "isNew": false,
+      "tags": [
+        "Anime",
+        "Animation",
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "platforms": [
+        {
+          "name": "YouTube",
+          "available": true,
+          "officialUrl": "https://www.youtube.com/watch?v=pRy2eoo148I",
+          "tamilDubVerified": true,
+          "tamilDubVerificationUrl": "https://www.youtube.com/watch?v=pRy2eoo148I"
+        },
+        {
+          "name": "Crunchyroll",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Netflix",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        },
+        {
+          "name": "Amazon Prime Video",
+          "available": false,
+          "officialUrl": null,
+          "tamilDubVerified": false
+        }
+      ],
+      "episodes": [
+        {
+          "number": "3-1",
+          "url": "https://www.youtube.com/watch?v=pRy2eoo148I",
+          "platform": "YouTube",
+          "title": "Berlint Panic | The Informant and Nightfall",
+          "airDate": "2025-10-04"
+        },
+        {
+          "number": "3-2",
+          "url": "https://www.youtube.com/watch?v=5242dBMxnJA",
+          "platform": "YouTube",
+          "title": "Avoid Getting Tonitrus Bolts | ■■■■'s Memories I",
+          "airDate": "2025-10-11"
+        },
+        {
+          "number": "3-3",
+          "url": "https://www.youtube.com/watch?v=YrUReIox0ig",
+          "platform": "YouTube",
+          "title": "■■■■'s Memories II",
+          "airDate": "2025-10-18"
+        },
+        {
+          "number": "3-4",
+          "url": "https://www.youtube.com/watch?v=rgZjFXo8Svs",
+          "platform": "YouTube",
+          "title": "Behind the Scandal | The Path to an Imperial Scholar",
+          "airDate": "2025-10-25"
+        },
+        {
+          "number": "3-5",
+          "url": "https://www.youtube.com/watch?v=1ue1q-YEzac",
+          "platform": "YouTube",
+          "title": "The Mommy-Friends Scheme",
+          "airDate": "2025-11-01"
+        },
+        {
+          "number": "3-6",
+          "url": "https://www.youtube.com/watch?v=8MfRuL8LA9s",
+          "platform": "YouTube",
+          "title": "White Jealousy | The Eden College Busjacking Incident",
+          "airDate": "2025-11-08"
+        },
+        {
+          "number": "3-7",
+          "url": "https://www.youtube.com/watch?v=f2Rc5yfpqNU",
+          "platform": "YouTube",
+          "title": "The Red Circus",
+          "airDate": "2025-11-15"
+        },
+        {
+          "number": "3-8",
+          "url": "https://www.youtube.com/watch?v=Jo_QJjNGHGs",
+          "platform": "YouTube",
+          "title": "Take Down the Busjacker",
+          "airDate": "2025-11-22"
+        },
+        {
+          "number": "3-9",
+          "url": "https://www.youtube.com/watch?v=Hona_eiMyR0",
+          "platform": "YouTube",
+          "title": "Anya's Era Has Come",
+          "airDate": "2025-11-29"
+        },
+        {
+          "number": "3-10",
+          "url": "https://www.youtube.com/watch?v=jji0KjzebHU",
+          "platform": "YouTube",
+          "title": "Austin's Troubles | A Normal Mixer | Moon Landing",
+          "airDate": "2025-12-07"
+        },
+        {
+          "number": "3-11",
+          "url": "https://www.youtube.com/watch?v=r_3_Ja9edRA",
+          "platform": "YouTube",
+          "title": "Extreme Level 3 Situation",
+          "airDate": "2025-12-13"
+        },
+        {
+          "number": "3-12",
+          "url": "https://www.youtube.com/watch?v=kxjPiaF6zAs",
+          "platform": "YouTube",
+          "title": "Battle to the Death in the Sewers",
+          "airDate": "2025-12-20"
+        },
+        {
+          "number": "3-13",
+          "url": "https://www.youtube.com/watch?v=RZg11UMhJGo",
+          "platform": "YouTube",
+          "title": "A World Where We Cannot Survive",
+          "airDate": "2025-12-27"
+        }
+      ],
+      "youtube": [
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=pRy2eoo148I"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=5242dBMxnJA"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=YrUReIox0ig"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=rgZjFXo8Svs"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=1ue1q-YEzac"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=8MfRuL8LA9s"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=f2Rc5yfpqNU"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=Jo_QJjNGHGs"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=Hona_eiMyR0"
+        },
+        {
+          "title": "SPY x FAMILY Season 3",
+          "url": "https://www.youtube.com/watch?v=jji0KjzebHU"
+        }
+      ],
+      "tamilDubVerified": true,
+      "tamilDubVerificationSource": "Muse India (YouTube)",
+      "tamilDubVerificationUrl": "https://www.youtube.com/watch?v=pRy2eoo148I",
+      "tamilDubVerifiedAt": "2026-11-15",
+      "tamilDubEvidence": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=pRy2eoo148I",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 38 (S3E01) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "pRy2eoo148I",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=5242dBMxnJA",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 39 (S3E02) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "5242dBMxnJA",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=YrUReIox0ig",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 40 (S3E03) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "YrUReIox0ig",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=rgZjFXo8Svs",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 41 (S3E04) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "rgZjFXo8Svs",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=1ue1q-YEzac",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 42 (S3E05) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "1ue1q-YEzac",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=8MfRuL8LA9s",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 43 (S3E06) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "8MfRuL8LA9s",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=f2Rc5yfpqNU",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 44 (S3E07) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "f2Rc5yfpqNU",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=Jo_QJjNGHGs",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 45 (S3E08) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "Jo_QJjNGHGs",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=Hona_eiMyR0",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 46 (S3E09) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "Hona_eiMyR0",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=jji0KjzebHU",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 47 (S3E10) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "jji0KjzebHU",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=r_3_Ja9edRA",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 48 (S3E11) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "r_3_Ja9edRA",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=kxjPiaF6zAs",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 49 (S3E12) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "kxjPiaF6zAs",
+          "channelCheck": "api-confirmed"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=RZg11UMhJGo",
+          "source": "Muse India (YouTube)",
+          "checkedAt": "2026-11-15",
+          "note": "Official channel video; its title begins with \"Tamil Dub\" (YouTube channel and ownership confirmed through the API).",
+          "quote": "[Tamil Dub] SPY×FAMILY - Episode 50 (S3E13) | Muse IN",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "videoId": "RZg11UMhJGo",
+          "channelCheck": "api-confirmed"
+        }
+      ],
+      "discoveryProvenance": [
+        {
+          "videoId": "pRy2eoo148I",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=pRy2eoo148I",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 38 (S3E01) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 38： [Berlint Panic] / [The Informant and Nightfall] Episode Summary： [Berlint Panic] The Forgers visit a park on their day off. Anya happily stuffs her cheeks with ice cream, but then she panics when she happens to read Bond's mind when he gets a premonition of an accident at a construction site. She somehow manages to take Loid and Yor to the site when a work",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-08T16:00:07Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 1,
+          "episodeNumber": "3-1",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "5242dBMxnJA",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=5242dBMxnJA",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 39 (S3E02) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 39：\"Part A: Avoid Getting Tonitrus Bolts, Part B: ■■■■'s Memories I\" Episode Summary： Part A: Old Lady Tonitrus, AKA Mistress Schlag, visits Eden College. Schlag is extremely strict on discipline, and she conducts a belongings check in Anya's class. Damian panics because he forgot his handkerchief, but Anya has two, so she offers to help him out, but...   Part",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-09T16:00:09Z",
+          "durationSeconds": 1421,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 2,
+          "episodeNumber": "3-2",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "YrUReIox0ig",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=YrUReIox0ig",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 40 (S3E03) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 40：■■■■'s Memories II Episode Summary： When ■■■■ wakes up, his town has turned into a battlefield after an air raid. ■■■■ then gets separated from his family and joins the army as a young man. He then spent his days holding a gun on the battlefield, but one night, he met an Ostanian soldier named Franky and... ———————————————————— 📖 Synopsis： In an era in whi",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-10T16:00:07Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 3,
+          "episodeNumber": "3-3",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "rgZjFXo8Svs",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=rgZjFXo8Svs",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 41 (S3E04) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 41： [Behind the Scandal] / [The Path to an Imperial Scholar] Episode Summary： [Behind the Scandal]  A virtuoso of the opera world named Wellman was set to appear at a cultural exchange event between the East and West, but some scandals regarding infidelity and coercion surfaced. On top of that, a murder threat is delivered to the theater, and WISE has to come u",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-11T16:00:13Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 4,
+          "episodeNumber": "3-4",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "1ue1q-YEzac",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=1ue1q-YEzac",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 42 (S3E05) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 42：The Mommy-Friends Scheme Episode Summary： Yor saves a woman named Melinda who was about to fall down some stairs at a department store where they were both shopping, and they become friends. After witnessing Yor's miraculous athletic abilities, Melinda invites Yor to play some volleyball. Afterwards, they have some tea with some other mommy-friends and Yor f",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-12T16:00:10Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 5,
+          "episodeNumber": "3-5",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "8MfRuL8LA9s",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=8MfRuL8LA9s",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 43 (S3E06) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 43：[White Jealousy] / [The Eden College Busjacking Incident] Episode Summary： [White Jealousy] The Chief Medical Director at Berlint General Hospital, Gerald, is jealous of Loid, who is talented and popular, because he feels like he is being overshadowed by him, so he has been bullying Loid in various ways. Gerald gets frustrated that Loid's popularity doesn't",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-13T16:00:09Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 6,
+          "episodeNumber": "3-6",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "f2Rc5yfpqNU",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=f2Rc5yfpqNU",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 44 (S3E07) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 44：The Red Circus Episode Summary： Students from Eden College are involved in a busjacking. Everyone around her is terrified, but Anya reads the mind of one of the busjackers to find out where the bus is headed. Becky's quick wit also helps them out as she successfully throws an SOS message out the window, but their suspicious behavior makes the busjackers plac",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-14T16:00:07Z",
+          "durationSeconds": 1421,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 7,
+          "episodeNumber": "3-7",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "Jo_QJjNGHGs",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=Jo_QJjNGHGs",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 45 (S3E08) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 45：Take Down the Busjacker Episode Summary： The police and the State Security Service have the bus surrounded as the stalemate continues, and Henderson arrives on the scene to deliver rations to the children on the bus. In order to end this situation, Anya boldly faces the terrorists but... ———————————————————— 📖 Synopsis： In an era in which the nations of th",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-15T16:00:10Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 8,
+          "episodeNumber": "3-8",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "Hona_eiMyR0",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=Hona_eiMyR0",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 46 (S3E09) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 46：Anya's Era Has Come Episode Summary： Anya and some of the other students are awarded Stella Stars for their part in stopping the terrorist incident. Becky is ecstatic about her first Stella Star, but Anya quickly lets it go to her head and... ———————————————————— 📖 Synopsis： In an era in which the nations of the world were waging a fierce war of informatio",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-16T16:00:08Z",
+          "durationSeconds": 1421,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 9,
+          "episodeNumber": "3-9",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "jji0KjzebHU",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=jji0KjzebHU",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 47 (S3E10) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 47：[Austin's Troubles] / [A Normal Mixer] Episode Summary： [Austin's Troubles] Ever since the busjacking incident, the tutor of Cecile Hall, Austin, has been suffering from insomnia, so he ends up going to see Loid after being referred by Henderson for treatment. While they're talking, Loid begins to suspect that Austin is lying about something. Apparently, the",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-17T16:00:09Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 10,
+          "episodeNumber": "3-10",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "r_3_Ja9edRA",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=r_3_Ja9edRA",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 48 (S3E11) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 48：Extreme Level 3 Situation Episode Summary： Yuri ends up stopping by the Forgers' home right when Yor happened to mention that she may have some issues with Loid. Loid tries to calm the situation down, but he then has to leave because he receives an emergency summons from WISE. He's told that a mole named Wheeler had stolen information about WISE, including",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-18T16:00:07Z",
+          "durationSeconds": 1421,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 11,
+          "episodeNumber": "3-11",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "kxjPiaF6zAs",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=kxjPiaF6zAs",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 49 (S3E12) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 49：Battle to the Death in the Sewers Episode Summary： Due to a scheme from the State Security Service, Loid's identity is revealed. Yuri figures out by the footprints left behind that Loid had escaped into the sewers, so he goes after him alone. But then, Yuri runs into Twilight, who is disguised as Yuri, and they end up fighting. Yuri proves to be quite the o",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-19T16:00:10Z",
+          "durationSeconds": 1421,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 12,
+          "episodeNumber": "3-12",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        },
+        {
+          "videoId": "RZg11UMhJGo",
+          "channelId": "UCYYhAzgWuxPauRXdPpLAX3Q",
+          "evidenceUrl": "https://www.youtube.com/watch?v=RZg11UMhJGo",
+          "rawTitle": "[Tamil Dub] SPY×FAMILY - Episode 50 (S3E13) | Muse IN",
+          "rawDescription": "Anime Title: 《SPY×FAMILY》  🎙️\"Tamil Dub\" Playlist:    https://www.youtube.com/playlist?list=PLb4AeP3WVclY 🖥️\"English Sub\" Playlist:  https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M ———————————————————— Episode 50：A World Where We Cannot Survive Episode Summary： Fiona runs into Wheeler in the sewers. She immediately reaches for her gun, but then Wheeler takes Loid, who is gravely injured, hostage, so she drops her gun. However, this also causes Fiona's limiter to come off from her overwhelming rage, and Fiona charges at Wheeler... ———————————————————— 📖 Synopsis： I",
+          "languageProof": "title begins with \"Tamil Dub\"",
+          "publishedAt": "2026-10-20T16:00:07Z",
+          "durationSeconds": 1420,
+          "kind": "episode",
+          "season": 3,
+          "seasonSource": "explicit-in-title",
+          "episode": 13,
+          "episodeNumber": "3-13",
+          "series": {
+            "tmdbId": 120089,
+            "source": "catalog",
+            "matchedName": "SPY×FAMILY"
+          },
+          "availability": "public",
+          "scannedAt": "2026-11-15T12:19:13.180Z",
+          "checkedAt": "2026-11-15T12:19:13.180Z"
+        }
+      ],
+      "inclusionSource": "youtube-official-channel-discovery",
+      "tmdbId": 120089,
+      "tmdbUrl": "https://www.themoviedb.org/tv/120089",
+      "tmdbSeason": 3,
+      "tmdbSeasonUrl": "https://www.themoviedb.org/tv/120089/season/3",
+      "mediaType": "tv",
+      "region": "IN",
+      "tamilDubEvidenceQuote": "[Tamil Dub] SPY×FAMILY - Episode 38 (S3E01) | Muse IN",
+      "tamilDubEvidenceScope": "Season 3",
+      "seasonDetails": [
+        {
+          "label": "Season 1 — Cour 1",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 1 — Cour 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        },
+        {
+          "label": "Season 2",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 12
+            }
+          ]
+        },
+        {
+          "label": "Season 3",
+          "rows": [
+            {
+              "platform": "Crunchyroll",
+              "status": "Complete",
+              "tamilEpisodes": 13
+            }
+          ]
+        }
+      ],
+      "freeSites": [],
+      "freeSitesCheckedAt": "2026-11-15"
     }
   ],
   "updateInfo": {
@@ -30543,34 +30979,40 @@
     "metadataSource": "TMDB (artwork, rating, dates and metadata only, for already-verified titles)",
     "youtubeEnabled": true,
     "tmdbEnabled": true,
-    "discoveredAnime": 0,
-    "manualAnime": 195,
+    "discoveredAnime": 1,
+    "manualAnime": 120,
     "tamilDubVerification": "Required: every added title needs tamilDubVerified:true and an official-source URL",
     "lastScan": {
-      "scannedAt": "2026-11-15T04:14:20.937Z",
-      "status": "zero-add",
-      "zeroAddReason": "119 manifest entries were already in the catalog; 1 need manual review (see needsReview) Discovery: Tamil Dub videos were found but none could be placed safely; see the review list.",
+      "scannedAt": "2026-11-15T12:19:13.180Z",
+      "status": "added",
+      "zeroAddReason": null,
       "manifest": {
         "path": "data/official-tamil-dub-manifest.json",
         "found": true,
         "version": 1,
         "updatedAt": "2026-11-14",
-        "entries": 119
+        "entries": 124
       },
-      "catalogBefore": 199,
-      "catalogAfter": 199,
-      "added": 0,
-      "addedIds": [],
-      "updatedExisting": 0,
-      "updatedIds": [],
-      "alreadyInCatalog": 119,
-      "rejected": [],
-      "needsReview": [
+      "catalogBefore": 124,
+      "catalogAfter": 125,
+      "added": 1,
+      "addedIds": [
+        "tmdb-120089-s3"
+      ],
+      "updatedExisting": 1,
+      "updatedIds": [
         {
-          "entry": "SPY x FAMILY Season 3 (YouTube discovery, tmdb 120089)",
-          "reason": "title matches existing record anidub-3-season-64, which has no season identity of its own; a season entry merges only by exact id or tmdbId + tmdbSeason (set the manifest id to that record's id to merge)"
+          "id": "anidub-2-season-54",
+          "fields": [
+            "region",
+            "tamilDubEvidence",
+            "platforms"
+          ]
         }
       ],
+      "alreadyInCatalog": 123,
+      "rejected": [],
+      "needsReview": [],
       "deferred": [],
       "tmdb": {
         "enabled": true,
@@ -30587,7 +31029,7 @@
       "discovery": {
         "status": "complete",
         "skipReason": null,
-        "scannedAt": "2026-11-15T04:14:20.937Z",
+        "scannedAt": "2026-11-15T12:19:13.180Z",
         "sources": {
           "youtube": {
             "configured": true,
@@ -30620,9 +31062,9 @@
           "notReturnedByApi": 0,
           "tamilDubPrefixed": 111,
           "evidenceCandidates": 86,
-          "accepted": 0,
+          "accepted": 13,
           "rejected": 0,
-          "review": 111,
+          "review": 98,
           "deferred": 0,
           "announcements": 0,
           "promos": 0,
@@ -30634,8 +31076,7 @@
         },
         "reasons": {
           "series-needs-review": 73,
-          "needs-review": 25,
-          "merge-needs-review": 13
+          "needs-review": 25
         },
         "review": [
           {
@@ -30946,10 +31387,10 @@
           "unitBudget": 2000,
           "failures": []
         },
-        "queueSize": 111,
+        "queueSize": 98,
         "notes": [],
-        "zeroAddReason": "Tamil Dub videos were found but none could be placed safely; see the review list.",
-        "zeroAddReasonCode": "needs-review"
+        "zeroAddReason": null,
+        "zeroAddReasonCode": null
       }
     }
   },
