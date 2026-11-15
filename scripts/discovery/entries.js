@@ -196,6 +196,7 @@ function buildGroups({ items, anime, claims, helpers, nowIso }) {
         url: watchUrl(item.video.videoId),
         channelId: item.video.channelId,
         checkedAt,
+        quote: item.video.title,
         note: `Official channel video; its title begins with "${item.assessment.parsed.languageProof}" (YouTube channel and ownership confirmed through the API).`
       })),
       episodes: winners.map(({ number, item }) => ({ number, url: watchUrl(item.video.videoId) })),

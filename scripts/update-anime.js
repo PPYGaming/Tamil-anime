@@ -109,7 +109,9 @@ const ENRICHABLE_KEYS = [
 const SPECIAL_KEYS = new Set([
   "tamilDubVerified", "tamilDubVerificationSource", "tamilDubVerificationUrl",
   "tamilDubVerifiedAt", "tamilDubEvidence", "platforms", "discoveryProvenance",
-  "tmdbId", "tmdbUrl", "mediaType", "tmdbSeason", "tmdbSeasonUrl"
+  "tmdbId", "tmdbUrl", "mediaType", "tmdbSeason", "tmdbSeasonUrl",
+  // Record-level proof text: stamped only at record creation, never rewritten or filled by a merge.
+  "tamilDubEvidenceQuote", "tamilDubEvidenceScope"
 ]);
 
 /* ------------------------------------------------------------------ */
@@ -401,6 +403,8 @@ function validateEvidence(raw, channels) {
   }
 
   if (cleanText(item.note)) evidence.note = cleanText(item.note);
+  if (cleanText(item.quote)) evidence.quote = cleanText(item.quote);
+  if (cleanText(item.scope)) evidence.scope = cleanText(item.scope);
 
   if (classified.platform === "YouTube") {
     const channelId = cleanText(item.channelId);
@@ -1190,6 +1194,8 @@ function mergeVerification(target, patch) {
     result.changed.push("tamilDubVerified");
   }
 
+  // Record-level quote/scope are set only at record creation (buildManifestPatch); existing curated
+  // records stay byte-stable on merge.
   for (const key of ["tamilDubVerificationSource", "tamilDubVerificationUrl", "tamilDubVerifiedAt"]) {
     if (fillIfEmpty(target, key, patch[key])) result.changed.push(key);
   }
@@ -1383,6 +1389,10 @@ function buildManifestPatch(entry, region) {
     tamilDubVerificationSource: primary.source,
     tamilDubVerificationUrl: primary.url,
     tamilDubVerifiedAt: primary.checkedAt || "",
+    // Record-level quote and scope come from the primary evidence: an explicit quote/scope wins, then the
+    // evidence note, then the entry's season identity. Season entries are never stamped "Series-level".
+    tamilDubEvidenceQuote: primary.quote || primary.note || "",
+    tamilDubEvidenceScope: primary.scope || (entry.tmdbSeason ? `Season ${entry.tmdbSeason}` : "Series-level"),
     tamilDubEvidence: entry.evidence,
     inclusionSource: entry.inclusionSource || "official-source-manifest",
     region
@@ -1902,6 +1912,9 @@ async function processEntry(state, entry, label) {
 
   const record = {};
   mergeRecord(record, patch);
+  // Record-level proof text is creation-only: a merge never stamps or rewrites it.
+  record.tamilDubEvidenceQuote = patch.tamilDubEvidenceQuote;
+  record.tamilDubEvidenceScope = patch.tamilDubEvidenceScope;
   await enrichRecord(state, record, entryNames);
   if (entry.origin === "discovery") sortEpisodeRows(record); // discovered rows arrive first; TMDB rows are appended
 
@@ -2533,6 +2546,7 @@ module.exports = {
   readConfig,
   classifyOfficialUrl,
   validateEntry,
+  buildManifestPatch,
   normalizeTitle,
   recordTmdbKey,
   recordSeasonKey,
