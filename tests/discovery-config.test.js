@@ -73,7 +73,7 @@ test("the manifest allow-list holds exactly the owner-confirmed Muse India chann
   const manifest = JSON.parse(read("data/official-tamil-dub-manifest.json"));
 
   assert.deepEqual(manifest.officialYouTubeChannels, [{ name: "Muse India", channelId: "UCYYhAzgWuxPauRXdPpLAX3Q" }]);
-  assert.equal(manifest.entries.length, 119, "six Crunchyroll Tamil-audio titles added 2026-10-05; earlier entries plus Overgeared and Trigun Stampede (2026-10-05), Ranking of Kings, KonoSuba S3, The Drops of God and 9 Muse India series and Crunchyroll Tamil-audio titles added on 2026-10-04");
+  assert.equal(manifest.entries.length, 124, "119 prior entries plus 5 owner-verified titles added 2026-11-15 (One-Punch Man S1-S3, Classroom of the Elite S3, Demon Slayer Hashira Training Arc), each with official announcement evidence");
 });
 
 /* ------------------------------ workflows (text checks only) ------------------------------ */

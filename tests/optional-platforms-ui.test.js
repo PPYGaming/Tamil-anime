@@ -10,13 +10,14 @@ const core = () => [
 ];
 const HS = "https://www.hotstar.com/in/shows/demon-slayer/1271234567";
 
-test("JioHotstar and Sony LIV rows always appear", () => {
+test("JioHotstar and Sony LIV rows appear when available, hidden when not", () => {
   const plain = app.platformRows({ platforms: core() });
-  assert.match(plain, /JioHotstar/); assert.match(plain,/Sony LIV/);
+  assert.doesNotMatch(plain, /JioHotstar/); assert.doesNotMatch(plain,/Sony LIV/);
   const html = app.platformRows({ platforms: [...core(), { name: "JioHotstar", available: true, officialUrl: HS, tamilDubVerified: false, tamilDubReported: true, tamilDubReportUrl: "https://example.org/r", tamilDubReportSource: "Report" }] });
   assert.match(html, /JioHotstar/);
-  assert.match(html, /Open on JioHotstar/);
-  assert.match(html,/Sony LIV/);
+  assert.doesNotMatch(html, /Open on JioHotstar/); // no watch CTA under the availability-only policy
+  assert.match(html, /See report/);
+  assert.doesNotMatch(html,/Sony LIV/);
 });
 
 test("a proof link off the row's own platform domain is not shown", () => {

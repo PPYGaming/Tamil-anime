@@ -4,14 +4,15 @@ const assert = require("node:assert/strict");
 const api = require("../app.js");
 const f = api.freeSiteItems;
 
-test("fallback rows when no data", () => {
-  for (const a of [null, {}, { freeSites: [] }, { freeSites: "x" }]) assert.equal((f(a).match(/Not available/g)||[]).length, 2);
+test("no rows when there is no available data", () => {
+  for (const a of [null, {}, { freeSites: [] }, { freeSites: "x" }]) assert.equal(f(a), "");
 });
 
-test("site names with Available / Not available and no links or extra heading", () => {
+test("only available rows render, with no links or extra heading", () => {
   const html = f({ freeSites: [{ name: "Animesalt", available: true }, { name: "Toon Stream", available: false }] });
   assert.ok(html.includes('<h3 class="platform-name">Animesalt</h3>'));
-  assert.ok(html.includes("Available</span>") && html.includes("Not available</span>"));
+  assert.ok(html.includes("Available</span>") && !html.includes("Not available</span>"));
+  assert.ok(!html.includes("Toon Stream"));
   assert.ok(!/href|http|<a |free sites/i.test(html));
 });
 
@@ -20,7 +21,7 @@ test("detail page shows the rows in their own card after Where to watch, no head
   assert.ok(html.indexOf("free-site-section") > html.indexOf("platformsHeading"));
   assert.ok(html.indexOf("Animesalt") > html.indexOf("free-site-section"));
   assert.ok(!/<h2[^>]*>[^<]*free/i.test(html));
-  assert.match(api.freeSiteSectionHtml({}), /free-site-section/);
+  assert.equal(api.freeSiteSectionHtml({}), "", "no section when nothing is available");
 });
 
 test("ignores unsupported hostile site name", () => {

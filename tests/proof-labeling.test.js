@@ -60,10 +60,11 @@ test("announcement-only verified platform: no 'Open on' button, the announcement
   assert.match(text, /Announcement only: no official title or watch page linked/);
 });
 
-test("a real title page keeps the 'Open on' button and the proof link beside it (unchanged behaviour)", () => {
+test("a real title page is not linked as a watch CTA; only the proof link stays (availability-only policy)", () => {
   const { links, text } = crunchyroll({ available: true, officialUrl: CR_SERIES, tamilDubVerified: true, tamilDubVerificationUrl: CR_NEWS });
 
-  assert.deepEqual(links.map((link) => [link.href, link.label]), [[CR_SERIES, "Open on Crunchyroll"], [CR_NEWS, "View Tamil dub verification"]]);
+  assert.deepEqual(links.map((link) => [link.href, link.label]), [[CR_NEWS, "View Tamil dub verification"]]);
+  assert.doesNotMatch(text, /Open on Crunchyroll/);
   assert.doesNotMatch(text, /Announcement only/);
 });
 

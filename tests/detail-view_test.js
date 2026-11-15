@@ -143,7 +143,7 @@ test("card shows poster, title link, description, metadata and badge, with no pl
 });
 
 test("card badge never claims verification the record does not have", () => {
-  const html = app.cardHtml(record({ tamilDubVerified: false }));
+  const html = app.cardHtml(record({ tamilDubVerified: false, platforms: [{ name: "Crunchyroll", available: true, officialUrl: CR_SERIES, tamilDubVerified: false }] }));
   assert.match(html, /Tamil dub not confirmed/);
   assert.ok(!html.includes("Tamil dub verified"));
 });
@@ -177,9 +177,10 @@ test("card escapes untrusted fields and drops unsafe image URLs", () => {
 /* Detail view: platforms                                               */
 /* ------------------------------------------------------------------ */
 
-test("detail lists all supported sites in the fixed order", () => {
+test("detail lists only platforms with availability, plus the free-site reference rows", () => {
+  // Strict policy: unsupported platform rows are hidden instead of showing "Not confirmed".
   const items = platformItems(app.detailHtml(record()));
-  assert.deepEqual(items.map((p) => p.name), ["Crunchyroll", "Netflix", "Amazon Prime Video", "JioHotstar", "Sony LIV", "Muse Asia", "YouTube (Muse India)", "Animesalt", "Toon Stream"]);
+  assert.deepEqual(items.map((p) => p.name), ["Crunchyroll"]);
 });
 
 test("detail never duplicates a platform even when the data does", () => {
@@ -193,7 +194,7 @@ test("detail never duplicates a platform even when the data does", () => {
     ]
   });
   const items = platformItems(app.detailHtml(dup));
-  assert.equal(items.length, 9);
+  assert.equal(items.length, 2); // Crunchyroll + Netflix; unsupported/unchecked rows hidden
   assert.equal(byName(app.detailHtml(dup)).Crunchyroll.state, "verified", "best row wins over a later placeholder");
   assert.equal(byName(app.detailHtml(dup)).Netflix.state, "unverified");
   assert.ok(!app.detailHtml(dup).includes("Disney"));
@@ -216,36 +217,35 @@ test("detail distinguishes verified, available-unverified and not available, plu
   const p = byName(html);
 
   assert.deepEqual([p.Crunchyroll.state, p.Crunchyroll.label], ["verified", "Tamil dub verified"]);
-  assert.deepEqual(p.Crunchyroll.hrefs, [CR_SERIES, CR_NEWS]);
-  assert.match(p.Crunchyroll.text, /Open on Crunchyroll/);
+  assert.deepEqual(p.Crunchyroll.hrefs, [CR_NEWS], "proof link only: no watch CTA to the title page");
+  assert.doesNotMatch(p.Crunchyroll.text, /Open on Crunchyroll/);
   assert.match(p.Crunchyroll.text, /View Tamil dub verification/);
 
   assert.deepEqual([p.Netflix.state, p.Netflix.label], ["unverified", "Available, no confirmed Tamil audio"]);
-  assert.deepEqual(p.Netflix.hrefs, [NETFLIX]);
+  assert.deepEqual(p.Netflix.hrefs, [], "no watch CTA");
   assert.ok(!/verification/.test(p.Netflix.text), "no proof link without proof");
 
-  assert.deepEqual([p["Amazon Prime Video"].state, p["Amazon Prime Video"].label], ["unavailable", "Not confirmed"]);
-  assert.deepEqual(p["Amazon Prime Video"].hrefs, []);
+  assert.equal(p["Amazon Prime Video"], undefined, "unavailable rows are hidden");
 
   assert.deepEqual([p["YouTube (Muse India)"].state, p["YouTube (Muse India)"].label], ["verified", "Tamil dub verified"]);
   assert.deepEqual(p["YouTube (Muse India)"].hrefs, [VIDEO]);
 });
 
-test("legacy record with only placeholder rows shows every platform as not available and links nothing", () => {
+test("legacy record with only placeholder rows hides every platform and links nothing", () => {
   const html = app.detailHtml({ id: "old", title: "Old Title", description: "x", platforms: placeholders(), episodes: [{ number: "1-1", url: null }], youtube: [] });
   const items = platformItems(html);
-  assert.equal(items.length, 9);
+  assert.equal(items.length, 0);
   for (const item of items) {
     const free = ["Animesalt", "Toon Stream"].includes(item.name);
-    assert.equal(item.state, free ? "free" : "unavailable", item.name);
+    assert.equal(item.state, "free", item.name);
     assert.equal(item.label, free ? "Not available" : "Not confirmed", item.name);
     assert.deepEqual(item.hrefs, []);
   }
 });
 
-test("records with no platforms array at all do not crash and show everything as unavailable", () => {
+test("records with no platforms array at all do not crash and list no platform rows", () => {
   const items = platformItems(app.detailHtml({ id: "bare", title: "Bare" }));
-  assert.deepEqual(items.map((p) => p.state), [...Array(7).fill("unavailable"), "free", "free"]);
+  assert.deepEqual(items.map((p) => p.state), []);
 });
 
 test("an available platform without a configured URL says so instead of linking", () => {
@@ -266,9 +266,9 @@ test("available is not inferred from a URL or a verified flag alone", () => {
       { name: "Netflix", available: false, officialUrl: NETFLIX, tamilDubVerified: false }
     ]
   })));
-  assert.equal(p.Crunchyroll.state, "unavailable");
-  assert.equal(p.Netflix.state, "unavailable");
-  assert.deepEqual(p.Crunchyroll.hrefs.concat(p.Netflix.hrefs), []);
+  // not-available rows are hidden entirely, so neither platform appears
+  assert.equal(p.Crunchyroll, undefined);
+  assert.equal(p.Netflix, undefined);
 });
 
 test("YouTube videos are linked only when the record's evidence confirms the video and an official channel", () => {
@@ -294,10 +294,10 @@ test("YouTube videos are linked only when the record's evidence confirms the vid
   assert.equal(yt.state, "unverified");
   assert.match(yt.text, /No confirmed official video link/);
 
-  // confirmed video on an unverified record: official but not Tamil-confirmed
+  // confirmed video on an unverified record: official but not Tamil-confirmed; no watch CTA either way
   yt = byName(app.detailHtml(record({ ...base, tamilDubVerified: false, youtube: [{ title: "Demo Quest", url: VIDEO }], tamilDubEvidence: [{ platform: "YouTube", url: VIDEO, channelId: "UC" + "a".repeat(22) }] })))["YouTube (Muse India)"];
   assert.equal(yt.state, "unverified");
-  assert.deepEqual(yt.hrefs, [VIDEO]);
+  assert.deepEqual(yt.hrefs, [], "no watch CTA under the availability-only policy");
 });
 
 test("unsafe URLs in every link field never reach an href", () => {
@@ -357,7 +357,8 @@ test("a third-party reported platform row is labelled as reported, never as veri
   assert.equal(rows.Netflix.state, "reported");
   assert.match(rows.Netflix.label, /reported by a third party \(not confirmed\)/);
   assert.ok(!/Tamil dub verified/.test(rows.Netflix.text));
-  assert.ok(rows.Netflix.hrefs.includes("https://www.netflix.com/title/81663323"));
+  assert.ok(!rows.Netflix.hrefs.includes("https://www.netflix.com/title/81663323"), "no watch CTA to the title page");
+  assert.ok(rows.Netflix.hrefs.includes("https://animemirchi.com/netflix-tamil-dubbed-anime-list/"), "report link stays");
   assert.match(rows.Netflix.text, /See report \(Anime Mirchi\)/);
   assert.match(rows["Amazon Prime Video"].text, /India listing not confirmed/);
 });
@@ -408,7 +409,7 @@ test("untitled or malformed records fall back to safe text", () => {
   const html = app.detailHtml({});
   assert.match(html, />Untitled</);
   assert.match(html, /No description available\./);
-  assert.equal(platformItems(html).length, 9);
+  assert.equal(platformItems(html).length, 0);
 });
 
 test("not-found, loading and error states are accessible headings", () => {
@@ -661,6 +662,6 @@ test("legacy catalog records (current schema) open without errors", async () => 
   await env.instance.start();
   env.grid.fire("click", click("body", "legacy-1"));
   assert.match(env.detailBody.innerHTML, /Legacy/);
-  assert.equal(platformItems(env.detailBody.innerHTML).length, 9);
+  assert.equal(platformItems(env.detailBody.innerHTML).length, 0);
   assert.ok(!/episode-row/.test(env.detailBody.innerHTML));
 });

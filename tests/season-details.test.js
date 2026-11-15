@@ -193,41 +193,33 @@ test("malformed details file leaves the catalog untouched", () => {
 test("escapes a <script> label", () => {
   const html = seasonSectionHtml({
     platforms: [],
-    seasonDetails: [season("<script>alert(1)</script>", row("Netflix", "Complete", 2))],
+    seasonDetails: [season("<script>alert(1)</script>", { ...row("Netflix", "Complete", 2), tamilDubVerified: true })],
   });
   assert.equal(html.includes("<script>"), false);
   assert.ok(html.includes("&lt;script&gt;"));
 });
 
 test("Verified vs Reported chips", () => {
-  const seasonDetails = [season("Season 1", row("Netflix", "Complete", 3), row("Crunchyroll", "Complete", 4))];
+  // A season row shows Verified only from its own direct proof (row.tamilDubVerified === true).
+  // Title-level or series-level evidence never promotes a season row.
+  const seasonDetails = [season("Season 1", { ...row("Netflix", "Complete", 3), tamilDubVerified: true }, row("Crunchyroll", "Complete", 4))];
 
-  const verifiedHtml = seasonSectionHtml({
+  const direct = seasonSectionHtml({ platforms: [], seasonDetails });
+  assert.equal(count(direct, "season-chip--verified"), 1); // the row with its own proof
+  assert.equal(count(direct, "season-chip--reported"), 0); // rows without direct proof are hidden, not labelled
+
+  const aggregate = seasonSectionHtml({
     platforms: platformsFor("Netflix", true, true),
-    seasonDetails,
+    tamilDubVerified: true,
+    seasonDetails: [season("Season 1", row("Netflix", "Complete", 3))],
   });
-  assert.equal(count(verifiedHtml, "season-chip--verified"), 1); // Netflix only
-  assert.equal(count(verifiedHtml, "season-chip--reported"), 1); // Crunchyroll has no platform row
-
-  const notAvailable = seasonSectionHtml({
-    platforms: platformsFor("Netflix", false, true),
-    seasonDetails,
-  });
-  assert.equal(count(notAvailable, "season-chip--verified"), 0);
-  assert.equal(count(notAvailable, "season-chip--reported"), 2);
-
-  const notVerified = seasonSectionHtml({
-    platforms: platformsFor("Netflix", true, false),
-    seasonDetails,
-  });
-  assert.equal(count(notVerified, "season-chip--verified"), 0);
-  assert.equal(count(notVerified, "season-chip--reported"), 2);
+  assert.equal(aggregate, "", "title/platform-level proof must not promote a season row; the section hides it");
 });
 
 test("renders heading, status chips and the note", () => {
   const html = seasonSectionHtml({
     platforms: [],
-    seasonDetails: [season("Season 1", row("Netflix", "Ongoing", 3))],
+    seasonDetails: [season("Season 1", { ...row("Netflix", "Ongoing", 3), tamilDubVerified: true })],
   });
   assert.ok(html.includes('aria-labelledby="seasonsHeading"'));
   assert.ok(html.includes("Tamil dub by season"));
@@ -236,18 +228,18 @@ test("renders heading, status chips and the note", () => {
 });
 
 test("singular and plural episode text", () => {
-  const one = seasonSectionHtml({ platforms: [], seasonDetails: [season("S1", row("Netflix", "Complete", 1))] });
+  const one = seasonSectionHtml({ platforms: [], seasonDetails: [season("S1", { ...row("Netflix", "Complete", 1), tamilDubVerified: true })] });
   assert.ok(one.includes("1 Tamil episode<"));
   assert.equal(one.includes("1 Tamil episodes"), false);
 
-  const many = seasonSectionHtml({ platforms: [], seasonDetails: [season("S1", row("Netflix", "Complete", 12))] });
+  const many = seasonSectionHtml({ platforms: [], seasonDetails: [season("S1", { ...row("Netflix", "Complete", 12), tamilDubVerified: true })] });
   assert.ok(many.includes("12 Tamil episodes"));
 });
 
 test("null count shows 'Episode count not reported'", () => {
   const html = seasonSectionHtml({
     platforms: [],
-    seasonDetails: [season("S1", row("Netflix", "Unknown", null))],
+    seasonDetails: [season("S1", { ...row("Netflix", "Unknown", null), tamilDubVerified: true })],
   });
   assert.ok(html.includes("Episode count not reported"));
   assert.equal(html.includes("Tamil episodes"), false);
